@@ -15,7 +15,7 @@ Firebird is a commercially independent project of C and C++ programmers, technic
 <a href="http://www.opensource.org/docs/definition.php"><img src="images/opensource.gif" alt="Open Source Logo" border="0" width="75" height="65"></a>
     </td>
     <td>
-New code modules added to Firebird are licensed under the <a href="index.php?op=doc&id=idpl">Initial Developer's Public License</a>. (IDPL).  The original modules released by Inprise are licensed under the <a href="index.php?op=doc&id=idpl">InterBase Public License v.1.0</a>.  Both licences are modified versions of the <a href="http://www.opensource.org/licenses/mozilla1.1.php">Mozilla Public License v.1.1</a>.
+New code modules added to Firebird are licensed under the <a href="index.php?op=doc&id=idpl">Initial Developer's Public License</a>. (IDPL).  The original modules released by Inprise are licensed under the <a href="index.php?op=doc&id=ipl">InterBase Public License v.1.0</a>.  Both licences are modified versions of the <a href="http://www.opensource.org/licenses/mozilla1.1.php">Mozilla Public License v.1.1</a>.
     </td>
   </tr>
 </table>
