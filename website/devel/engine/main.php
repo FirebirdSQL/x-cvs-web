@@ -37,6 +37,7 @@ Developer progress reports :: Project Coordination
 <p>
 Developer progress reports :: periodic reports from developers
 <ul>
+<li><a href="index.php?op=devel&sub=engine&id=securff200409">Alex Peshkov, 2004-10-04</a>
 <li><a href="index.php?op=devel&sub=engine&id=securff200407">Alex Peshkov, 2004-07-28</a>
 <li>(earlier reports to be retrieved from archives)
 </ul>

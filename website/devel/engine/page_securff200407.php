@@ -81,7 +81,7 @@ I don't mention here class library related work, because it was described
 earlier.
 <p>
 My future plans depend - strongly <img src="images/smiley_not.gif"> - from decision about Firebird/Vulcan 
-integration.
+integration.<p>
 <i>Alex Peshkoff<br>
 Yaroslavl, Russia</i>
 <hr size=1>
