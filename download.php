@@ -17,7 +17,7 @@
 ######################################################################
 
 if (!isset($mainfile)) { include("mainfile.php"); }
-$ipp = 10;
+$ipp = 20;
 
 
 function callscript() {
@@ -102,16 +102,11 @@ function tlist() {
   global $sortby, $PHP_SELF, $dcategory;
   $cate = $dcategory;
   echo "<center>";
-  OpenTable4();
+  OpenTable3();
   echo "<center><font size=2><b>".translate("Select Category Folder")."</b></font><br><br>\n";
   $acounter = mysql_query("SELECT count(*) FROM downloads");
   list($acount) = mysql_fetch_row($acounter);
-  if (($cate == "All") OR ($cate == "")) {
-	echo "<img src=\"images/download/folder_open.gif\" title=\"All Files ($acount)\" alt=\"".translate("All Files")." ($acount)\" border=\"0\"> <b>".translate("All")." ($acount)</b>\n";
-  } else {
-	echo "<A HREF=\"$PHP_SELF?dcategory=All&sortby=$sortby\"><img src=\"images/download/folder.gif\" title=\"All Files ($acount)\" alt=\"".translate("All Files")." ($acount)\" border=\"0\" height=\"20\" width=\"20\"> ".translate("All")."</a> ($acount)\n";
-  }
-  $result = mysql_query("select distinct dcategory, count(dcategory) from downloads group by dcategory order by dcategory");
+  $result = mysql_query("select distinct dcategory, count(dcategory) from downloads group by dcategory order by dcategory desc");
   while (list($category, $dcount) = mysql_fetch_row($result)) {
     if ($category == $cate) {
 	echo "&nbsp;&nbsp;&nbsp;<img src=\"images/download/folder_open.gif\" title=\"$category ($dcount)\" alt=\"$category ($dcount)\" border=\"0\"> <b>$category ($dcount)</b> \n";
@@ -119,6 +114,11 @@ function tlist() {
 	$category2 = urlencode($category);
 	echo "&nbsp;&nbsp;&nbsp;<A HREF=\"$PHP_SELF?dcategory=$category2&sortby=$sortby\"><img src=\"images/download/folder.gif\" title=\"$category ($dcount)\" alt=\"$category ($dcount)\" border=\"0\"> $category</a> ($dcount) \n";
     }
+  }
+  if (($cate == "All") OR ($cate == "")) {
+	echo "<img src=\"images/download/folder_open.gif\" title=\"All Files ($acount)\" alt=\"".translate("All Files")." ($acount)\" border=\"0\"> <b>".translate("All")." ($acount)</b>\n";
+  } else {
+	echo "<A HREF=\"$PHP_SELF?dcategory=All&sortby=$sortby\"><img src=\"images/download/folder.gif\" title=\"All Files ($acount)\" alt=\"".translate("All Files")." ($acount)\" border=\"0\" height=\"20\" width=\"20\"> ".translate("All")."</a> ($acount)\n";
   }
 }
 
@@ -195,12 +195,6 @@ function SortLinks() {
             act_dl_tableheader(dver, "Version");
         } else {
             inact_dl_tableheader(dver, "Version");
-        }
-        echo "</center></b></font></td><td bgcolor=$bgcolor4><font size=2 color=$textcolor2><b><center>";
-        if ($sortby == "dcounter") {
-            act_dl_tableheader(dcounter, "Counter");
-        } else {
-            inact_dl_tableheader(dcounter, "Counter");
         }
         echo "</center></b></font></td></tr>";
 }
@@ -287,9 +281,7 @@ function listdownloads ($dcategory, $sortby, $sortorder) {
 			   </td>
                            <td valign=\"bottom\" align=center><font size=2>
                               $dver
-			   </td>
-			   <td valign=\"bottom\" align=\"center\"><font size=2>
-			      $dcounter";
+			   </td>"; 
         if ($a) {
           $a = 0;
         } else {
@@ -332,10 +324,60 @@ function main() {
   global $PHP_SELF, $query, $min, $sortbyname, $dcategory, $sortby, $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sortorder, $sitename;
   include("header.php");
   callscript();
-  OpenTable4();
+  OpenTable3();
   echo "<center><b><font size=2>$sitename ".translate("Download Section")."</font></b></center>";
+?>
+<font color="#e13601" size="+1"><br>
+Download Options</font>
+<p><b>Choice of download category</b><br>
+The following different type Firebird server downloads are available:</p>
+<blockquote>
+<b>Stable Build</b><br>
+A build that has been successfully run through the complete tcs test suite
+and has proved to be stable in operation environments.<br>
+<br>
+<b>Milestones</b><br>
+A build that has a number of new features or bug fixes has proved to be stable
+but has not necessarily been passed through the TCS test suite or been used
+in an operational environment.<br>
+<br>
+<b>Nightly Build</b><br>
+Nightly the latest source is checked out and the install packages rebuilt.
+&nbsp;This provides the latest up to date bug fixes/features but should only
+be used for experimentation since no testing has been performed.<br>
+</blockquote>
+<br>
+<b>Choice of server architecture</b><br>
+FirebirdSQL server comes in two models the classic architecture and a super
+architecture. &nbsp;If you are new to FirebirdSQL then for Windows download
+the super server (it is the only one available for win32) otherwise if you
+are from a unix style platform start with the classic architecture which
+is a little easier to experiment with and to learn the basics. &nbsp;Then
+once you know a little more you will be able to determine which architecture
+is best for&nbsp; your installation. &nbsp;From a functional point of view
+both are equivalent and they are interchangable.
+<blockquote>
+<p><b>Classic</b><br>
+The classic architecture allows for programs to directly open the database
+file, It is architected to allow the same database to be opened by several
+programs at once. &nbsp;The classic engine also allows remote connections
+to local databases by providing an inetd or xinetd service (This spawns a
+seperate task per user connection).</p>
+<p><b>Super</b><b><br>
+</b>The super server architecture provides a server process and client
+process cannot directly open the database file and all SQL requests are done
+via the server using a socket. &nbsp;The super server makes use of lightweight
+theads to process the requests.<br>
+</blockquote>
+<p>
+A complete list of all Firebird released files is available from our sourceforge
+download site <a href="http://sourceforge.net/project/showfiles.php?group_id=9028">
+here</a>.
+</p>
+<?php
   CloseTable();
   echo "<br>";
+  if ($dcategory == "") { $dcategory = "Stable Builds";}
   tlist();
   listdownloads($dcategory, $sortby, $sortorder);
   include("footer.php");

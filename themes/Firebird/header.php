@@ -55,15 +55,9 @@ if ($banners) {
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/project/showfiles.php?group_id=9028>&nbsp;Distributions&nbsp;</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=download.php>&nbsp;Download&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=user.php>&nbsp;Your account&nbsp;</A></TD>
-<TD align=middle vAlign=center>| </TD>
-</TR>
-<TR>
-<TD align=right vAlign=top><A class=s_menu href=download.php>&nbsp;Other download&nbsp;</A></TD>
-<TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=submit.php>&nbsp;Submit News&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 </TD></TBODY></TABLE>
@@ -97,4 +91,5 @@ global $admin;
 //echo "<img src=images/pix.gif border=0 width=150 height=1>";
 echo "</td><td width=100% valign=top>";
  ?>
+
 
