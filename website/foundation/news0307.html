@@ -1,0 +1,145 @@
+
+<table width="90%">
+<tr><td>
+<font face="Verdana" size="-1">
+<span style="background-color:#696969;color:#ffffff"><h3>&nbsp;Monthly Newsletter July 2003&nbsp;</h3></span>
+
+<font size=1>Compiled by Svein Erling Tysv&aelig;r</font>
+<p>  
+<dt><b>Presidents Report (or The view from Philip Island)</b><p>
+
+<dd>
+The foundation is looking for someone to work on testing.  We have some money for the role, my guess, on what the foundation can offer (since hard amounts haven't been discussed in the committee yet) is about $6,000 USD per year (or 12x$500.00).  Additionally, it is quite likely that Broadview Software (Sean Leyne) may also be able to provide some funds to supplement this amount.
+<blockquote>
+<u>Some history on testing Firebird</u><br>
+Firebird came with the InterBase TCS test suite, which contains about 436 test scripts grouped into 22 categories (CF_ISQL, C_SQL BLOB, EVENT_MISC etc).  The real number of cases is higher than 436 since often each script contains many test cases.  The whole test suite takes about 30minutes to run, (amusingly the complete run script is labeled VECTOR_12HOUR - Im sure there is a story there somewhere).
+<p>
+But although the TCS system basically does the job, and it *is* automated, it does have some limitations.  Improvements in the comparison of output results, the base scripting language used for creating and running the tests, and ease of porting and running on different environments would be handy.
+<p>
+Over a year ago, some flirtation was done with the <a href="http://www.gnu.org/software/dejagnu/">dejagnu system</a>  (by myself and with more work done by John Bellardo) which resulted in the entire TCS suite being converted to run under dejagnu (John did this impressive effort).<p>
+A little later Pavel Cisar, investigating the same issue during work funded in part by IBPhoenix (Paul Beach), decided on <a href="http://www.codesourcery.com/qm/qmtest">QMTest</a> as his preferred test tool.  QMTest uses the very flexible Python language as the test scripting language, and provides a nice cross-platform web-based user interface.  
+<p>
+To date Pavel has coordinated the addition of some 200 ISQL tests to the new QMTest suite.
+It is this test suite that we would like to extend.<p>
+</blockquote>
+<u>So how does testing work?</u><br>
+In our situation, we need a test suite that covers all the functionality provided by the engine.  This is easiest done by looking at the SQL functionality we provide (fortunately it's largely embodied in the file parse.y).  This file gives us our list of features that require testing.  We need to look at each of these SQL feature in turn, workout each aspect of the feature that requires testing, and write test cases to cover every aspects.<p>
+In adition to functional/coverage testing we also need some automated stress and volume testing scripts, possibly by using in an automated and multi-threaded way, test scripts developed for the functional/coverage testing.<p>
+There are other test methodologies, such as the Extreme Programming which is used (via  a href="http://www.junit.org/index.htm">JUnit</a> ) by our our jayBird developers, relying on white box techniques to test each component.<p>
+But, while this is a worthwhile long term goal for the engine, in the short term our needs are going to be best met by a functional/coverage testing.<p>
+The work in TCS, along with what Pavel has set up, offers a good starting point. Following on from Pavel's initial work, it would be nice to convert the TCS test suite into QMTest scripts,  verify and check what coverage we already have for provided SQL features and seek to fill the gaps.<p>
+<u>Email from Pavel Cisar</u><br>
+From here I'll quote from an email sent by Pavel directly, who had some good advice on what would be required in this role: 
+<blockquote>
+<i>It's actually a very hard question, as it depends on what kind of tests you want to create. We have a good start of full "SQL compliance test suite" that uses ISQL (about 200 tests), and I suppose we would need at least another 200 tests to complete it. These "core" tests are mostly not very hard to implement, but hard to design. <p>
+Actually, the most time consuming task is always the test design, but with good set of rules, anyone can design tests, so this task could be separated and highly distributed among FB users. I wrote some <a href="http://firebird.sourceforge.net/index.php?op=devel&sub=qa&id=testdesign_howto">guidelines for test designers</a> some time ago that a few users adopted and fed me with test designs. 
+<p>With concise test design, is mostly a matter of minutes (definitely less than hour even in hard cases) to implement and verify it. Of course, some tests would be harder or impossible to implement in ISQL, but they could be written in Python. Unfortunately, service QMTest classes that would help to write tests in Python are half-finished, but it's matter of few days of hard work to create a framework on top of QMtest to build very complex tests in Python. 
+<p>So my advice for Firebird QA person is next: 
+<ul type=circle>
+<li>It doesn't need to be a full time person, although few months of full-time work at the beginning would move us faster (we need to build a framework for complex Python tests, connect the QA to development lifecycle and especially to the bug tracking, establish the regular QA process etc.).
+<li>We should improve test design guidelines for other areas, like bug reporting, so people would report bugs and at the same time provide test design to reproduce it that could be implemented, used for bugfix and retained for regression testing purposes.
+<li>We should encourage people to design new tests more aggressive. Over time, we would get a group of affiliate QA workers that would get an insight into QA process, and would run test suites, design tests, make suggestions etc. Even a full-time QA worker would be lost without such group.
+<li>The QA person should be not only the test designer/implementer, but above all the QA process manager. Otherwise we would end again in current state: we have tests, but no one really use them.
+</ul>
+</i> 
+<u>What's next?</u><br>
+Sean and I will shortly be posting a notice to firebird-devel and looking further to find someone to fill this role.  The money is not huge by Western standards, but if anyone knows of someone whose circumstances or situation means this could make a difference, and they believe they have the skills to perform the task, then by all means please suggest them.
+<p>
+Mark O'Donohue<br>
+<font size=1>
+(President, FirebirdSQL Foundation Inc.)
+</font>
+<p>
+<dt><b>Membership</b><p>
+
+<dd>
+Four full members and two associate members have been accepted since last report, making us now a total of 87 members.
+<p>
+A reminder to those that have not paid their membership is about to be sent, the committee have agreed on the text.
+<p>
+A new method of payment have been set up, and it is now possible to pay your membership through IB-Phoenix. We are also investigating another method of payment for people from Brazil, since most people do not have any possibility to make foreign payments.
+<p>
+
+<dt><b>Finance</b><p>
+<dd>
+Since early December, we've had income of about $13000 USD and spent around $7000 USD. This does mean that we have about $6000 USD in the bank, but since many people do pay their membership annually in advance whereas grants are paid on a monthly basis, quite a bit of these funds are already tied up.
+<p>
+Though new members and extended sponsorship does mean that we get more money to spend on our database.
+<p>
+<dt><b>What's done lately by our grantees and what do they plan to do next</b><p>
+<dd>&nbsp;
+<p>
+<table colspecs=2 cellpadding=5 border=0 bgcolor=lightcyan>
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Dmitry Yemanov</td>
+<td  bgcolor=azure><font face="Verdana" size="-1">
+Done in June<ul type=circle>
+<li>fixed metadata cache issue with CREATE OR ALTER statement -fixed broken exception handling in SPs/triggers -fixed optimizer bug with <value> STARTS WITH <field> -made savepoints handling SQL99-compliant -fixed exception handling bug in savepoints code -fixed broken manual TCP port assignment in firebird.conf -fixed parameter parsing in SQL-level EXECUTE PROCEDURE statement <li>introduced better error reporting (new messages in firebird.msg) -added VARCHAR trimming in the remote protocols by default -fixed thread management in SS builds (garbage collector and Services API) <li>fixed server crashes caused by the optimizer bug -fixed memory leak in CREATE/ATTACH DATABASE <li>released v1.5 RC3
+</ul>
+Planned for July<ul type=circle>
+<li>fix the config code to use only new-style management -prepare the embedded server for use on read-only drives, including fixing multiple-instance bug -fix v1.5 bug with ALTER INDEX INACTIVE (MSVC6 optimization issue) -fix tempfile bug in the current codebase -try to fix the win9x issue with UDFs
+<li>polish up the embedded server
+<li>celebrate birthday &lt;g&gt;
+<li>write some docs for Helen Borrie regarding some new features/bugfixes -fix QMDB suite for v1.5 and test the server -help Paul Reeves with the win32 installation kit -release v1.5 RC4 and (fingers crossed) the final release
+</ul></td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Alexander Peshkov</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Was planned for June<ul type=circle>
+<li>Memory leak in win32 SS.<br>
+<font color=red>*not confirmed*</font>
+<li>"SELECT ... FOR UPDATE WITH LOCK" contains a bug.<br>
+<font color=red>
+*Bug not confirmed for release candidates greater than 2*</font>
+<li>Make parameters in firebird.conf case insensitive for win32.<br>
+<font color=red>*Done*</font>
+<li>Automate datatype conversion in "EXECUTE STATEMENT operator INTO :vars".<br>
+<font color=red>
+*Left for future version, due to possible dangers*</font>
+</ul>
+
+Done in June<ul type=circle>
+<li>Fixed bug with case-sensitive and insensitive filesystems.
+<li>Fixed bug with use of stdin/stdout in windows version of gbak (both 1.0 and 1.5).
+<li>Built first release candidate of linux SS.
+<li>Security fix - added -login switch to instsvc.exe.
+<li>Enhanced diagnostic in EXECUTE STATEMENT & DirectoryList firebird.conf's related stuff.
+<li>Fixed serious bug in vio.cpp, concerning execution of pre-(update/delete) triggers -Fixed restore of backup file without required UDF(s) -Added some README's
+</ul>
+Planned for July<ul type=circle>
+<li>Fixing bugs, it is time for polishing version 1.5 so other things will have to wait!
+</ul>
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Claudio Valderrama</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Code review is an ongoing process, so there is no report on what Claudio has done or what he will be doing next.</td>
+</tr>
+</table>
+<p>
+<dt><b>Report from the committee meeting</b>
+<dd>
+July marked the start of monthly committee meetings lasting for a week starting from the beginning of each month. Lots of things were discussed, but not many conclusions reached.
+<p>
+The most important thing is possibly that we still have not found any person to fill the role of 'Test Engineer'. We do have a framework to put tests into, but are still looking for the right person to design and implement tests for that framework.
+<p>
+We are also investigating 
+<ul type=circle>
+<li>legal advice on whether we should try to register a trademark for Firebird
+<li>updating and tidying up the Firebird web pages
+<li>the issue of Firebird 1.5 on older Linuxes, for discussion next month.
+</ul>
+<p>
+<dt><b>Future plans</b><p>
+<dd>The most immediate plan is to find that person who can be our Test Engineer.
+
+</td></tr>
+</table>
+

@@ -1,0 +1,114 @@
+
+<table width="90%">
+<tr><td>
+<font face="Verdana" size="-1">
+<span style="background-color:#696969;color:#ffffff"><h3>&nbsp;Monthly Newsletter June 2003&nbsp;</h3></span>
+
+<font size=1>Compiled by Svein Erling Tysv&aelig;r</font>
+<p>  
+<dt><b>Presidents Report (or The view from Philip Island)</b><p>
+
+<dd>
+Since the formation of the foundation, producing a monthly newletter has been sitting in the good idea basket. So thanks VERY much to Set for putting his hand up and turning this good idea into a reality and welcome to issue #1 of the newsletter.
+<p>
+Important aspects of the newsletter are the reports from those who receive grants from the foundation. They, in my opinion, provide a direct link to show members what is being achieved for the funds granted. In this newsletter, we intend to also include other items of interest, the exact format and content will grow and change over time as we experiment with what works and drop what doesn't. I personally hope to include a brief paragraph or two of my own on some random topic in each issue.
+<p>
+So now Fulda! I can't believe it's only been three weeks since I flew half way round the world, met and put faces to a large number of people I had been emailing regularly and, unknowingly, mispronouncing their names :-).  Full credit to Holger Klemt (and his HK Software team) who organised, run and arranged the financing for the complete event. Meanwhile, for me, back to the stress of house building.
+<p>
+On another note, we are pursuing registration of the Firebird brand in a number of countries. IBPhoenix have kindly offered to pick up the cost of US registration, we believe we should register in Australia (since legally the foundation is based there) and we would like to register in at least one EU country as well. Now, at the conference, I had two kind offers to help fund registration in EU domains, unfortunately I'm good at faces but with no pen in hand and a memory like a sieve, I've forgotten their names, so if they would contact me again I'd appreciate it.
+<p>
+<blockquote>
+Trademark sites possibly of interest:<p>
+<a href="http://www.wipo.int/madrid/en/index.html">World intellectual property organisation</a><br>
+<a href="http://www.ipaustralia.gov.au/trademarks/index.shtml">Australian Federal Government intellectual property site</a>
+</blockquote>
+Mark O'Donohue<br>
+<font size=1>
+(President, FirebirdSQL Foundation Inc.)
+</font>
+<p>
+<dt><b>Membership</b><p>
+
+<dd>
+The FirebirdSQL Foundation now has a total of 81 members, 35 of which are voting members and 46 associate members. Amongst the paying members, 8 hold a corporate membership, whereas 16 of the associate members are honorary members for which we have waived the fee.
+<p>
+A total of 13 of our members have not yet paid their membership. Some of them have recently been accepted and may not have had time to pay yet, whereas others were accepted months ago and for unknown reason have not paid up. The committee have not yet taken any action, but will soon approach them and ask them to pay up or else they will be removed from the membership list.
+<p>
+<dt><b>Finance</b><p>
+<dd>
+Grants totalling $1100 per month are currently assisting the work of three core developers (two coders and one code reviewer). This is financed through memberships (just over USD $10000 per year, though a lot of us paid a full year once the Foundation started, so currently we get about USD $575 per month after bank fees are deducted) and sponsorships and donations (approximately USD $900 per month). Some people are also willing to finance implementing particular features in Firebird.
+<p>
+Jason Wharton is our treasurer and Helen Borrie and Alexander Nevsky are our bankers.
+<p>
+<dt><b>What's done lately by our grantees and what do they plan to do next</b><p>
+<dd>
+Helped by grants Dmitry Yemanov, Alexander Peshkov and Claudio Valderrama have been able to spend more time on developing Firebird than they otherwise could have afforded. They spend more time working on the code than what we can expect from our grant, and others do also participate without receiving anything from us.
+<p>
+<table colspecs=2 cellpadding=5 border=0 bgcolor=lightcyan>
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Dmitry Yemanov</td>
+<td  bgcolor=azure><font face="Verdana" size="-1">
+Done:<ul type=circle>
+<li>Worked on beta and then release candidates on Firebird 1.5.
+<li>Done lots of bug fixes, including index corruption during garbage collection and a buffer overrun.
+<li>Provided full IBX compatibility.
+<li>Enabled BREAK, LEAVE and EXIT in triggers.
+<li>Avoided unnecessary DNS calls in TCP/IP.
+<li>Allowed NULLs in unique indices and constraints (according to SQL99 spec).
+-Added partial support of Services API in win32 CS.
+</ul><p>
+Things to do:<ul type=circle>
+<li>Release RC4 in mid June.
+<li>Depending on reported bugs, possibly release final release early July.
+<li>Release Firebird 1.6 Alpha 1 once the final release of Firebird 1.5 is ready (this release will contain a fully functional and efficient XNET protocol for SS and CS builds, all services working properly on win32 CS, SUBSTRING supporting value expressions as arguments, SQL99-compliant loop labels and LEAVE <label> statement, improved events and virtual information tables).
+<li>some architectural work for version 2.0.
+</ul></td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Alexander Peshkov</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Done:<ul type=circle><p>
+<li>Implemented "EXECUTE STATEMENT operator INTO :vars".
+<li>Made security bugs list and started shutting security holes in Firebird. The most important being adding configuration parameters making it easier to prevent attacks.
+<li>Lots of bug fixes.
+</ul><p>
+Things to do:<ul type=circle>
+<li>Secure non-root install.
+<li>Fix memory leak in win32 SS.
+<li>Fix bug in "SELECT ... FOR UPDATE WITH LOCK".
+</ul>
+And then possibly:<ul type=circle>
+<li>Make parameters in firebird.conf case insensitive for win32.
+<li>Automate datatype conversion in "EXECUTE STATEMENT operator INTO :vars".
+</ul>
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Claudio Valderrama</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Code review is an ongoing process, so there is no report on what Claudio has done or what he will be doing next.</td>
+</tr>
+</table>
+<p>
+<dt><b>Future plans</b><p>
+<dd>Pavel Cisar was commissioned by IB Phoenix to create a test framework, and that framework awaits a test engineer to plug in some tests.  The committee is researching the possibility of getting a full time programmer as well as one test engineer to design and write tests. We may have enough funds for this already, and will certainly have so if we take on some sponsorships for particular features.
+<p>
+<dt><b>First European Firebird Conference in Fulda</b><p>
+<dd>
+9 out of the 11 members of The FirebirdSQL Foundation committee members were present at conference in Fulda and we took the opportunity to have our first ever meeting in person, and the Committee was able to conduct a few items of outstanding business. The conference proved that there are many dedicated members in the Firebird community.<p>
+For those who didn't have the chance to attend, here are some photos and reports:
+<p>
+<a href="http://www.frred.de/FBConference/index.htm">Lucas Franzen's pics</a><br> 
+<a href="http://tunantes.com/galeria/fulda">Artur Anjos' gallery</a><br>
+<a href="http://www.fingerbird.de/fbconference2003.htm">Frank Ingermann's Fingerbirdy site</a><br>
+<a href="http://www.interbase-world.com/modules.php?name=News&file=article&sid=341">Helen Borrie's report for Marina Novikova</a><br>
+<a href="http://www.interbase-world.com/modules.php?name=News&file=article&sid=338">Artur Anjos' report for Marina Novikova</a> 
+
+</td></tr>
+</table>
+
