@@ -85,13 +85,42 @@ Thank You for your interest in Firebird.
        print "</html>\n"
 
 
+    def mainX(self):
+       print "<html>"
+       print "<head>"
+       print "<TITLE>FirebirdSQL Foundation Membership Application</TITLE>"
+       print "</head>"
+       print "<body>"
+       form = cgi.FieldStorage()
+       if self.checkForm(form):
+           data = self.printForm(form)
+           data = data  + self.endLine
+           data = data  + self.endLine
+           data = data + self.getLogInfo()
+           print data
+           #self.sendMail(self.destUser, "newMemberApplication", data)
+           print """
+<br>
+Your membership application has been submitted<br>
+for approval by the Foundation Management Committee <br>
+You should hear from us shortly<p>
+Thank You for your interest in Firebird.
+<p>
+"""
+           #cgi.print_environ_usage()
+           #cgi.print_environ()
+   
+       print "</body>\n"
+       print "</html>\n"
+
+
 def main():
   print "Content-type: text/html"
   print
   import sys
   sys.stderr = sys.stdout
   handler = CgiMembersForm()
-  handler.main()
+  handler.mainX()
 
 if (__name__ == "__main__"):
    main()
