@@ -10,7 +10,7 @@ class CgiMembersForm:
 
     #thisUser='firebirds@users.sourceforge.net'
     thisUser='foundation@firebirdsql.org'
-    destUser='ffcommittee@firebirdsql.org'
+    destUser='ffcommittee@lists.firebirdsql.org'
 
     endLine='<br>\n'
 
@@ -30,15 +30,16 @@ class CgiMembersForm:
     def getLogInfo(self):
         msg = ''
         for i in [ 'REMOTE_ADDR', 'HTTP_USER_AGENT' ]:
-            msg = msg + i + ": " + os.getenv(i) + self.endLine
+            #msg = msg + i + ": " + os.getenv(i) + self.endLine
+            msg = msg + i + ": " + os.environ[i] + self.endLine
 
         return msg
 
     def printForm(self, form):
         data = ''
         for key in form.keys():
-            #value = form[key]
-            value = form.getvalue(key, '')
+            value = form[key].value
+            #value = form.getvalue(key, '')  # Is a 2.2 versions
 
             if isinstance(value, type([])):     
                 dataValue = ",".join(value)
@@ -64,8 +65,8 @@ class CgiMembersForm:
                 data = data  + self.endLine
                 data = data  + self.endLine
                 data = data + self.getLogInfo()
-                print data
-                #self.sendMail(self.destUser, "newMemberApplication", data)
+                #print data
+                self.sendMail(self.destUser, "newMemberApplication", data)
                 print """
 <br>
 Your membership application has been submitted<br>
@@ -79,7 +80,7 @@ Thank You for your interest in Firebird.
        except:
            print ""
 
-           sys.excepthook(sys.exc_info()[0],sys.exc_info()[1],sys.exc_info()[2] )
+           #sys.excepthook(sys.exc_info()[0],sys.exc_info()[1],sys.exc_info()[2] )
    
        print "</body>\n"
        print "</html>\n"
@@ -98,7 +99,7 @@ Thank You for your interest in Firebird.
            data = data  + self.endLine
            data = data + self.getLogInfo()
            print data
-           #self.sendMail(self.destUser, "newMemberApplication", data)
+           self.sendMail(self.destUser, "newMemberApplication", data)
            print """
 <br>
 Your membership application has been submitted<br>
