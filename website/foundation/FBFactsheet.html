@@ -1,0 +1,428 @@
+<html>
+<title>Firebird 1.5 Factsheet</title>
+<body background="./images/fb-bgimage.gif">
+<span style="font-family:Arial;">
+<table width="90%"  cellpadding=3 cellspacing=3 border=0>
+  <tr>
+    <td colspan=2 align=center>
+<img src="./images/fb-facts.gif"> 
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+<font size=1><a href="http://www.firebirdsql.org"><b>Back to Firebird Project HOME</b></a>
+<br>
+<font size="+1">
+<b>
+Firebird 1.5 is a full-featured SQL database engine. It is powerful, yet lightweight, with minimal configuration and 
+administration needs. It's easily scalable from single-user, single-database usage up to company-wide enterprise 
+purposes. A single Firebird server can handle multiple independent databases, each with multiple client 
+connections. And best of all: it's true <i>Open Source</i>, thus free of any license fees even for commercial use.</b>
+  <tr>
+    <td colspan=2 align=center>
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top><img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Key Features</h2>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td  width="50%" valign=top>
+
+
+<ul type=square>
+
+<li><b>A.C.I.D. compliance</b>: The concept of &quot;Atomicity, 
+Consistency, Isolation and Durability&quot; is what Firebird 
+is built for. 
+<p>
+<li><b>MGA</b>: A special feature of Firebird is it's &quot;Multi-
+Generational Architecture&quot;, that allows the engine to 
+handle various versions of the same physical record at 
+any time, so any transaction can have it's own version 
+regardless of other concurrent transactions (&quot;readers 
+don't block writers and writers don't block 
+readers&quot;). This ensures OLTP as well as OLAP 
+operation. 
+<p>
+<li><b>Stored Procedures</b>: Using Firebird's PSQL 
+(Procedural SQL), one can easily create powerful 
+Stored Procedures for processing data entirely on the 
+server side. A special flavour are &quot;selectable Stored 
+Procedures&quot; that can calculate data row by row in 
+the server and can be used like a View or a "virtual 
+table" from the client side, which is especially useful 
+for reporting tasks. 
+<p>
+<li><b>Events</b>: Stored Procedures and Triggers can fire 
+Events that can be monitored from a client on a 
+configurable TCP/IP port for "active databases". 
+<p>
+<li><b>Generators</b>: The concept of Generators (a.k.a. 
+Sequences) allows the easy implementation of 
+"AutoInc" columns, but goes far beyond that. 
+Generators are non-volatile Int64 counters that are 
+independant of transactions and can be used in many 
+ways. 
+<p>
+<li><b>Read-Only databases</b>: For distribution of 
+databases on e.g. a CD-ROM. Esp. when used in 
+combination with the Embedded version of the 
+engine, this gives unbeatable ease of deployment. 
+</ul>
+
+      </td>
+      <td width="50%" valign=top> 
+
+<!- SECOND COLUMN TOP TABLE ->
+
+<ul type=square>
+
+<li><b>Full transaction control</b>: A single client 
+application can have multiple, concurrent 
+transactions. The various available isolation levels 
+can be fully controlled by the client on a per- 
+transaction basis. The Two-Phase-Commit protocol 
+allows guaranteed consistency across databases. 
+Optimistic locking is also supported as well as 
+multiple Transaction Savepoints. 
+<p>
+<li><b>Online Backups</b>: There is no need to shut down a 
+database to back it up. A backup process takes a 
+snapshot of the state of the database at the moment 
+it starts, so users can continue working while a backup 
+runs, allowing 24x7 operation. 
+<p>
+
+<li><b>Triggers</b>: Each table can have many separate row- 
+level triggers that fire Before or After Inserts, Updates 
+or Deletes. Inside a trigger, the full wealth of PSQL can 
+be used to apply default values, ensure data integrity, 
+raise Exceptions etc. New in Firebird 1.5 are 
+"universal triggers": Here you can have one single 
+trigger to handle Inserts, Updates and/or Deletes in a 
+table all at once. 
+<p>
+<li><b>External Functions</b>: User Defined Function 
+libraries (UDFs) can be written in languages like C, 
+C++ or Delphi and can easily be plugged in to the 
+engine itself via DLLs / SOs, enabling you to extend 
+the functionality of Firebird "inside" the server. 
+<p>
+<li><b>Declarative Cascading Referential Integrity</b>: 
+Ensures consistency and validity of n-level deep 
+parent-child relationships between tables. 
+<p>
+
+<li><b>Character Sets</b>: Firebird implements many 
+international Character Sets including Unicode with a 
+variety of collations. 
+
+</ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td colspan=2><hr size=1></td></tr>
+
+  <tr>
+    <td colspan=2>
+      <table>
+        <tr>
+          <td width="50%" valign=top>
+
+<!- FIRST COLUMN BENEATH FEATURES TABLE ->
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>SQL Standard Compliance</h2>
+          </td>
+        </tr>
+      </table>
+
+Firebird has full SQL 92 Entry Level 1 Support and 
+implements most of the SQL-99 standard, plus some 
+very useful additions. This includes DML/DDL 
+statements, FULL/LEFT/RIGHT [OUTER] JOIN syntax, 
+UNION, DISTINCT clauses, subselects (IN, EXISTS), 
+internal functions (AVG, SUM, MIN, MAX, COALESCE, 
+CASE, ..), constraints (PRIMARY KEY, UNIQUE, 
+FOREIGN KEY), as well as all common SQL data types. 
+<p>
+Firebird also implements Domain and Field level Check 
+Constraints, Views, Exceptions, Roles and a fine- 
+grained Grant management. See the Release Notes 
+and the Firebird Reference Guide for more details. 
+
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Hardware Requirements</h2>
+          </td>
+        </tr>
+      </table>
+
+Firebird runs on almost any hardware. Even "small" 
+hardware can do the job, esp. when used with Linux. 
+As with any RDBMS, there are the usual aspects that 
+influence performance: the amount of physical RAM 
+(as little as 16MB will do for a start); the speed of the 
+storage subsystem (like RAID systems) etc. Of course, 
+the recommended hardware depends on what you 
+want to do with the database, e.g. how large will it 
+become, how many concurrent users do you expect 
+andsoforth. You can start off with a minimal 
+configuration and then power up the server later on as 
+the need arises. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Available OS Platforms</h2>
+          </td>
+        </tr>
+      </table>
+The most commonly used OS platforms for Firebird 
+are Linux and Windows (incl. MS Terminal Servers and Citrix Mainframes). 
+Other supported platforms are 
+Mac OS X, Solaris and HP-UX. 
+<p>
+Migration from one 
+platform to another is painless and possible at any 
+time: just backup a database on one OS using the 
+Transportable Format, then restore it on any other. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Connectivity</h2>
+          </td>
+        </tr>
+      </table>
+Firebird supports a number of connectivity methods, 
+including: native Component Packages for C/C++ 
+and Delphi, ODBC, JDBC (JayBird), PHP Driver, 
+OLEDB driver, dbExpress, .Net data provider and 
+finally through direct API calls using fbclient.dll/.so. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Physical Limits </h2>
+          </td>
+        </tr>
+      </table>
+Firebird allows really huge databases. Databases can 
+span multiple files, the size of each file is OS- 
+dependant. The theoretical limit is currently 64TB for 
+a single-file database, so the practical limit is usually 
+the operating / file system or available HD space. 
+
+
+</ul>
+
+
+<!- END OF LEFT COLUMN ->
+          </td>
+          <td width="50%" valign=top>
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Server engine versions</h2>
+          </td>
+        </tr>
+      </table>
+There are three different versions of the engine, all 
+interchangeable and each with its own strengths: 
+<ul type=square>
+<li>Classic Server (one instance per client connection; 
+SMP/HT support)
+<p> 
+<li>SuperServer (all connections handled by one 
+module; currently no SMP/HT support) 
+<p>
+<li>Embedded Version (the entire engine in a single 
+DLL / SO (!) for single-user, single-database use) 
+All versions use the same db file format, so you can 
+switch between all of them any time you like. 
+</ul>
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Licensing </h2>
+          </td>
+        </tr>
+      </table>
+Firebird is licensed under the IPL (InterBase Public 
+License) which has the same terms as the Mozilla 
+Public License 1.1. Firebird is completely free to 
+use and deploy to your customers. You don't need to 
+release the source code for your own product, 
+regardless of your licensing model. If you modify the 
+engine, however, you must provide public access to 
+the source code of your modifications. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Tools</h2>
+          </td>
+        </tr>
+      </table>
+
+A large amount of tools is available for Firebird, some 
+free, some commercial. There are admin tools, tools 
+for developers, UDF libraries, Connectivity tools and 
+more (see the links section below). 
+
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Support and Resources</h2>
+          </td>
+        </tr>
+      </table>
+On www.firebirdsql.org, the home of Firebird, 
+there are many useful links about the project.
+<p> 
+The company IBPhoenix offers various contracts for 
+professional support by people with long-term 
+experience. On their <a href="http://www.ibphoenix.com">website</a> 
+there is also a wealth of tech infos, how-tos and in- 
+depth documentation available. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Community</h2>
+          </td>
+        </tr>
+      </table>
+There is an ever growing community of Firebird users 
+and various newsgroups to supply instant online 
+support. On the project homepage there is a full list of 
+all newsgroups about Firebird (see below). 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>History</h2>
+          </td>
+        </tr>
+      </table>
+Firebird is based on the source code of InterBase 6.0 
+that was released as Open Source by Borland in 
+August 2000. The story of InterBase goes back as 
+far as 1984, so in total there are close to 20 years of 
+relational database experience in the product. 
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td colspan=2><hr size=1></td></tr>
+
+  <tr>
+    <td colspan=2>
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Firebird Links</h2>
+          </td>
+        </tr>
+      </table>
+
+
+<b>Download</b>: Click here to find a Firebird package and <A HREF="http://sourceforge.net/project/showfiles.php?group_id=9028">DOWNLOAD</a>. 
+<p>
+<b>Documentation</b>: Detailed <a href="http://firebird.sourceforge.net/index.php?op=doc">documentation links</a> 
+<p>
+<b>Licence</b>: <a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_ipl">The complete IPL</a> 
+<p>
+<b>Tools and Admin programs</b>: See links on <a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_contrib_download">the community contributions pages</a>
+<p>
+<b>Community</b>: A collection of <a href="http://firebird.sourceforge.net/index.php?op=lists">newsgroups and email forums</a> 
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=2>
+      <table background="./images/grad-bg.gif" bgcolor=#fffaf0 cellpadding=3>
+        <tr>
+          <td><a href="http://www.firebirdsql.org/foundation/">
+              <img src="./images/ff_linklogo_1.gif" border=0></a>
+          </td>
+          <td><img src="./images/ff-text.gif" border=0><br>
+
+ 
+One driving force behind the Firebird project is the FirebirdSQL Foundation. This 
+is an open group of individuals and companies sponsoring the development of 
+Firebird by means of collecting funds and giving grants to developers to help evolve 
+and continue the project. 
+<br>
+The Foundation gladly accepts new members, either 
+corporate or private, as well as sponsors for the funding of the project. 
+Join the Foundation on <a href="http://www.firebirdsql.org/foundation/">http://www.firebirdsql.org/foundation/</a>
+          </td>    
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td colspan=2><hr size=1></td></tr>
+
+  <tr>
+    <td colspan=2 align=center valign=top><font size=1>
+
+© 2003 by The Firebird Project. All names of products and companies mentioned herein are trademarks of their respective owners.</font>
+<br>
+<font size=1><a href="http://www.firebirdsql.org"><b>Back to Firebird Project HOME</b></a> 
+<p>&nbsp;
+
+    </td>
+  </tr>
+</table>
+</table>
+</span>
+</body>
+</html>
+
