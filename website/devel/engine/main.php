@@ -36,17 +36,19 @@ The aim would be a first alpha release in September with final release by the en
 Vulcan is an experimental branch that Jim Starkey took from HEAD about 6 months ago to implement support for fine grained multi-threading, multiple CPUs and 64bit operating systems.  The Vulcan requirements stem from an open source development contract that IBPhoenix has with a large software supplier.
 <p>
 Initial alpha release is to happen soon with further beta releases as and when available. Final release is targeted at the end of 2004.
-FIREBIRD 3.0 - Merger of Firebird 2.0 and Vulcan, aiming for first alpha release April/May 2005 and full release towards the end of 2005.
 
 <h3><a href="#yaffil">Yaffil</a></h3>
 Yaffil was a closed-source fork from the Firebird 1.0 beta codebase, that is no longer considered maintainable by its Russian developers. These developers have presented their modifications to the project for merging into the main Firebird codebase.
+
+<h3>FIREBIRD 3.0</h3>
+Merger of Firebird 2.0 and Vulcan, aiming for first alpha release April/May 2005 and full release towards the end of 2005.
 
 <h2>Field testing</h2>
 Both Firebird 2.0 and Vulcan are likely to be available at around the same time as binary builds that users can install and experiment with simultaneously.    That means you, as field-testers, will have a period during which you can choose (and jump) between Vulcan's new capabilities-including SMP support--and Firebird 2.0 features.
 <h2>Outline plan</h2>
 The target dates are estimates, with no guarantee that any is achievable.  However, we will be trying to keep on target by improving our self-discipline with regard to "feature creep", QA and code scrutiny during the alpha and beta cycles.
 <p>
-The project is now in the fortunate position of having one full-time core developer and a number of part-timers positioned to remain available consistently, thanks to grants or accommodations made by employers.
+The project is now in the fortunate position of having one full-time core developer and a number of part-timers positioned to remain available consistently, thanks to grants, or to accommodations made by employers.<br>
 As more detail comes to hand and we get a better handle on sequence, we will expand the following outline into a roadmap.
 
 <h2>Planned features</h2>
@@ -92,6 +94,12 @@ from employees e
 Proposed Release: 2.0
 <p>
 The current work on enhancements to indexing introduces a new B-tree page layout.  This makes a major change to the on-disk structure unavoidable.  The work is considered critical for the next Firebird release. The strategy for implementing the ODS change still needs work.
+
+<h4><i>Segment-level index selectivity</i></h4>
+Proposed Release: 2.0
+<p>
+Arno Brinkman and Dmitry Yemanov have done all the necessary ODS changes to enable index selectivity to be computed segment-by-segment.  Amendment of the optimizer subsystem to accommodate the new statistics is still to be completed.
+
 <h4><i>Automatic casting in unions</i></h4>
 Proposed Release: 2.0
 <p>
@@ -115,10 +123,6 @@ SELECT CAST(VarCharField10 AS VARCHAR(30)) FROM Table1
 </td></tr></table>
 <br>
 Arno Brinkman proposes to implement "union auto-cast", whereby the contributing columns would be cast automatically to the length of the longest column.  No explicit casting would be needed. This more closely follows the SQL standard (9.3 Data types of results of aggregations). For determining the output data type, union auto-cast would use a function already implemented for COALESCE and CASE.
-<h4><i>Segment-level index selectivity</i></h4>
-Proposed Release: 2.0
-<p>
-Arno Brinkman and Dmitry Yemanov have done all the necessary ODS changes to enable index selectivity to be computed segment-by-segment.  Amendment of the optimizer subsystem to accommodate the new statistics is still to be completed.
 
 <h4><i>EXECUTE BLOCK syntax</i></h4>
 Proposed Release: 2.0
@@ -322,14 +326,7 @@ Another IPC to XNET to transformation.
 including full support for concurrently running engines
 <h4><i>Extensible architecture (providers)</i></h4>
 Details required.
-<h4><i>Tools interface</i></h4>
-Implement an MMC console service to allow the project and third parties to create Win32 management tools for Firebird and have a place to drop them in.
-<br>
-Ditto for Linux?
-<h4><i>Support for complex installs</i></h4>
-Extend Win32 installer to facilitate straightforward installs for complex configurations.
-<br>
-Ditto for Linux?
+
 <h4><i>Clean shutdowns for Classic processes</i></h4>
 On Win32, implement mutexes so that we can easily close Classic server and processes from application programs. We can then integrate control of the Classic server into the cpl applet.
 <p>
@@ -342,6 +339,18 @@ More explanation required
 Groundwork is done.
 <h4><i>Layerable system tables</i></h4>
 More explanation required
+
+<h3>Other</h3>
+
+<h4><i>Tools interface</i></h4>
+Implement an MMC console service to allow the project and third parties to create Win32 management tools for Firebird and have a place to drop them in.
+<br>
+Ditto for Linux?
+<h4><i>Support for complex installs</i></h4>
+Extend Win32 installer to facilitate straightforward installs for complex configurations.
+<br>
+Ditto for Linux?
+
 <h3>EXTERNAL DEVELOPMENT</h3>
 Proposed Release: 2.0
 <p>
