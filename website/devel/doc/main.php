@@ -25,10 +25,10 @@ list</a>.
 
 <h4>Latest</h4>
 
-<a href="/manual/fr/index.html">French</a> and
-<a href="/manual/es/index.html">Spanish</a> HTML docs are now up. 
-PDF versions to follow shortly. With thanks to translators Philippe 
-Makowski and Ernesto Cullen.
+Norman Dunbar is working on a book about the Firebird command-line tools.
+The first chapter - GSEC - is now available in <a href="/manual/fbutils.html">HTML</a>
+and <a href="/pdfmanual/Firebird-Utils-WIP.pdf">PDF</a>. Check back regularly
+for new chapters.
 <p>
 
 <h4>Online documentation</h4>
@@ -38,10 +38,13 @@ Links to the HTML documentation we have produced so far:
 <li><a href="/manual/index.html">Overall table of contents</a>
 <p>
 </li>
-<li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a></li>
+<li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a>
+    (also in <a href="/manual/fr/index.html">French</a>,
+     <a href="/manual/es/index.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
-<li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a>
+<li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
+<li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
 <p>
 </li>
 <li><a href="/manual/firebird-docwriters-info.html">Documentation for Firebird Docwriters:</a>
@@ -54,10 +57,13 @@ Links to the HTML documentation we have produced so far:
 <p>
 And these are the PDF versions:
 <ul>
-<li><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start Guide</a></li>
+<li><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start Guide</a>
+    (also in <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">French</a>,
+     <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
+<li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
 <li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a></li>
 </ul>
 
