@@ -8,7 +8,7 @@ if (eregi("main.php",$PHP_SELF)) {
 <h4>Firebird ADO.NET Data Provider Development v1.7</h4>
 
 <p>
-<b>The development of the v1.7 is going to be focused in:</b>
+<h4>The development of the v1.7 is going to be focused on:</h4>
 </p>
 <p>
 	<ul>
@@ -18,9 +18,66 @@ if (eregi("main.php",$PHP_SELF)) {
 		<li>Make the API more consistent, for example, in the usage of connection strings.</li>
 		<li>Changes on database schema support, to implement it in similar way as in the 
 		.NET 2.0 Beta 1 documentation (when the changes are ready it will be back-ported to v1.6).</li>
+		<li>Design Time support for the FbDataAdapter class.</li>
 	</ul>
 </p>
+<h3>Latest development news (2004-11-20)</h3>
 <p>
+For the development of the v1.7 Beta 2 we are working on the design time support 
+for FbDataADpter class.
+</p>
+<p>
+The new design time support will have:
+<ul>
+    <li>A wizard for the Data Adapter configuration</li>
+    <li>A DataSet generator (for typed or untyped DataSets)</li>
+</ul>
+</p>
+<h5>The Configuration Wizard</h5>
+<p>
+For the configuration wizard we are working on a new Wizard Framework
+that could be reused in the future if we want to add more wizards
+on the design time support of the provider.
+</p>
+<p>
+The wizard steps will have configuration options as similar as possible 
+to the ones supported by the SqlClient one.
+</p>
+<h5>The DataSet Generator</h5>
+<p>
+The DataSet Generator will do generation of typed or untyped datasets.
+</p>
+<p>For the untyped DataSets you can select if you want to add them to the 
+actual Designer.</p>
+<p>
+For Typed DataSets generation you can select on the Version of Visual Studio you are working on
+in order to be able of add the Typed DataSet to the active project, the Visual Studio available 
+versions are:
+</p>
+<p>
+    <ul>
+        <li>Visual Studio 2003</li>
+        <li>Visual Studio 2005</li>
+        <li>Visual C# Express 2005 <b>(this is the one being used for testing)</b></li>
+    </ul>
+</p>
+<p>
+The generated Typed DataSet will be added to the active Visual Studio project
+as an embedded resource.
+</p>
+<p>
+For allow the Typed DataSets to be added to the active Visual Studio project
+the provider makes usage of the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vsintro7/html/vxoriExtendingVisualStudioEnvironment.asp">Visual Studio Extensibility</a> support.
+</p>
+<p>
+In first place the support to generate Typed DataSets will not available on 
+official provider releases, as for the Visual Studio Extensibility support
+the provider needs references to envdte.dll and VSLangProj.dll
+</p>
+<p>
+Anyway the provider could be build using a VISUAL_STUDIO define in order to include
+that feature.
+</p>
 
 <h3>Building the sources on Windows</h3>
 <p>
