@@ -45,7 +45,7 @@ if ($banners) {
 <TR>
 <TD align=right vAlign=top><A class=s_menu href=topics.php>&nbsp;News Archive&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=friend.php>&nbsp;Recomend us&nbsp;</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=friend.php>&nbsp;Recommend us&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
