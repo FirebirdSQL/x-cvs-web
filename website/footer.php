@@ -34,7 +34,7 @@ List Sites</a> ]</center>
 <table CELLSPACING="5" border="0" width="100%"><tr>
 <td align="left" width="10%">
         <a href="http://sourceforge.net/project/?group_id=9028">
-        <img src="images/sflogo.png" width="88" height="31"
+        <img src="<?=$rootDir?>images/sflogo.png" width="88" height="31"
         border="0" alt="Firebird at SourceForge"></a>
 </td>
         <td align="left" width="80%">

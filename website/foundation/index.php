@@ -93,8 +93,12 @@ include_once($rootDir."header.php");
 </td></tr></tbody></table>
 
 <?PHP
-
+    if ($page == "main.php" || $page == "main.html" ) {
+        include_once($rootDir."footer.php");
+    }
+    else {
         include_once($rootDir."footer_sub.php");
+    }
 
 ?>
 
