@@ -11,7 +11,7 @@ if (eregi("main.php",$PHP_SELF)) {
 Welcome to the documentation subproject homepage. Our goal is
 to produce a fully cross-linked documentation set for Firebird. We
 author the docs in DocBook XML format and then render them to HTML
-and PDF (note: PDF not online yet).
+and PDF.
 <p>
 If you are curious why we do it this way, or if you're interested in
 helping us, have a look at the <a
@@ -27,26 +27,37 @@ list</a>.
 
 <h4>Online documentation</h4>
 
-Links to the documentation we have produced so far:
+Links to the HTML documentation we have produced so far:
 <ul>
-<li><a href="devel/doc/manual/defaulthtml/index.html">Overall table
+<li><a href="/devel/doc/manual/defaulthtml/index.html">Overall table
 of contents</a>
 <p>
 </li>
-<li><a href="devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
+<li><a href="/devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
             to Firebird Migration Guide</a></li>
-<li><a href="devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
+<li><a href="/devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
              of Firebird 1.5 and InterBase</a>
 <p>
 </li>
-<li><a href="devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
+<li><a href="/devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
 for Firebird Docwriters:</a>
 <ul>
-<li><a href="devel/doc/manual/defaulthtml/docbuildhowto.html">Docbuilding Howto</a></li>
-<li><a href="devel/doc/manual/defaulthtml/docwritehowto.html">Docwriting Howto</a></li>
-</ul
+<li><a href="/devel/doc/manual/defaulthtml/docbuildhowto.html">Docbuilding Howto</a></li>
+<li><a href="/devel/doc/manual/defaulthtml/docwritehowto.html">Docwriting Howto</a></li>
+</ul>
 </li>
 </ul>
+<p>
+And these are the PDF versions:
+<ul>
+<li><a href="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">MS SQL
+            to Firebird Migration Guide</a></li>
+<li><a href="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">Coexistence
+             of Firebird 1.5 and InterBase</a></li>
+<li><a href="/devel/doc/manual/pdf/Firebird-Docwriters-Info.pdf">Documentation
+for Firebird Docwriters</a></li>
+</ul>
+
 <p>
 These are by no means all the Firebird docs available. Other good
 starting places are the <a href="http://firebird.sourceforge.net/index.php?op=doc">

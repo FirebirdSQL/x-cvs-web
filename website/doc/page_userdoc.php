@@ -73,7 +73,7 @@ An updated, hard-copy version can be obtained by purchasing the InterBase 6 Medi
 
 <tr><td colspan=4><font face="Verdana">Hyperlinked reference to SQL commands as implemented in InterBase 6 and Firebird.  Download and keep by as your ready reference.</td></tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
-<td colspan=3 align=left><font face="Verdana"><A HREF="http://www.ibphoenix.com/60sqlref.html">View HTML page</a> and select Save As.. from the context menu of your browser.</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref">View HTML page</a> and select Save As.. from the context menu of your browser.</td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
@@ -164,7 +164,7 @@ Language Interpreter) Syntax</A> (143kb)</LI>
 <td  width="40%"><font face="Verdana"><b>MS-SQL to Firebird
 Migration Guide</b></td>
 <td width="35%"><font face="Verdana">Marcelo Lopez Ruiz</td>
-<td width="15%"><font face="Verdana">HTML</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
 <td width="10%"><font face="Verdana">82 Kb</td>
 </tr>
 
@@ -174,7 +174,8 @@ and outs of converting databases from MS-SQL to Firebird.</td></tr>
 <tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/devel/doc/manual/defaulthtml/migration-mssql.html">View
-as multi-page HTML</a></td>
+as multi-page HTML</a><br>
+<A HREF="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">View/download as PDF</a></td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
@@ -195,7 +196,7 @@ as multi-page HTML</a></td>
 <td  width="40%"><font face="Verdana"><b>Coexistence of Firebird 1.5
 and InterBase</b></td>
 <td width="35%"><font face="Verdana">Brenden Walker, Paul Vinkenoog</td>
-<td width="15%"><font face="Verdana">HTML</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
 <td width="10%"><font face="Verdana">32 Kb</td>
 </tr>
 
@@ -205,7 +206,8 @@ InterBase on the same computer.</td></tr>
 <tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/devel/doc/manual/defaulthtml/
-ibfbcoex.html">View as multi-page HTML</a></td>
+ibfbcoex.html">View as multi-page HTML</a><br>
+<A HREF="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">View/download as PDF</a></td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
