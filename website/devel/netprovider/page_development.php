@@ -70,12 +70,12 @@ For allow the Typed DataSets to be added to the active Visual Studio project
 the provider makes usage of the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vsintro7/html/vxoriExtendingVisualStudioEnvironment.asp">Visual Studio Extensibility</a> support.
 </p>
 <p>
-In first place the support to generate Typed DataSets will not available on 
-official provider releases, as for the Visual Studio Extensibility support
-the provider needs references to envdte.dll and VSLangProj.dll
+In first place the support to generate Typed DataSets will not be available on 
+official provider releases, because the Visual Studio Extensibility support
+needs references to envdte.dll and VSLangProj.dll.
 </p>
 <p>
-Anyway the provider could be build using a VISUAL_STUDIO define in order to include
+Anyway the provider can be built using a VISUAL_STUDIO define in order to include
 that feature.
 </p>
 
