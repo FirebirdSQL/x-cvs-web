@@ -17,6 +17,13 @@ Learn more about:
 <li><a href="index.php?op=devel&amp;sub=qa&amp;id=testdesign_howto">How to design new tests</a> for Firebird</li>
 <li><a href="index.php?op=devel&amp;sub=qa&amp;id=testimplementation_howto">How to implement new tests</a> for Firebird</li>
 </ul>
+<H4>Latest Developer Reports</H4>
+<blockquote>
+<ul>
+<li>Pavel Cisar, 2004-10-01
+<li><a href="index.php?op=devel&sub=qa&id=qaff200407">Pavel Cisar, 2004-07-15</a>
+<li>(others, to be retrieved from archives)
+</ul>
 <p>
 <?php
 $action="topics";
