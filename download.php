@@ -323,8 +323,8 @@ function listdownloads ($dcategory, $sortby, $sortorder) {
 function preface() {
   global $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sitename;
 ?>
-<font color="#e13601" size="+1"><br>
-Download Options</font>
+<font color="#e13601" size="+1"><b>Download Options</b></font>
+<font size="-1">
 <p><b>Choice of download category</b><br>
 The following different type Firebird server downloads are available:</p>
 <blockquote>
@@ -339,37 +339,36 @@ in an operational environment.<br>
 <br>
 <b>Nightly Build</b><br>
 Nightly the latest source is checked out and the install packages rebuilt.
-&nbsp;This provides the latest up to date bug fixes/features but should only
+This provides the latest up to date bug fixes/features but should only
 be used for experimentation since no testing has been performed.<br>
 </blockquote>
-<br>
 <b>Choice of server architecture</b><br>
 FirebirdSQL server comes in two models the classic architecture and a super
-architecture. &nbsp;If you are new to FirebirdSQL then for Windows download
+architecture. If you are new to FirebirdSQL then for Windows download
 the super server (it is the only one available for win32) otherwise if you
 are from a unix style platform start with the classic architecture which
-is a little easier to experiment with and to learn the basics. &nbsp;Then
+is a little easier to experiment with and to learn the basics. Then
 once you know a little more you will be able to determine which architecture
-is best for&nbsp; your installation. &nbsp;From a functional point of view
+is best for&nbsp; your installation. From a functional point of view
 both are equivalent and they are interchangable.
 <blockquote>
 <p><b>Classic</b><br>
 The classic architecture allows for programs to directly open the database
 file, It is architected to allow the same database to be opened by several
-programs at once. &nbsp;The classic engine also allows remote connections
+programs at once. The classic engine also allows remote connections
 to local databases by providing an inetd or xinetd service (This spawns a
 seperate task per user connection).</p>
 <p><b>Super</b><b><br>
 </b>The super server architecture provides a server process and client
 process cannot directly open the database file and all SQL requests are done
-via the server using a socket. &nbsp;The super server makes use of lightweight
+via the server using a socket. The super server makes use of lightweight
 theads to process the requests.<br>
 </blockquote>
 <p>
 A complete list of all Firebird released files is available from our sourceforge
 download site <a href="http://sourceforge.net/project/showfiles.php?group_id=9028">
 here</a>.
-</p>
+</p></font>
 <?php
 }
 
@@ -467,12 +466,7 @@ function main() {
   include("header.php");
   callscript();
   OpenTable3();
-  echo "<center><b><font size=2>$sitename ".translate("Download Section")."</font></b></center>";
   preface();
-  echo "<br>";
-  if ($dcategory == "") { $dcategory = "Stable Builds";}
-#  tlist();
-#  listdownloads($dcategory, $sortby, $sortorder);
   emit_sections();
   CloseTable();
   include("footer.php");
