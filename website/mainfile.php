@@ -11,10 +11,12 @@ if (eregi("mainfile.php",$PHP_SELF)) {
     die();
 }
 
-require_once("config.php");
+
+require_once($rootDir."/config.php");
 $mainfile = 1;
 
 function GetMailingListPageLink($listdesc, $caption = "", $echo = false) {
+  global $rootDir;
   $list_name = "" ; $list_id = "" ;
   if (!eregi ("\.dat$",$listdesc)) $listdesc .= ".dat" ;
   include ("lists/data/".$listdesc);
@@ -26,22 +28,24 @@ function GetMailingListPageLink($listdesc, $caption = "", $echo = false) {
 }
 
 function IsRabbitInProject ($rabbit, $project) {
+  global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;  
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) $rabbit .= ".dat" ;
-  include ("rabbits/".$rabbit);
+  include ($rootDir."rabbits/".$rabbit);
   $projects = explode(":",$subprojects) ;
   $result = false ;
-  foreach ($projects as $testproj) 
+  foreach ($projects as $testproj)
     if ($project == $testproj) $result = true ;
   return $result ;
 }
 
 function GetRabbitEMail ($rabbit, $echo = false) {
+  global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;  
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) $rabbit .= ".dat" ;
-  include ("rabbits/".$rabbit);
+  include ($rootDir."rabbits/".$rabbit);
   if ($email == "") $email = $login."@users.sourceforge.net" ;
   $result = $email ;
   if ($echo) { echo $result ; return true ; }
@@ -49,10 +53,11 @@ function GetRabbitEMail ($rabbit, $echo = false) {
 }
 
 function GetRabbitEMailLink ($rabbit, $echo = false) {
+  global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;  
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) $rabbit .= ".dat" ;
-  include ("rabbits/".$rabbit);
+  include ($rootDir."rabbits/".$rabbit);
   if ($email == "") $email = $login."@users.sourceforge.net" ;
   $result = "<A href=\"mailto:$email\">$name</A>" ;
   if ($echo) { echo $result ; return true ; }
@@ -60,10 +65,11 @@ function GetRabbitEMailLink ($rabbit, $echo = false) {
 }
 
 function GetRabbitSafeEMailLink ($rabbit, $caption = "", $echo = false) {
+  global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;  
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) $rabbit .= ".dat" ;
-  include ("rabbits/".$rabbit);
+  include ($rootDir."rabbits/".$rabbit);
   if ($caption != "") $name = $caption;
   $result = "<A href=\"http://sourceforge.net/sendmessage.php?touser=$sfuid\">$name</A>" ;
   if ($echo) { echo $result ; return true ; }
@@ -71,16 +77,18 @@ function GetRabbitSafeEMailLink ($rabbit, $caption = "", $echo = false) {
 }
 
 function GetRabbitInfoLink ($rabbit, $echo = false) {
+  global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;  
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) {$rabbit .= ".dat" ;}
-  include ("rabbits/".$rabbit);
+  include ($rootDir."rabbits/".$rabbit);
   $result = "<A href=\"index.php?op=rabbits&amp;info=$login\">$name</A>" ;
   if ($echo) { echo $result ; return true ; }
   else return $result ;
 }
 
 function GetDirectoryList ($path) {
+  global $rootDir;
   $pwd = getcwd();
   chdir($path);
   $d = dir(".");
@@ -93,6 +101,7 @@ function GetDirectoryList ($path) {
 }
 
 function GetFileList ($path, $flags = "", $regexp = "") {
+  global $rootDir;
   $flags .= " ";  // Important for correct evaluation of strpos below !!!
   $pwd = getcwd();
   chdir($path);
@@ -227,6 +236,7 @@ function check_html ($str, $strip="") {
 			  $attrb_list=delQuotes($reg[2]);
 			  // A VER
 			  $attrb_list = ereg_replace("&","&amp;",$attrb_list);
+
 			  $tag = "<$tag" . $attrb_list . ">";
 			} # Attribs in tag allowed
 		else $tag = "";
