@@ -149,9 +149,6 @@
   <item url="lists/main.php" />
   <item url="lists/sidemenu.php" />
   <item url="rabbits/" />
-  <item url="rabbits/pcisar/" />
-  <item url="rabbits/skywalker/" />
-  <item url="rabbits/skywalker/Firebird_Downloads.html" />
   <item url="rabbits/index.php" />
   <item url="rabbits/main.php" />
   <item url="rabbits/sidemenu.php" />
@@ -197,7 +194,6 @@
   <item url="pagetmp.php" />
   <item url="sidemenu.php" />
   <item url="topmenu.php" />
-  <item url="foundation/about.html" />
   <item url="foundation/committee.html" />
   <item url="foundation/contributions.html" />
   <item url="foundation/FFSTEER/FF_SteeringCommittee.html" />
@@ -205,4 +201,18 @@
   <item url="foundation/HowToContribute.html" />
   <item url="foundation/rules.html" />
   <item url="foundation/sponsors.html" />
-  <item url="foundation/index.html" /> </project></webproject>
+  <item url="foundation/applicationForMembership.html" />
+  <item url="foundation/aboutMembership.html" />
+  <item url="foundation/index.php" />
+  <item url="foundation/main.html" />
+  <item url="foundation/FFMGMT/" />
+  <item url="foundation/FFMGMT/CVS/" />
+  <item url="foundation/FFMGMT/CVS/Entries" />
+  <item url="foundation/FFMGMT/CVS/Repository" />
+  <item url="foundation/FFMGMT/CVS/Root" />
+  <item url="foundation/FFMGMT/decisions/" />
+  <item url="foundation/FFMGMT/decisions/CVS/" />
+  <item url="foundation/FFMGMT/decisions/CVS/Entries" />
+  <item url="foundation/FFMGMT/decisions/CVS/Repository" />
+  <item url="foundation/FFMGMT/decisions/CVS/Root" />
+  <item url="foundation/FFMGMT/ManagementCommittee.html" /> </project></webproject>

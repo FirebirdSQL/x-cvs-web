@@ -1,3 +1,7 @@
+<?php
+   $fbRootDir=$rootDir."../"
+?>
+
 <td class="normal"  align="left" valign=top>
 
 <! trying to spread the column out more >
@@ -12,20 +16,29 @@
 <tr>
 <td colspan=2>
 <font face="Verdana" size=1>
-<b><a href="<?=$rootDir ?>index.php" style="text-decoration:none;color:#000000;">FirebirdSQL
+<b><a href="<?=$fbRootDir ?>index.php" style="text-decoration:none;color:#000000;">FirebirdSQL
 </a></b>
 </td></tr>
-
 <tr>
 <td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
 <td>
 <font face="Verdana" size=1>
-  <a href="<?=$rootDir ?>index.php" style="text-decoration:none;color:#696969;">Home</a><br>
+  <a href="<?=$fbRootDir ?>index.php" style="text-decoration:none;color:#696969;">Home</a><br>
+  <font style="text-decoration:none;color:#696969;">About</font><br>
+
+  <!--
   <a href="<?=$rootDir ?>index.php?id=about.html" style="text-decoration:none;color:#696969;">About</a><br>
+   -->
+
   <a href="<?=$rootDir ?>index.php?op=history" style="text-decoration:none;color:#696969;">History</a><br>
   <a href="<?=$rootDir ?>index.php?id=devel/page_contacts.php" style="text-decoration:none;color:#696969;">Who's involved?</a><br>
+
+   <font style="text-decoration:none;color:#696969;">Feedback</font><br>
+   <font style="text-decoration:none;color:#696969;">Getting Involved</font></br>
+   <!--
    <a href="<?=$rootDir ?>index.html" style="text-decoration:none;color:#696969;">Feedback</a><br>
    <a href="<?=$rootDir ?>gettinginvolved.html" style="text-decoration:none;color:#696969;">Getting Involved</a></br>
+   -->
    <a href="http://www.sourceforge.net/projects/firebird" style="text-decoration:none;color:#696969;">Sourceforge Project</a><br>
    <a href="<?=$rootDir ?>index.php?id=newsarchive" style="text-decoration:none;color:#696969;">News</a>
 
@@ -48,10 +61,14 @@
    <a href="<?=$rootDir ?>index.php?op=doc" style="text-decoration:none;color:#696969;">User Documentation</a><br>
    <a href="<?=$rootDir ?>index.php?op=doc" style="text-decoration:none;color:#696969;">Design Documentation</a><br>
 
+   <font style="text-decoration:none;color:#696969;">Commercial support</font><br>
+   <!--
    <a href="<?=$rootDir ?>index.php?id=commercialsupport" style="text-decoration:none;color:#696969;">Commercial support</a><br>
+   -->
    <a href="<?=$rootDir ?>index.php?id=support/bugs.html" style="text-decoration:none;color:#696969;">Bugs</a><br>
+   <!--
    <a href="<?=$rootDir ?>index.php?id=sites" style="text-decoration:none;color:#696969;">Sites of Interest</a>
-
+   -->
 </td></tr>
 </table>
 
@@ -77,17 +94,26 @@
 <tr>
 <td colspan=2>
 <font face="Verdana" size=1>
-<b><a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#000000;">Projects
-</a></b></td></tr>
+<b>
+<font style="text-decoration:none;color:#000000;">Projects</font>
+<!--
+<a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#000000;">Projects</a>
+-->
+</b></td></tr>
 <tr>
 <td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
 <td>
 <font face="Verdana" size=1>
+   <font style="text-decoration:none;color:#696969;">FirebirdSQL</font><br>
+   <font style="text-decoration:none;color:#696969;">JayBird</font><br>
+   <font style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</font><br>
+   <font style="text-decoration:none;color:#696969;">Other</font>
+<!--
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">FirebirdSQL</a><br>
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Jbird</a><br>
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</a><br>
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Other</a>
-
+-->
 </td></tr>
 </table>
 
@@ -104,7 +130,6 @@
 
 </td></tr>
 </table>
-
 <table>
 <tr>
 <td colspan=2>

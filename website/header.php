@@ -13,5 +13,5 @@ if (eregi("header.php",$PHP_SELF)) {
 <meta name="KEYWORDS" content="Firebird, FirebirdSQL, jbird, IBPhoenix, InterBase, ISC,  interbase, Database, database, Relational, relational, Relational Database, PostgreSQL, MYSQL, Borland, BORLAND, INPRISE, Inprise Corporation, Client/Server, client server products, client/server solutions, Development Tools, Delphi, JBuilder, Linux, Open Source, Web Database Development, C++Builder, database tools, database development tools, database engines, database programming, SQL, SQL programming, SQL links, SQL databases">
 <title>FirebirdSQL - the relational database for blobs</title>
 <link REL="shortcut icon" HREF="<?=$rootDir ?>images/firebird.ico" TYPE="image/x-icon">
-<!--LINK REL=STYLESHEET HREF="firebird.css" TYPE="text/css"-->
+<!-- LINK REL=STYLESHEET HREF="<?=$rootDir ?>firebird.css" TYPE="text/css" -->
 </head>
