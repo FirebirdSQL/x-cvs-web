@@ -47,7 +47,10 @@
    <a href="<?=$rootDir ?>foundation/index.php?id=rules.html" style="text-decoration:none;color:#696969;">Rules &amp; Objectives</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=aboutMembership.html" style="text-decoration:none;color:#696969;">Membership</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=certificate.html" style="text-decoration:none;color:#696969;">Certificate</a><br>
-   <a href="<?=$rootDir ?>foundation/index.php?id=FFSTEER/FF_SteeringCommittee.html" style="text-decoration:none;color:#696969;">Steering Group</a>
+   <a href="<?=$rootDir ?>foundation/index.php?id=FFSTEER/FF_SteeringCommittee.html" style="text-decoration:none;color:#696969;">Steering Group</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=support_logos.html" style="text-decoration:none;color:#696969;">Member/Sponsor logos</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=gloat_logos.html" style="text-decoration:none;color:#696969;">Member/Gloat logos</a>
+
 </td></tr>
 </table>
 
