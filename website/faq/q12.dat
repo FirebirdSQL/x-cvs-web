@@ -1,13 +1,1 @@
-<?php
-
-$question = "Will Firebird 1 be open source?" ;
-
-$answer = "
-<blockquote>
-Of course FB will be free and open source!  What do you expect from us,
-scam?
-  (Claudio Valderrama, Firebird Developer)
-</blockquote>
-";
-
-?>
+<?php$question = "Do I have to pay anything to use Firebird or distribute it with my application software?" ;$answer = "<blockquote>No, there is nothing to pay.  If you would <i>like</i> to contribute some cash, you can become a member of the FirebirdSQL Foundation and play your part in keeping the progress of new code development moving forward strongly.  </blockquote>";?>

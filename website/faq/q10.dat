@@ -1,11 +1,1 @@
-<?php
-
-$question = "When will release 1 of Firebird be available?" ;
-
-$answer = "
-<blockquote>
-We are <b>very</b> close (Release Candidate 2), and if everything would be ok, we'll release final Firebird 1.0 in first quarter of 2002.
-</blockquote>
-";
-
-?>
+<?php$question = "When will release 1.5 of Firebird be available?" ;$answer = "<blockquote>The first beta was released on January 29, 2003.  We are hoping to be close to a full release some time around Easter 2003.</blockquote>";?>

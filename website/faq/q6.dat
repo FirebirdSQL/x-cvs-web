@@ -1,7 +1,1 @@
-<?php
-
-$question = "Is it true that Cognos is dropping InterBase support for PowerBuilder?" ;
-
-$answer = "<p>Yes.";
-
-?>
+<?php$question = "" ;$answer = "";?>
