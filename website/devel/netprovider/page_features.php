@@ -72,13 +72,20 @@ if (eregi("main.php",$PHP_SELF)) {
         <p>
             <ul>
                 <li>Array</li>
+                <li>Smallint</li>
+                <li>Integer</li>
                 <li>Bigint</li>
-                <li>Binary and text blobs</li>
-                <li>Char and varchar</li>
+                <li>Numeric</li>
+                <li>Decimal</li>
+                <li>Float</li>
+                <li>Double</li>
+                <li>Char</li>
+                <li>Varchar</li>
                 <li>Date</li>
                 <li>Time</li>
                 <li>Timestamp</li>
-                <li>Smallint</li>
+                <li>Binary blobs</li>
+                <li>Text blobs</li>
             </ul>
         </p>
 	</li>
