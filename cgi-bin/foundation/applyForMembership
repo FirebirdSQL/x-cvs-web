@@ -6,37 +6,60 @@ import sys
 #import cgitb; cgitb.enable()
 #import cgitb; cgitb.enable(display=0, logdir="/tmp")
 
+
+class FormException(Exception):
+    def __init__(self, value):
+        self.value = value
+    def __str__(self):
+        return `self.value`
+
+
+
 class CgiMembersForm:
 
     #thisUser='firebirds@users.sourceforge.net'
-    thisUser='foundation@firebirdsql.org'
+    #thisUser='foundation@firebirdsql.org'
+    thisUser='skywalker@users.sourceforge.net'
     destUser='ffcommittee@lists.firebirdsql.org'
+    #destUser='mark.odonohue@firebirdsql.org'
 
-    endLine='<br>\n'
+    endLine='\n'
+    #endLine='<br>\n'
 
     def sendMail(self, user, subject, msg):
 
-        wholemsg = ('From: %s\r\nTo: %s\r\nSubject: %s\r\n' % (self.thisUser, user, subject))
+        wholemsg = ('From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n' % (self.thisUser, user, subject))
         wholemsg = wholemsg + msg
         server = smtplib.SMTP('localhost')
-        #server.set_debuglevel(1)
+        server.set_debuglevel(1)
         #server.logon('user','password')
         server.sendmail(self.thisUser, user, wholemsg)
         server.quit()
 
     def checkForm(self, form):
+
+        for key in ['givennames', 'surname', 'email', 'address1', 'city', 'state', 'postcode', 'country']:        
+            if len(form[key].value) == 0:
+                raise FormException(key +  ' field cannot be empty')
+                return 0
+            
+        if form['email'].value != form['confirm_email'].value:
+            raise FormException(' email and confirm email fields do not match')
+            return 0
+
+        
         return 1
             
     def getLogInfo(self):
         msg = ''
         for i in [ 'REMOTE_ADDR', 'HTTP_USER_AGENT' ]:
-            #msg = msg + i + ": " + os.getenv(i) + self.endLine
-            msg = msg + i + ": " + os.environ[i] + self.endLine
+            #msg = msg + i + ": " + os.getenv(i) + self.endLine # python 2.2
+            msg = msg + i + ": " + os.environ[i] + self.endLine # python 1.5
 
         return msg
 
     def printForm(self, form):
-        data = ''
+        data = ' ' + self.endLine
         for key in form.keys():
             value = form[key].value
             #value = form.getvalue(key, '')  # Is a 2.2 versions
@@ -65,20 +88,46 @@ class CgiMembersForm:
                 data = data  + self.endLine
                 data = data  + self.endLine
                 data = data + self.getLogInfo()
-                #print data
+                print "<!-- " + data + "-->\n"
                 self.sendMail(self.destUser, "newMemberApplication", data)
                 print """
+<center>
 <br>
+<p>
 Your membership application has been submitted<br>
 for approval by the Foundation Management Committee <br>
-You should hear from us shortly<p>
+You should hear from us shortly
+<p>
 Thank You for your interest in Firebird.
+<p>
+<form method=get action="/beta/foundation/">
+<input type=submit name="Return" value="Return">
+</form>
+</center>
 <p>
 """
            #cgi.print_environ_usage()
            #cgi.print_environ()
-       except:
-           print ""
+       except FormException, e:
+           print """
+<center>
+<br>
+<p>
+An error was found when processing your application<p>
+<b>
+"""
+           print e.value
+           print """
+</b>
+<p>
+Please use the browsers back button to return to the original form<br>
+update the fields that are in error and then press submit again<br>
+<p>
+Thank You
+<p>
+</center>
+"""
+           
 
            #sys.excepthook(sys.exc_info()[0],sys.exc_info()[1],sys.exc_info()[2] )
    
@@ -95,17 +144,24 @@ Thank You for your interest in Firebird.
        form = cgi.FieldStorage()
        if self.checkForm(form):
            data = self.printForm(form)
-           data = data  + self.endLine
-           data = data  + self.endLine
+           data = data  + ' ' + self.endLine
+           data = data  + ' ' + self.endLine
            data = data + self.getLogInfo()
            print data
-           self.sendMail(self.destUser, "newMemberApplication", data)
+           #self.sendMail(self.destUser, "newMemberApplication", data)
            print """
 <br>
+<center>
+<p>
 Your membership application has been submitted<br>
 for approval by the Foundation Management Committee <br>
 You should hear from us shortly<p>
 Thank You for your interest in Firebird.
+<p>
+<form method=get action="/beta/foundation/">
+<input type=submit name="Return" value="Return">
+</form>
+</center>
 <p>
 """
            #cgi.print_environ_usage()
@@ -121,7 +177,7 @@ def main():
   import sys
   sys.stderr = sys.stdout
   handler = CgiMembersForm()
-  handler.mainX()
+  handler.main()
 
 if (__name__ == "__main__"):
    main()
