@@ -5,7 +5,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 }
 
   $title = ".NET data provider";
-  $content = "Sub-project specific material is not yet available.
+  $content = "<a href=\"index.php?op=devel&amp;sub=netprovider&amp;id=features\" title=\"Features\">Feature list</a>
   <br>";
 
   sidebox($title,$content);
