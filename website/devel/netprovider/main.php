@@ -15,7 +15,7 @@ This means that .Net developers will be able to access Firebird databases
 without the need of Firebird client install.
 </p>
 <p>
-Actual stable version is <b>1.6.0</b>
+Actual stable version is <b>1.6.1</b>
 </p>
 <p>
 Actual development version is <b>1.7 Alpha 1</b>
