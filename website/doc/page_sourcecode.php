@@ -17,21 +17,26 @@ if (eregi("page_sourcecode.php",$PHP_SELF)) {
 <td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
 </tr>
 <!-- ------------------------------------------------------------------- -->
+
+<!-- BUILD FIREBIRD 1.5 ON OSX -->
+
 <tr>
-<td  width="40%"><font face="Verdana"><b>...</b></td>
-<td width="35%"><font face="Verdana">...</td>
-<td width="15%"><font face="Verdana">...</td>
-<td width="10%"><font face="Verdana">0 Kb</td>
+<td  width="40%"><font face="Verdana"><b>Rough Guide to building Firebird 1.5 on MacOSX</b></td>
+<td width="35%"><font face="Verdana">David Pugh</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">115 Kb (PDF)</td>
 </tr>
 
-<tr><td colspan=4><font face="Verdana">...</td>
+<tr><td colspan=4><font face="Verdana">This guide shows you how to 
+build Firebird 1.5.x (Classic and Superserver) on MacOSX</td>
 </tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
-<td colspan=3 align=left><font face="Verdana">...</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/BuildFirebirdOnOSX.html">Single-page
+HTML</a><br>
+<A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/BuildFirebirdOnOSX.pdf">PDF
+version</a></td>
 </tr>
 <tr><td colspan=4><hr size=1></td></tr>
-<tr><td colspan=4 align=center><img src="images/clearpixel.gif" width=51 height=52 border=0"><br><font face="Verdana">Page under construction
-<br><img src="images/clearpixel.gif" width=51 height=52 border=0"></td></tr>
 
 <!-- ------------------------------------------------------------------- -->
 </table>

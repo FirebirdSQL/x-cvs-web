@@ -139,6 +139,38 @@ An updated, hard-copy version can be obtained by purchasing the InterBase 6 Medi
 <tr><td colspan=4><hr size=1></td></tr>
 
 
+<!-- FIREBIRD OSX HOWTO -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird OSX Howto</b></td>
+<td width="35%"><font face="Verdana">David Pugh</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">221 Kb (PDF)</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">How to install and use
+Firebird 1.5.x on MacOSX</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/FirebirdDatabaseonOSX.html">Single-page
+HTML</a><br>
+<A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/FirebirdDatabaseonOSX.pdf">PDF
+version</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
 <!-- MS-SQL TO FIREBIRD MIGRATION GUIDE -->
 
 <tr>
