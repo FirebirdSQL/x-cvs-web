@@ -82,10 +82,14 @@ global $admin;
   adminblock();
   leftblocks();
 
-  pollNewest();
+  if ($index == 1) {  
+    pollNewest();
+  }
   loginbox();
   online();
-  oldNews($storynum);
+  if ($index == 1) {  
+    oldNews($storynum); 
+  }
   rightblocks();
 
 //echo "<img src=images/pix.gif border=0 width=150 height=1>";
