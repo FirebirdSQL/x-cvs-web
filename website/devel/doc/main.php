@@ -24,6 +24,12 @@ href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs
 list</a>.
 <p>
 
+<h4>New</h4>
+
+IBPhoenix have kindly donated the Firebird Quick Start Guide (author: Helen Borrie)
+to the project. It has now been converted to DocBook but needs some more updating
+to reflect the Firebird 1.5 release. See links below.
+
 <h4>Online documentation</h4>
 
 Links to the HTML documentation we have produced so far:
@@ -32,6 +38,9 @@ Links to the HTML documentation we have produced so far:
 of contents</a>
 <p>
 </li>
+
+<li><a href="/devel/doc/manual/defaulthtml/qsg.html">Firebird Quick Start
+            Guide</a> (work in progress)</li>
 <li><a href="/devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
             to Firebird Migration Guide</a></li>
 <li><a href="/devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
@@ -49,6 +58,8 @@ for Firebird Docwriters:</a>
 <p>
 And these are the PDF versions:
 <ul>
+<li><a href="/devel/doc/manual/pdf/Firebird-Quick-Start.pdf">Firebird Quick Start
+            Guide</a> (work in progress)</li>
 <li><a href="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">MS SQL
             to Firebird Migration Guide</a></li>
 <li><a href="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">Coexistence
@@ -69,6 +80,7 @@ documentation page</a>.
 
 <h4>Under development</h4>
 <ul>
+<li>Updating of Quick Start Guide</li>
 <li>Improvement of PDF rendering</li>
 <li>Additions to IB+Fb coexistence doc</li>
 <li>Reserved words list + glossary</li>
