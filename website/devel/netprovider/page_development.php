@@ -79,6 +79,8 @@ Anyway the provider could be build using a VISUAL_STUDIO define in order to incl
 that feature.
 </p>
 
+<h4>How to build the provider sources</h4>
+
 <h3>Building the sources on Windows</h3>
 <p>
 You will need a recent snapshot of <a href="http://nant.sourceforge.net">nant 0.85</a>.
