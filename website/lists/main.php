@@ -65,7 +65,9 @@ function EmitNewsgroups($descfile) {
 <tr><td colspan=3>
 <b>Many of these forums are NOT for support.  Please refer to <a href="#ibsupport
 ">firebird-support</a> for support.</b>
-<p>
+<p class="centre">
+<font color="red"><b>S M A R T &nbsp; Q U E S T I O N S</b></font><br>PLEASE READ <a href="http://www.catb.org/~esr/faqs/smart-questions.html">THIS</a> BEFORE SUBSCRIBING TO THE LISTS
+</p>
 We don't moderate the lists prescriptively but we do operate on a rule of &quot;three strikes and you're out&quot;.  Reasonable &quot;flak&quot; is acceptable but NO FLAMING, monopolisation or excessive requoting.  Please move specialised or off-topic threads into suggested other lists when requested by a moderator.
 <p>
 Many mailing lists listed here has a newsgroup mirror at <a href="#ng-atkin">Atkin server</a>, so you do not need to subscribe to high-traffic lists just to occasionally watch discussed topics. But if you want post messages to a newsgroup of mirrored mailing lists, you must be subsribed to this list (even with no-mail/web access only option), otherwise your messages doesn't pass through news/mail gate and mailing list users don't get it.
