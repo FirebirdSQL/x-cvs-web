@@ -20,7 +20,8 @@ class CgiMembersForm:
     #thisUser='firebirds@users.sourceforge.net'
     #thisUser='foundation@firebirdsql.org'
     thisUser='skywalker@users.sourceforge.net'
-    destUser='ffcommittee@lists.firebirdsql.org'
+    committeeUser='ffcommittee@lists.firebirdsql.org'
+    changeUser='changemgr@firebirdsql.org'
     #destUser='mark.odonohue@firebirdsql.org'
 
     endLine='\n'
@@ -89,7 +90,8 @@ class CgiMembersForm:
                 data = data  + self.endLine
                 data = data + self.getLogInfo()
                 print "<!-- " + data + "-->\n"
-                self.sendMail(self.destUser, "newMemberApplication", data)
+                self.sendMail(self.changeUser, "newMemberApplication", data)
+                self.sendMail(self.committeeUser, "newMemberApplication", data)
                 print """
 <center>
 <br>
