@@ -86,9 +86,10 @@ include_once("header.php");
 
 <?PHP
 
-        include_once("footer.php");
+        include_once("footer_sub.php");
 
 ?>
-
+<p>
+<b> remember to fix footer</b><p>
 </body>
 </html>

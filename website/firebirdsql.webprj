@@ -187,9 +187,6 @@
   <item url="index2.php" />
   <item url="main.php" />
   <item url="mainfile.php" />
-  <item url="news.php" />
-  <item url="newsflash.php" />
-  <item url="oldnews.php" />
   <item url="page_newsarchive.php" />
   <item url="pagetmp.php" />
   <item url="sidemenu.php" />
@@ -209,11 +206,6 @@
   <item url="foundation/FFMGMT/CVS/Entries" />
   <item url="foundation/FFMGMT/CVS/Repository" />
   <item url="foundation/FFMGMT/CVS/Root" />
-  <item url="foundation/FFMGMT/decisions/" />
-  <item url="foundation/FFMGMT/decisions/CVS/" />
-  <item url="foundation/FFMGMT/decisions/CVS/Entries" />
-  <item url="foundation/FFMGMT/decisions/CVS/Repository" />
-  <item url="foundation/FFMGMT/decisions/CVS/Root" />
   <item url="foundation/FFMGMT/ManagementCommittee.html" />
   <item url="foundation/FFSTEER/decisions/" />
   <item url="foundation/FFSTEER/decisions/CVS/" />
@@ -225,4 +217,6 @@
   <item url="foundation/FFSTEER/decisions/Result_Q0005.html" />
   <item url="foundation/FFSTEER/decisions/review.html" />
   <item url="foundation/FFSTEER/decisions/voting.html" />
-  <item url="foundation/payYourMembership.html" /> </project></webproject>
+  <item url="foundation/payYourMembership.html" />
+  <item url="lists/data/sup-ibsupport.dat" />
+  <item url="sidemenu_level1.php" /> </project></webproject>

@@ -10,12 +10,13 @@ include_once($rootDir."header.php");
 ?>
 
 
-<body bgcolor="#FFFFFF">
+<body bgcolor="#ffffff">
 
 <tr>
 <td>
 <?PHP
-	include_once($rootDir."topmenu.php");
+	#include_once($rootDir."topmenu.php");
+	include_once($rootDir."topmenu_foundationonly.php");
 ?>
 </td>
 </tr>
@@ -31,7 +32,8 @@ include_once($rootDir."header.php");
 <?PHP
 
         if (!IsSet($nosb))
-        include_once($rootDir."sidemenu.php");
+        #include_once($rootDir."sidemenu.php");
+        include_once($rootDir."sidemenu_foundationonly.php");
 
 ?>
 </td>
