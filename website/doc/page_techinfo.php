@@ -25,7 +25,7 @@ if (eregi("page_techinfo.php",$PHP_SELF)) {
 <td width="10%"><font face="Verdana">28 Kb</td>
 </tr>
 
-<tr><td colspan=4><font face="Verdana">A detailed guide how to use ZeBeDee to encrypt and compress network traffic. 
+<tr><td colspan=4><font face="Verdana">A detailed guide how to use ZeBeDee to encrypt and compress network traffic.
 ZeBeDee it’s an open source tool to establish an encrypted, compressed “tunnel” for TCP/IP or
 UDP data transfer between two systems that works in both Linux and Windows
 platforms.</td>
@@ -66,25 +66,72 @@ platforms.</td>
 </tr>
 <tr><td colspan=4><hr size=1></td></tr>
 
-<!-- ------------------------------------------------------------------- -->
+
+<!-- FIREBIRD, DREAMWEAVER, PHP + PHAKT -->
 
 <tr>
-<td  width="40%"><font face="Verdana"><b>SQL-92 Standards</b></td>
-<td width="35%"><font face="Verdana">ANSI</td>
-<td width="15%"><font face="Verdana">PDF (Acrobat)</td>
-<td width="10%"><font face="Verdana">&nbsp;</td>
+<td width="40%"><font face="Verdana"><b>Firebird, DreamWeaver, PHP 
+&amp; Phakt</b></td>
+<td width="35%"><font face="Verdana">Darcy O'Neil</font></td>
+<td width="15%"><font face="Verdana">PDF</font></td>
+<td width="10%"><font face="Verdana">261 Kb</font></td>
 </tr>
 
-<tr><td colspan=4><font face="Verdana">SQL-92 is available in Acrobat format from the American National Standards Institute for $18 US. &nbsp; 
-Not the latest and greatest, but about $1480 less than the print version, written in English, and
-machine readable!
-</td>
+<tr><td colspan=4><font face="Verdana">This document is to provide a
+thorough example of how to get Dreamweaver MX + the PHAkt PHP server
+model working with Firebird on a Linux server.</font></td>
 </tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
-<td colspan=3 align=left><font face="Verdana"><a href="http://webstore.ansi.org/ansidocstore/product.asp?sku=ANSI+X3%2E135%2D1992+%28R1998%29">ANSI Document Store</a></td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</font></td>
+<td colspan=3 align=left><font face="Verdana"><a href="/doc/contrib/DMX-PHP-FB.pdf">
+Click here</a> to view the document in your browser. To download as a
+file, right-click on link and choose 'Save As...'</font></td>
 </tr>
 <tr><td colspan=4><hr size=1></td></tr>
-<!-- ------------------------------------------------------------------- -->
+
+
+<!-- USING FIREBIRD WITH OPENOFFICE -->
+
+<tr>
+<td width="40%"><font face="Verdana"><b>Using Firebird with OpenOffice</b></td>
+<td width="35%"><font face="Verdana">Darcy O'Neil</font></td>
+<td width="15%"><font face="Verdana">PDF</font></td>
+<td width="10%"><font face="Verdana">185 Kb</font></td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">This document describes how you
+can get Firebird, JayBird (JDBC) and OpenOffice.org to work seamlessly
+together.</font></td>
+</tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</font></td>
+<td colspan=3 align=left><font face="Verdana"><a href="/doc/contrib/OOoFBvp.pdf">
+Click here</a> to view the document in your browser. To download as a
+file, right-click on link and choose 'Save As...'</font></td>
+</tr>
+<tr><td colspan=4><hr size=1></td></tr>
+
+
+
+<!-- SQL-92 STANDARDS -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>SQL-92 Standards</b></font></td>
+<td width="35%"><font face="Verdana">ANSI</font></td>
+<td width="15%"><font face="Verdana">PDF (Acrobat)</font></td>
+<td width="10%"><font face="Verdana">&nbsp;</font></td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">SQL-92 is available in Acrobat format from the American National Standards Institute for $18 US. &nbsp;
+Not the latest and greatest, but about $1480 less than the print version, written in English, and
+machine readable!</font>
+</td>
+</tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</font></td>
+<td colspan=3 align=left><font face="Verdana"><a href="http://webstore.ansi.org/ansidocstore/product.asp?sku=ANSI+X3%2E135%2D1992+%28R1998%29">ANSI Document Store</a></font></td>
+</tr>
+<tr><td colspan=4><hr size=1></td></tr>
+
+
+
 
 <!-- END OF PAGE CONTENT -->
 </table>
