@@ -2,16 +2,18 @@
 
 $list_id = "ibdi" ;
 
-$list_name = "IBDI" ;
+$list_name = "Firebird-general" ;
 
-$list_address = "IBDI<br>@yahoogroups.com" ;
+$list_address = "Firebird-general<br>@yahoogroups.com" ;
 
 $list_purpose= "
-InterBase Developer Initiative forum for discussing issues of open source, documentation, impact on current and future development and support, etc.
+General forum for discussing issues of open source, documentation,
+impact on current and future development and support, etc.
 ";
 
 $list_subscribe = "
-<a href=\"mailto:ibdi-subscribe@yahoogroups.com\">Subscribe directly</a>
+<a href=\"mailto:firebird-general-subscribe@yahoogroups.com\">Subscribe
+directly</a>
 ";
 
 $list_comment = "
@@ -20,12 +22,15 @@ This is the developer community heartland and it's watched regularly by notables
 ";
 
 $list_archive = "
-Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/ibdi\">at the list's web-site</a><br>
+Unthreaded archive available <a
+href=\"http://www.yahoogroups.com/messages/firebird-general\">at the
+list's web-site</a><br>
 Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.
 ";
 
 $list_unsubscribe = "
-<a href=\"mailto:ibdi-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+<a href=\"mailto:firebird-general-unsubscribe@yahoogroups.com\">Send
+this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
 ";
 
 ?>

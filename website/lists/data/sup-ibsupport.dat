@@ -1,19 +1,19 @@
 <?php
 
-$list_id = "ibsupport" ;
+$list_id = "fbsupport" ;
 
-$list_name = "Open ib-support" ;
+$list_name = "Open firebird-support" ;
 
-$list_address = "ib-support<br>@yahoogroups.com" ;
+$list_address = "firebird-support<br>@yahoogroups.com" ;
 
 $list_purpose = "Open user support list for release versions of Firebird and InterBase&reg; ";
 
-$list_subscribe = "<a href=\"mailto:ib-support-subscribe@yahoogroups.com\">Subscribe directly</a>";
+$list_subscribe = "<a href=\"mailto:firebird-support-subscribe@yahoogroups.com\">Subscribe directly</a>";
 
 $list_comment = "A support  list for all currently released versions of Firebird.  Help is available for InterBase users also.  This is not a Delphi list.<br>&nbsp;For advice about beta versions, please take questions to Firebird-devel.";
 
-$list_archive = "Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/ib-support\" >at the list's web-site</a><br>Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.";
+$list_archive = "Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/firebird-support\" >at the list's web-site</a><br>Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.";
 
-$list_unsubscribe = "<a href=\"mailto:ib-support-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.";
+$list_unsubscribe = "<a href=\"mailto:firebird-support-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.";
 
 ?>

@@ -63,8 +63,8 @@ function EmitNewsgroups($descfile) {
 <A href="#top"></A>
 <!-- THIS TABLE CONTAINS THE PAGE CONTENT -->
 <tr><td colspan=3>
-<b>Many of these forums are NOT for support.  Please refer to <a href="#ibsupport
-">ib-support</a> for support.</b>
+<b>Many of these forums are NOT for support.  Please refer to <a href="#fbsupport
+">firebird-support</a> for support.</b>
 <p>
 We don't moderate the lists prescriptively but we do operate on a rule of &quot;three strikes and you're out&quot;.  Reasonable &quot;flak&quot; is acceptable but NO FLAMING, monopolisation or excessive requoting.  Please move specialised or off-topic threads into suggested other lists when requested by a moderator.
 <p>
