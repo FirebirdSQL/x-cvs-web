@@ -14,9 +14,10 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   
   $title = "Firebird Documentation Project";
   $content = "
-  This Firebird's sub-project is aimed to provide you with high-quality 
-  documentation for Firebird. If you are interested in our documentation 
-  developments, visit the <A href=index.php?op=devel>Developer's corner</A>.
+  This Firebird subproject aims to provide you with high-quality
+  documentation for Firebird. If you are interested in our documentation
+  developments, visit the <A href=index.php?op=devel&sub=doc>
+  Documentation Subproject pages</A> in the Developer's corner.
   <br>";
 
   sidebox($title,$content);
