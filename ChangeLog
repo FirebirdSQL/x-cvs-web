@@ -1,0 +1,860 @@
+2003-01-31  helebor
+	* website/foundation/introMessage_es.html:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-30  helebor
+	* website/faq/q10.dat:
+	* website/faq/q11.dat:
+	* website/faq/q12.dat:
+	* website/faq/q13.dat:
+	* website/faq/q3.dat:
+	* website/faq/q5.dat:
+	* website/faq/q6.dat:
+	* website/faq/q7.dat:
+	* website/faq/q9.dat:
+		Slight tidy-up of FAQ, 30 jan 2003
+
+2003-01-28  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-20  helebor
+	* website/foundation/images/sponsors/bronze_spons.gif:
+	* website/foundation/images/sponsors/bronze_spons_txt.gif:
+	* website/foundation/images/sponsors/faw_ci_sm.gif:
+	* website/foundation/images/sponsors/gold_spons.gif:
+	* website/foundation/images/sponsors/gold_spons_txt.gif:
+	* website/foundation/images/sponsors/pcsales.gif:
+	* website/foundation/images/sponsors/pcsales_txt.gif:
+	* website/foundation/images/sponsors/silver_spons.gif:
+	* website/foundation/images/sponsors/silver_spons_txt.gif:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-01-09  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-08  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-07  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-06  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-01-04  helebor
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership_pt.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/images/pay_by_cheque.gif:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main_pt.html:
+	* website/foundation/payYourMembership.html:
+		*** empty log message ***
+
+2003-01-01  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2002-12-31  helebor
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+		Trying to fix non-display of graphics on sponsorship page
+
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2002-12-30  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2002-12-22  helebor
+	* website/foundation/applicationForMembership.html:
+		Added corporate stuff
+
+2002-12-19  helebor
+	* website/foundation/images/sponsors/warmboot.gif:
+	* website/foundation/introMessage_it.html:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2002-12-18  helebor
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2002-12-16  helebor
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/members.html:
+		Stuffed up Atkin sponsorhip/Sean's subscription
+		Fixed up Karsten's payment
+
+2002-12-13  helebor
+	* website/foundation/finance_report_AGM_1.html:
+		added membership summary
+
+	* website/foundation/introMessage_de.html:
+		version with umlauts
+
+	* website/foundation/finance_report_AGM_1.html:
+		corrected typo (Tranfers)
+
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/finance_report_AGM_1.html:
+	* website/foundation/introMessage_fr.html:
+	* website/foundation/introMessage_pt.html:
+	* website/foundation/introMessage_pt.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+	* website/foundation/finance_report_AGM_1.html:
+		Fixed error in first Atkin payment
+
+	* website/foundation/finance_report_AGM_1.html:
+		corrected USD income total
+
+	* website/foundation/FFMGMT/ManagementCommittee.html:
+		fixed up the html
+
+	* website/foundation/introMessage_de.html:
+	* website/foundation/main.html:
+		added German translation
+
+2002-12-12  skywalker
+	* website/firebirdsql.webprj:
+	* website/footer.php:
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/index.php:
+		Added web tracker and updatred link
+
+2002-12-11  skywalker
+	* website/foundation/introMessage.html:
+		change link
+
+	* website/foundation/introMessage.html:
+		Some changes to the message
+
+	* website/foundation/introMessage.html:
+		Change order of names
+
+2002-12-11  helebor
+	* website/foundation/contributions.html:
+	* website/foundation/images/sponsors/Member_logo_assoc.gif:
+	* website/foundation/images/sponsors/Member_logo_assoc.jpg:
+	* website/foundation/images/sponsors/Member_logo_full.gif:
+	* website/foundation/images/sponsors/Member_logo_full.jpg:
+	* website/foundation/images/sponsors/Member_logo_sponsor.gif:
+	* website/foundation/images/sponsors/Member_logo_sponsor.jpg:
+	* website/foundation/images/sponsors/ff_linklogo.gif:
+	* website/foundation/images/sponsors/fflogo_assoc_member.gif:
+	* website/foundation/images/sponsors/fflogo_full_member.gif:
+	* website/foundation/images/sponsors/fflogo_sponsor.gif:
+	* website/foundation/support_logos.html:
+	* website/foundation/support_logos.html:
+	* website/foundation/support_logos.html:
+		*** empty log message ***
+
+2002-12-10  skywalker
+	* website/foundation/introMessage.html:
+	* website/foundation/main.html:
+		Added intro message and link from main page
+
+2002-12-07  skywalker
+	* website/foundation/payYourMembership.html:
+		Updated so that non-recurring payments work.
+
+2002-12-07  helebor
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/contributions.html:
+	* website/foundation/members.html:
+	* website/foundation/payYourMembership.html:
+	* website/foundation/payYourMembership.html:
+	* website/foundation/rules.html:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+2002-12-05  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2002-12-04  helebor
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/header.php:
+	* website/sidemenu.php:
+		sidemenu stripped down to be just FF stuff.
+		also changed title tag on header.
+
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/main.html:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+2002-12-02  skywalker
+	* website/foundation/aboutMembership.html:
+		Fix small link error
+
+	* cgi-bin/foundation/applyForMembership:
+		script for processing membership application
+
+	* website/firebird.css:
+	* website/firebirdsql.webprj:
+	* website/foundation/FFMGMT/ManagementCommittee.html:
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/committee.html:
+	* website/header.php:
+	* website/sidemenu.php:
+	* website/topmenu.php:
+		Change links to leave only ones that exist
+		map original pages back to prime site copy
+
+	* cgi-bin/foundation/applyForMembership:
+		more debug
+
+	* website/foundation/aboutMembership.html:
+	* website/foundation/applicationForMembership.html:
+		Changed with some suggestions of Sean's
+
+	* website/foundation/applicationForMembership.html:
+		minor page tweeks
+
+	* cgi-bin/foundation/applyForMembership:
+		Further development, error checking etc.
+
+	* cgi-bin/foundation/applyForMembership:
+		another small debug change
+
+	* cgi-bin/foundation/applyForMembership:
+		further developed
+
+	* cgi-bin/foundation/applyForMembership:
+		Add debug line
+
+	* website/foundation/aboutMembership.html:
+	* website/foundation/applicationForMembership.html:
+	* website/foundation/main.html:
+		Remove old sponsorship link
+		add application for membership link.
+
+	* website/foundation/applicationForMembership.html:
+		Web page for applying for membership
+
+	* website/foundation/applicationForMembership.html:
+		Change a field
+
+2002-11-30  helebor
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2002-11-27  helebor
+	* website/foundation/certificate.html:
+	* website/foundation/images/sponsors/certificate.jpg:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/rules.html:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+2002-11-26  helebor
+	* website/foundation/images/sponsors/assoc_mem.gif:
+	* website/foundation/images/sponsors/one_time_bronze.gif:
+	* website/foundation/images/sponsors/one_time_gold.gif:
+	* website/foundation/images/sponsors/one_time_silver.gif:
+	* website/foundation/images/sponsors/yourname.gif:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+2002-11-25  skywalker
+	* website/foundation/FFMGMT/ManagementCommittee.html:
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/HowToContribute.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/applicationForMembership.txt:
+	* website/foundation/committee.html:
+	* website/foundation/contributions.html:
+	* website/foundation/images/paypal-x-click-but04.gif:
+	* website/foundation/images/paypal-x-click-but20.gif:
+	* website/foundation/images/sponsors/IBP_sponsor_1.gif:
+	* website/foundation/images/sponsors/atkin.gif:
+	* website/foundation/images/sponsors/bronze_band.gif:
+	* website/foundation/images/sponsors/gold_band.gif:
+	* website/foundation/images/sponsors/ibphoenix.jpg:
+	* website/foundation/images/sponsors/logo_upscene.gif:
+	* website/foundation/images/sponsors/silver_band.gif:
+	* website/foundation/images/sponsors/upscene.gif:
+	* website/foundation/images/sponsors/upscene_dbw_firebird.gif:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/payYourMembership.html:
+	* website/foundation/rules.html:
+	* website/foundation/sponsors.html:
+	* website/foundation/sponsorship.html:
+	* website/general/images/gallery/MS4.png:
+	* website/general/images/gallery/firebird_OS.gif:
+	* website/general/images/gallery/firebird_w_dingo.gif:
+	* website/general/images/gallery/phoenixfunky.jpg:
+	* website/general/images/gallery/vision.jpg:
+	* website/images/LogoFirebird.png:
+	* website/sidemenu.php:
+	* website/topmenu.php:
+		Updated foundation pages
+
+	* website/lists/data/fb-admin.dat:
+	* website/lists/data/fb-architect.dat:
+	* website/lists/data/fb-checkins.dat:
+	* website/lists/data/fb-devel.dat:
+	* website/lists/data/fb-doc.dat:
+	* website/lists/data/fb-java.dat:
+	* website/lists/data/fb-odbc-devel.dat:
+	* website/lists/data/fb-priorities.dat:
+	* website/lists/data/fb-test.dat:
+	* website/lists/data/fb-web.dat:
+	* website/lists/data/gen-fbtools.dat:
+	* website/lists/data/gen-ib-br.dat:
+	* website/lists/data/gen-ibdi.dat:
+	* website/lists/data/index.php:
+	* website/lists/data/ng-atkin.dat:
+	* website/lists/data/ng-borland.dat:
+	* website/lists/data/ng-cvalde.dat:
+	* website/lists/data/sup-convers.dat:
+	* website/lists/data/sup-ibo.dat:
+	* website/lists/data/sup-ibsupport.dat:
+	* website/lists/index.php:
+	* website/lists/main.php:
+	* website/lists/sidemenu.php:
+		Pavel's post php-nuke website
+
+	* website/foundation/aboutMembership.html:
+	* website/foundation/contributions.html:
+	* website/header.php:
+	* website/images/firebird.ico:
+	* website/main.php:
+		Slight changes in presentation
+
+2002-11-24  skywalker
+	* admin.php:
+	* article.php:
+	* auth.inc.php:
+	* auth.php:
+	* backend.php:
+	* banners.php:
+	* bb_smilies.php:
+	* bbcode_ref.php:
+	* categories.php:
+	* comments.php:
+	* config.php:
+	* counter.php:
+	* dhtmllib.js:
+	* download.php:
+	* download2.php:
+	* download_Milestone_Builds.php:
+	* download_Nightly_Builds.php:
+	* download_Source_Code.php:
+	* download_Stable_Builds.php:
+	* editpost.php:
+	* faq.php:
+	* footer.php:
+	* forum.php:
+	* friend.php:
+	* functions.php:
+	* header.php:
+	* index.php:
+	* links.php:
+	* mainfile.php:
+	* memberslist.php:
+	* newtopic.php:
+	* page.php:
+	* pollBooth.php:
+	* pollcomments.php:
+	* print.php:
+	* readpmsg.php:
+	* reply.php:
+	* replypmsg.php:
+	* reviews.php:
+	* scroller.js:
+	* search.php:
+	* searchbb.php:
+	* sections.php:
+	* stats.php:
+	* submit.php:
+	* top.php:
+	* topicadmin.php:
+	* topics.php:
+	* ultramode.txt:
+	* user.php:
+	* viewforum.php:
+	* viewpmsg.php:
+	* viewtopic.php:
+	* voteinclude.php:
+		Deleted older php nuke web site since it is no longer needed.
+
+	* website/changelog.txt:
+	* website/config.php:
+	* website/devel/doc/index.php:
+	* website/devel/doc/main.php:
+	* website/devel/doc/page_development.php:
+	* website/devel/doc/project.dat:
+	* website/devel/doc/sidemenu.php:
+	* website/devel/engine/index.php:
+	* website/devel/engine/main.php:
+	* website/devel/engine/page_development.php:
+	* website/devel/engine/project.dat:
+	* website/devel/engine/sidemenu.php:
+	* website/devel/index.php:
+	* website/devel/interclient/index.php:
+	* website/devel/interclient/main.php:
+	* website/devel/interclient/project.dat:
+	* website/devel/interclient/sidemenu.php:
+	* website/devel/jdbc/index.php:
+	* website/devel/jdbc/main.php:
+	* website/devel/jdbc/project.dat:
+	* website/devel/jdbc/sidemenu.php:
+	* website/devel/main.php:
+	* website/devel/odbc/index.php:
+	* website/devel/odbc/main.php:
+	* website/devel/odbc/project.dat:
+	* website/devel/odbc/sidemenu.php:
+	* website/devel/page_bugdb.php:
+	* website/devel/page_contacts.php:
+	* website/devel/page_cvs_howto.php:
+	* website/devel/qa/index.php:
+	* website/devel/qa/main.php:
+	* website/devel/qa/page_testdesign_howto.php:
+	* website/devel/qa/page_testlist.php:
+	* website/devel/qa/project.dat:
+	* website/devel/qa/sidemenu.php:
+	* website/devel/sidemenu.php:
+	* website/devel/web/index.php:
+	* website/devel/web/main.php:
+	* website/devel/web/project.dat:
+	* website/devel/web/sidemenu.php:
+	* website/doc/index.php:
+	* website/doc/main.php:
+	* website/doc/page_install.php:
+	* website/doc/page_ipl.php:
+	* website/doc/page_kbases.php:
+	* website/doc/page_sourcecode.php:
+	* website/doc/page_techinfo.php:
+	* website/doc/page_troubleshoot.php:
+	* website/doc/page_userdoc.php:
+	* website/doc/sidemenu.php:
+	* website/download.php:
+	* website/downloads/IB_Shell_Backup_Restore_Win2k.reg:
+	* website/downloads/firebird_zebedee_eng.pdf:
+	* website/downloads/index.php:
+	* website/downloads/makeibscream.pdf:
+	* website/downloads/nightly.txt:
+	* website/downloads/related.html:
+	* website/downloads/relatedProjects.html:
+	* website/downloads/relatedTools.html:
+	* website/faq/index.php:
+	* website/faq/main.php:
+	* website/faq/q1.dat:
+	* website/faq/q10.dat:
+	* website/faq/q11.dat:
+	* website/faq/q12.dat:
+	* website/faq/q13.dat:
+	* website/faq/q14.dat:
+	* website/faq/q2.dat:
+	* website/faq/q3.dat:
+	* website/faq/q4.dat:
+	* website/faq/q5.dat:
+	* website/faq/q6.dat:
+	* website/faq/q7.dat:
+	* website/faq/q8.dat:
+	* website/faq/q9.dat:
+	* website/faq/sidemenu.php:
+	* website/filelist.txt:
+	* website/files/index.php:
+	* website/files/main.php:
+	* website/files/page_fb094.php:
+	* website/files/page_fb095.php:
+	* website/files/page_fb10.php:
+	* website/files/page_fb10b2.php:
+	* website/files/page_fb1_faq.php:
+	* website/files/page_fbrc1.php:
+	* website/files/page_fbrc1_BugsClosed.php:
+	* website/files/page_fbrc1_BugsOpen.php:
+	* website/files/page_fbrc1_FeatureRequestClosed.php:
+	* website/files/page_fbrc1_FeatureRequestOpen.php:
+	* website/files/page_fbrc1_faq.php:
+	* website/files/page_fbrc2.php:
+	* website/files/page_fbrc2_faq.php:
+	* website/files/page_interclient.php:
+	* website/files/page_jcajdbc.php:
+	* website/files/sidemenu.php:
+	* website/firebird.css:
+	* website/firebird.css.x:
+	* website/firebirdsql.webprj:
+	* website/footer.php:
+	* website/footer_sub.php:
+	* website/foundation/FFSTEER/FF_SteeringCommittee.html:
+	* website/foundation/FFSTEER/FF_VotingProcedure.html:
+	* website/foundation/HowToContribute.html:
+	* website/foundation/committee.html:
+	* website/foundation/contributions.html:
+	* website/foundation/index.php:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/rules.html:
+	* website/foundation/sponsors.html:
+	* website/general/poweredByFirebird.html:
+	* website/guide/index.php:
+	* website/guide/main.php:
+	* website/guide/page_ib6_newfeatures.php:
+	* website/guide/page_ib6_overview.php:
+	* website/guide/page_ib6_techspec.php:
+	* website/guide/page_ib_casestudies.php:
+	* website/guide/page_links.php:
+	* website/guide/page_project.php:
+	* website/guide/page_rdbms.php:
+	* website/guide/sidemenu.php:
+	* website/header.php:
+	* website/history/images/annharrison.gif:
+	* website/history/images/blankpic.gif:
+	* website/history/images/calford.gif:
+	* website/history/images/claudiovalderrama.jpg:
+	* website/history/images/helenb.gif:
+	* website/history/images/icon_history.gif:
+	* website/history/images/index.php:
+	* website/history/images/jasonwharton.gif:
+	* website/history/images/mideke.gif:
+	* website/history/images/odonohue.gif:
+	* website/history/images/paulbeach.gif:
+	* website/history/images/pavelcisar.gif:
+	* website/history/images/wolf1.jpg:
+	* website/history/index.php:
+	* website/history/main.php:
+	* website/history/page_ann_1.php:
+	* website/history/page_ann_2.php:
+	* website/history/page_beginning.php:
+	* website/history/page_borland.php:
+	* website/history/page_firebird.php:
+	* website/history/page_jim_1.php:
+	* website/history/page_opensource.php:
+	* website/history/page_whoiswho.php:
+	* website/history/sidemenu.php:
+	* website/ibp_fb1_faq.html:
+	* website/images/1x1.gif:
+	* website/images/LogoMedium3.gif:
+	* website/images/TitleBlackGill.gif:
+	* website/images/TitleBlackGill2.gif:
+	* website/images/TitleBlackGill5.gif:
+	* website/images/TitleFFBlackGill2.gif:
+	* website/images/TitleFFBlackGill2.png:
+	* website/images/clearpixel.gif:
+	* website/images/cvs16b.png:
+	* website/images/docman16b.png:
+	* website/images/fb_masthead1_lge.png:
+	* website/images/fb_masthead_lge.png:
+	* website/images/fb_small_mhead.png:
+	* website/images/ff_mhead.png:
+	* website/images/ff_small_mhead.png:
+	* website/images/firebird_main_header.png:
+	* website/images/home16b.png:
+	* website/images/icon_go2.gif:
+	* website/images/icon_go2.png:
+	* website/images/index.php:
+	* website/images/ivan_prenosil.gif:
+	* website/images/mail16b.png:
+	* website/images/manual16c.png:
+	* website/images/notes16.png:
+	* website/images/opensource-75x65.png:
+	* website/images/rabbithole.bmp:
+	* website/images/rabbithole.png:
+	* website/images/sf-icon-featured_project.gif:
+	* website/images/sf-icon-foundry_member.gif:
+	* website/images/sflogo.png:
+	* website/images/smiley.gif:
+	* website/images/statistic16b.png:
+	* website/images/survey16b.png:
+	* website/images/tux.gif:
+	* website/images/valde_icon.gif:
+	* website/index.php:
+	* website/index2.php:
+	* website/main.php:
+	* website/mainfile.php:
+	* website/news.php:
+	* website/newsflash.php:
+	* website/oldnews.php:
+	* website/page_newsarchive.php:
+	* website/pagetmp.php:
+	* website/projects/index.html:
+	* website/rabbits/OdbcJdbc.stat:
+	* website/rabbits/TCS.stat:
+	* website/rabbits/alberola.dat:
+	* website/rabbits/alexpeshkoff.dat:
+	* website/rabbits/amagno.dat:
+	* website/rabbits/andreik.dat:
+	* website/rabbits/android.dat:
+	* website/rabbits/andycanfield.dat:
+	* website/rabbits/anonymouse.dat:
+	* website/rabbits/awharrison.dat:
+	* website/rabbits/bellardo.dat:
+	* website/rabbits/brakelm.dat:
+	* website/rabbits/brodsom.dat:
+	* website/rabbits/chaoticpeace.dat:
+	* website/rabbits/client-java.stat:
+	* website/rabbits/d_jencks.dat:
+	* website/rabbits/dchamberlin.dat:
+	* website/rabbits/dennisfantoni.dat:
+	* website/rabbits/dimitr.dat:
+	* website/rabbits/directrix1.dat:
+	* website/rabbits/dmavro.dat:
+	* website/rabbits/dschnepper.dat:
+	* website/rabbits/dzakharov.dat:
+	* website/rabbits/edb.dat:
+	* website/rabbits/eku.dat:
+	* website/rabbits/firebird2.stat:
+	* website/rabbits/firebirds.dat:
+	* website/rabbits/fredt.dat:
+	* website/rabbits/fsg.dat:
+	* website/rabbits/ggroube.dat:
+	* website/rabbits/gofai.dat:
+	* website/rabbits/gspeicher.dat:
+	* website/rabbits/helebor.dat:
+	* website/rabbits/ilyaverlinsky.dat:
+	* website/rabbits/index.php:
+	* website/rabbits/interbase.stat:
+	* website/rabbits/interclient.stat:
+	* website/rabbits/jalba.dat:
+	* website/rabbits/jimmhar.dat:
+	* website/rabbits/jwecker.dat:
+	* website/rabbits/kdv.dat:
+	* website/rabbits/kkuznetsov.dat:
+	* website/rabbits/kloo.dat:
+	* website/rabbits/lcarter.dat:
+	* website/rabbits/lkleiman.dat:
+	* website/rabbits/main.php:
+	* website/rabbits/manual.stat:
+	* website/rabbits/martijntonies.dat:
+	* website/rabbits/martin_bachtold.dat:
+	* website/rabbits/mggrover.dat:
+	* website/rabbits/mtaht.dat:
+	* website/rabbits/nmcc.dat:
+	* website/rabbits/patrickgriffin.dat:
+	* website/rabbits/paul_reeves.dat:
+	* website/rabbits/paulbeach.dat:
+	* website/rabbits/pcisar.dat:
+	* website/rabbits/ph4ze.dat:
+	* website/rabbits/ppetru.dat:
+	* website/rabbits/psychokiller.dat:
+	* website/rabbits/rcalco.dat:
+	* website/rabbits/rfm.dat:
+	* website/rabbits/robocop.dat:
+	* website/rabbits/rrokytskyy.dat:
+	* website/rabbits/savage.dat:
+	* website/rabbits/seanleyne.dat:
+	* website/rabbits/shanet.dat:
+	* website/rabbits/sidemenu.php:
+	* website/rabbits/skywalker.dat:
+	* website/rabbits/stryqx.dat:
+	* website/rabbits/tamlin.dat:
+	* website/rabbits/tmcsys.dat:
+	* website/rabbits/tmuetze.dat:
+	* website/rabbits/tools.stat:
+	* website/rabbits/torstenwel.dat:
+	* website/rabbits/tsarna.dat:
+	* website/rabbits/wcstom.dat:
+	* website/rabbits/web.stat:
+	* website/rabbits/wlbaker.dat:
+	* website/robots.txt:
+	* website/sidemenu.php:
+	* website/sidemenu_level1.php:
+	* website/support/bugs.html:
+	* website/survey/index.php:
+	* website/survey/main.php:
+	* website/survey/sidemenu.php:
+	* website/test_Compare_Logos.html:
+	* website/topmenu.php:
+	* website/tracker.html:
+	* website/useful/index.php:
+	* website/useful/main.php:
+	* website/useful/page_Connectivity.php:
+	* website/useful/page_alvarez.php:
+	* website/useful/page_calford_1.php:
+	* website/useful/page_deatz_udf.php:
+	* website/useful/page_geldenhuis.php:
+	* website/useful/page_ostenried_1.php:
+	* website/useful/page_ostenried_2.php:
+	* website/useful/page_schnepper.php:
+	* website/useful/page_zamana.php:
+	* website/useful/sidemenu.php:
+	* website/user/index.php:
+	* website/user/main.php:
+	* website/user/sidemenu.php:
+	* website/whosinvolved/main.php:
+		Pavel's post php-nuke website
+
+2001-09-22  pcisar
+	* article.php:
+	* comments.php:
+		Images in article index, reply to article is back
+
+2001-09-16  pcisar
+	* article.php:
+	* config.php:
+	* index.php:
+		Articles on index
+
+2001-08-07  skywalker
+	* download_Nightly_Builds.php:
+		Changed to add pointer to win32 directory
+
+2001-08-06  pcisar
+	* download2.php:
+	* download_Milestone_Builds.php:
+	* download_Nightly_Builds.php:
+	* download_Source_Code.php:
+	* download_Stable_Builds.php:
+	* page.php:
+		New download page
+
+2001-08-02  pcisar
+	* admin.php:
+	* mainfile.php:
+	* page.php:
+	* page.php:
+		new page management
+
+2001-07-31  pcisar
+	* download.php:
+		Minor adjustment to download page
+
+	* download.php:
+		Flat page for download
+
+2001-07-30  pcisar
+	* download.php:
+		M
+
+2001-05-11  pcisar
+	* mainfile.php:
+		Minor adjustment to main page
+
+2001-05-08  pcisar
+	* mainfile.php:
+		Main menu and left menu only
+
+2001-05-07  pcisar
+	* config.php:
+	* index.php:
+		New header image + minor adjustments
+
+	* config.php:
+	* index.php:
+	* mainfile.php:
+		Change in layout
+
+2001-05-06  pcisar
+	* config.php:
+		Main menu in header
+
+2001-05-03  pcisar
+	* admin.php:
+	* article.php:
+	* auth.inc.php:
+	* auth.php:
+	* backend.php:
+	* banners.php:
+	* bb_smilies.php:
+	* bbcode_ref.php:
+	* categories.php:
+	* comments.php:
+	* config.php:
+	* counter.php:
+	* dhtmllib.js:
+	* download.php:
+	* editpost.php:
+	* faq.php:
+	* footer.php:
+	* forum.php:
+	* friend.php:
+	* functions.php:
+	* header.php:
+	* index.php:
+	* links.php:
+	* mainfile.php:
+	* memberslist.php:
+	* newtopic.php:
+	* pollBooth.php:
+	* pollcomments.php:
+	* print.php:
+	* readpmsg.php:
+	* reply.php:
+	* replypmsg.php:
+	* reviews.php:
+	* scroller.js:
+	* search.php:
+	* searchbb.php:
+	* sections.php:
+	* stats.php:
+	* submit.php:
+	* top.php:
+	* topicadmin.php:
+	* topics.php:
+	* ultramode.txt:
+	* user.php:
+	* viewforum.php:
+	* viewpmsg.php:
+	* viewtopic.php:
+	* voteinclude.php:
+		Initial import of phpNuke web site for Firebird
+
