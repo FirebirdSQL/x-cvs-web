@@ -2,7 +2,7 @@
 global $admin;
 if ($index == 1) {
     echo "<td>&nbsp;</td><td valign=\"top\" width=150>";
-    bigstory();
+//    bigstory();
     pollNewest();
     loginbox();
     oldNews($storynum);
@@ -17,7 +17,7 @@ echo "
 <hr size=1>
 <center>
 This <a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;home\">Firebird/Interbase
- WebRing</a> site owned by
+ WebRing</a> site is owned by
  <a href=\"mailto:firebirds@users.sourceforge.net\">Firebird Project</a>.<br>
 [ <a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;id=22;prev5\">
 Previous 5 Sites</a> |<a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;id=22;prev\">

@@ -1,0 +1,57 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+P {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+BODY {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+TD {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+OL {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+UL {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+MENU {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+BLOCKQUOTE {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+DIV {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+TH {
+	FONT-FAMILY: Lucida,Verdana,Helvetica,Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+}
+PRE {
+	FONT-FAMILY: Courier New, Courier
+}
+CODE {
+	FONT-FAMILY: Courier New, Courier
+}
+.pre {
+	FONT-FAMILY: Courier New, Courier
+}
+.apptitle {
+	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial; TEXT-DECORATION: none
+}
+.osdn {
+	COLOR: #ffffff; FONT-FAMILY: Geneva,Arial,Verdana,Sans-Serif; FONT-SIZE: 14pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.boxtitle {
+	COLOR: #ffffff; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menu {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none; font-color: #FFFFFF
+}
+.s_menu {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 12
+}

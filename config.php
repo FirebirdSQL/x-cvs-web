@@ -75,7 +75,7 @@ $system = 0;
 ######################################################################
 
 $sitename = "Firebird Relational Database";
-$nuke_url = "http://firebird.sourceforge.net";
+$nuke_url = "http://localhost/firebird/";
 $site_logo = "firebird.gif";
 $slogan = "Database for the New Millennium";
 $startdate = "February 2001";
@@ -84,17 +84,31 @@ $anonpost = 1;
 $Default_Theme = "Firebird";
 $foot1 = "<table CELLSPACING=\"5\" border=\"0\" width=\"100%\"><tr><td align=\"left\" width=\"10%\">
 
+
+
 <a href=\"http://sourceforge.net/project/?group_id=9028\">
+
+
 
 <img src=\"http://sourceforge.net/sflogo.php?group_id=9028&type=1\" width=\"88\" height=\"31\"
 
+
+
 border=\"0\" alt=\"Firebird at SourceForge\"></a>
+
+
 
 </td><td align=\"left\" width=\"90%\"><FONT face=\"Lucida,Verdana,Helvetica,Arial\" color=\"black\" size=-2>
 
+
+
 This site and the pages contained within are Copyright © 2000, 2001, Firebird Project.<br>
 
+
+
 Firebird - Relational Database for the New Millennium.
+
+
 
 </font></td></tr></table>";
 $foot2 = "You can syndicate our news using the file <a href=backend.php>backend.php</a> or <a href=ultramode.txt>ultramode.txt</a>";
@@ -142,7 +156,7 @@ $myIP = "150.10.10.10";
 
 $backend_title = "Firebird Relational Database";
 $backend_language = "en-us";
-$backend_image = "http://firebird.sourceforge.net/images/firebird_logo.gif";
+$backend_image = "images/firebird_logo.gif";
 $backend_width = 88;
 $backend_height = 31;
 
@@ -185,7 +199,7 @@ $links_anonaddlinklock = 1;
 ######################################################################
 
 $notify = 1;
-$notify_email = "pcisar@borland.cz";
+$notify_email = "pcisar@users.sourceforge.net";
 $notify_subject = "NEWS for Firebird";
 $notify_message = "Hey! You got a new submission for your site.";
 $notify_from = "pcisar@borland.cz";
