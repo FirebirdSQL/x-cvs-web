@@ -2,7 +2,9 @@
 
 $rootDir="../";
 
+include_once($rootDir.'tf.conf.php');
 require_once($rootDir."mainfile.php");
+require_once($rootDir.'tf.func.php');
 $userid = "";
 
 include_once($rootDir."header.php");
