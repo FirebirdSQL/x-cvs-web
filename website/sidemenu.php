@@ -24,112 +24,11 @@
 <td>
 <font face="Verdana" size=1>
   <a href="<?=$fbRootDir ?>index.php" style="text-decoration:none;color:#696969;">Home</a><br>
-  <font style="text-decoration:none;color:#696969;">About</font><br>
-
-  <!--
-  <a href="<?=$rootDir ?>index.php?id=about.html" style="text-decoration:none;color:#696969;">About</a><br>
-   -->
-
-  <a href="<?=$rootDir ?>index.php?op=history" style="text-decoration:none;color:#696969;">History</a><br>
-  <a href="<?=$rootDir ?>index.php?id=devel/page_contacts.php" style="text-decoration:none;color:#696969;">Who's involved?</a><br>
-
-   <font style="text-decoration:none;color:#696969;">Feedback</font><br>
-   <font style="text-decoration:none;color:#696969;">Getting Involved</font></br>
-   <!--
-   <a href="<?=$rootDir ?>index.html" style="text-decoration:none;color:#696969;">Feedback</a><br>
-   <a href="<?=$rootDir ?>gettinginvolved.html" style="text-decoration:none;color:#696969;">Getting Involved</a></br>
-   -->
-   <a href="http://www.sourceforge.net/projects/firebird" style="text-decoration:none;color:#696969;">Sourceforge Project</a><br>
-   <a href="<?=$rootDir ?>index.php?id=newsarchive" style="text-decoration:none;color:#696969;">News</a>
-
+  
 </td></tr>
 </table>
 
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b><a href="<?=$rootDir ?>index.html" style="text-decoration:none;color:#000000;">Support/Help</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-<font face="Verdana" size=1>
-   <a href="<?=$rootDir ?>index.php?op=faq" style="text-decoration:none;color:#696969;">FAQ</a><br>
-   <a href="<?=$rootDir ?>index.php?op=useful" style="text-decoration:none;color:#696969;">HowTo Articles</a><br>
-   <a href="<?=$rootDir ?>index.php?op=lists" style="text-decoration:none;color:#696969;">Lists &amp; Newsgroups</a><br>
-   <a href="<?=$rootDir ?>index.php?op=doc" style="text-decoration:none;color:#696969;">User Documentation</a><br>
-   <a href="<?=$rootDir ?>index.php?op=doc" style="text-decoration:none;color:#696969;">Design Documentation</a><br>
 
-   <font style="text-decoration:none;color:#696969;">Commercial support</font><br>
-   <!--
-   <a href="<?=$rootDir ?>index.php?id=commercialsupport" style="text-decoration:none;color:#696969;">Commercial support</a><br>
-   -->
-   <a href="<?=$rootDir ?>index.php?id=support/bugs.html" style="text-decoration:none;color:#696969;">Bugs</a><br>
-   <!--
-   <a href="<?=$rootDir ?>index.php?id=sites" style="text-decoration:none;color:#696969;">Sites of Interest</a>
-   -->
-</td></tr>
-</table>
-
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b><a href="<?=$rootDir ?>index.php?op=files" style="text-decoration:none;color:#000000;">Downloads
-</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-<font face="Verdana" size=1>
-   <a href="<?=$rootDir ?>index.php?op=files" style="text-decoration:none;color:#696969;">Firebird</a><br>
-   <a href="<?=$rootDir ?>downloads/index.php?id=relatedTools.html" style="text-decoration:none;color:#696969;">Related tools</a><br>
-   <a href="<?=$rootDir ?>downloads/index.php?id=relatedProjects.html" style="text-decoration:none;color:#696969;">Related projects</a>
-
-</td></tr>
-</table>
-
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b>
-<font style="text-decoration:none;color:#000000;">Projects</font>
-<!--
-<a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#000000;">Projects</a>
--->
-</b></td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-<font face="Verdana" size=1>
-   <font style="text-decoration:none;color:#696969;">FirebirdSQL</font><br>
-   <font style="text-decoration:none;color:#696969;">JayBird</font><br>
-   <font style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</font><br>
-   <font style="text-decoration:none;color:#696969;">Other</font>
-<!--
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">FirebirdSQL</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Jbird</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Other</a>
--->
-</td></tr>
-</table>
-
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b>General</b></td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-<font face="Verdana" size=1>
-    <a href="<?=$rootDir ?>index.php?id=general/poweredByFirebird.html" style="text-decoration:none;color:#696969;">Powered by Firebird</a>
-
-</td></tr>
-</table>
 <table>
 <tr>
 <td colspan=2>
@@ -141,10 +40,13 @@
 <td>
 <font face="Verdana" size=1>
    <a href="<?=$rootDir ?>foundation/index.php#about" style="text-decoration:none;color:#696969;">About</a><br>
-   <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;">Membership</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;">Members</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" style="text-decoration:none;color:#696969;">Sponsors</a><br>
-   <a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;">Donate/Sponsor</a>
-
+   <a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;">Donate/Sponsor</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=rules.html" style="text-decoration:none;color:#696969;">Rules &amp; Objectives</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=aboutMembership.html" style="text-decoration:none;color:#696969;">Membership</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=certificate.html" style="text-decoration:none;color:#696969;">Certificate</a><br>
+   <a href="<?=$rootDir ?>FFSTEER/FF_SteeringCommittee.html" style="text-decoration:none;color:#696969;">Steering Group</a>
 </td></tr>
 </table>
 
