@@ -55,7 +55,7 @@ If possible, automated test systems are used to do 1),2),3) and 5) tests. 4) and
 All bugs and issues detected by QA department are tracked in some sort of Problem resolution system. This system is a crucial part of whole QA/development cycle, and any implemented QA procedure can't work successfully for long time without it. 
 <p>
 <b>How it works in Firebird project:</b><br>
-We inherited an automated test system called TCS that was released by Borland together with around 390 tests when InterBase code was released. Because TCS is hard to operate and extend, we decided to use another system called QMTest. You can lear more about QMTest and our new test suite in this <a href="index.php?op=devel&sub=qa&id=qmtest_howto">document</a>.
+We inherited an automated test system called TCS that was released by Borland together with around 390 tests when InterBase code was released. Because TCS is hard to operate and extend, we decided to use another system called QMTest. You can learn more about QMTest and our new test suite in this <a href="index.php?op=devel&sub=qa&id=qmtest_howto">document</a>.
 <p>
 Our current QA efforts in this area are focused on development of new test cases, especially on full SQL reference tests. It's a lot of work, and we'll appreciate any help, especially with correct test design which is the most time consuming part of this task. To help us, you don't need any special skills or tools, just the good will, time and a text editor. You can learn more about our requirements for new test cases in our <a href="index.php?op=devel&sub=qa&id=testdesign_howto">Test design How-To</a>.
 <p>
@@ -74,5 +74,5 @@ href="http://sourceforge.net/tracker/?group_id=9028&atid=359028">Feature request
 <p>
 Because we're not very satisfied with trackers on SourceForge, we investigate possibility to move our trackers over to <a href="http://www.atlassian.com/software/jira/">JIRA</a>.
 <p>
-Back to <A href="index.php?op=devel">Developer's Corner</A>.
+Back to <A href="index.php?op=devel&amp;sub=qa">Firebird QA</A>.
 <p>

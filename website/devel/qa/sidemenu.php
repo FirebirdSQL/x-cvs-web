@@ -11,7 +11,8 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=bugreport_howto\" title=\"How to Report Bugs Effectively\">How to Report Bugs</a>
   <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=qmtest_howto\" title=\"Firebird test suite\">Firebird test suite</a>
   <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testdesign_howto\" title=\"How to design test\">How to design new tests</a>
-  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testlist\" title=\"Tests in development\">Tests in development</a>
+  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testimplementation_howto\" title=\"How to implement test\">How to implement new tests</a>
+  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testlist\" title=\"Tests in suite\">Tests in suite</a>
   <br>";
 
   sidebox($title,$content);
