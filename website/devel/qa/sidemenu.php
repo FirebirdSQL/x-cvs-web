@@ -6,11 +6,10 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 
   $title = "Firebird QA";
   $content = "
-  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=methods\" title=\"Peer Review\">Peer Review</a>
-  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=methods#codeaudit\" title=\"Code Audit\">Code Audit</a>
-  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=methods#devtestcases\" title=\"Development Test Cases\">Development Test Cases</a>
-  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=methods#blackbox\" title=\"Automated Black-box Testing\">Automated Black-box Testing</a>
-  <p>
+  <li><a href=\"index.php?op=devel&amp;sub=qa\" title=\"Main page\">Main page</a>
+  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=methods\" title=\"Methodology and Tools used in Firebird QA\">Methodology and Tools</a>
+  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=bugreport_howto\" title=\"How to Report Bugs Effectively\">How to Report Bugs</a>
+  <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=qmtest_howto\" title=\"Firebird test suite\">Firebird test suite</a>
   <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testdesign_howto\" title=\"How to design test\">How to design new tests</a>
   <li><a href=\"index.php?op=devel&amp;sub=qa&amp;id=testlist\" title=\"Tests in development\">Tests in development</a>
   <br>";

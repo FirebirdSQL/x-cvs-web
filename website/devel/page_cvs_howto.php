@@ -28,15 +28,23 @@ Please read <a href="http://sourceforge.net/docman/?group_id=1" target="_blank" 
 <H5>List of Firebird CVS modules</H5>
 Case is significant.
 <ul>
-<li><b>interbase</b> : Firebird v1.0
-<li><b>firebird2</b> : New version of Firebird 2.x
-<li><b>interclient</b> : InterClient/InterServer
-<li><b>tools</b> : various tools
-<li><b>OdbcJdbc</b> : ODBC driver
-<li><b>Tcs</b> : test control system for Firebird RDBMS
-<li><b>client-java</b> : New type 4 JDBC driver
+<li><b>interbase</b> : Firebird 1.0
+<li><b>firebird2</b> : Firebird 1.5 and 2.x
+<li><b>OdbcJdbc</b> : Firebird ODBC driver
+<li><b>client-java</b> : JayBird - New type 4 JDBC driver for Firebird
+<li><b>interclient</b> : InterClient/InterServer (not in active develpment, see client-java)
+<li><b>NETProvider</b> : Firebird .NET Data Provider
+<li><b>Net-Provider</b> : Firebird .NET Data Provider (deprecated)
+<li><b>Benchmarks</b> : Benchmarks for Firebird
+<li><b>addons</b> : Various small utilities for Firebird, like Control Panel Applet, configManager etc.
+<li><b>qmdb</b> : test control system for Firebird RDBMS (deprecated)
+<li><b>fbtcs</b> : TCS test control system for Firebird that's still in use, but it's being replaced by QMTest suite (qmdb)
+<li><b>TCS</b> : TCS test control system for Firebird (deprecated, see fbtc)
 <li><b>manual</b> : Firebird Documentation Project files
 <li><b>web</b> : Firebird web site PHP sources
+<li><b>tools</b> : various tools we inherited with InterBase, like Marion VCS etc. (not in active development)
+<li><b>ibx</b> : InterBase eXpress for Delphi (not in active develpment)
+<li><b>ibconsole</b> : InterBase Console (not in active development)
 </ul>
 <p>
 Back to <A href=index.php?op=devel>Developer's corner</A>
