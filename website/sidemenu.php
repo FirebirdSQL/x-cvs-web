@@ -4,7 +4,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   die();
 }
 ?>
-
+<!-- START SIDEMENU CHUNK -->
 <table border="0" width="100%" cellspacing="0"><tr><td valign="top">
 <?PHP
 
@@ -83,7 +83,7 @@ else {
   $content = "
   Comments ? Suggestions ? Questions ? Feel free to ".$alice." !
   <p class=\"centre\">
-  <a href=\"http://www.opensource.org/docs/definition.php\"><img src=\"http://www.opensource.org/trademarks/opensource/web/opensource-75x65.png\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a>
+  <a href=\"http://www.opensource.org/docs/definition.php\"><img src=\"images/opensource.gif\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a>
   </p>
   <br>";
   sidebox($title,$content);
@@ -95,3 +95,4 @@ else {
 
 </td><td width="100%" valign="top">
 
+<!-- END SIDEMENU CHUNK -->
