@@ -20,7 +20,7 @@ Learn more about:
 <H4>Latest Developer Reports</H4>
 <blockquote>
 <ul>
-<li>Pavel Cisar, 2004-10-01
+<li><a href="index.php?op=devel&sub=qa&id=qaff200409">Pavel Cisar, 2004-10-01</a>
 <li><a href="index.php?op=devel&sub=qa&id=qaff200407">Pavel Cisar, 2004-07-15</a>
 <li>(others, to be retrieved from archives)
 </ul>
