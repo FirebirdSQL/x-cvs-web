@@ -43,6 +43,34 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><hr size=1></td></tr>
 
 
+<!-- FIREBIRD 1.5 ERRORCODES: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird 1.5 Error Codes</b></td>
+<td width="35%"><font face="Verdana">Helen Borrie</td>
+<td width="15%"><font face="Verdana">PDF</td>
+<td width="10%"><font face="Verdana">85 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">Full listing of SQLCODES, GDSCODES, Symbols and Messages, extracted from msg.gdb for use in &quot;The Firebird Book&quot;.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="doc/contrib/fb_1_5_errorcodes.pdf">Right-click to download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
 <!-- FIREBIRD 1.0 QUICKSTART GUIDE: -->
 
 <tr>
