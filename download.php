@@ -320,12 +320,8 @@ function listdownloads ($dcategory, $sortby, $sortorder) {
    echo $alldivs;
 }
 
-function main() {
-  global $PHP_SELF, $query, $min, $sortbyname, $dcategory, $sortby, $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sortorder, $sitename;
-  include("header.php");
-  callscript();
-  OpenTable3();
-  echo "<center><b><font size=2>$sitename ".translate("Download Section")."</font></b></center>";
+function preface() {
+  global $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sitename;
 ?>
 <font color="#e13601" size="+1"><br>
 Download Options</font>
@@ -375,11 +371,110 @@ download site <a href="http://sourceforge.net/project/showfiles.php?group_id=902
 here</a>.
 </p>
 <?php
-  CloseTable();
+}
+
+function list_header() {
+    global $textcolor2, $sortby, $PHP_SELF, $bgcolor4;
+    echo "<font size=2 color=$textcolor2>
+          <center><b>".translate("Info")."</b></center>
+          </font></td><td bgcolor=$bgcolor4>";
+#        echo "<font size=2 color=$textcolor2><b><center>";
+        echo "<font size=\"2\">".translate("Name")."</font>";
+        echo "</center></b></font></td><td bgcolor=$bgcolor4><font size=2 color=$textcolor2><b><center>";
+        echo "<font size=\"2\">".translate("Version")."</font>";
+      	echo "</center></b></font></td><td bgcolor=$bgcolor4><font size=2 color=$textcolor2><b><center>";
+        echo "<font size=\"2\">".translate("Size")."</font>";
+        echo "</center></b></font></td><td bgcolor=$bgcolor4><font size=2 color=$textcolor2><b><center>";
+        echo "<font size=\"2\">".translate("Date")."</font>";
+        echo "</center></b></font></td></tr>";
+}
+
+function emit_files ($dcategory) {
+  global $PHP_SELF, $bgcolor1, $bgcolor2, $bgcolor3, $bgcolor4, $textcolor1, $textcolor2, $ipp, $page;
+  $alldivs = "";
+  if ($dcategory == "") { $dcategory = "All"; }
+  echo "<table border=0 width=100%><tr><td bgcolor=$bgcolor4>";
+  list_header();
+  if ($dcategory=="All") {
+    $sql="SELECT * FROM downloads";
+  } else {
+    $sql="SELECT * FROM downloads WHERE dcategory='$dcategory' ";
+  }
+  $result = mysql_query($sql);
+  while(list($did, $dcounter, $durl, $dfilename, $dfilesize, $ddate, $dweb, $duser, $dver, $dcat, $ddescription, $dperm) = mysql_fetch_row($result)) {
+	echo "<tr><td>";
+        $tmpstr = popuploader($did, $ddescription, $dcounter, $dfilename);
+        echo"</td><td><font size=2>
+             <a href=\"$PHP_SELF?op=mydown&did=$did\">$dfilename</a>
+             </td>
+             <td valign=\"bottom\" align=center><font size=2>
+                $dver
+    			   </td>
+             <td valign=\"bottom\" align=center><font size=2>
+                " . PrettySize($dfilesize) . "
+             </td>
+             <td valign=\"bottom\" align=center><font size=2>
+               $ddate
+     			   </td>";
+        if ($a) {
+          $a = 0;
+        } else {
+          $a = 1;
+        }
+      $alldivs .= $tmpstr;
+   }
+   echo "</td></tr></table>";
+   $dcategory = urlencode($dcategory);
+   if ($pages > 1) {
+      echo "<center>\n";
+      $pcnt=1;
+      echo "<br><center><hr noshade>";
+      echo "<table cellpadding=5 cellspacing=0 border=0><tr>";
+      if ($page > 1) {
+          echo "<td align=center><b><a href=\"$PHP_SELF?dcategory=$dcategory&sortby=$sortby&sortorder=$sortorder&page=" . ($page-1) . "\"><img src=\"images/download/left.gif\" Alt=\"Previous Page\" border=0></a></b></td>";
+      }
+      while($pcnt < $page) {
+         echo "<td align=center><b>[ <a href=\"$PHP_SELF?dcategory=$dcategory&sortby=$sortby&sortorder=$sortorder&page=$pcnt\">$pcnt</a> ]</b></td>";
+         $pcnt++;
+      }
+      echo "<td align=center><b>[ $page ]</td>";
+      $pcnt++;
+      while($pcnt <= $pages) {
+         echo "<td align=center><b>[ <a href=\"$PHP_SELF?dcategory=$dcategory&sortby=$sortby&sortorder=$sortorder&page=$pcnt\">$pcnt</a> ]</b></td>";
+         $pcnt++;
+      }
+      if ($page < $pages) {
+          echo "<td align=center><b><a href=\"$PHP_SELF?dcategory=$dcategory&sortby=$sortby&sortorder=$sortorder&page=" . ($page+1) . "\"><img src=\"images/download/right.gif\" Alt=\"Next Page\" border=0></a></b></td>\n";
+      }
+      echo "</tr></table>";
+   }
+   echo "<p>";
+   echo $alldivs;
+}
+
+function emit_sections() {
+  global $sortby, $PHP_SELF, $dcategory;
+  $cate = $dcategory;
+  $result = mysql_query("select distinct dcategory from downloads group by dcategory order by dcategory desc");
+  while (list($category) = mysql_fetch_row($result)) {
+  	echo "<b>$category </b><br>\n";
+  	emit_files($category);
+  }
+}
+
+function main() {
+  global $PHP_SELF, $query, $min, $sortbyname, $dcategory, $sortby, $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sortorder, $sitename;
+  include("header.php");
+  callscript();
+  OpenTable3();
+  echo "<center><b><font size=2>$sitename ".translate("Download Section")."</font></b></center>";
+  preface();
   echo "<br>";
   if ($dcategory == "") { $dcategory = "Stable Builds";}
-  tlist();
-  listdownloads($dcategory, $sortby, $sortorder);
+#  tlist();
+#  listdownloads($dcategory, $sortby, $sortorder);
+  emit_sections();
+  CloseTable();
   include("footer.php");
 }
 
