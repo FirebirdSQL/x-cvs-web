@@ -15,7 +15,7 @@ if (eregi("page_bugdb.php",$PHP_SELF)) {
 <a href="http://prdownloads.sourceforge.net/firebird/FirebirdSQL-1.5.0JDK_1.3.zip?download">
 Jaybird for JDK 1.3</a> (.zip) (2.1mb) <p>
 <li>29th Aug 2004
-<a href="loads.sourceforge.net/firebird/FirebirdSQL-1.5.0JDK_1.4.zip?download">Jaybird for
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdSQL-1.5.0JDK_1.4.zip?download">Jaybird for
 JDK 1.4</a> (.zip) (2.15mb)
 </ul>
 
