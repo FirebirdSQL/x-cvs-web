@@ -20,6 +20,7 @@ function translate($phrase) {
 	case "datestring":		$tmp = "%A, %B %d @ %T %Z"; break;
 	case "linksdatestring":		$tmp = "%d-%b-%Y"; break;
 	case "datestring2":		$tmp = "%A, %B %d"; break;
+	case "datestring3":		$tmp = "%B %d"; break;
 	default: 			$tmp = "$phrase"; break;
     
     }
