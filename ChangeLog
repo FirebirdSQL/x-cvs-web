@@ -1,3 +1,60 @@
+2003-02-28  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-26  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-23  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-22  helebor
+	* website/lists/data/fb-architect.dat:
+	* website/lists/data/fb-devel.dat:
+	* website/lists/data/sup-ibsupport.dat:
+		*** empty log message ***
+
+2003-02-20  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-19  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-17  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-16  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-15  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/payYourMembership.html:
+		*** empty log message ***
+
+2003-02-12  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-02-11  skywalker
+	* website/foundation/FFMGMT/ManagementCommittee.html:
+		enabled link to votes
+
+2003-02-05  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
 2003-01-31  helebor
 	* website/foundation/introMessage_es.html:
 	* website/foundation/main.html:
@@ -156,16 +213,6 @@
 	* website/foundation/index.php:
 		Added web tracker and updatred link
 
-2002-12-11  skywalker
-	* website/foundation/introMessage.html:
-		change link
-
-	* website/foundation/introMessage.html:
-		Some changes to the message
-
-	* website/foundation/introMessage.html:
-		Change order of names
-
 2002-12-11  helebor
 	* website/foundation/contributions.html:
 	* website/foundation/images/sponsors/Member_logo_assoc.gif:
@@ -183,14 +230,20 @@
 	* website/foundation/support_logos.html:
 		*** empty log message ***
 
+2002-12-11  skywalker
+	* website/foundation/introMessage.html:
+		change link
+
+	* website/foundation/introMessage.html:
+		Some changes to the message
+
+	* website/foundation/introMessage.html:
+		Change order of names
+
 2002-12-10  skywalker
 	* website/foundation/introMessage.html:
 	* website/foundation/main.html:
 		Added intro message and link from main page
-
-2002-12-07  skywalker
-	* website/foundation/payYourMembership.html:
-		Updated so that non-recurring payments work.
 
 2002-12-07  helebor
 	* website/foundation/applicationForMembership.html:
@@ -202,6 +255,10 @@
 	* website/sidemenu.php:
 	* website/sidemenu.php:
 		*** empty log message ***
+
+2002-12-07  skywalker
+	* website/foundation/payYourMembership.html:
+		Updated so that non-recurring payments work.
 
 2002-12-05  helebor
 	* website/foundation/members.html:
