@@ -135,7 +135,7 @@ function GraphicAdmin($hlpfile) {
 	    adminmenu("admin.php?op=hreferer", "HTTP Referers", "referer.gif");
 	}
 	if (($radminsuper==1) OR ($radminsection==1)) {
-	    adminmenu("admin.php?op=sections", "Sections Manager", "sections.gif");
+	    adminmenu("admin.php?op=sections", "Page Manager", "sections.gif");
 	}
 	if (($radminsuper==1) OR ($radminlink==1)) {
 	    adminmenu("admin.php?op=links", "Web Links", "links.gif");
@@ -904,41 +904,41 @@ if($admintest) {
 			break;
 		
 		case "sections":
-			include("admin/sections.php");
+			include("admin/pages.php");
 			break;
 
 		case "sectionedit":
-			include("admin/sections.php");
+			include("admin/pages.php");
 			break;
 
 		case "sectionmake":
-			include("admin/sections.php");
+			include("admin/pages.php");
 			break;
 
 		case "sectiondelete":
-			include("admin/sections.php");
+			include("admin/pages.php");
 			break;
 
 		case "sectionchange":
-			include("admin/sections.php");
+			include("admin/pages.php");
 			break;
 
-		case "secarticleadd":
-			include("admin/sections.php");
-			break;
-		
-		case "secartedit":
-			include("admin/sections.php");
+		case "secpageedit":
+			include("admin/pages.php");
 			break;
 			
-		case "secartchange":
-			include("admin/sections.php");
+		case "secpagechange":
+			include("admin/pages.php");
 			break;
 		
-		case "secartdelete":
-			include("admin/sections.php");
+		case "secpagedelete":
+			include("admin/pages.php");
 			break;
 			
+		case "secpageadd":
+			include("admin/pages.php");
+			break;
+		
 		case "rblocks":
 			include("admin/rightblocks.php");
 			break;

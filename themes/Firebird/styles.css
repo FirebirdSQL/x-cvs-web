@@ -29,7 +29,7 @@ TH {
 	FONT-FAMILY: Lucida,Verdana,Helvetica,Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
 }
 A {
-	COLOR: #000000; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
+	COLOR: #0000FF; FONT-FAMILY: Lucida,Verdana,Helvetica,Arial
 }
 PRE {
 	FONT-FAMILY: Courier New, Courier
@@ -54,4 +54,7 @@ CODE {
 }
 .s_menu {
 	FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 12; COLOR: #000000
+}
+.boxlink {
+	TEXT-DECORATION: none; font-size: 12; COLOR: #000000
 }

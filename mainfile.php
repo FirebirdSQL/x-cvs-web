@@ -456,15 +456,15 @@ function adminblock() {
     $title = "".translate("Waiting Content")."";
     $result = mysql_query("select * from queue");
     $num = mysql_num_rows($result);
-    $content = "<li><a href=\"admin.php?op=submissions\">".translate("Submissions")."</a>: $num";
+    $content = "<li><a class=boxlink href=\"admin.php?op=submissions\">".translate("Submissions")."</a>: $num";
 
     $result = mysql_query("select * from reviews_add");
     $num = mysql_num_rows($result);
-    $content .= "<li><a href=\"admin.php?op=reviews\">".translate("Waiting Reviews")."</a>: $num";
+    $content .= "<li><a class=boxlink href=\"admin.php?op=reviews\">".translate("Waiting Reviews")."</a>: $num";
     
     $result = mysql_query("select * from links_newlink");
     $num = mysql_num_rows($result);
-    $content .= "<li><a href=\"admin.php?op=links\">".translate("Waiting Links")."</a>: $num";
+    $content .= "<li><a class=boxlink href=\"admin.php?op=links\">".translate("Waiting Links")."</a>: $num";
     
     themesidebox($title, $content);
     }
@@ -558,7 +558,7 @@ function pollMain($pollID) {
 	$result = mysql_query("SELECT SUM(optionCount) AS SUM FROM poll_data WHERE pollID=$pollID");
 	$sum = (int)mysql_result($result, 0, "SUM");
 	
-	$boxContent .= "<a href=\"pollBooth.php?op=results&pollID=$pollID&mode=$cookie[4]&order=$cookie[5]&thold=$cookie[6]\"><img src=$uimages/result.gif border=0></a></td></tr></table></form><font size=1><b><a href=\"pollBooth.php\">".translate("Past Surveys")."</a></b></font><br>";
+	$boxContent .= "<a href=\"pollBooth.php?op=results&pollID=$pollID&mode=$cookie[4]&order=$cookie[5]&thold=$cookie[6]\"><img src=$uimages/result.gif border=0></a></td></tr></table></form><font size=1><b><a class=boxlink href=\"pollBooth.php\">".translate("Past Surveys")."</a></b></font><br>";
 	if ($pollcomm) {
 	    list($numcom) = mysql_fetch_row(mysql_query("select count(*) from pollcomments where pollID=$pollID"));
 	    $boxContent .= "<br>".translate("Votes: ")."<b>$sum</b> | ".translate("comments:")."  <b>$numcom</b>\n";
@@ -791,9 +791,9 @@ function online() {
 	$content .= "<br>".translate("You are logged as")." <b>$username</b>.<br>";
 	$result = mysql_query("select uid from users where uname='$username'");
 	list($uid) = mysql_fetch_row($result);
-	$result2 = mysql_query("select to_userid from priv_msgs where to_userid='$uid'");
-	$numrow = mysql_num_rows($result2);
-	$content .= "".translate("You have <a href=\"viewpmsg.php\"><b>$numrow</b></a> private message(s).")."";
+#	$result2 = mysql_query("select to_userid from priv_msgs where to_userid='$uid'");
+#	$numrow = mysql_num_rows($result2);
+#	$content .= "".translate("You have <a href=\"viewpmsg.php\"><b>$numrow</b></a> private message(s).")."";
     } else {
 	$content .= "<br>".translate("You are Anonymous user. You can register for free by clicking <a href=\"user.php\">here</a>.")."</center>";
     }
