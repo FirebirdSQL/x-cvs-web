@@ -14,7 +14,7 @@ $leaders = "carlosga_fb" ;
 
 # lists - List of mailing lists (.dat file in lists/data) separated by colon
 
-$lists = "fb-devel" ;
+$lists = "fb-dotnet-provider" ;
 
 ?>
 
