@@ -1,0 +1,112 @@
+txtForum 0.7.x template Howto
+_______________________________________________________________
+
+Take a look with your fav failmanager some template dir, order 
+files by type and toggle Detail view (to view whole filename). 
+
+Its simple tip but helps much!
+_______________________________________________________________
+
+You may change ALL TEMPLATES but DONT REMOVE FORMELEMENTS NAMES
+name="f[something]" and KEEP TEMPLATE VARIABLES, if needed, 
+too: "{$smth}".
+_______________________________________________________________
+
+In every template is available such variables:
+
++ {$PHP_SELF} - current file path (ex "/my/forum/forum.php")
++ {$t[board_name]} - your site name, default nameless board
++ {$t[forum_version]} - 0.7.0 or something similar
++ {$t[login_bar]} - login boxes/logged in texts (see 
+  form_login.htm & form_logged_in.htm)
++ {$t[navigation_linkbar']} - Forums->Cat->Topic...
++ {$t[template_path]} - current tpl path (ex "./tf.tpl/default/")
++ {$l[]} - language strings array (ex. look ./tf.lang/en.php)
+_______________________________________________________________
+
+CSS file shoud be with name "style.css" or with same name as 
+template (and of course in template directory OR same dir with
+forum.php).
+_______________________________________________________________
+
+Favourite icon (little icon before Url in location bar) are 
+seeked from such directories:
+
+	* /tf.tpl/templatename/favicon.ico
+	* /tf.tpl/templatename/img/favicon.ico
+	* /tf.img/favicon.ico
+_______________________________________________________________
+
+Every page starts with "header.htm" and ends with "footer.htm".
+_______________________________________________________________
+
+Forum first page (categories list) is made from 2 template:
+
++ categories_page.htm
++ categories_row.htm
+
+First one contains categories general design (table start and end), 
+last rows with forum name, descripion and postings data.
+_______________________________________________________________
+
+Next page (topics list) is made mainly with 3 files:
+
++ topics_page.htm
++ topics_page_row.htm
+
+and error message page:
+
++ topics_page_error.htm
+
+There are some more files but theses are for admin modify form
+elements etc.
+_______________________________________________________________
+
+Next page where are postings (contains all postings from some 
+thread). All templates starts with
+
++ postings_*
+
+There are only two files for main postings design:
+
++ postings_page.htm -- main postings page design
++ postings_page_row.htm -- one row of postings table
+
+And there are more templates for (admin) links etc, but they 
+arent very important.
+_______________________________________________________________
+
+New message/reply/modify form is made from two temlate:
+
++ form_posting.htm -- main part
++ form_posting_userdata.htm -- for not users (name/email)
+_______________________________________________________________
+
+Users adding / Profile changing templates are:
+
++ form_profile.htm
++ form_profile_name_0.htm
++ form_profile_name_1.htm
+
+First is main file, others are for user name: first is where 
+is possible change name (textinput, for user registrering)
+second (_name_1.htm) contains only user name.
+_______________________________________________________________
+
+Info page about some user:
+
++ viewprofile.htm
+_______________________________________________________________
+
+Memberslist:
+
++ members_page.htm
++ members_row.htm
+_______________________________________________________________
+
+Online users:
+
++ online_users.htm
+_______________________________________________________________
+
+Good luck!

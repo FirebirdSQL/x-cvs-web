@@ -1,0 +1,8 @@
+Firebird Project Development News··1·1·0·1·······0···
+Firebird Core Engine··2·1·0·1·······0···
+Firebird Documentation··3·1·1·1·······0···
+JayBird··4·1·0·1··········
+Firebird .NET provider··5·1·1·1··········
+Firebird ODBC driver··6·1·1·1··········
+Firebird QA··7·1·1·1··········
+Firebird Website··8·1·1·1··········

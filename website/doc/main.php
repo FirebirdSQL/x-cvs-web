@@ -52,7 +52,7 @@ if (eregi("main.php",$PHP_SELF)) {
 <td width=21 valign=bottom><a href="http://www.ibphoenix.com/" ><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
 <td width="45%" valign=middle>IBPhoenix</td>
 <td width=10><img src="images/clearpixel.gif" width=10 height=10 border=0></td>
-<td width=21 valign=bottom><a href="http://www.cvalde.com/" ><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
+<td width=21 valign=bottom><a href="http://www.cvalde.net/" ><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
 <td width="45%" valign=middle>Claudio Valderrama's resource site</td>
 </tr>
 <!-- ------------------------------------------------------- -->

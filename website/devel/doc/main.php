@@ -29,21 +29,21 @@ list</a>.
 
 Links to the documentation we have produced so far:
 <ul>
-<li><a href="/devel/doc/manual/defaulthtml/index.html">Overall table
+<li><a href="devel/doc/manual/defaulthtml/index.html">Overall table
 of contents</a>
 <p>
 </li>
-<li><a href="/devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
+<li><a href="devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
             to Firebird Migration Guide</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
+<li><a href="devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
              of Firebird 1.5 and InterBase</a>
 <p>
 </li>
-<li><a href="/devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
+<li><a href="devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
 for Firebird Docwriters:</a>
 <ul>
-<li><a href="/devel/doc/manual/defaulthtml/docbuildhowto.html">Docbuilding Howto</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/docwritehowto.html">Docwriting Howto</a></li>
+<li><a href="devel/doc/manual/defaulthtml/docbuildhowto.html">Docbuilding Howto</a></li>
+<li><a href="devel/doc/manual/defaulthtml/docwritehowto.html">Docwriting Howto</a></li>
 </ul
 </li>
 </ul>

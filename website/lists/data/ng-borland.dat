@@ -4,7 +4,7 @@ $ng_id = "ng-borland" ;
 
 $ng_name = "Borland Forums" ;
 
-$ng_address = "<a href=\"news://forums.inprise.com\">news://forums.inprise.com</a>" ;
+$ng_address = "<a href=\"news://forums.borland.com\">news://forums.borland.com</a>" ;
 
 $ng_description = "
 Borland runs a number of public InterBase newsgroups in the borland.public.interbase section of its news server.

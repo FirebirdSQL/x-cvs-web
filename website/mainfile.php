@@ -261,26 +261,26 @@ function filter_text($Message, $strip="") {
 function sidebox($title, $content) {
 global $textcolor1, $textcolor2, $bgcolor1;
 ?>
-<table border=0 cellspacing=0 cellpadding=0 width=200>
+<table border="0" cellspacing="0" cellpadding="0" width="200">
 <tr><td>
-  <table width=100% border=0 cellspacing=0 cellpadding=0>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-  <td bgcolor=<?php echo"$bgcolor1"; ?> align=left>
-  <font color="<?php echo $textcolor1 ?>"><b><?php echo"$title"; ?></b>
+  <td bgcolor="<?php echo"$bgcolor1"; ?>" align="left">
+  <font color="<?php echo $textcolor1 ?>"><b><?php echo"$title"; ?></b></font>
   </td>
-<!--   <td valign=top bgcolor="<?php echo $bgcolor1 ?>" width=2><img alt src=images/1x1.gif width=1></td> -->
+<!--   <td valign=top bgcolor="<?php echo $bgcolor1 ?>" width=2><img alt="" src=images/1x1.gif width=1></td> -->
   </tr>
   </table>
   <table border="0" cellPadding="0" cellSpacing="0" width="100%">
     <tr bgColor="<?php echo $textcolor1 ?>">
-    <td><img alt height="2" src="images/1x1.gif" width="1"></td>
+    <td><img alt="" height="2" src="images/1x1.gif" width="1"></td>
     </tr>
   </table>
-  <table border=0 cellspacing=0 cellpadding=0 width=200 bgcolor=000000>
-  <tr><td class=normal bgcolor=<?php echo"$bgcolor1"; ?> align=left>
+  <table border="0" cellspacing="0" cellpadding="0" width="200" bgcolor="#000000">
+  <tr><td class="normal" bgcolor="<?php echo"$bgcolor1"; ?>" align="left">
     <br><?php echo"$content"; ?><br>
   </td>
-<!--   <td valign=top bgcolor="<?php echo $bgcolor1 ?>" width=2><img alt src=images/1x1.gif width=1></td> -->
+<!--   <td valign=top bgcolor="<?php echo $bgcolor1 ?>" width=2><img alt="" src=images/1x1.gif width=1></td> -->
   </tr></table>
 </td>
 </tr></table>   
@@ -303,7 +303,7 @@ if ("$title" != "") { ?>
 </table>
 <table border="0" cellPadding="0" cellSpacing="0" width="100%">
   <tr bgColor="#000000">
-    <td><img alt height="2" src="images/1x1.gif" width="1"></td>
+    <td><img alt="" height="2" src="images/1x1.gif" width="1"></td>
   </tr>
 </table>
 <?php

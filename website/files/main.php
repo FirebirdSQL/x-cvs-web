@@ -15,7 +15,7 @@ The classic architecture allows for programs to directly open the database file,
 <b>Super</b><br>
 The super server architecture provides a server process, and client process cannot directly open the database file and all SQL requests are done via the server using a socket. The super server makes use of lightweight theads to process the requests.
 <p>
-For more technical details and information about differences between Classic and SuperServer, please refer to <A href=http://www.ibphoenix.com/ibp_ss_vs_classic.html>this article</a> published by IBPhoenix.
+For more technical details and information about differences between Classic and SuperServer, please refer to <A href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_ss_vs_classic">this article</a> published by IBPhoenix.
 <H4>Supported platforms</H4>
 Currently our <b>main supported platforms</b> are 32-bit <b>Windows</b>, <b>Linux</b> (i386), <b>Solaris</b> (Sparc), <b>HP-UX</b> (i386) and <b>MacOS X</b>. Main development is done on Windows and Linux, so all new releases are usually offered first for these platforms, followed by other platforms after few days (or weeks).
 <p>

@@ -357,6 +357,6 @@ InterBase by contributing fixes and extensions to any of those products. Go to:
 </P>
 <P><B>IBPHOENIX</B></P>
 <P>IBPhoenix offers a variety of support, consulting, and training packages. Go
-to <A HREF="hrrp://www.ibphoenix.com/ibp_services.html">IBPhoenix site</A> for more details.</P>
+to <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_services">IBPhoenix site</A> for more details.</P>
 <p>
 Back to <A href=index.php?op=guide&amp;id=rdbms>Guide to Firebird RDBMS</A>

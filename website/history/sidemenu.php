@@ -15,7 +15,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   <b>Appendix:</b>
   <p>
   <li><A href=\"index.php?op=history&amp;id=whoiswho\">Who is Who</A>
-  <li><A href=\"http://www.cvalde.com/IbRoadmap.htm\">InterBase Roadmap</A>
+  <li><A href=\"http://www.cvalde.net/IbRoadmap.htm\">InterBase Roadmap</A>
   <br>";
 
   sidebox($title,$content);

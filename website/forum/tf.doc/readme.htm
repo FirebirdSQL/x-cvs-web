@@ -1,0 +1,168 @@
+<pre>_____________________________________________
+
+txtForum 0.7.1 (21.07.2003)
+(C) [GPL] 2001-2003 Lauri Kasvandik (Estonia)
+_____________________________________________
+
+Contents
+========
+1. Features
+2. Installing
+3. Upgrading
+4. Tips
+5. Donating
+6. Contact
+
+
+1. Features
+===========
+
++ works with plain text files in PHP limited version [Safe Mode]
+  (works if register_globals=on and when register_globals=off
+  in server configuration, see Tips).
++ categories: if there are defined only one category then forum 
+  shows automatically postings from this category, else if there 
+  are more categories then shows categories list.
++ flexible users system: administrator, moderator, user
++ template driven - design changing is very easy, users can change
+  own default template on the fly
++ admin interface for deleting, modifing and moving topics to
+  another category. Forum settings (board name, language, template) & 
+  categories settings are changeable via webinterface. Admin can 
+  lock/unlock threads and make they sticky/unsticky. There are feature
+  to make backup from postings & settings either tar or gzip format.
++ moderators can move, modify and delete all postings
++ users can delete and modify own postings
++ multilingual, users can choose own default language on the fly
++ BBCode
++ smileys & posting icons
++ all email addresses on board are automatically "crypted",
+  so they are harder find by spamspiders
++ online users counting (how many guests and how many reg. users)
++ and more!
+
+
+2. Installing
+-------------
+
+0. Unpack txtforum-xxx.zip somewhere
+1. Upload files to PHP 4.2+ powered webserver
+2. CHMOD data directory (default "./tf.data/") 777
+3. Go to forum.php, create admin account and define categorie(s).
+4. That's all!
+
+You can dowload additional templates for txtforum from 
+<a href="http://zone.ee/txtforum/download-addons.php">zone.ee/txtforum/download-addons.php</a> and language-files from 
+<a href="http://zone.ee/txtforum/download-addons.php#lang">zone.ee/txtforum/download-addons.php#lang</a>
+
+* You can change filepermissions (CHMOD) with ftp-client (usually right 
+mouseclick on file/directory and from menu choose CHMOD) or with Internet
+Explorer (type in location bar ftp://ftpuser:password@yourserver.net right 
+click on file / directory and from menu choose Properties and mark all 
+checkboxes (its permissions 777) or only reading/writing one's (666).
+
+
+
+
+
+
+3. Upgrading
+============
+
+If You have used txtForum 0.6.x then there are feature to upgrade 0.6.x 
+postings to 0.7.x format. Simply login as administrator, go to 
+Administrator Panel and choose Upgrade. Then You should choose category, 
+where postings copy and click Submit. This copyes postings and users data 
+over.
+
+4. Tips
+=======
+
+* If forum dosen't works correctly, then maybe its caused thats 
+  register_globals = off in server configuarion (php.ini). To fix this and put 
+  it work, open tf.actions.php and almost in beginning of file is such line:
+
+	#register_globals();
+
+  remove '#' mark at the beginning of line and forum should work again!
+
+* Does your server support GetImageSize() function for remote files?
+  If supports, then you should change 'get_img_size' to true in tf.conf.php,
+  so users can choose avatars from own homepages for example. Default value
+  is false and users can choose avatars from local avatars directory 
+  (./tf.img/avatars/ -- of course, there You may add more avatars).
+
+* When You add or modify category there are options to set that only 
+  registrered users can read or post new messages. There are more one option
+  were only Admin can start new thread in some category.
+
+* Is possible to add new moderator: login as administrator and goto memberslist
+  (forum.php?action=members), choose user and select usergroup from listbox.
+
+* If You wish to add into some other page of Your webpage subjects of last 
+  topics from forum then add theses lines to Your page:
+
+	&lt;?php
+		include('tf.func.php');
+		print last_postings(10);
+	?&gt;
+
+* There are function for repairing damaged categories file - Admin Control 
+  Panel -> Categories settings -> Repair Categories File (this removes 
+  unnecessaries lines and calculates correct postings/topics number).
+
+* There are much options which to change in tf.conf.php (file paths,
+  sessions expiry, avatar img types & max sizes, how many topics 
+  showed per page etc).
+
+* If You wish to add smileys then simply copy they in to ./tf.img/smileys
+  directory. Forum finds they automatically.
+
+* Default values for user statuses (depending posted messages) are only available
+  in english (because isn't possible to use variables in array...). But You may
+  change/translate they: open tf.conf.php and almost in end of file is multidimension
+  array "$poster_status", which contains postings intervals and statuses. You may
+  even add or remove elements (forum finds they automatically).
+
+* If you wish to modify default smileys then open tf.conf.php and seek for
+  '$static_smileys'. This is array which contains emoticons ";-)" with they 
+  image equivalents ("wink.gif" for example). Of course, you may simply copy
+  theses images over with same name from ./tf.img/smileys directory.
+
+* If You wish to add topic icons then simply copy they in to ./tf.img/topic_icons
+  directory. Forum finds they automatically.
+
+* Forum compares unregistrered user browser default language with available langfiles
+  in ./tf.lang/ directory and if browser default language = any available langfile
+  then loads first one. If you don't want this comparing change 
+  check_default_language = false in tf.conf.php.
+
+* For info about templates see ./tf.doc/<a href="template_howto.txt">template_howto.txt</a>
+
+* File ./tf.doc/<a href="tech.doc.txt">tech.doc.txt</a> contains info about all 
+  txtForum files (usersdata, postings, headers etc) formats.
+
+5. Donating
+-----------
+
+If You wish to donate txtForum developing then send me some AUG (E-gold gram[s]).
+E-Gold is worldwide electronic money, backed with real gold, 1 gold gram 
+is worth ca 10 € or 10 $.
+
+To donate:
++  open E-gold account at <a href="https://www.e-gold.com/newacct/newaccount.asp?cid=289591">https://www.e-gold.com/newacct/</a>
++  fund your account with some amount of gold (thre are many gold exchanging 
+   services <a href="http://wwww.icegold.com/">http://wwww.icegold.com</a> is one of best (look to <a href="http://e-gold.com/unsecure/links.htm">http://www.e-gold.com</a>
+   links section for more services).
++   transfer to my account <b>289591</b> some gold granule.
+
+
+6. Contact
+----------
+
+Feel free to send me water, bread and nonrepayable credit :-)
+
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6c%61%75%72%69%5f%6b%40%6d%61%69%6c%2e%72%75">lauri_k( at )mail( dot )ru</a>
+
+Call me!
+</pre>

@@ -136,7 +136,7 @@ ubiquitous on Linux. </P>
 <H4 CLASS="green"> The Release Notes have very little information about the
 Firebird open bug list. Where can I find out more? </H4>
 <P> More details are available in the <A
-HREF="FirebirdBugsOpen.html" tppabs="http://www.ibphoenix.com/FirebirdBugsOpen.html">FirebirdBugsOpen.html</A>. This is in the doc
+HREF="FirebirdBugsOpen.html">FirebirdBugsOpen.html</A>. This is in the doc
 directory of the Windows zipped binary release. You can then click on the
 Sourceforge ID and jump straight to the original reports and any subsequent
 comments at the Firebird site on Sourceforge. </P>

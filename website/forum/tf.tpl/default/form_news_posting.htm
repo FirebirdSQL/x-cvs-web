@@ -1,0 +1,44 @@
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<form method="post" action="{$PHP_SELF}?action={$t[posting_action]}">
+<tr>
+<td class="borders" bgcolor="#D2E6FF"><b>{$t[form_header]}</b>:</td>
+<td class="border2" bgcolor="#D2E6FF">&nbsp;{$t[error_str]}</td>
+</tr>
+
+<tr>
+<td class="left_corner0">{$l[Subject]}:</td>
+<td class="back0">
+<input type="text" name="f[posting_subject]" value="{$f[posting_subject]}" size="90">
+</td>
+</tr>
+{$t[user_data]}
+<tr>
+<td class="left_corner1">&nbsp;</td>
+<td class="back1">
+<input type="button" style="font-weight:bold;" value=" B " OnClick="JavaScript:add2post(' [b][/b] ')">
+<input type="button" style="font-style:italic;" value=" I " OnClick="JavaScript:add2post(' [i][/i] ')">
+<input type="button" style="text-decoration: underline;" value=" U " OnClick="JavaScript:add2post(' [u][/u] ')">
+<input type="button" value=" EMAIL " OnClick="JavaScript:add2post(' [mail=fake@somewhe.re]{$l[Name]}[/mail] ')">
+<input type="button" value=" URL " OnClick="JavaScript:add2post(' [url=http://]{$l[Name]}[/url] ')">
+<input type="button" value=" IMG " OnClick="JavaScript:add2post(' [img]http://[/img] ')"> 
+<input type="button" value=" COLOR " OnClick="JavaScript:add2post(' [color=#abcdef]{$l[Text]}[/color] ')"> 
+<input type="button" value=" SIZE " OnClick="JavaScript:add2post(' [size=4]{$l[Text]}[/size] ')"> 
+<input type="button" value=" CODE " OnClick="JavaScript:add2post(' [code][/code] ')"> 
+<input type="button" value=" PHP " OnClick="JavaScript:add2post(' [php][/php] ')"> 
+<input type="button" value=" ? " onclick="window.open('tf.popup.php?action=bbhelp', '_bbhelp', 'HEIGHT=300,resizable=yes,scrollbars=yes,WIDTH=350');return false;">
+</td>
+</tr>
+<tr>
+<td class="left_corner0">&nbsp;</td>
+<td class="back0">
+<textarea name="posting_content" cols="73" rows="45" wrap="virtual">{$posting_content}</textarea>
+</td>
+</tr>
+<tr>
+<td class="left_corner1">&nbsp;</td>
+<td class="back1">
+<input type="button" value="{$l[Back]}" OnClick="JavaScript:history.go(-1);"> <input type="reset" value="{$l[Reset]}"> <input type="submit" value="{$l[Submit]}">
+</td>
+</tr>
+</form>
+</table>

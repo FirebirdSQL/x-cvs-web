@@ -53,11 +53,11 @@ Let's the events speak for themselves ! A list of events in chronological order 
 </TR>
 <TR>
 <TD WIDTH="109"><I>27 Mar 2000</I></TD>
-<TD>(Computergram) <A HREF="http://www.ibphoenix.com/ibp_news_art5.html">Inprise Spins Out Database Division for Open Source Future </A></TD>
+<TD>(Computergram) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art5">Inprise Spins Out Database Division for Open Source Future </A></TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>10 Apr 2000</I></TD>
-<TD>(The 451) <A HREF="http://www.ibphoenix.com/ibp_news_art3.html">Disappearing Inprise spawns InterBase</A></TD>
+<TD>(The 451) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art3">Disappearing Inprise spawns InterBase</A></TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>26 Apr 2000</I></TD>
@@ -79,7 +79,7 @@ InterBase and Kylix from Borcon</A></TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>21 Jul 2000</I></TD>
-<TD>(The 451) <A HREF="http://www.ibphoenix.com/ibp_news_art4.html">Will Borland let
+<TD>(The 451) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art4">Will Borland let
 InterBase go?</A></TD>
 </TR>
 <TR>
@@ -104,11 +104,11 @@ InterBase go?</A></TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>25 Aug 2000</I></TD>
-<TD>(Client Server NEWS 361 - August 7-11, 2000) <A HREF="http://www.ibphoenix.com/ibp_news_art1.html">InterBase Flap Could Fork Code</A> </TD>
+<TD>(Client Server NEWS 361 - August 7-11, 2000) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art1">InterBase Flap Could Fork Code</A> </TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>29 Aug 2000</I></TD>
-<TD>(Client Server NEWS 364 - August 28 - September 1, 2000) <A HREF="http://www.ibphoenix.com/ibp_news_art2.html">InterBase Rises</A> </TD>
+<TD>(Client Server NEWS 364 - August 28 - September 1, 2000) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art2">InterBase Rises</A> </TD>
 </TR>
 <TR>
 <TD WIDTH="109"><I>12 Sep 2000</I></TD>
@@ -121,7 +121,7 @@ HREF="http://www.borland.com/interbase/letter.html">An open letter to the InterB
 </TR>
 <TR>
 <TD WIDTH="109"><I>13 Nov 2000</I></TD>
-<TD><A HREF="http://www.ibphoenix.com/ibp_news_art6.html">Whats happening to InterBase?</A> Article from the UK Borland User Group Magazine by Paul Reeves (Nov/Dec
+<TD><A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art6">Whats happening to InterBase?</A> Article from the UK Borland User Group Magazine by Paul Reeves (Nov/Dec
 2000)</TD>
 </TR>
 <TR>
@@ -130,7 +130,7 @@ HREF="http://www.borland.com/interbase/letter.html">An open letter to the InterB
 </TR>
 <TR>
 <TD WIDTH="109"><I>09 Jan 2001</I></TD>
-<TD><font color="red"><b>(IBPhoenix) <A HREF="http://www.ibphoenix.com/sec1.html">InterBase Security Alert</A></b></font></TD>
+<TD><font color="red"><b>(IBPhoenix) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=sec1">InterBase Security Alert</A></b></font></TD>
 </TR>
 <TR>
 <TD WIDTH="109"> <I>19 Feb 2001</I></TD>
@@ -142,7 +142,7 @@ HREF="http://www.borland.com/interbase/letter.html">An open letter to the InterB
 </TR>
 <TR>
 <TD WIDTH="109"><I>19 Apr 2001</I></TD>
-<TD><font color="red"><b>(IBPhoenix) <A HREF="http://www.ibphoenix.com/ibp_certified_interbase_faq.html">IBPhoenix's response to Borland's certified kits</A></b></font></TD>
+<TD><font color="red"><b>(IBPhoenix) <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_certified_interbase_faq">IBPhoenix's response to Borland's certified kits</A></b></font></TD>
 </TR>
 
 </table>

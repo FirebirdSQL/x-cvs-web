@@ -1,0 +1,37 @@
+{$t[error_msg]}
+<form method="post" action="{$PHP_SELF}?action={$t[cat_action]}">
+<table border="5">
+<tr>
+<td colspan="2"><b>{$l[Categories_settings]}</b>
+</tr>
+<tr>
+<td colspan="2" class="lighter">{$l[Help_categories]}</td>
+</tr>
+<tr>
+<td>{$l[Name]}*:</td>
+<td><input type="text" name="f[cat_name]" value="{$f[cat_name]}" size="30"></td>
+</tr>
+<tr>
+<td class="lighter">{$l[Description]} (255):</td>
+<td class="lighter"><!--<input type="text" name="f[cat_description]" value="{$f[cat_description]}" size="30">-->
+<textarea cols="30" rows="3" name="f[cat_description]">{$f[cat_description]}</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2">{$l[All_pipl_can_read]}: <input type="checkbox" name="f[all_pipl_can_read]"{$f[all_pipl_can_read_value]}></td>
+</tr>
+<tr>
+<td colspan="2" class="lighter">{$l[All_pipl_can_post]}: <input type="checkbox" name="f[all_pipl_can_post]"{$f[all_pipl_can_post_value]}></td>
+</tr>
+<tr>
+<td colspan="2" class="lighter">{$l[Hidden]}: <input type="checkbox" name="f[hidden]"{$f[hidden]}></td>
+</tr>
+<tr>
+<td colspan="2">{$l[Only_admin_can_start_thread]}: <input type="checkbox" name="f[only_admin_can_start_thread]"{$f[only_admin_can_start_thread_value]}></td>
+</tr>
+<tr>
+<td class="lighter">&nbsp;</td>
+<td class="lighter"><input type="reset" value="{$l[Reset]}"> <input type="submit" value="{$l[Submit]}"></td>
+</tr>
+</table>
+</form>

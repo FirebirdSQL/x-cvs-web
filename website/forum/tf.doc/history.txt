@@ -1,0 +1,115 @@
+History.txt
+===========
+
+version  : 0.7.1 (21 July 2003)
+         + users deleting for adinistrator (from memberslist)
+         + usersgroups changing for administrator (from memberslist)
+         + moderators group: moderators can move, modify and delete all postings.
+         + fixed bug with login with Opera 6/7 (there are still some bugs with Opera)
+         + new template variable: {$t[lang]} - it contains current language (en, et etc)
+         + one Re: in subject on replyng 
+         + removed "show profile" from unregistrered users postings
+         + limited postings size (default 4kb, is changealble via tf.conf.php) 
+         + added "soft_wrap" - this dosen't wrap words whitch contains html-tags 
+           like email urls. there are still old wordwrap function when 
+          soft_wrap=false in tf.conf.php
+	 + there are removed spaces from end and beginning of username
+	 + fixed bug with topics unlocking
+         + fixed bug with userdata in showprofile
+	 + and more...
+
+version  : 0.7.0 (made from 11.06.2003 to 01.07.2003)
+         + comments, functions names and variables are now in (poor) english
+         + multiple categories
+         + templates system
+         + BBCode
+         + sticky threads
+         + threads locking/unlocking
+         + admin can move topics to another forum
+         + if topic contains much postings then they are displayed on different pages
+         + emails are "crypted" (further info in tf.php function nospam())
+         + personal sttings (forum language, template) and more info about 
+           users (avatar, location, etc)
+         + settings & messages backup system (tar/gzip)
+         + many bugfixes and enhancements...
+	 - no more "preview" function
+
+
+---------[ older history is in estonian ]--------------------------------------
+
+versioon : 0.6.4 (22.02.2003)
+         + postituse saatmisel saab lisada smailisid (vastavale pildile klikates)
+         + parandatud bug seoses registreeritud kasutajana teemasse vastamisega
+         + lisandunud on poola, hollandi, soome ja vene keelefailid -- tänud tõlkijaile!
+
+versioon : 0.6.3 (10.01.2003)
+         + parandatud bug kasutajate kodulehtede näitamisega
+         + parandatud bug seoses muutujaga $koik_saavad_lugeda
+         + parandatud bug seoses muutujaga $koik_saavad_postitada
+         + lisatud muutuja $koik_saavad_uut_teemat_alustada -- kui see on
+           false siis uut teemat saab alustada ainult administraator
+
+versioon : 0.6.2 (08.01.2003)
+         + lisatud kasutajate nimekiri. samas on foorumi adminnil lihtsam
+           profiile muuta
+         + funktsioon naita_posti_nimekirja tehtud lihtsamaks? (seda seoses 
+           funktsiooni grojsus lisandumisega)
+         + uue faili salvestamisel asendatud 12-süsteemi tund 24-ga
+         + nüüd asendatakse smailid ka signatuuris
+
+versioon : 0.6.1 (02.01.2003)
+         + lisatud muutuja $koik_saavad_lugeda. kui see on false siis
+           ei saa postitusi ilma sisselogimata lugeda
+         + lisatud muutuja $flock. windowsi all kasutades peaks see olema
+           false, "pärisserverites" (zone.ee) true
+         + parandatud bug profiili muutmisega
+         + parandatud bug tsiteerimis-funktsioonis
+         + kasutajatefaili lisatud liitumiskuupäev
+         + parendatud smailide asendamist
+         + pisimuudatused ka upgrade.php-s
+
+versioon : 0.6.0 (27.12.2002 - 29.12.2002)
+         + kasutajate registreerimine. registreerinud kasutaja
+           saab muuta enda saadetud postitusi. admin, kelleks on
+           esimesena registreerinud kasutaja, saab muuta kõiki
+           sõnumeid
+         + tsiteerimine
+         + emotikone näidatakse piltidena
+         + kogu skript läks suures osas ühte faili
+         + uue postituse korral on failinimeks hetke-kuupäev --
+           vähendab segadust salvestamise
+
+versioon : 0.5.0 (04.04.2002)
+         + foorumi administraator saab teemasid kustutada
+         + foorumit saab keelefailide abil muukeelseks või siis
+           vähemalt pisut teistsugusemaks muuta
+         + eelvaade enne teate lõpplikku saatmist
+         + postitused järjestatakse vastavalt viimase postituse kuupäevale
+         + ning veel mitmed pisemad ja suuremad täiendused
+
+versioon : 0.4 (11.01.2002)
+         + kypsiseid kypsetab js -- kuna vastavat phpfunktsiooni zones ei saa kasutada
+         + parandat viga ridade murdmisega varem kippusid need liig lühikseks jääma
+         + piiratud posti saatmist mingi ip pealt -- varem võis foorumit uputada
+           tuhandete spammteadetega (nagu ka üks forumikülastaja demonstreerida suutis)
+
+versioon : 0.3 (01.01.2002)
+         + foorumis saab kasutada teatud html märgiseid (<a>, <b>, <i>...)
+         + lisatud nn fast access - see võimaldab foorumi avalehelt minna
+           vanemate postituste nt 1-10, 11-20 jne juurde
+         + pikad read murtakse lühemakse (näit. 300 "a" tähe asemel on 5 rida "a"-sid)
+         + parandatud 1 tõsine puudus (varem sai teema ja nime reale igast
+           jampsi panna) ja rohkesti väiksemaidki
+
+versioon : 0.2 (28.12.2001)
+         + kood läks erinevatesse failidesse
+         + posti saatmsel/vastamisel jäetakse meelde nimi ja email
+           teistkordsel postitamisel pakutakse need juba vastavatesse
+           väljadesse
+         + postitused foorumi avalehel on erineva taustaga
+         + pisimuudatused zone.ee's töötamiseks
+
+versioon : 0.1 (21.12.2001)
+         + alustuseks käib kah
+
+txtForum demo, technical support and who knows what more is at http://zone.ee/txtforum/forum.php

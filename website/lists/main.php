@@ -63,12 +63,12 @@ function EmitNewsgroups($descfile) {
 <A href="#top"></A>
 <!-- THIS TABLE CONTAINS THE PAGE CONTENT -->
 <tr><td colspan=3>
-<b>Many of these forums are NOT for support.  Please refer to <a href="#fbsupport
+<b>Many of these forums are NOT for support.  Please refer to <a href="#ibsupport
 ">firebird-support</a> for support.</b>
 <p>
 We don't moderate the lists prescriptively but we do operate on a rule of &quot;three strikes and you're out&quot;.  Reasonable &quot;flak&quot; is acceptable but NO FLAMING, monopolisation or excessive requoting.  Please move specialised or off-topic threads into suggested other lists when requested by a moderator.
 <p>
-Many mailing lists listed here has a newsgroup mirror at <a href="#ng-atkin">Atkin server</a>, so you do not need to subscribe to high-traffic lists just to occasionally watch discussed topics or post a question. But if you want post messages to a newsgroup of mirrored mailing lists that originally reside on yahoogroups, you must be subsribed to this list (even with no-mail/web access only option), otherwise your messages doesn't pass through news/mail gate and mailing list users don't get it. Note that this rule apply only for lists based on <b>yahoogroups</b>.
+Many mailing lists listed here has a newsgroup mirror at <a href="#ng-atkin">Atkin server</a>, so you do not need to subscribe to high-traffic lists just to occasionally watch discussed topics. But if you want post messages to a newsgroup of mirrored mailing lists, you must be subsribed to this list (even with no-mail/web access only option), otherwise your messages doesn't pass through news/mail gate and mailing list users don't get it.
 <hr size=1>
 </td></tr>
 

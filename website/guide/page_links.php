@@ -13,16 +13,16 @@ There are many great sites dedicated to InterBase® and Firebird out there, so it
 <li><A href="http://www.ibphoenix.com">IBPhoenix</A><br>
 IBPhoenix is a web site and an organization that provides information and services to InterBase® and Firebird developers and users, those who develop applications on InterBase® or Firebird, and those who develop and use the underlying database engine itself. The IBPhoenix team has an unparalleled depth and breadth of experience with InterBase® and Firebird, as developers, as users, as consultants, and in providing accurate, useful answers to questions about either product.<p>
 
-<li><A HREF="http://www.cvalde.com/">Claudio Valderrama's
+<li><A HREF="http://www.cvalde.net/">Claudio Valderrama's
 Unofficial InterBase Site</A><br>
 <P> This site does not compete with the official InterBase sites or with the commercial companies supporting InterBase. It's a place to find miscellaneous technical and historical information and links. </P>
 <UL>
-<LI><A HREF="http://www.cvalde.com/WhoUsesIB.htm">Organizations using
+<LI><A HREF="http://www.cvalde.net/WhoUsesIB.htm">Organizations using
 InterBase</A></LI>
-<LI><A HREF="http://www.cvalde.com/IbRoadmap.htm">InterBase roadmap</A></LI>
-<LI><A HREF="http://www.cvalde.com/features.htm">InterBase v's the
+<LI><A HREF="http://www.cvalde.net/IbRoadmap.htm">InterBase roadmap</A></LI>
+<LI><A HREF="http://www.cvalde.net/features.htm">InterBase v's the
 competition</A></LI>
-<LI><A HREF="http://www.cvalde.com/ibWebring.htm">InterBase Web Ring Users</A> 
+<LI><A HREF="http://www.cvalde.net/ibWebring.htm">InterBase Web Ring Users</A> 
 </LI>
 </UL>
 <p>

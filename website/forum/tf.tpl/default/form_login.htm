@@ -1,0 +1,9 @@
+<form action="{$t[login_form_action]}" method="post">
+<input type="text" name="f[user]" value="{$l[Username]}" size=10 OnFocus="if (value == '{$l[Username]}') {value =''}" OnBlur="if (value == '') {value = '{$l[Username]}'}">
+<input type="password" name="f[pass]" value="{$l[Password]}" size=10 OnFocus="if (value == '{$l[Password]}') {value =''}" OnBlur="if (value == '') {value = '{$l[Password]}'}">
+<br>
+<input type="checkbox" name="f[remember_me]"> {$l[Remember_me]}
+<input type="submit" value="{$l[Login]}">
+<p>
+<a href="{$PHP_SELF}?action=reg">{$l[Registration]}</a>
+</form>

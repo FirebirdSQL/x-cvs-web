@@ -1,0 +1,29 @@
+<table border="5">
+<tr>
+<td colspan="2">Here You can Upgrade forum from 0.6.x to 0.7.x!</td>
+</tr>
+<tr>
+<form action="{$PHP_SELF}?action=admin&upgradenow=1" method="post">
+<td>OLD DATADIR:</td>
+<td><input type="text" name="x_old_data_dir" value="./teated/"></td>
+</tr>
+<tr>
+<td>OLD HEADER FILE:</td>
+<td><input type="text" name="x_old_header" value="./teated/header.txt"></td>
+</tr>
+<tr>
+<td>OLD USERS FILE:</td>
+<td><input type="text" name="x_old_users" value="./teated/kasutajad.php"></td>
+</tr>
+<tr>
+<td>DESTINATION <br>CATEGORY:</td>
+<td>{$t[category_list]}</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<input type="button" value="{$l[Back]}" onClick="JavaScript:history.go(-1)">
+<input type="submit" value="{$l[Submit]}"></td>
+</tr>
+</form>
+</table>

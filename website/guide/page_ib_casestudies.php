@@ -11,7 +11,7 @@ if (eregi("page_ib_casestudies.php",$PHP_SELF)) {
 <tr><td>
 <hr>
 <table>
-<td width=32 height=32><a href="http://www.cvalde.com/WhoUsesIB.htm"><img src="images/valde_icon.gif" width="32" height="32" alt="IB Server" border="0"></a></td>
+<td width=32 height=32><a href="http://www.cvalde.net/WhoUsesIB.htm"><img src="images/valde_icon.gif" width="32" height="32" alt="IB Server" border="0"></a></td>
 <td><Font Face="Verdana" color="gray"><B>Link to Claudio Valderrama's ever-growing list of sites around the world using InterBase as the backbone to their businesses.</b></font>
 </td></tr>
 </table>

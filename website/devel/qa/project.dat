@@ -6,7 +6,7 @@ $project_title = "Firebird QA" ;
 
 # cvs_modules - List of CVS modules that belongs to subproject separated by ":"
 
-$cvs_modules = "TCS" ;
+$cvs_modules = "TCS:qmdb:fbtcs:Benchmarks" ;
 
 # leaders - List of leaders (sf login names) separated by colon
 

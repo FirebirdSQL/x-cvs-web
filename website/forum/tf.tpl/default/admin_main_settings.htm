@@ -1,0 +1,20 @@
+{$t[error_msg]}
+<form method="post" action="{$PHP_SELF}?action={$t[main_action]}">
+<table border="5">
+<tr>
+<td>{$l[Board_name]}:</td>
+<td><input type="text" name="f[board_name]" value="{$f[board_name]}" size="60"></td>
+</tr>
+<tr>
+<td>{$l[Default]} {$l[Template]}:</td>
+<td>{$t[templates_list]}</td>
+</tr>
+<tr>
+<td>{$l[Default]} {$l[Language]}:</td>
+<td>{$t[languages_list]}</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="button" onclick="javascript:window.location='{$PHP_SELF}?action=admin'" value={$l[Back]}><input type="reset" value="{$l[Reset]}"> <input type="submit" value="{$l[Submit]}"></td>
+</tr>
+</table>

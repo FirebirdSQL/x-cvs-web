@@ -25,3 +25,10 @@ Developers: 67 [ <A href="http://sourceforge.net/project/memberlist.php?group_id
 <p>
 <IMG height=20 alt="Source code" src="images/cvs16b.png" width=20 border=0>&nbsp;<A href=index.php?op=devel&amp;id=cvs_howto>How to</A> access CVS · Download <A href=http://cvs.sourceforge.net/cvstarballs/firebird-cvsroot.tar.gz>Nightly CVS tree tarball</A> · <A href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/firebird">Browse CVS</A>
 <p>
+<hr>
+<?php
+if (!IsSet($action))
+	$action="forums";
+require('tf.actions.php');
+
+?>

@@ -33,7 +33,7 @@ if (eregi("page_testlist.php",$PHP_SELF)) {
 </tr>
 <tr class="YLineA">
   <td class="indentA">Database validity</td>
-  <td align="center">IIP</td>
+  <td align="center">I</td>
   <td align="center">pcisar</td>
 </tr>
 <tr class="YLineA">

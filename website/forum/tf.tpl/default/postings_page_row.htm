@@ -1,0 +1,21 @@
+<tr>
+<td width="100" rowspan="3" nowrap="nowrap" class="left_corner1" valign="top" align="center">
+<a name="{$t[timestamp]}"></a>
+{$t[user_name]}
+{$t[user_description]}
+{$t[avatar]}
+{$t[user_postings_number]}
+<br>{$t[user_status]}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+<td class="back1" width="60%">{$t[posting_icon]} <span class="header" style="cursor:hand;" onClick="JavaScript:history.go(-1)">{$t[subject]}</span>
+</td>
+<td class="back1" align="center" width="140">{$t[posting_date]}</td>
+</tr>
+<tr>
+<td class="back{$t[css_id]}" colspan="2"><div align="justify">{$t[posting_content]}</div>
+{$t[user_signature]}</td>
+</tr>
+<tr>
+<td class="back{$t[css_id]}" colspan="3">{$t[link_delete]} {$t[link_modify]}  <a href="{$PHP_SELF}?action=reply&topic={$t[topic_file]}&id={$t[posting_id]}">{$l[Quote]}</a></td>
+</tr>

@@ -35,9 +35,9 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   If you're looking for more, a good place to start is the 
   <A href=http://www.ibphoenix.com>IBPhoenix website</A> where they have a very large 
   collection of Firebird and Interbase(r) related materials including 
-  <A href=http://www.ibphoenix.com/ibp_download.html>Firebird</A> downloads, 
-  <A href=http://www.ibphoenix.com/ibp_contrib_download.html>contributed</A> downloads,
-  and <A href=http://www.ibphoenix.com/ibp_interbase_download.html>Interbase related</A> downloads. 
+  <A href=http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download>Firebird</A> downloads, 
+  <A href=http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_contrib_download>contributed</A> downloads,
+  and <A href=http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_interbase_download>Interbase related</A> downloads. 
   <br>";
 
   sidebox($title,$content);

@@ -1,1 +1,6 @@
-<?php$question = "" ;$answer = "";?>
+<?php
+
+$question = "" ;
+$answer = "";
+
+?>

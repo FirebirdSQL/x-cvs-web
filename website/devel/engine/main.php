@@ -24,5 +24,12 @@ if (eregi("main.php",$PHP_SELF)) {
     <li>Code-cleaning continues to be an ongoing process as the bug list grows
   </ul>
 <p>
+<?php
+$action="topics";
+$fid=1;
+require('tf.actions.php');
+
+?>
+<p>
 Back to <A href="index.php?op=devel">Developer's Corner</A>.
 <p>

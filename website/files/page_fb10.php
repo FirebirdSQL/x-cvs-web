@@ -17,6 +17,9 @@ if (eregi("page_fbrc1.php",$PHP_SELF)) {
 </UL>
 
 <UL>
+<LI>16-October-2002
+<A HREF="http://prdownloads.sourceforge.net/firebird/MacOS_X-CS-1.0.1-Release.tar.gz">Classic Server for MacOS X 10.2</A> (.tar.gz) (1.9mb)</LI>
+
 <LI>1-May-2002
 <A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.0.0.821-HP1020.tar.gz">Classic Server for HP-UX 10.20</A> (32-bit I/O) (.tgz) (2.4mb)</LI>
 <LI>5-April-2002
@@ -44,7 +47,7 @@ if (eregi("page_fbrc1.php",$PHP_SELF)) {
 <A HREF="http://prdownloads.sourceforge.net/firebird/bootkit-freebsd-1.0.0.796.tar.gz">Bootkit for FreeBSD</A> (.tar.gz) (17kb)</LI>
 
 <LI>12-March-2002
-<A HREF="http://prdownloads.sourceforge.net/firebird/Darwin-CS-1.0.0-Release.tar.gz">Classic Server for MacOS X</A> (.tar.gz) (1.9mb)</LI>
+<A HREF="http://prdownloads.sourceforge.net/firebird/Darwin-CS-1.0.1-Release.tar.gz">Classic Server for Darwin</A> (.tar.gz) (1.9mb)</LI>
 <LI>12-March-2002
 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.0.0.796-Win32.exe">SuperServer for Windows</A> (.exe setup) (2.6mb)</LI>
 <LI>12-March-2002

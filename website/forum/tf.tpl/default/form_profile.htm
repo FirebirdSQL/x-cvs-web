@@ -1,0 +1,65 @@
+{$t[error_msg]}
+<form action="{$PHP_SELF}?action={$t[action]}" method="post">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" class="borders" bgcolor="#D2E6FF"><b>{$l[Reg_info]}</b></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Username]}*:</td>
+<td class="back0">{$t[username_str]}</td>
+</tr>
+<tr>
+<td class="left_corner1">{$l[Password]}*:</td>
+<td class="back1"><input type="text" name="f[password]" size="40" value="{$f[password]}"></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Email]}*:</td>
+<td class="back0"><input type="text" name="f[email]" size="40" value="{$f[email]}"></td>
+</tr>
+<tr>
+<tr>
+<td colspan="2" class="borders" bgcolor="#D2E6FF"><b>{$l[Profile_info]}</b></td>
+</tr>
+<td class="left_corner1">{$l[Short_description]}:</td>
+<td class="back1"><input type="text" name="f[short_description]" size="40" value="{$f[short_description]}"></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Avatar]}:</td>
+<td class="back0"><input type="text" name="f_avatar" size="40" value="{$f_avatar}" > {$t[choose_avatar]}</td>
+</tr>
+<tr>
+<td class="left_corner1">{$l[Msn]}:</td>
+<td class="back1"><input type="text" name="f[msn]" size="40" value="{$f[msn]}"></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Homepage]}:</td>
+<td class="back0"><input type="text" name="f[homepage]" size="40" value="{$f[homepage]}"></td>
+</tr>
+<tr>
+<td class="left_corner1">{$l[Location]}:</td>
+<td class="back1"><input type="text" name="f[location]" size="40" value="{$f[location]}"></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Occupation]}:</td>
+<td class="back0"><input type="text" name="f[occupation]" size="40" value="{$f[occupation]}"></td>
+</tr>
+<tr>
+<td class="left_corner1">{$l[Signature]}:</td>
+<td class="back1"><textarea name="f[signature]" cols="40" rows="5" wrap="virtual">{$f[signature]}</textarea></td>
+</tr>
+<tr>
+<td colspan="2"  class="borders" bgcolor="#D2E6FF"><b>{$l[Preferences]}</b></td>
+</tr>
+<tr>
+<td class="left_corner0">{$l[Language]}:</td>
+<td class="back0">{$t[languages_list]}</td>
+</tr>
+<tr>
+<td class="left_corner1">{$l[Template]}:</td>
+<td class="back1">{$t[templates_list]}</td>
+</tr>
+<tr>
+<td class="left_corner0">&nbsp;</td>
+<td class="back0"><input type="reset" value="{$l[Reset]}"> <input type="submit" value="{$l[Submit]}">
+</table>
+</form>

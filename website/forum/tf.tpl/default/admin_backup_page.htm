@@ -1,0 +1,26 @@
+<table border="5" width="100%">
+<tr>
+<td colspan="2"><b>{$l[Data_backup]}</b></td>
+</tr>
+<tr>
+<form action="{$PHP_SELF}?action=admin&tar=1" method="post">
+<td width="20">&nbsp;</td>
+<td width="95%">
+<input type="text" name="archive_name" value="{$t[archive_name]}" size="28"> 
+<input type="radio" name="archive_type" value="tar" checked="checked">tar
+<input type="radio" name="archive_type" on="on" value="gz">gzip 
+<input type="submit" value="{$l[Compress]}">
+</td>
+</tr>
+</form>
+<tr>
+<td>&nbsp;</td>
+<td>{$t[extract_form]}&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2">{$l[Help_backup]}</td>
+</tr>
+<tr>
+<td colspan="2"><a href="javascript:history.go(-1)">{$l[Back]}</a></td>
+</tr>
+</table>

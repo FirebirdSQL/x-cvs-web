@@ -71,7 +71,7 @@ Installation Instructions</b></td>
 <tr><td colspan=4><font face="Verdana">Install docs for RIOS Corporation's port of IB 4.0 Server to FreeBSD.<p>The software is <A
 HREF="http://www.ibphoenix.com/downloads/IB_4.0_FreeBSD.tar.gz">available here</a> as a gzipped .tar archive.</td></tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
-<td colspan=3 align=left><font face="Verdana"><A HREF="http://www.ibphoenix.com/ibp_40_freebsd_install.html">View HTML page</a> and select Save As.. from the context menu of your browser.</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_40_freebsd_install">View HTML page</a> and select Save As.. from the context menu of your browser.</td>
 </tr>
 <tr><td colspan=4><hr size=1></td></tr>
 <tr><td colspan=4 align=center><img src="images/clearpixel.gif" width=51 height=20 border=0"></td></tr>

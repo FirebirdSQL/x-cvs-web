@@ -1,0 +1,6 @@
+<form action="{$PHP_SELF}?action=admin&untar=1" method="post">
+{$l[Uncompress_dir]}: <input name="data_dir" type="text" value="{$t[data_dir]}"><br>
+{$t[archive_list]}
+<input type="submit" name="uncompress" value="{$l[Uncompress]}">
+<input type="submit" name="delete" value="{$l[Delete]}">
+</form>

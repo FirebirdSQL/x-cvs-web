@@ -49,7 +49,7 @@ Jorge Alvarez <a href="index.php?op=useful&amp;id=alvarez">shares the trick</a> 
 <td bgcolor="paleturquoise">
 <B>Claudio Valderrama's Writings</B><br> 
 Claudio is a famous contributor to IB lists, newsgroups and beta groups.  These pages of original articles document his experiences as an often critical and rigorous user, tester and mentor of IB/Firebird over many years.<br>  
-Link :: <a href="http://www.cvalde.com/ibDocumentation.htm">Click here</a> ::
+Link :: <a href="http://www.cvalde.net/ibDocumentation.htm">Click here</a> ::
 from :: <a href="MAILTO:cvalde at myrealbox.com">Claudio Valderrama</a>
 </td>
 </tr>

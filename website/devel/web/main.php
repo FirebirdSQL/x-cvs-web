@@ -18,5 +18,11 @@ if (eregi("main.php",$PHP_SELF)) {
 <H4>Activities so far</H4>
 <li>phpNuke is gone, along with MySQL backend. New framework was writtent from scratch.
 <p>
+<?php
+$action="topics";
+$fid=7;
+require('tf.actions.php');
+
+?>
 Back to <A href="index.php?op=devel">Developer's Corner</A>.
 <p>

@@ -1,0 +1,135 @@
+<-- 
+	txtForum files description...
+
+	...feel free to study =:P
+
+-->
+//-----------------------------------------------------------------------------
+
+settings file
+ 0 - forum name
+ 1 - default lang
+ 2 - default template
+ 3 - random id (for cookies)
+ 4 - 
+ 5 - 
+ 6 - 
+ 7 - 
+ 8 - 
+ 9 - 
+
+//-----------------------------------------------------------------------------
+
+category-file
+
+ 0 - forum title
+ 1 - forum description
+ 2 - forum order
+ 3 - all pipl can read (0 false, 1 true)
+ 4 - all pipl can post (0 false, 1 true)
+ 5 - only admin can start new thread (0 false, 1 true)
+ 6 - last poster name
+ 7 - last thread timestamp (first posting in thread)
+ 8 - last posting timestamp (last posting in thread)
+ 9 - last posting subject
+10 - postings in forum
+11 - topics in forum
+12 - (invisible)
+13 - 
+14 - 
+15 - 
+
+//-----------------------------------------------------------------------------
+
+"header-file" contains topics information, format is such
+
+ 0 - category id
+ 1 - subject
+ 2 - topic author name
+ 3 - last poster name
+ 4 - postings in thread
+ 5 - views
+ 6 - timestamp of first posting
+ 7 - timestamp of last posting
+ 8 - ip of thread starter
+ 9 - sticky status (0 not, 1 yes)
+10 - locked status (0 or '' - not, 1 yes)
+11 - topic smiley
+12 - 
+13 - 
+14 - 
+15 - 
+16 - 
+17 - 
+18 - 
+19 - 
+
+//-----------------------------------------------------------------------------
+
+posting-file
+
+ 0 - subject
+ 1 - author name
+ 2 - author email
+ 3 - topic smiley
+ 4 - ip
+ 5 - timestamp of posting
+ 6 - disable smilies (1 disabled, 0 allowed)
+ 7 - content
+ 8 - posting icon
+ 9 - 
+10 - 
+11 - 
+12 - 
+13 - 
+14 - 
+15 - 
+
+//-----------------------------------------------------------------------------
+
+users file
+ 0 - username
+ 1 - crypted password
+ 2 - email
+ 3 - registrering date
+ 4 - usergroup
+
+additional info
+
+ 5 - short user description
+ 6 - avatar
+ 7 - msn
+ 8 - homepage
+ 9 - location
+10 - occupation
+11 - signature
+12 - language
+13 - template
+14 - postings
+15 - 
+16 - 
+17 - 
+18 - 
+19 - 
+
+//-----------------------------------------------------------------------------
+
+usersgroups
+
+ id:
+ 0 usual user
+ 1 moderator
+ 2 administrator
+
+//-----------------------------------------------------------------------------
+
+online users :
+
+ 0 - ip
+ 1 - timestamp
+ 2 - username
+ 3 -
+ 4 -
+ 5 -
+ 
+//-----------------------------------------------------------------------------

@@ -7,7 +7,7 @@ if (eregi("page_testdesign_howto.php",$PHP_SELF)) {
 
 <H4>How to design new test cases</H4>
 
-What we need most right now are SQL compliance tests, so you'll need a copy of <a href="http://www.ibphoenix.com/ibp_download.html#DOCS">Firebird/InterBase SQL reference guide</a> or <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/firebird/firebird2/src/dsql/parse.y?rev=HEAD&content-type=text/vnd.viewcvs-markup">parse.y</a> source file.
+What we need most right now are SQL compliance tests, so you'll need a copy of <a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download#DOCS">Firebird/InterBase SQL reference guide</a> or <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/firebird/firebird2/src/dsql/parse.y?rev=HEAD&content-type=text/vnd.viewcvs-markup">parse.y</a> source file.
 
 <H5>Where to start</H5>
 First, it's important to identify what you want to test. To avoid collision with others, take a look at our list of <a href="index.php?op=devel&amp;sub=qa&amp;id=testlist">tests in development</a>, and check if your beloved statement is not already taken by someone ! Then let us know about your intention to claim a statement for yourself in <a href="index.php?op=lists#fb-test">firebird-test</a> mailing list or newsgroup.

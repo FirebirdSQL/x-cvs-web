@@ -1,151 +1,97 @@
+<?php
+if (eregi("sidemenu.php",$PHP_SELF)) {
+  Header("Location: index.php");
+  die();
+}
+?>
 
-<td class="normal"  align="left" valign=top>
+<table border="0" width="100%" cellspacing="0"><tr><td valign="top">
+<?PHP
 
-<!-- trying to spread the column out more -->
-<table>
-<tr>
-<td colspan=2>
-<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1>
-</td></tr>
-</table>
+  # permanent sidebar
 
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b><a class=s_menu_hdr href="<?=$rootDir ?>index.php">Home</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-        <a class=s_menu href="<?=$rootDir ?>firebird/index.php#about">About</a><br>
-        <a class=s_menu  href="<?=$rootDir ?>firebird/index.php#history">History</a><br>
-        <a class=s_menu href="<?=$rootDir ?>firebird/index.php#whoarewe">Whos involved?</a><br>
-        <a class=s_menu href="<?=$rootDir ?>firebird/index.php#feedback">Feedback</a><br>
-        <a class=s_menu href="<?=$rootDir ?>firebird/index.php#contactus">Contacting Us</a><br>
-        <a class=s_menu href="<?=$rootDir ?>firebird/index.php#getinvolved">Getting Involved</a><br>
-        <a class=s_menu href="http://www.sourceforge.net/projects/firebird">Sourceforge Project</a><br>
-        <a class=s_menu href="<?=$rootDir ?>index.php?id=newsarchive">News</a><br>
-</td></tr>
-</table>
+  $title = "User Login";
+  $content = tpl_get_login_form();
+  sidebox($title,$content);
 
+if (IsSet($op)) {
 
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b><a class=s_menu_hdr href="<?=$rootDir ?>downloads/index.php">Downloads
-</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-        <a class=s_menu href="<?= $rootDir ?>downloads/index.php?id=downloadBinaries.html">Binaries</a><br>
-        <a class=s_menu href="<?= $rootDir ?>downloads/index.php?id=downloadSource.html">Source Code</a><br>
-        <a class=s_menu href="<?= $rootDir ?>downloads/index.php?id=userTools.html">User Tools</a><br>
-        <a class=s_menu href="<?= $rootDir ?>downloads/index.php?id=serverTools.html">Server Tools</a><br>
-</td></tr>
-</table>
+  # Sidebar for web section
 
+  if (file_exists($op."/sidemenu.php")) {
+    include($op."/sidemenu.php") ;
+  }
+  else {
 
-<table>
-<tr>
-<td colspan=2>
-<b><a class=s_menu_hdr href="<?=$rootDir ?>support/index.php">Help/Support
-</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-        <a class=s_menu href="<?=$rootDir?>support/index.php#faq">FAQs</a><br>
-        <a class=s_menu href="<?=$rootDir?>support/index.php?id=lists.html">Lists &amp; Newsgroups</a><br>
-        <a class=s_menu href="<?=$rootDir?>support/index.php#bugs">Bug Database</a><br>
-        <a class=s_menu  href="<?=$rootDir?>support/index.php#docs">Documentation</a><br>
-        <a class=s_menu href="<?=$rootDir?>support/index.php?id=sites.html">Useful Sites</a><br>
-        <br>
-        <a class=s_menu href="<?=$rootDir?>support/index.php?id=commercialSupport.html">Commercial support</a><br>
+    # Default sidebar
 
-</td></tr>
-</table>
+    $title = "Sidebar";
+    $content = "
+    This is a sample sidekick for this section. It's shown on each page that
+    belongs to this site area. You can change it's content in sidemenu.php.
+    <p>
+    You can create different sidekicks for any second-level pages as well, but
+    that require addition of nested 'if' or 'switch' structure for \$id parameter.
+    <br>";
+    sidebox($title,$content);
+  }
 
-<table>
-<tr>
-<td colspan=2>
-<a class=s_menu_hdr href="<?=$rootDir ?>projects/index.php">Projects
-</a>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#firebird">Firebird</a><br>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#jaybird">JayBird</a><br>
-        <a class=s_menu  href="<?=$rootDir?>projects/index.php#jdbcodbc">JdbcOdbc Driver</a><br>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#dotnet">.net provider</a><br>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#qa">QA & Test</a><br>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#website">website</a><br>
-        <a class=s_menu href="<?=$rootDir?>projects/index.php#other">other</a><br>
-</td></tr>
-</table>
+}
+else {
 
+# Sidebar for main page
 
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<b><a class=s_menu_hdr href="<?=$rootDir ?>community/index.php">Community
-</a></b>
-</td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-        <a class=s_menu href="<?=$rootDir?>community/index.php?id=relatedProjects.html">Related Projects</a><br>
-        <a class=s_menu href="<?=$rootDir?>community/index.php?id=sites.html">Sites of Interest</a><br>
-        <a class=s_menu href="<?=$rootDir?>community/index.php?id=usingFirebird.html">Sites using Firebird</a><br>
-        <a class=s_menu href="<?=$rootDir?>foundation/index.php?id=gloat_logos.html" >Gloat logos</a>
+  $title = "New visitors";
+  $content = "
+  If you're new to the Firebird, you may find the 
+  <A href=\"index.php?op=guide\">Novice's Guide</A> a quite helpful ! 
+  <p>
+  <A href=\"index.php?op=guide\">Novice's Guide</A> provide you with basic
+  information about Firebird project, and about Firebird relational database 
+  engine (including it's predecessor - InterBase).
+  <p>
+  Additionally, you may check our <A href=\"index.php?op=faq\">FAQ</A>, <A href=\"index.php?op=history\">history</A> records and...
+  <p class=centre>
+  <A HREF=\"http://www.ibphoenix.com/downloads/qsg.pdf\"><IMG SRC=\"images/NF4_7.gif\" ALT=\"Firebird Quickstart Guide\" BORDER=\"0\"></A>
+  </p>
+  A collection of tips for the Firebird \"newbie\" to help you get underway with your newly-downloaded Firebird kit.
+  <br>";
+  sidebox($title,$content);
 
-</td></tr>
-</table>
+  $title = "Users";
+  $content = "
+  If you're looking for help with your problems, please visit our 
+  <A href=\"index.php?op=faq\">FAQ</A> and check our <A href=\"index.php?op=devel&id=bugdb\">Bug database</A> first,
+  as it's possible that you may find answers there.
+  <p>
+  Additionally, you can find help in various <A href=\"index.php?op=lists\">Lists and Newsgroups</A>.
+  <p>
+  Looking for <A href=\"index.php?op=doc\">documentation</A> ? Don't miss our collection
+  of <A href=\"index.php?op=useful\">really useful</A> articles, tips and tricks !
+  <br>";
+  sidebox($title,$content);
 
+  $title = "Developers";
+  $content = "
+  Do you want to keep up with Firebird's development ? Or even better, do you
+  want to join or support our efforts ? Check out the <A href=\"index.php?op=devel\">Developer's corner</A> !
+  <br>";
+  sidebox($title,$content);
 
-<table>
-<tr>
-<td colspan=2>
-<font face="Verdana" size=1>
-<a href="<?=$rootDir ?>foundation" style="text-decoration:none;color:#000000;"><b>Foundation</b></a><br>
-<i>Supporting Firebird Development</i></td></tr>
-<tr>
-<td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=4></td>
-<td>
-<font face="Verdana" size=1>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php#about">About</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=news.html" >Newsletters</a><br>
-   <a class=s_menu  href="<?=$rootDir ?>foundation/index.php?id=members.html">Members</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" >Sponsors</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=contributions.html" >Donate/Sponsor</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=rules.html" >Rules &amp; Objectives</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=aboutMembership.html" >Membership</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=certificate.html" >Certificate</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=support_logos.html" >Member/Sponsor logos</a><br>
-   <a class=s_menu href="<?=$rootDir ?>foundation/index.php?id=FFSTEER/FF_SteeringCommittee.html" >Steering Group</a><br>
-</td></tr>
+  $alice = GetRabbitSafeEMailLink("firebirds","contact us");
+  $title = "Feedback";
+  $content = "
+  Comments ? Suggestions ? Questions ? Feel free to ".$alice." !
+  <p class=\"centre\">
+  <a href=\"http://www.opensource.org/docs/definition.php\"><img src=\"http://www.opensource.org/trademarks/opensource/web/opensource-75x65.png\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a>
+  </p>
+  <br>";
+  sidebox($title,$content);
+  
+  
+}
 
-</table>
+?>
 
-<br>
-
-<table>
-<tr>
-<td colspan=2 align=center>
-<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1><br>
-<hr size=2>
-
-<p>
-    <a href="http://www.opensource.org/docs/definition.php">
-   <img src="<?=$rootDir ?>images/opensource-75x65.png" border="0" width="75" height="65" alt="" align="center">
-   </a><br>
-</p>
-</td></tr>
-</table>
-
-</td>
+</td><td width="100%" valign="top">
 

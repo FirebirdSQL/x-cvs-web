@@ -26,7 +26,7 @@ if (eregi("page_kbases.php",$PHP_SELF)) {
 <tr><td colspan=4><font face="Verdana">A collection of several hundred articles put together by Paul Beach, Paul Reeves, Ann Harrison, Bill Karwin and others, to try and solve common InterBase problems. It has been initially categorised and will be placed under a search engine when time and resources permit.  Regularly updated.</td>
 </tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">LINK</td>
-<td colspan=3 align=left><font face="Verdana"><a href="http://www.ibphoenix.com/ibp_knowledgebase.html">Knowledgebase Index</a></td>
+<td colspan=3 align=left><font face="Verdana"><a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_knowledgebase">Knowledgebase Index</a></td>
 </tr>
 <tr><td colspan=4><hr size=1></td></tr>
 <!-- ------------------------------------------------------------------- -->

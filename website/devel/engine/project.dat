@@ -6,7 +6,7 @@ $project_title = "Firebird Core Engine" ;
 
 # cvs_modules - List of CVS modules that belongs to subproject separated by ":"
 
-$cvs_modules = "interbase:firebird2:tools" ;
+$cvs_modules = "interbase:firebird2:tools:addons" ;
 
 # leaders - List of leaders (sf login names) separated by colon
 

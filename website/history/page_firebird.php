@@ -29,7 +29,7 @@ Since it's conception, the evolution of Firebird Project was roaring. Unfortunat
 <TR>
 <TD ALIGN="LEFT" VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>25 Aug
 2000</I></TD>
-<TD>IBPhoenix launches the <A HREF="http://www.ibphoenix.com/ibp_60_odbc.html">InterBase 6.0 ODBC Appeal</A></TD>
+<TD>IBPhoenix launches the <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_odbc">InterBase 6.0 ODBC Appeal</A></TD>
 </TR>
 <TR>
 <TD ALIGN="LEFT" VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>30 Aug
@@ -57,7 +57,7 @@ Since it's conception, the evolution of Firebird Project was roaring. Unfortunat
 <TD VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>2 Mar 2001</I></TD>
 <TD>Firebird V1.0 draws closer. The Firebird project is fixing bugs
 while it slowly prepares for the release of its first major version. Check
-<A HREF="http://www.ibphoenix.com/ibp_firebird_1.html">here for more information</A>, including a list of planned features, a summary of bugs fixed, and details of those that are still open. </TD>
+<A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_firebird_1">here for more information</A>, including a list of planned features, a summary of bugs fixed, and details of those that are still open. </TD>
 </TR>
 <TR>
 <TD VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>27 Mar 2001</I></TD>
@@ -84,7 +84,7 @@ oriented list servers was established on <A href="news://news.atkin.com/">Atkin 
 </TR>
 <TR>
 <TD VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>31-July-2001</I></TD>
-<TD>The latest version of the IBPhoenix ODBC Driver was released as <A HREF="http://www.ibphoenix.com/ibp_60_odbc.html">Open Source</A> under the <A HREF="http://www.ibphoenix.com/ibp_idpl.html">Initial Developer's PUBLIC LICENSE Version 1.0</A>.</TD>
+<TD>The latest version of the IBPhoenix ODBC Driver was released as <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_odbc">Open Source</A> under the <A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_idpl">Initial Developer's PUBLIC LICENSE Version 1.0</A>.</TD>
 </TR>
 <TR>
 <TD VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="152"><I>08-August-2001</I></TD>
@@ -108,7 +108,7 @@ oriented list servers was established on <A href="news://news.atkin.com/">Atkin 
 </TR>
 <TR>
 <TD VALIGN="TOP" NOWRAP="NOWRAP" WIDTH="153"><I>08-November-2001</I></TD>
-<TD><A HREF="http://www.ibphoenix.com/ibp_news_art7.html">Whats happening with Firebird?</A> Article from the UK Borland User Group Magazine by Paul Reeves (Nov/Dec
+<TD><A HREF="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_news_art7">Whats happening with Firebird?</A> Article from the UK Borland User Group Magazine by Paul Reeves (Nov/Dec
 2001)</TD>
 </TR>
 <TR>

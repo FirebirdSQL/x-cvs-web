@@ -7,13 +7,14 @@ if (eregi("footer.php",$PHP_SELF)) {
 $footer = 1;
 ?>
 
+</td></tr></table>
 
 <?php
 if (!IsSet($op)) {
 echo "
 <hr size=1>
 <center>
-This <a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;home\">Firebird/Interbase
+This <a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;home\">Firebird&trade;/Interbase&reg;
  WebRing</a> site is owned by
  ".GetRabbitSafeEMailLink("firebirds","Firebird Project").".<br>
 [ <a href=\"http://nav.webring.org/cgi-bin/navcgi?ring=interbase;id=22;prev5\">
@@ -31,35 +32,23 @@ List Sites</a> ]</center>
   <tr bgColor="<?php echo $bgcolor1 ?>"><td><img alt height="2" src="images/1x1.gif" width="1"></td></tr>
 </table>
 
-<table CELLSPACING="5" border="0" width="100%"><tr>
-<td align="left" width="10%">
-        <a href="http://sourceforge.net/project/?group_id=9028">
-        <img src="<?=$rootDir?>images/sflogo.png" width="88" height="31"
-        border="0" alt="Firebird at SourceForge"></a>
-</td>
-        <td align="left" width="80%">
-        This site and the pages contained within are Copyright © 2000, 2001, 2002, Firebird Project.
-</td>
+<table CELLSPACING="5" border="0" width="100%"><tr><td align="left" width="10%">
+<a href="http://sourceforge.net/project/?group_id=9028">
+<img src="http://sourceforge.net/sflogo.php?group_id=9028&amp;type=1" width="88" height="31"
+border="0" alt="Firebird at SourceForge"></a>
+</td><td align="left" width="90%"><FONT face="Lucida,Verdana,Helvetica,Arial" color="black">
+This site and the pages contained within are Copyright © 2000-2004, Firebird Project.<br>
+Firebird&trade; - Relational Database for the New Millennium.
+</font></td></tr></table>
 
-<td align=right>
+<table border="0" cellPadding="0" cellSpacing="0" width="100%">
+  <tr bgColor="<?php echo $bgcolor1 ?>"><td><img alt height="2" src="images/1x1.gif" width="1"></td></tr>
+</table>
+</td></tr></table>
 
 
-<!--font size=1 color=white-->
-<font size=1>
-<a target="_top" href="http://t.extreme-dm.com/?login=hembot">
-<img src="http://u1.extreme-dm.com/i.gif" height=38
-border=0 width=41 alt=""></a><script language="javascript1.2"><!--
-EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
-EXb=EXs.colorDepth:EXb=EXs.pixelDepth;//-->
-</script><script language="javascript"><!--
-EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
-EXd.write("<img src=\"http://t0.extreme-dm.com",
-"/0.gif?tag=hembot&j=y&srw="+EXw+"&srb="+EXb+"&",
-"l="+escape(EXd.referrer)+"\" height=1 width=1>");//-->
-</script><noscript><img height=1 width=1 alt=""
-src="http://t0.extreme-dm.com/0.gif?tag=hembot&j=n"></noscript>
-</font>
+</td></tr></table>
+</td></tr></table>
 
-</td>
-</tr></table>
-
+</body>
+</html>

@@ -1,0 +1,11 @@
+| <a href="{$PHP_SELF}?action=profile&user={$t[username]}">{$l[Modify]}</a> | <a href="{$PHP_SELF}?action=admin&deluser=1&user={$t[username]}">{$l[Delete]}</a> 
+<table>
+<form action="{$PHP_SELF}?action=admin&changegroup=1" method="post"><tr>
+<td>
+<input type="hidden" name="f[username]" value="{$t[username]}">
+{$t[usersgroups]}
+<input type="submit" value="{$l[Submit]}">
+</td>
+</tr>
+</form>
+</table>

@@ -1,1 +1,7 @@
-<?php$question = "What's the difference between &quot;Classic&quot; and &quot;SuperServer&quot; architectures?" ;$answer = "<p><a href=\"http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_ss_vs_classic\">Read this White Paper</a> on the whole subject.";?>
+<?php
+
+$question = "What's the difference between &quot;Classic&quot; and &quot;SuperServer&quot; architectures?" ;
+
+$answer = "<p><a href=\"http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_ss_vs_classic\">Read this White Paper</a> on the whole subject.";
+
+?>
