@@ -141,7 +141,7 @@ connection.Close();
 <p><a name="10"></a>10. <b>There are sample applications using the .NET provider ?</b></p>
 <p>
 There are a port to Firebird, that uses the .NET provider, of the <a href="http://www.asp.net/Default.aspx?tabindex=8&tabid=47">Microsoft IssueTracker Starter Kit</a>, 
-but, it's not downloadable in the web because it mantains the original license.
+but, it's not downloadable in the web because it mantains the original license (it isn't the Final version).
 </p>
 <p>
 If you are interested on it send an email to <i>carlosga at telefonica.net</i>
