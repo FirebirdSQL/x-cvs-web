@@ -1,0 +1,78 @@
+<?php
+
+$question = "How do the SQL dialects differ?" ;
+
+$answer = "
+<br>
+<u>From Dave Schnepper</u>:<br>&nbsp;</td></tr>
+
+<table border=1 cellspacing=0 cellpadding=2>
+<tr>
+<td width=\"25%\"><b>SQL Item</b></td>
+<td width=\"25%\"><b>Dialect 3</b></td>
+<td width=\"25%\"><b>Dialect 2 *</b></td>
+<td width=\"25%\"><b>Dialect 1 **</b></td>
+</tr>
+<tr>
+<td width=\"25%\"><b>DATE</b></td>
+<td width=\"25%\">Date only</td>
+<td width=\"25%\">ERROR Message</td>
+<td width=\"25%\">Date & Time (Timestamp)</td>
+</tr>
+<tr>
+<td width=\"25%\"><b>TIMESTAMP</b></td>
+<td width=\"25%\">Timestamp</td>
+<td width=\"25%\">Timestamp</td>
+<td width=\"25%\">Timestamp (v.6.x only)</td>
+</tr>
+<tr>
+<td width=\"25%\"><b>TIME</b></td>
+<td width=\"25%\">Time only</td>
+<td width=\"25%\">Error message?</td>
+<td width=\"25%\">Error message</td>
+</tr>
+<tr>
+<td width=\"25%\"><b>&quot;&lt;quoted item&gt;&quot;</b></td>
+<td width=\"25%\">Symbol only</td>
+<td width=\"25%\">Error message</td>
+<td width=\"25%\">String</td>
+</tr>
+<tr>
+<td width=\"25%\"><b>Precision:  1/3 =</b></td>
+<td width=\"25%\">0 (exact)</td>
+<td width=\"25%\">0 (with warning?)</td>
+<td width=\"25%\">0.3333333... (double
+precision)</td>
+</tr>
+<tr>
+<td width=\"25%\"><b>NUMERIC(11,*)</b></td>
+<td width=\"25%\">64 bit int</td>
+<td width=\"25%\">64 bit int (with warning?)</td>
+<td width=\"25%\">double precision</td>
+</tr>
+</table></td></tr>
+
+<tr><td>
+(there are similar data type changes for other arithmetic operators,
+ e.g.: <long> + <long> is an <int64> instead of a <double>)
+<P>
+* Dialect 2 is designed for migration from V5 / V6 dialect 1 to V6 dialect 3.
+<P>
+** Dialect 1 in version 6.x is DIFFERS from Dialect 1 in version 5.x, by supporting the following new keywords:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          TIMESTAMP, TIME, EXTRACT, YEAR, MONTH, DAY, WEEKDAY, HOUR, MINUTE<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          SECONDS, ?TYPE?, CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP<P>
+ 
+SQL Dialect 0 is no longer supported in V6 (official statement).  (SQL Dialect 0 was replaced by dialect 1 in v4.0)
+<P> 
+  
+<b>A way to think about dialects:</b>
+<ul>
+<li>Dialect 1 -- Behave as close as possible to v5.x</li>
+<li>Dialect 2 -- Flag out any differences as errors, warnings, etc.</li>
+<li>Dialect 3 -- Newly supported SQL syntax & semantics (closer to the spec)</li>
+</ul>
+";
+
+?>

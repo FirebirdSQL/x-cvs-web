@@ -1,0 +1,20 @@
+<?php
+
+$question = "When will there be a new documentation set for downloading?" ;
+
+$answer = "
+<blockquote>
+The Documentation team is developing completely new documentation 
+for Firebird.  It is an enormous job that, like any open source project, will never 
+really be \"finished\".  It will just build up gradually and be kept up to date as 
+new features get added to Firebird.  
+<p>To examine what is already done, follow the 
+\"Documentation\" links in the menu above.<p>
+Treat the Firebird Release Notes as an important, cumulative part of your essential documentation.  We will continue to distribute these detailed, user-level notes until the full fabric of the new manuals is established. Look for the English versions in your Firebird kits. 
+Translations and older versions can be downloaded from the Main Downloads pages at the 
+IBPhoenix website, e.g. go to <a href=\"http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_15\">this page</a> 
+for the Firebird 1.5.x notes.
+</blockquote>
+";
+
+?>

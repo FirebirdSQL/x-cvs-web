@@ -1,0 +1,12 @@
+<?php
+
+$question = "The statement SELECT CAST(ORDER_DATE AS DATE) FROM ORDERS produces a list of full timestamps instead of the expected date-only dates.  Is this a bug?
+" ;
+
+$answer = "
+<blockquote>
+No: you have found a quick way to find out whether your database is dialect 3 or not!  Dialect 1 does not support the DATE type.
+</blockquote>
+";
+
+?>

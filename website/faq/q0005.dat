@@ -1,0 +1,13 @@
+<?php
+
+$question = "What open source licensing scheme applies to Firebird?" ;
+
+$answer = "
+<blockquote>
+Borland released <A href=\"index.php?op=doc&id=ipl\">a custom version</a> of the Mozilla Public License (MPL 1.1), known as &quot;The InterBase Public License&quot;(applicable to the original code from which Firebird 1 
+was developed). Later versions of the IPL do not apply to Firebird.<p>
+New code modules contributed to Firebird are licensed under the <a href=\"index.php?op=doc&id=idpl\">Initial Developer's Public Licence</a>, also a close derivative of the MPL 1.1, but free of the proprietary constraints inherent in the the Mozilla and InterBase licences.
+</blockquote>
+";
+
+?>

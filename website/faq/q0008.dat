@@ -1,0 +1,14 @@
+<?php 
+$question = "What is in the release versions of Firebird - I mean FB Server, FB Client, FB Java client, Delphi components, FB Documentation, ODBC, Replicator, an Admin console?" ;
+
+$answer = "
+<blockquote>
+The Server and the Client are not separate products:  they are built at the same time.There's no \"IBClient product\" as such.  The client component is just the library that surfaces the Application Programming Interface function structures to a client application, allowing it to connect to and communicate with the server.
+
+<p>In the Java area, Firebird abandoned InterClient and Interserver because the amount of effort required to get it working and up to date with latest standards just wasn't considered worth it.  Instead, a Client-Java project branch formed and developed totally new JDBC Type 4 and Type 2 drivers----Jaybird. 
+<p>The Firebird Project doesn't do Delphi components.  There is a rich variety of choices for Delphi and C++Builder developers available from third-party developers.  
+<p>Documentation is a mix of project-developed and third-party.  The IBPhoenix company has a Publications arm that is generating Firebird manuals, which it distributes via its CD. These eventually find their way into the hands of the Firebird Documentation project team for updating and distribution under the IDPL.<p>
+There are very active sub-projects in Firebird developing and supporting ODBC and .NET drivers.  Many excellent admin consoles are around and the FlameRobin sub-project is developing a lightweight cross-platform graphical admin client.
+</blockquote>
+"; 
+?>

@@ -1,0 +1,25 @@
+<?php
+
+$question = "If I try to do some kinds of metadata changes when 
+there is more than one connection to the database, I get the SQLCODE error 
+ -607, \"unsuccessful metadata update-object COMPANY is in use\". Is 
+exclusive access needed to change metadata?
+
+" ;
+
+$answer = "
+<blockquote>
+Only one client can be attached to a database at the time a
+foreign key is declared.  Other metadata operations do not
+have the same restriction.  This \"feature\" is as designed. 
+When a foreign key is declared, all users of the database
+must immediately respect the declaration.  In Firebird
+Classic, that means all processes must be notified.  When
+Foreign Keys were introduced, no mechanism was provided for
+that notification, so the easiest route was to require
+single-user access when declaring a new foreign key
+constraint.  
+</blockquote>
+";
+
+?>

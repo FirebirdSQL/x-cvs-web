@@ -1,0 +1,4 @@
+<?php 
+$question = "Do I have to pay anything to use Firebird or distribute it with my application software?" ;
+$answer = "<blockquote>No, there is nothing to pay.  If you would <i>like</i> to contribute some cash, you can become a member of the FirebirdSQL Foundation and play your part in keeping the progress of new code development moving forward strongly.  </blockquote>"; 
+?>

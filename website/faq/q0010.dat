@@ -1,0 +1,13 @@
+<?php
+
+$question = "Is there support for Firebird?" ;
+
+$answer = "
+<blockquote>
+You can purchase support from <a href=\"http://www.ibphoenix.com/\">IBPhoenix</a>. While Borland probably offers
+support only for their IB, IBPhoenix offers support for both flavors, IB
+(any version) & FB.     (Claudio Valderrama, Firebird Developer)
+</blockquote>
+";
+
+?>

@@ -1,0 +1,16 @@
+<?php
+
+$question = "On Windows XP (SP2), when I disconnect the network cable, my local programs are 
+unable to connect to the local loopback server (127.0.0.1 Localhost). Is there something I have to set in the Firebird configuration?
+" ;
+
+$answer = "
+<blockquote>
+No, it's a &quot;feature&quot; of WinXP called DHCP Media Sense, that automatically disables the TCP/IP stack whenever there is no network connection. Switching it off requires adding a key to the Windows Registry.<p>
+Open the Registry Editor and locate the folder HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters<br>
+Add a new DWORD key named DisableDHCPMediaSense with a value of 1.  To re-enable Media Sense, change 
+the value to 0.
+</blockquote>
+";
+
+?>
