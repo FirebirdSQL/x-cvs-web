@@ -33,7 +33,6 @@ submenuItem("Firebird JDBC Driver",loc+"../"+"index.php?op=devel&sub=jdbc","","f
 submenuItem("Firebird ODBC Driver",loc+"../"+"index.php?op=devel&sub=odbc","","fb_menu_plain");
 submenuItem("Firebird .NET Data Provider",loc+"../"+"index.php?op=devel&sub=netprovider","","fb_menu_plain");
 submenuItem("Firebird QA",loc+"../"+"index.php?op=devel&sub=qa","","fb_menu_plain");
-submenuItem("NBackup",loc+"../"+"index.php?op=devel&id=nbackup","","fb_menu_plain");
 submenuItem("Firebird website",loc+"../"+"index.php?op=devel&sub=web","","fb_menu_plain");
 submenuItem("---","javascript:;","","fb_menu_plain");
 submenuItem("Rabbit Holes",loc+"../"+"index.php?op=rabbits","","fb_menu_plain");
