@@ -40,6 +40,7 @@
 <td>
 <font face="Verdana" size=1>
    <a href="<?=$rootDir ?>foundation/index.php#about" style="text-decoration:none;color:#696969;">About</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=news.html" style="text-decoration:none;color:#696969;">Newsletters</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;">Members</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" style="text-decoration:none;color:#696969;">Sponsors</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;">Donate/Sponsor</a><br>
