@@ -122,8 +122,8 @@ switch ($op) {
     default:
     include("header.php");
   mainblock2();
-//	theindex();
-  NewsBlock(0);
+	theindex();
+//  NewsBlock(0);
   include("footer.php");
 }
 

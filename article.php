@@ -61,7 +61,7 @@ if ($catid != 0) {
 
 echo "<table width=\"100%\" border=0><tr><td valign=top>";
 themearticle($aid, $informant, $datetime, $title, $bodytext, $topic, $topicname, $topicimage, $topictext);
-echo "</td><td>&nbsp;</td><td valign=top width=200>";
+// echo "</td><td>&nbsp;</td><td valign=top width=200>";
 $boxtitle = "".translate("Related Links")."";
 $boxstuff = "";
 $result=mysql_query("select name, url from related where tid=$topic");
@@ -85,7 +85,7 @@ $boxstuff .= "<a href=\"print.php?sid=$sid\"><img src=\"images/print.gif\" borde
 $boxstuff .= "<a href=\"friend.php?op=FriendSend&sid=$sid\"><img src=\"images/friend.gif\" border=0 Alt=\"".translate("Send this Story to a Friend")."\" width=15 height=11></a>";
 $boxstuff .= "</td></tr></table>";
 $tbl = 180;
-themesidebox($boxtitle, $boxstuff);
+// themesidebox($boxtitle, $boxstuff);
 $tbl = 0;
 echo "</td></tr></table>";
 cookiedecode($user);

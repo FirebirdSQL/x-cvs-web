@@ -19,31 +19,35 @@ function themepreview($title, $hometext, $bodytext="", $notes="") {
 function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext, $notes, $morelink, $topicname, $topicimage, $topictext) {
 	global $tipath, $anonymous, $bgcolor4, $textcolor2;
 
-
-
 	if ("$aid" == "$informant") { ?>
 
-<table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
-<tr><td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+  <td>
+  <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    <tr><td colspan="1" bgcolor="FFFFFF" align="left">
+    <font size="3" color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
+    </td></tr>
+  </table>
+  <table border="0" cellPadding="0" cellSpacing="0" width="100%">
+  <tr bgColor="#000000">
+    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+  </tr>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="000000">
+  <tr><td bgcolor=FFFFFF>
+  <font size=2>
+  <?php echo translate("Posted by "); ?> <b><?php formatAidHeader($aid) ?></b> <?php echo translate("on"); ?> <?php echo"$time $timezone"; ?><br>(<?php echo $counter; ?> <?php echo translate("reads"); ?>)
+  </font><br><br><font size=2>
+  <?php echo"$thetext<br><br>"; ?></font>
+  </td></tr>
+  <tr><td align=left bgcolor=FFFFFF>
+    <font size=2><i><?php echo "$morelink"; ?></i>
+  </td></tr>
+  </table>
+</td></tr>
+</table><br>
 
-<table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=<?php echo"$bgcolor4"; ?>>
-<font size=4 color=<?php echo"$textcolor2"; ?>>
-<b><?php echo"$title"; ?></b><br>
-</td></tr><tr><td bgcolor=FFFFFF>
-<a href="search.php?query=&topic=<?php echo"$topic"; ?>&author="><img src=<?php echo"$tipath$topicimage"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
-<font size=2>
-<?php echo translate("Posted by "); ?> <b><?php formatAidHeader($aid) ?></b> <?php echo translate("on"); ?> <?php echo"$time $timezone"; ?><br>(<?php echo $counter; ?> <?php echo translate("reads"); ?>)
-<br><br>
-<?php echo"$thetext<br><br>
-</td></tr><tr><td align=left bgcolor=CCCCCC>
-<font size=2>$morelink"; ?>
-</td>
-</tr>
-</table>
-
-</td></tr></table>
-<br>
 
 <?php	} else {
 		if($informant != "") $boxstuff = "<a href=\"user.php?op=userinfo&uname=$informant\">$informant</a> ";
@@ -51,29 +55,33 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 		$boxstuff .= "".translate("writes")." <i>\"$thetext\"</i> $notes";
 ?>
 
-<table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
-<tr><td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+  <td>
+  <table width="100%" border="0" cellspacing="0" cellpadding="3">
+    <tr><td colspan="1" bgcolor="FFFFFF" align="left">
+    <font size="3" color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
+    </td></tr>
+  </table>
+  <table border="0" cellPadding="0" cellSpacing="0" width="100%">
+  <tr bgColor="#000000">
+    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+  </tr>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="000000">
+  <tr><td bgcolor=FFFFFF>
+  <font size=2>
+  <?php echo translate("Posted by "); ?> <b><?php formatAidHeader($aid) ?></b> <?php echo translate("on"); ?> <?php echo"$time"; ?><br> (<?php echo $counter; ?> <?php echo translate("reads"); ?>)
+  </font><br><br><font size=2>
+  <?php echo"$boxstuff<br><br>"; ?></font>
+  </td></tr>
+  <tr><td align=left bgcolor=FFFFFF>
+    <font size=2><i><?php echo "$morelink"; ?></i>
+  </td></tr>
+  </table>
+</td></tr>
+</table><br>
 
-<table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=<?php echo"$bgcolor4"; ?>>
-<font size=4 color=<?php echo"$textcolor2"; ?>>
-<b><?php echo"$title"; ?></b><br>
-<font size=2>
-</td></tr><tr><td bgcolor=FFFFFF>
-<a href="search.php?query=&topic=<?php echo"$topic"; ?>&author="><img src=<?php echo"$tipath$topicimage"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
-<font size=2>
-<?php echo translate("Posted by "); ?> <?php formatAidHeader($aid); ?> <?php echo translate("on"); ?> <?php echo"$time $timezone"; ?><br>(<?php echo $counter; ?> <?php echo translate("reads"); ?>)
-<br><br>
-
-<?php echo"$boxstuff<br><br>
-</td></tr><tr><td align=left bgcolor=CCCCCC>
-<font size=2>$morelink"; ?>
-</td>
-</tr>
-</table>
-
-</td></tr></table>
-<br>
 
 <?php	}
 }
@@ -92,7 +100,7 @@ echo"
 <b>$title</b><br><font size=2> $datetime
 ";
 if ($admin) {
-    echo "&nbsp;&nbsp; <font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
+    echo "<br> <font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
 }
 echo "
 </td>
@@ -100,7 +108,6 @@ echo "
 <tr>
 <td bgcolor=ffffff>
 <font size=2>
-<a href=search.php?query=&topic=$topic&author=><img src=$tipath$topicimage border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>
 $thetext
 </td>
 </tr>
@@ -124,7 +131,7 @@ echo "
 <b>$title</b><br><font size=2> ".translate("Contributed by")." $informant ".translate("on")." $datetime</font>
 ";
 if ($admin) {
-    echo "&nbsp;&nbsp; <font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
+    echo "<br> <font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
 }
 echo "
 </td>
@@ -132,7 +139,6 @@ echo "
 <tr>
 <td bgcolor=ffffff>
 <font size=2>
-<a href=search.php?query=&topic=$topic&author=><img src=$tipath$topicimage border=0 Alt=\"$topictext\" align=right hspace=10 vspace=10></a>
  $thetext
 </td>
 </tr>
@@ -152,32 +158,29 @@ function themesidebox($title, $content) {
 global $textcolor1, $textcolor2;
 ?>
 <table border=0 cellspacing=0 cellpadding=0 width=200 bgcolor=CE383D>
-<tr>
-<td>
-<table width=100% border=0 cellspacing=0 cellpadding=3>
-<tr>
-<td colspan=1 bgcolor=FFFFFF align=left>
-<font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
-</td>
-</tr>
-</table>
-<table border="0" cellPadding="0" cellSpacing="0" width="100%">
-<TBODY>
+  <tr>
+  <td>
+  <table width=100% border=0 cellspacing=0 cellpadding=3>
+    <tr>
+    <td colspan=1 bgcolor=FFFFFF align=left>
+    <font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
+    </td>
+    </tr>
+  </table>
+  <table border="0" cellPadding="0" cellSpacing="0" width="100%">
+  <TBODY>
   <tr bgColor="#000000">
     <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
   </tr>
-</TBODY>
-</table>
-<table border=0 cellspacing=0 cellpadding=3 width=200 bgcolor=000000>
-<tr>
-<td bgcolor=FFFFFF>
-<font size=2>
-<?php echo"$content"; ?>
-</td>
-</tr>
-</table>
-</td>
-</tr>
+  </TBODY>
+  </table>
+  <table border=0 cellspacing=0 cellpadding=3 width=200 bgcolor=000000>
+  <tr><td bgcolor=FFFFFF>
+  <font size=2>
+    <?php echo"$content"; ?>
+  </td></tr>
+  </table>
+</td></tr>
 </table><br>
     
 <?php
@@ -188,37 +191,34 @@ global $textcolor1, $textcolor2;
 
 if ("$title" != "") { ?>
 <table border=0 cellspacing=0 cellpadding=0 width=100% bgcolor=CE383D>
-<tr>
-<td>
-<table width=100% border=0 cellspacing=0 cellpadding=3>
-<tr>
-<td colspan=1 bgcolor=FFFFFF align=left>
-<font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
-</td>
-</tr>
-</table>
-<table border="0" cellPadding="0" cellSpacing="0" width="100%">
-<TBODY>
-  <tr bgColor="#000000">
-    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+<tr><td>
+  <table width=100% border=0 cellspacing=0 cellpadding=3>
+  <tr>
+  <td colspan=1 bgcolor=FFFFFF align=left>
+    <font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
+  </td>
   </tr>
-</TBODY>
-</table>
+  </table>
+  <table border="0" cellPadding="0" cellSpacing="0" width="100%">
+  <TBODY>
+    <tr bgColor="#000000">
+    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+    </tr>
+  </TBODY>
+  </table>
 <?php
   } ?>
-<table border=0 cellspacing=0 cellpadding=3 width=100% bgcolor=000000>
-<tr>
-<td bgcolor=FFFFFF>
-<font size=2>
-<?php echo"$content"; 
+  <table border=0 cellspacing=0 cellpadding=3 width=100% bgcolor=000000>
+  <tr><td bgcolor=FFFFFF>
+  <font size=2>
+  <?php echo"$content"; 
 if ("$title" != "") { ?>
-</td>
-</tr>
-</table>
+  </td>
+  </tr>
+  </table>
 <?php
   } ?>
-</td>
-</tr>
+</td></tr>
 </table><br>
     
 <?php

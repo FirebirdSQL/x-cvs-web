@@ -28,7 +28,7 @@ $dbhost = "localhost";
 $dbuname = "root";
 $dbpass = "";
 $dbname = "firebird";
-$system = 0;
+$system = 1;
 
 /*********************************************************************/
 /* You finished to configure the Database. Now you can change all    */
@@ -90,7 +90,55 @@ $foot1 = "<table CELLSPACING=\"5\" border=\"0\" width=\"100%\"><tr><td align=\"l
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a href=\"http://sourceforge.net/project/?group_id=9028\">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -106,7 +154,55 @@ $foot1 = "<table CELLSPACING=\"5\" border=\"0\" width=\"100%\"><tr><td align=\"l
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 border=\"0\" alt=\"Firebird at SourceForge\"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,6 +218,30 @@ border=\"0\" alt=\"Firebird at SourceForge\"></a>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This site and the pages contained within are Copyright © 2000, 2001, Firebird Project.<br>
 
 
@@ -130,7 +250,55 @@ This site and the pages contained within are Copyright © 2000, 2001, Firebird Pr
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Firebird - Relational Database for the New Millennium.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,7 +326,7 @@ $pollcomm = 1;
 ######################################################################
 
 $top = 10;
-$storyhome = 20;
+$storyhome = 10;
 $oldnum = 30;
 $ultramode = 0;
 
