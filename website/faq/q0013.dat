@@ -1,0 +1,10 @@
+<?php
+
+$question = "The README for Windows Embedded that comes in Firebird 1.5 says I need to use localhost to connect to the embedded server.  It doesn't seem to work.
+?" ;
+
+$answer = "
+The README is wrong.  You can ONLY use the IPServer local connect for embedded.  That is, don't include anything in the connection string but the absolute path name (or the bare alias, if you are using an alias).
+";
+
+?>

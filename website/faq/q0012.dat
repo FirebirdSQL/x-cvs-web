@@ -1,0 +1,10 @@
+<?php
+
+$question = "I installed Firebird 1.5.1 on Red Hat 9.  There are only two connections, yet CPU usage has risen quickly to 100%.  Why?
+?" ;
+
+$answer = "
+For Red Hat 9, Fedora and any other Linuxen that use the new POSIX threading model, make sure you installed the NPTL kit. Firebird 1.0 and 1.5 users need to set up their systems to use the old threading model.  Read the Linux installation instructions in the Firebird 1.5 release notes.
+";
+
+?>
