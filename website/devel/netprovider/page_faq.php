@@ -88,6 +88,9 @@ Yes.
 You need to add a reference to the provider assembly in your project and 
 you can add the provider components to the Visual Studio .NET Toolbox.
 </p>
+<p>
+See <a href="http://blogs.msdn.com/csharpfaq/archive/2004/04/29/123028.aspx">this</a> for a detailed explain
+</p>
 <p align=CENTER><a href="#top">return to top</a></p>
 
 <p><a name="9"></a>9. <b>Can i generate type datasets at design time using the FbDataAdapter component ?
