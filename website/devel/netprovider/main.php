@@ -20,7 +20,12 @@ Actual stable version is <b>1.6.2</b>
 <p>
 Actual development version is <b>1.7 Alpha 3</b>
 </p>
-
+<H4>Latest Developer Reports</H4>
+<blockquote>
+<ul>
+<li><a href="index.php?op=devel&sub=netprovider&id=dotnetff200409">Carlos Guzmán Álvarez, 2004-09-28</a>
+<li>
+</ul>
 <p>
 <?php
 $action="topics";
