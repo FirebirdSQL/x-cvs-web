@@ -30,7 +30,7 @@ $function = "Doc writer" ;
 #               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
 # mandatory
 
-$subprojects = "doc";
+$subprojects = "";
 
 # mainpage - URL to main personal page, optional
 # Leave it empty for main.php page in personal subdirectory

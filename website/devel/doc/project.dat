@@ -10,7 +10,7 @@ $cvs_modules = "manual" ;
 
 # leaders - List of leaders (sf login names) separated by colon
 
-$leaders = "jalba:helebor:firebirds" ;
+$leaders = "tmuetze" ;
 
 # lists - List of mailing lists (.dat file in lists/data) separated by colon
 

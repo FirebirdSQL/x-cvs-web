@@ -30,7 +30,7 @@ $function = "JDBC type 4 driver Developer/Leader, Firebird Documentation Project
 #               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
 # mandatory
 
-$subprojects = "jdbc:interclient:doc";
+$subprojects = "jdbc:interclient";
 
 # mainpage - URL to main personal page, optional
 # Leave it empty for main.php page in personal subdirectory

@@ -7,15 +7,15 @@ $title = "" ;
 
 # login - SourceForge login name, mandatory
 
-$login = "jalba" ;
+$login = "paulvink" ;
 
 # sfuid - SourceForge User ID (it's a number), mandatory
 
-$sfuid = "66445";
+$sfuid = "697739";
 
 # name - Full name, mandatory
 
-$name = "Joseph Marie Maravilla Alba" ; 
+$name = "Paul Vinkenoog" ; 
 
 # email - Personal e-mail address, optional
 # Leave it empty for <login_name>@users.sourceforge.net
@@ -24,13 +24,13 @@ $email = "";
 
 # function - Job description, mandatory
 
-$function = "Firebird Documentation project writer/Leader" ;
+$function = "???" ;
 
 # subprojects - Membership in subprojects (list of subprojects separated by colon)
 #               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
 # mandatory
 
-$subprojects = "";
+$subprojects = "doc";
 
 # mainpage - URL to main personal page, optional
 # Leave it empty for main.php page in personal subdirectory
