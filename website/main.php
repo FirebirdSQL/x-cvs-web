@@ -14,7 +14,7 @@ Firebird is a commercially independent project of C and C++ programmers, technic
 <table>
   <tr>
     <td>
-<a href="http://fbmanager.sourceforge.net">
+<a href="http://www.flamerobin.org">
 <img src="images/flamerobin2.gif" alt="FlameRobin Project" width=218 height=47 border=0></a>
     </td>
     <td><a href="http://www.flamerobin.org">FlameRobin</a> is a project to build a cross-platform, lightweight GUI admin tool for Firebird completely with open source components.  Alpha builds for Linux and Windows are ready--try them out and feed back to the FlameRobin team, please!
