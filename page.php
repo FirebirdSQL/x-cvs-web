@@ -41,7 +41,6 @@ function ViewPage($id) {
     CloseTable();
     echo "</center>";
     mysql_free_result($result);
-    mysql_free_result($result2);
     include ('footer.php');
 }
 

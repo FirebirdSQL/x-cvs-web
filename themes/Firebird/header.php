@@ -55,7 +55,7 @@ if ($banners) {
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=download.php>&nbsp;Download&nbsp;</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=download2.php>&nbsp;Download&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=user.php>&nbsp;Your account&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
