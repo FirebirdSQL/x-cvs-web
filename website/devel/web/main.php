@@ -36,7 +36,10 @@ Some reorganisation of content is planned.
 <dd>During the course of the makeover, the Web Team will be augmented so that web site maintenance no longer gets left in the hands of the same busy people who are often heavily occupied with more urgent tasks around the project.  Ideally, we will have a content manager/editor and a web author for each team lead around the project whenever assistance is needed.  
  
 </dl>
-
+<p><h4>Latest Developer reports</h4>
+<ul>
+<li><a href="index.php?op=devel&sub=web&id=webff200409">Helen Borrie, 2004-09-30</a>
+</ul>
 <p>
 <table cellpadding=2 border=0>
   <tr bgcolor="#C64108">
