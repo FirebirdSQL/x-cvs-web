@@ -25,10 +25,14 @@ list</a>.
 
 <h4>Latest</h4>
 
-Norman Dunbar is working on a book about the Firebird command-line tools.
-The first chapter - GSEC - is now available in <a href="/manual/fbutils.html">HTML</a>
-and <a href="/pdfmanual/Firebird-Utils-WIP.pdf">PDF</a>. Check back regularly
-for new chapters.
+The Quick Start Guide is now available in Russian! See links below.
+The translation is by Gregory Sapunkov, who is planning to do more
+Russian translations.
+<p>
+Norman Dunbar is working on a book about the Firebird command-line 
+tools. The first chapters - GSEC, GSPLIT, scripts - are now available
+in HTML and PDF (note: PDF lagging behind sometimes). Check back 
+regularly for new chapters. Again, see links below.
 <p>
 
 <h4>Online documentation</h4>
@@ -37,11 +41,13 @@ Links to the HTML documentation we have produced so far:
 <ul>
 <li><a href="/manual/index.html">Overall table of contents</a>
     (also in <a href="/manual/fr/index.html">French</a>,
-     <a href="/manual/es/index.html">Spanish</a>)
+     <a href="/manual/ru/index.html">Russian</a>,
+     <a href="/manual/es/index.html">Spanish</a> - content may vary)
 <p>
 </li>
 <li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a>
     (also in <a href="/manual/fr/qsg15-fr.html">French</a>,
+     <a href="/manual/ru/qsg15-ru.html">Russian</a>,
      <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
@@ -62,6 +68,7 @@ And these are the PDF versions:
 <ul>
 <li><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start Guide</a>
     (also in <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">French</a>,
+     <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">Russian</a>,
      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
@@ -83,9 +90,10 @@ documentation page</a>.
 
 <h4>Under development</h4>
 <ul>
-<li>More improvement of PDF rendering</li>
+<li>Further improvement of PDF rendering</li>
 <li>Additions to IB+Fb coexistence doc</li>
 <li>Reserved words list + glossary</li>
+<li>Preliminary NBackup doc</li>
 </ul>
 <p>
 
