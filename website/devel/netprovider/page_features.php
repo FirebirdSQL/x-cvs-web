@@ -96,7 +96,7 @@ if (eregi("main.php",$PHP_SELF)) {
 	    <p>Named parameters (SQL Server like implementation).</p>
 	    <p>An example:</p>
 	    <p>
-	        <pre>
+            <pre class=code style="padding-top:1em">
 FbConnection connection = new FbConnection(connectionString);
 FbCommand command = new FbCommand("select * from table_name were field_name = @param_value");
 FbDataReader reader = command.ExecuteReader();
@@ -113,7 +113,7 @@ connection.Close();
 	    <p>Stored procedure execution using SQL Server-like syntax</p>
 	    <p>An example:</p>
 	    <p>
-	        <pre>
+            <pre class=code style="padding-top:1em">
 FbConnection connection = new FbConnection(connectionString);
 FbCommand command = new FbCommand("sp_select_data");
 command.CommandType = CommandType.StoredProcedure;
