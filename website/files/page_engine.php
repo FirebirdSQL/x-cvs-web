@@ -30,68 +30,96 @@ Firebird 2 codebase and represents a significant milestone for the developers
 and the whole Firebird project, but it is not an end in itself. As Firebird V1.5 goes to release, major development continues toward the next point release on the journey to Firebird V2.0.<br><br>
 There are many new features and bugs fixed and the list of major changes beyond the original V1.0 version is quite long. Please read the Release Notes for more information.
 
-<p><b>Release Notes</b></p>
+<p>Release Notes</p>
 
 <ul>
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotes.pdf">Release Notes</a> (English) (.pdf) V1.08
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesItalian.pdf">Release Notes</a> (Italian) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotes.pdf">Release Notes 1.5</a> (English) (.pdf) V1.08
+ <ul>
+ <li><a href="http://www.ibphoenix.com/downloads/Firebird_v15pt1_ReleaseNotes.pdf">Release Notes 1.5.1</a> (English) (.pdf)
+ </ul>
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesItalian.pdf">Release Notes 1.5</a> (Italian) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesGerman.pdf">Release Notes 1.5</a> (German) (.pdf) V1.08
 
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesGerman.pdf">Release Notes</a> (German) (.pdf) V1.08
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesSpanish.pdf">Release Notes</a> (Spanish) (.pdf) V1.08
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesPortuguese.pdf">Release Notes</a> (Portuguese) (.pdf) V1.08
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesPortugBrasil.pdf">Release Notes</a> (Brazilian Portuguese) (.pdf) V1.08
-<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesCzech.pdf">Release Notes</a> (Czech) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesSpanish.pdf">Release Notes 1.5</a> (Spanish) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesPortuguese.pdf">Release Notes 1.5</a> (Portuguese) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesPortugBrasil.pdf">Release Notes 1.5</a> (Brazilian Portuguese) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesCzech.pdf">Release Notes 1.5</a> (Czech) (.pdf) V1.08
+<li><a href="http://www.ibphoenix.com/downloads/Firebird_v15.108_ReleaseNotesFrench.pdf">Release Notes</a> (French) (.pdf) V1.08
+ <ul>
+ <li><a href="http://www.ibphoenix.com/downloads/Firebird_v15pt1_ReleaseNotes_French.pdf">Release Notes 1.5.1</a> (French) (.pdf)
+ </ul>
+
 </ul>
 
-<p><b>Other Documents</b></p>
+<p>Other</p>
 <ul>
 <li><a href="http://www.ibphoenix.com/downloads/Firebird_Factsheet.pdf">Firebird Factsheet</a> (.pdf)
 <li><a href="http://www.firebirdsql.org/ff/foundation/FBFactsheet.html">Firebird Factsheet</a> (.html)
 <li><a href="http://www.comunidade-firebird.org/cflp/html_docs/001_FacSheet/Firebird%201_5%20Factsheet.htm">Firebird Factsheet in Portuguese</a> (.html)
 <li><a href="http://www.ibphoenix.com/downloads/Firebird15_New.pdf">Whats New in Firebird V1.5</a> (.pdf)
-<li><a href="http://www.firebirdsql.org/ff/foundation/FB15_New.html">Whats New in Firebird V1.5</a> (.html)
 
+<li><a href="http://www.firebirdsql.org/ff/foundation/FB15_New.html">Whats New in Firebird V1.5</a> (.html)
 <li>Part of Sean Leyne's presentation (.pdf) to the Toronto Delphi Users Group that focuses on Firebird V1.5.
   <ul>
   <li><a href="http://www.ibphoenix.com/downloads/Firebird15update.pdf">English</a>.
   <li><a href="http://www.ibphoenix.com/downloads/firebird15update_jp.pdf">Japanese</a>.
   </ul>
 <li>The embedded server is a fully functional server linked as a dynamic library (fbembed.dll). It has exactly the same features as the usual server and exports the standard Firebird API entrypoints.
+<li>Firebird Superserver has a link-time backward compatibility issue with the NPTL (Native POSIX Thread Library) that may cause it to be unstable on Linux distributions that enable the NPTL in the GNU C library, e.g. Red Hat 9, Mandrake 10 and Fedora Core. The new NPTL builds of Superserver should solve
+these problems.
 </ul>
 
-<p><b>Tools</b></p>
+<p><b>Useful Tools and Information</b></p>
 
 <ul>
-<li>9th April 2003 <A HREF="http://prdownloads.sourceforge.net/firebird/FbConfigManager.zip">Firebird Configuration Manager</a> (.zip) (229k)<br>
-
+<li>9th Apr 2003 <A HREF="http://prdownloads.sourceforge.net/firebird/FbConfigManager.zip">Firebird Configuration Manager</a> (.zip) (229k)<br>
 Tool for manipulating the Firebird V1.5 Configuration file.
+<li>2nd Aug 2003
+<a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_pdb_win32" >Tracking Down Crashes on Win32 Systems</a> By Nickolay Samatov 
 </ul>
 
 
 <p><b>Downloads</b></p>
 
 <ul>
-<li>2nd Feb 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.0.4306-Win32.exe">Official Windows Setup and Installer For Classic and SuperServer</A> V1.5 (.exe) (3.8mb)</li>
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.0.4290_win32.zip">SuperServer and Classic for Windows</A> V1.5 (.zip) (3.4mb)</li>
+<li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481-Win32.exe">Official Windows Setup and Installer For Classic and SuperServer</A> V1.5.1 (.exe) (4.0mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32.zip">SuperServer and Classic for Windows</A> V1.5.1 (.zip) (3.5mb)</li>
+<li>16th Jul 2004<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32.zip"> Embedded Server for Windows</A> V1.5.1 (.zip) (1.4mb)</li>
 
-<li>22nd Feb 2004<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.0.4290_embed_win32.zip"> Embedded Server for Windows</A> V1.5 (.zip) (1.5mb)</li>
-<li>22nd Feb 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.0.4290_debug_win32.zip">Windows Debug Build</A> V1.5 (.exe) (3.0mb)</li>
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.0.4290-0.i686.rpm">Classic for Linux</A> V1.5 (.rpm) (2.8mb)</li>
-<li>22nd Feb 2004 
+<li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32_pdb.zip">Windows Debug Build</A> V1.5.1 (.zip) (6.0mb)</li>
+<li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32_pdb.zip">Embedded Server Debug Build for Windows</A> 1.5.1 (.zip) (2.3mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.rpm">Classic for Linux</A> V1.5.1 (.rpm) (3.0mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.tar.gz">Classic for Linux</A> V1.5.1 (.tar.gz) (2.8mb)</li>
 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.0.4290-0.i686.tar.gz">Classic for Linux</A> V1.5 (.tar.gz) (2.7mb)</li>
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-debuginfo-1.5.0.4290-0.i686.tar.gz">Classic Debug Build for Linux</A> V1.5 (.tar.gz) (13.0mb)</li>
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.0.4290-0.i686.rpm">SuperServer for Linux</A> V1.5 (.rpm) (2.5mb) 
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-debuginfo-1.5.1.4481-0.i686.tar.gz">Classic Debug Build for Linux</A> V1.5.1 (.tar.gz) (13.4mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.rpm">
+SuperServer for Linux</A> V1.5.1 (.rpm) (3.0mb) 
 </li>
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.0.4290-0.i686.tar.gz">SuperServer for Linux</A> V1.5 (.tar.gz) (2.5mb)
+<li>28th Jul 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4500-0.i686.nptl.rpm" >SuperServer for Linux NPTL</A> V1.5.1 (.rpm) (2.5mb)
+</li>
+<li>16th Jul 2004 
 
-<li>22nd Feb 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.0.4290-0.i686.tar.gz">SuperServer Debug Build for Linux</A> V1.5 (.tar.gz) (13.0mb)
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.tar.gz">SuperServer for Linux</A> V1.5.1 (.tar.gz) (3.0mb)
+<li>28th Jul 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4500-0.i686.nptl.tar.gz" >SuperServer for Linux NPTL</A> V1.5.1 (.tar.gz) (2.5mb)
+</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.1.4481-0.i686.tar.gz"> SuperServer Debug Build for Linux</A> V1.5.1 (.tar.gz) (13.4mb)
+</li>
+<li>28th Jul 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.1.4500-0.i686.nptl.tar.gz" >SuperServer Debug Build for Linux NPTL</A> V1.5.1 (.tar.gz) (12.5mb)
+
+</li>
+<li>15th May 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/firebird-1.5.0-fbsd48.tgz">Classic for FreeBSD 4.8 and 4.9</A> V1.5 (.tgz) (3.7mb)
+<li>15th May 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/firebird-1.5.0-fbsd51.tbz">Classic for FreeBSD 5.1 and 5.2</A> V1.5 (.tbz) (2.0mb)
 <li>26th Nov 2003 
 <A HREF="http://prdownloads.sourceforge.net/firebird/MacOS-X-Firebird-CS-1.5-RC-7.pkg.tar.gz">Classic for MacOS X</A> Release Candidate 7.0 (.tar.gz) (3.0mb)
 </ul>
@@ -107,10 +135,10 @@ V1.03 release on 4th June 2003</H5>
 <p><b>Documentation</b></p>
 <p>
 <UL>
-<LI><a href="/main.nfs?a=ibphoenix&page=ibp_fb1_faq" >Firebird 1.0 FAQ</A></LI>
+<LI><a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_fb1_faq" >Firebird 1.0 FAQ</A></LI>
 <LI>
 
-<a href="/main.nfs?a=ibphoenix&l=;FAQS;NAME='ibp_firebird_103_faq'">Firebird 1.03 FAQ</a>
+<a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&l=;FAQS;NAME='ibp_firebird_103_faq'">Firebird 1.03 FAQ</a>
 
 <LI><A
 HREF="http://prdownloads.sourceforge.net/firebird/Firebird_v1_ReleaseNotes.pdf">Release Notes (.pdf)</A>
