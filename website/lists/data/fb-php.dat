@@ -4,7 +4,7 @@ $list_id = "firebird-php" ;
 
 $list_name = "Firebird-PHP" ;
 
-$list_address = "firebird-php<br>@yahoogroups.com" ;
+$list_address = "Firebird-php<br>@yahoogroups.com" ;
 
 $list_purpose = "
 General discussion list for PHP developers wanting to develop applications with Firebird back-ends. 
