@@ -1,3 +1,179 @@
+2003-10-20  helebor
+	* website/foundation/main.html:
+	* website/foundation/main_es.html:
+	* website/foundation/members.html:
+		Draw member 100 updated
+
+2003-10-16  helebor
+	* website/foundation/main.html:
+	* website/foundation/main_es.html:
+		Added A. Bringas Spanish translation of main page
+
+2003-10-11  helebor
+	* website/foundation/sponsorship.html:
+		Added 1 new sponsor + new logo for Broadview
+
+	* website/foundation/images/sponsors/DRBmed.gif:
+	* website/foundation/images/sponsors/bv_logo_sm.gif:
+		*** empty log message ***
+
+2003-10-07  helebor
+	* website/foundation/images/sponsors/dymatrix.gif:
+	* website/foundation/main.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-10-06  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/lists/data/fb-dotnet-provider.dat:
+		*** empty log message ***
+
+2003-10-06  pcisar
+	* website/lists/data/fb-dotnet-provider.dat:
+		Fix to messed up .dat file
+
+2003-10-03  helebor
+	* website/topmenu.php:
+		Accommodate slightly longer logo image
+
+	* website/images/TitleBlackGill2.gif:
+	* website/lists/data/fb-dotnet-provider.dat:
+		*** empty log message ***
+
+	* website/lists/data/fb-dotnet-provider.dat:
+		Mmm, fixed typos
+
+2003-10-02  helebor
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-10-01  helebor
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership_it.html:
+	* website/foundation/main.html:
+	* website/foundation/main_it.html:
+		Added some Italian translations from Nando Dessena
+
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-09-26  helebor
+	* website/foundation/news.html:
+	* website/foundation/news0309.html:
+		*** empty log message ***
+
+2003-09-25  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-09-12  helebor
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-09-11  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-09-05  helebor
+	* website/foundation/main.html:
+	* website/foundation/main_de.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/main_pt.html:
+		fixed typos
+
+2003-09-01  helebor
+	* website/foundation/members.html:
+		Payment update
+
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-08-28  helebor
+	* website/foundation/members.html:
+		Update only
+
+2003-08-27  helebor
+	* website/foundation/gloat_logos.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+	* website/foundation/images/logos/sb_firebird.png:
+		Latest gloatlogo from Nigel Weeks
+
+2003-08-26  helebor
+	* website/foundation/os_licences.html:
+		Changed text because Mark O jumped the gun.
+
+2003-08-25  helebor
+	* website/foundation/os_licences.html:
+		Four OS licences compatible with IPL
+
+2003-08-19  helebor
+	* website/sidemenu.php:
+		Added 2 new items
+
+	* website/foundation/gloat_logos.html:
+	* website/foundation/gloat_logos.html:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+	* website/foundation/images/logos/clearpixel.gif:
+	* website/foundation/images/logos/fb_burning_within1.gif:
+	* website/foundation/images/logos/fb_burning_within2.gif:
+	* website/foundation/images/logos/fb_powered_by.gif:
+	* website/foundation/images/logos/firebird_gloat1.gif:
+	* website/foundation/images/logos/firebird_gloat10.gif:
+	* website/foundation/images/logos/firebird_gloat11.gif:
+	* website/foundation/images/logos/firebird_gloat12.gif:
+	* website/foundation/images/logos/firebird_gloat13.gif:
+	* website/foundation/images/logos/firebird_gloat14.gif:
+	* website/foundation/images/logos/firebird_gloat15.gif:
+	* website/foundation/images/logos/firebird_gloat16.gif:
+	* website/foundation/images/logos/firebird_gloat3.gif:
+	* website/foundation/images/logos/firebird_gloat4.gif:
+	* website/foundation/images/logos/firebird_gloat5.gif:
+	* website/foundation/images/logos/firebird_gloat6.gif:
+	* website/foundation/images/logos/firebird_gloat7.gif:
+	* website/foundation/images/logos/firebird_gloat8.gif:
+	* website/foundation/images/logos/firebird_gloat9.gif:
+	* website/foundation/images/logos/pbfblogo1.png:
+	* website/foundation/images/logos/pbfblogo10.png:
+	* website/foundation/images/logos/pbfblogo11.png:
+	* website/foundation/images/logos/pbfblogo12.png:
+	* website/foundation/images/logos/pbfblogo13.png:
+	* website/foundation/images/logos/pbfblogo4.png:
+	* website/foundation/images/logos/pbfblogo5.png:
+	* website/foundation/images/logos/pbfblogo6.png:
+	* website/foundation/images/logos/pbfblogo9.png:
+		Graphics for the gloat-logo page
+
+2003-08-18  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-08-15  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-08-14  skywalker
+	* cgi-bin/foundation/applyForMembership:
+		Change to send request to the committee and to changemgr
+
+2003-08-12  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-08-11  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
 2003-08-08  helebor
 	* website/foundation/members.html:
 	* website/foundation/members.html:
