@@ -11,21 +11,21 @@ if (eregi("page_bugdb.php",$PHP_SELF)) {
 
 <p>The .NET Data provider/Driver is written in C# and provides a
 high-performance, native implementation of the Firebird API.<br>
-Version 1.6.0 is the most recent stable version.</p>
+Version 1.6.1 is the most recent stable version.</p>
 
-<H5>Version 1.6.0 for .NET 1.1 and mono:: 1.0</H5>
+<H5>Version 1.6.1 for .NET 1.1 and Mono 1.0.x</H5>
 
 <UL>
-<LI>15th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6-NET1.1.exe?download">Data Provider for .NET Framework 1.1</a> (.exe) (760k)</LI>
-<LI>15th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6-mono1.0-Bin.zip?download">Data Provider for mono:: 1.0</a> (.exe) (775k)</LI>
-<LI>15th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6-Src.zip?download">Source Code</a> (.zip) (429k)</LI>
-<LI>15th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6-Doc.zip?download">Documentation</a> (.zip) (880k)</LI>
-<LI>15th Jul 2004
-<a href="http://sourceforge.net/project/shownotes.php?release_id=253500">Change Log</a></LI>
+<LI>13th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6.1-NET1.1.exe?download">Data Provider for .NET Framework 1.1</a> (.exe) (760k)</LI>
+<LI>13th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6.1-Mono1.0-Bin.zip?download">Data Provider for Mono 1.0</a> (.zip) (752kb)</LI>
+<LI>13th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6.1-Src.zip?download">Source Code</a> (.zip) (437kb)</LI>
+<LI>13th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.6.1-Doc.zip?download">Documentation</a> (.zip) (853kb)</LI>
+<LI>13th Aug 2004
+<a href="http://sourceforge.net/project/shownotes.php?release_id=260239">Change Log</a></LI>
 </UL>
 
 <H5>Version 1.7 Alpha 1 for .NET 1.1 and mono:: 1.0</H5>

@@ -25,7 +25,7 @@ if (eregi("main.php",$PHP_SELF)) {
 <h3>Building the sources on Windows</h3>
 <p>
 You will need a recent snapshot of <a href="http://nant.sourceforge.net">nant 0.85</a>.
-The nant build file is located in <i>builds\win32</i>, there are a <i>build.bat</i> file
+The nant build file is located in <i>builds\win32\ado.net</i>, there are a <i>build.bat</i> file
 that can be used to build the sources if nant is in the PATH.
 The default target frameworks in the nant build file are:
 <ul>
