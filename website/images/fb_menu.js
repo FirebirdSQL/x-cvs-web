@@ -5,8 +5,8 @@ var bd=2
 document.write("<style type=\"text/css\">");
 document.write("\n<!--\n");
 document.write(".fb_menu_menu {z-index:999;border-color:#000000;border-style:solid;border-width:"+bd+"px 0px "+bd+"px 0px;background-color:#c5420a;position:absolute;left:0px;top:0px;visibility:hidden;}");
-document.write(".fb_menu_plain, a.fb_menu_plain:link, a.fb_menu_plain:visited{text-align:left;background-color:#c5420a;color:#ffffff;text-decoration:none;border-color:#000000;border-style:solid;border-width:0px "+bd+"px 0px "+bd+"px;padding:1px 0px 1px 0px;cursor:hand;display:block;font-size:11pt;font-family:Tahoma, Verdana, Arial, sans-serif;font-weight:bold;}");
-document.write("a.fb_menu_plain:hover, a.fb_menu_plain:active{background-color:#ffffff;color:#000000;text-decoration:none;border-color:#000000;border-style:solid;border-width:0px "+bd+"px 0px "+bd+"px;padding:1px 0px 1px 0px;cursor:hand;display:block;font-size:11pt;font-family:Tahoma, Verdana, Arial, sans-serif;font-weight:bold;}");
+document.write(".fb_menu_plain, a.fb_menu_plain:link, a.fb_menu_plain:visited{text-align:left;background-color:#c5420a;color:#ffffff;text-decoration:none;border-color:#000000;border-style:solid;border-width:0px "+bd+"px 0px "+bd+"px;padding:1px 0px 1px 0px;cursor:hand;display:block;font-size:10pt;font-family:Tahoma, Verdana, Arial, sans-serif;font-weight:bold;}");
+document.write("a.fb_menu_plain:hover, a.fb_menu_plain:active{background-color:#ffffff;color:#000000;text-decoration:none;border-color:#000000;border-style:solid;border-width:0px "+bd+"px 0px "+bd+"px;padding:1px 0px 1px 0px;cursor:hand;display:block;font-size:10pt;font-family:Tahoma, Verdana, Arial, sans-serif;font-weight:bold;}");
 document.write("\n-->\n");
 document.write("</style>");
 
