@@ -1,17 +1,18 @@
 <?php
 global $admin;
 if ($index == 1) {
-    echo "<td>&nbsp;</td><td valign=\"top\" width=150>";
+//    echo "<td valign=\"top\" width=150>";
 //    bigstory();
 //    pollNewest();
 //    loginbox();
 //    online();
 //    oldNews($storynum);
 //    rightblocks();
-    ephemblock();
-    headlines();
+//    ephemblock();
+//    headlines();
+//echo "</td>";
 }
-echo "</td></tr></table></td></tr></table>";
+echo "</tr></table></td></tr></table>";
 
 if ($index == 1) {
 echo "
