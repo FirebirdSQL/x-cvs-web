@@ -4,7 +4,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   die();
 }
 
-  $title = "ODBC driver";
+  $title = ".NET data provider";
   $content = "Sub-project specific material is not yet available.
   <br>";
 
