@@ -1,3 +1,277 @@
+2003-07-08  helebor
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-07-06  helebor
+	* website/foundation/images/sponsors/ff_fullm.gif:
+	* website/foundation/images/sponsors/ff_fullm.jpg:
+	* website/foundation/images/sponsors/ff_fullm.png:
+	* website/foundation/introMessage_jp.html:
+	* website/foundation/introMessage_jp.html:
+	* website/foundation/introMessage_jp.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/support_logos.html:
+	* website/sidemenu.php:
+		*** empty log message ***
+
+2003-07-02  helebor
+	* website/foundation/rules.html:
+		Fixed 2 typos
+
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-07-01  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-06-25  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-06-21  helebor
+	* website/foundation/images/sponsors/warmboot.gif:
+	* website/foundation/images/sponsors/warmboot.gif:
+	* website/foundation/sponsorship.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-06-16  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-06-14  helebor
+	* website/foundation/contributions.html:
+	* website/foundation/images/pay_secure.gif:
+	* website/foundation/members.html:
+	* website/foundation/payYourMembership.html:
+		*** empty log message ***
+
+2003-06-13  skywalker
+	* website/lists/data/fb-architect.dat:
+	* website/lists/data/gen-ib-br.dat:
+	* website/lists/data/gen-ibdi.dat:
+	* website/lists/data/sup-ibsupport.dat:
+	* website/lists/main.php:
+		Updated sub-ibsupport.dat and copied other changes from the
+		live website
+
+2003-06-13  helebor
+	* website/foundation/contributions.html:
+	* website/foundation/images/clearpixel.gif:
+	* website/foundation/images/pay_secure.gif:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/payYourMembership.html:
+	* website/foundation/payYourMembership.html:
+		*** empty log message ***
+
+2003-06-05  helebor
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership_de.html:
+		*** empty log message ***
+
+2003-06-04  helebor
+	* website/foundation/main.html:
+	* website/foundation/main_de.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/main_jp.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-05-26  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-05-13  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-05-06  helebor
+	* website/lists/data/gen-ib-br.dat:
+	* website/lists/data/gen-ib-br.dat.fixed:
+		another attempt.  --.fixed is a copy of the other.
+
+	* website/lists/data/gen-ib-br.dat:
+		Interbase-br list replaced by Firebird-br
+
+2003-04-29  helebor
+	* website/foundation/fbtm_linkhere.html:
+	* website/foundation/fbtm_linkhere.html:
+	* website/newsflash.html:
+	* website/newsflash.html:
+	* website/newsflash.html:
+	* website/newsflash.html:
+	* website/newsflash.html:
+	* website/newsflash.new.html:
+		*** empty log message ***
+
+2003-04-28  skywalker
+	* website/Firebird_NameDebate_References.html:
+	* website/newsflash.html:
+		*** empty log message ***
+
+2003-04-28  helebor
+	* website/foundation/fbtm_linkhere.html:
+		*** empty log message ***
+
+2003-04-26  skywalker
+	* website/newsflash.html:
+		Updaed with partial story
+
+2003-04-24  skywalker
+	* website/newsflash.html:
+		Just a test change
+
+	* website/newsflash.html:
+		Anohter slight change
+
+2003-04-23  skywalker
+	* website/firebirdsql.webprj:
+	* website/main.php:
+	* website/news.html:
+	* website/news.php:
+	* website/newsflash.html:
+	* website/newsflash.php:
+	* website/oldnews.html:
+	* website/oldnews.php:
+	* website/page_newsarchive.php:
+		Change news to use plain html files
+
+2003-04-21  helebor
+	* website/foundation/fb_trademark.html:
+	* website/foundation/fbtm_linkhere.html:
+	* website/foundation/fbtm_linkhere.html:
+	* website/foundation/fbtm_linkhere.html:
+		*** empty log message ***
+
+2003-04-20  helebor
+	* website/foundation/fb_trademark.html:
+		Preliminary version by P. Cisar, (first editing by Helen)
+
+	* website/foundation/fb_trademark.html:
+	* website/foundation/ff_trademark_discuss.html:
+		Original doc split into two for separate discussions
+
+	* website/foundation/fb_trademark.html:
+		*** empty log message ***
+
+2003-04-18  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-04-17  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-04-09  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-04-05  helebor
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
+2003-03-30  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-29  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-24  helebor
+	* website/foundation/contributions.html:
+	* website/foundation/contributions.html:
+	* website/foundation/contributions.html:
+	* website/foundation/contributions.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/resourcedonors.html:
+		*** empty log message ***
+
+2003-03-22  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-18  helebor
+	* website/foundation/applicationForMembership.html:
+		*** empty log message ***
+
+2003-03-17  helebor
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-16  skywalker
+	* website/news.php:
+	* website/topmenu.php:
+		Commented out the rightmenu (will add it later when do whole website)
+		changed date format for news.
+
+2003-03-15  skywalker
+	* website/mainfile.php:
+		Added back in the $rootDir setting to allow these files to run from
+		different levelled subdirectories.
+
+2003-03-15  helebor
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership.html:
+	* website/foundation/aboutMembership_pt.html:
+	* website/foundation/aboutMembership_ru.html.gz:
+	* website/foundation/introMessage_ru.html.gz:
+	* website/foundation/main.html:
+	* website/foundation/main.html:
+	* website/foundation/main_ru.html.gz:
+		*** empty log message ***
+
+2003-03-14  helebor
+	* website/foundation/main_ru.html.gz:
+		trying unicode
+
+	* website/foundation/main.html:
+	* website/foundation/main_ru.rar:
+	* website/foundation/main_ru.zip:
+		main_ru.rar and main_ru.zip are Cyrillic characters (UTF) which
+		SF won't support.  Will expand to main_ru.html
+
+2003-03-08  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-07  helebor
+	* website/foundation/members.html:
+		*** empty log message ***
+
+2003-03-05  helebor
+	* website/foundation/images/sponsors/bvlogo.gif:
+	* website/foundation/members.html:
+	* website/foundation/sponsorship.html:
+		*** empty log message ***
+
 2003-02-28  helebor
 	* website/foundation/members.html:
 	* website/foundation/members.html:
