@@ -55,7 +55,7 @@ Each test case has its own requirements for running environment: database schema
 All tests have common basic structure:
 <ol>
 <li><b>Requirements</b> for running environment: database schema and content, tools etc.</li>
-<li><b>Tested command(s)</b>. If test cases are well defined, then each has one and only one directly tested command. Its outcome is verified by expected output (if any), and /or with additional checks (check for right content in system tables for example).</li>
+<li><b>Tested command(s)</b>. If test cases are well defined, then each has one and only one directly tested command. Its outcome is verified by expected output (if any), and / or with additional checks (check for right content in system tables for example).</li>
 <li><b>Expected output</b> from tested command(s). It could be standard command output or error message. The best way to describe it is as standard ISQL output when command(s) is executed (You can use ISQL OUTPUT command to grab it). But you can define it in any other way you see fit for you and the purpose.</li>
 <li><b>Additional checks</b>. If the direct output from tested command is not enough to verify its correctness (some commands even don't produce any "visible" output), you must use additional means (check the content in system tables, check presence of file on disk etc.)</li>
 </ol>
