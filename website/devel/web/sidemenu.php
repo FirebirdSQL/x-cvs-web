@@ -4,9 +4,12 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   die();
 }
 
-  $title = "Firebird Website";
-  $content = "Sub-project specific material is not yet available.
-  <br>";
+  $title = "Firebird Web Team";
+  $content = "<li><a href=\"index.php?op=devel&sub=web\">Changes</a>
+  <br>
+  <li><a href=\"index.php?op=devel&sub=web&id=webtools\">About our Web tools</a>
+  <br>
+  ";
 
   sidebox($title,$content);
 
