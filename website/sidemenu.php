@@ -4,7 +4,7 @@
 <table>
 <tr>
 <td colspan=2>
-<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=150 height=1>
+<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1>
 </td></tr>
 </table>
 
@@ -125,7 +125,8 @@
 
 <table>
 <tr>
-<td>
+<td colspan=2>
+<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1>
 <hr size=2>
 
 <p class="centre">
