@@ -68,16 +68,16 @@
 <tr>
 <td colspan=2>
 <font face="Verdana" size=1>
-<b><a href="<?=$rootDir ?>index.php?id=projects/index.html">Projects
+<b><a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#000000;">Projects
 </a></b></td></tr>
 <tr>
 <td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=8></td>
 <td>
 <font face="Verdana" size=1>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;>FirebirdSQL</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;>Jbird</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;>ODBC/JDBC  driver</a><br>
-   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;>Other</a>
+   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">FirebirdSQL</a><br>
+   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Jbird</a><br>
+   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</a><br>
+   <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Other</a>
 <p>
 </td></tr>
 </table>
@@ -91,7 +91,7 @@
 <td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=8></td>
 <td>
 <font face="Verdana" size=1>
-    <a href="<?=$rootDir ?>index.php?id=general/poweredByFirebird.html" style="text-decoration:none;color:#696969;>Powered by Firebird</a>
+    <a href="<?=$rootDir ?>index.php?id=general/poweredByFirebird.html" style="text-decoration:none;color:#696969;">Powered by Firebird</a>
 <p>
 </td></tr>
 </table>
@@ -100,16 +100,16 @@
 <tr>
 <td colspan=2>
 <font face="Verdana" size=1>
-<a href="<?=$rootDir ?>foundation" style="text-decoration:none;color:#000000;><b>FirebirdSQL Foundation</b></a><br>
+<a href="<?=$rootDir ?>foundation" style="text-decoration:none;color:#000000;"><b>FirebirdSQL Foundation</b></a><br>
 <i>Supporting Firebird Development</i></td></tr>
 <tr>
 <td><img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=8></td>
 <td>
 <font face="Verdana" size=1>
-   <a href="<?=$rootDir ?>foundation/index.php#about" style="text-decoration:none;color:#696969;>About</a><br>
-   <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;>Membership</a><br>
-   <a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" style="text-decoration:none;color:#696969;>Sponsors</a><br>
-        <li><a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;>Donate/Sponsor</a>
+   <a href="<?=$rootDir ?>foundation/index.php#about" style="text-decoration:none;color:#696969;">About</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;">Membership</a><br>
+   <a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" style="text-decoration:none;color:#696969;">Sponsors</a><br>
+        <li><a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;">Donate/Sponsor</a>
 <p>
 </td></tr>
 </table>
