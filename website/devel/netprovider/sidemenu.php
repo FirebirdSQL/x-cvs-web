@@ -8,6 +8,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   $content = "
   <li><a href=\"index.php?op=devel&amp;sub=netprovider&amp;id=features\" title=\"Features\">Feature list</a>
   <li><a href=\"index.php?op=devel&amp;sub=netprovider&amp;id=development\" title=\"Development\">Development</a>
+  <li><a href=\"index.php?op=devel&amp;sub=netprovider&amp;id=tools\" title=\"Tools\">Tools</a>
   <br>";
 
   sidebox($title,$content);
