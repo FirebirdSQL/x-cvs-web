@@ -257,7 +257,7 @@ static void Main(string[] args)
     FbConnectionStringBuilder cs = new FbConnectionStringBuilder();
 
     cs.UserID   = "SYSDBA";
-    cs.Password = "reuven";
+    cs.Password = "masterkey";
     cs.Database = "nunit_testdb";
 
     FbRestore restoreSvc = new FbRestore();
