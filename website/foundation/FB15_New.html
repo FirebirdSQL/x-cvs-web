@@ -1,0 +1,299 @@
+<html>
+<title>Firebird 1.5 - What's New?</title>
+<body background="./images/fb-bgimage.gif">
+<span style="font-family:Arial;">
+<table width="90%"  cellpadding=3 cellspacing=3 border=0>
+  <tr>
+    <td colspan=2 align=center>
+<img src="./images/fb-whatsnew.gif"> 
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+<font size=1><a href="http://www.firebirdsql.org"><b>Back to Firebird Project HOME</b></a>
+<br>
+<font size="+1"><b>
+This is an overview of some of the most important changes in Version 1.5 against the 1.0 release of Firebird. It is assumed that you are familiar with Firebird 1.0. The complete list of changes and enhancements is long.  Here are just some of the highlights. For the full story, please refer to the Release Notes for Firebird 1.5 (in six languages, <a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_15">PDF files HERE</a>). </b>
+
+  <tr>
+    <td colspan=2>
+      <table>
+        <tr>
+          <td width="50%" valign=top>
+
+<!- FIRST COLUMN  -> 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>New codebase</h2>
+          </td>
+        </tr>
+      </table>
+
+This release was built from code ported from the 
+original C to C++, a process that begun back in 2000. 
+Extensive code cleanup and bug­fixing has continued, 
+along with new memory management and language 
+enhancements. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Enhanced Optimizer</h2>
+          </td>
+        </tr>
+      </table>
+
+During the v.1.5 development process, the SQL query 
+optimizer has undergone several enhancements and 
+fixes, resulting in reported speed improvement of 
+30 to 60 percent and more. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>New Architectures</h2>
+          </td>
+        </tr>
+      </table>
+
+Two significant new additions for Windows platforms 
+are Classic server and Embedded server. 
+There has not been a Classic server on Windows 
+for nearly eight years. This one can utilize multiple 
+processors, something which still eludes the Windows 
+SuperServer. Though usable, Classic on Windows 
+should be regarded as experimental. 
+Embedded server is a dll that merges a single client 
+attachment with a Firebird SuperServer for building 
+very quick and efficient stand­alone and briefcase 
+applications. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>New language features</h2>
+          </td>
+        </tr>
+      </table>
+
+Several important new language features have been 
+added, including the SQL­92 case expression 
+functions CASE, COALESCE and NULLIF. For syntax 
+of these and other new language implementations, 
+please refer to the Language Enhancements 
+section in the Release Notes. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Universal Triggers</h2>
+          </td>
+        </tr>
+      </table>
+Now you can write conditional insert / update / delete 
+actions in one Before or After trigger to have the one 
+trigger cover all DML actions for that trigger's phase. 
+This cuts down the composition and maintenance of 
+triggers without deprecating the ability to have 
+multiple triggers per phase. 
+ 
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Database Aliases</h2>
+          </td>
+        </tr>
+      </table> 
+
+In the new aliases.conf file you can specify server­ 
+side aliases for your databases, so you don't have to 
+store the full path to the database on the client side. 
+You can connect from a client app with the new 
+Server[/Port]:Alias syntax. 
+
+      <table>
+        <tr>
+          <td colspan=2 height=51 align=center valign=top>
+<a href="FBFactsheet.html">
+<img src="./images/fb-facts-btn.gif" border=0></a>
+          </td>        
+        </tr>
+      </table> 
+
+
+<!- END OF LEFT COLUMN ->
+          </td>
+          <td width="50%" valign=top>
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Varchar Trimming</h2>
+          </td>
+        </tr>
+      </table>  
+Varchars now cross the wire right­trimmed to 
+actual length plus two bytes. 
+NOTE: As it is the client that requests the server to 
+trim varchars, the Firebird 1.5 client (fbclient.dll or 
+libfbclient.so) will trim, even if connected to a pre­1.5 
+server version. If you use an old client, you will not 
+get trimming, even if you are connected to a 1.5 or 
+later server. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Max. Number of Indexes</h2>
+          </td>
+        </tr>
+      </table> 
+
+Now in both Release 1.0 and 1.5 the maximum 
+number of indexes you can define for a table has been 
+increased from 64 to 256. 
+
+ 
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Execute Statement</h2>
+          </td>
+        </tr>
+      </table> 
+
+This PSQL extension takes a string which is a valid 
+dynamic SQL statement and executes it as if it had 
+been submitted to DSQL. Available in Triggers and 
+Stored Procedures. 
+
+
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>New context variables</h2>
+          </td>
+        </tr>
+      </table> 
+
+Among those are CURRENT_CONNECTION and 
+CURRENT_TRANSACTION: Each of these integer 
+context variables returns the system identifier of the 
+active connection or the current transaction context, 
+respectively. Available in DSQL and PSQL. 
+
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Enh. Named Constraints</h2>
+          </td>
+        </tr>
+      </table>
+Indexes that enforce named integrity constraints may 
+now be named with user­defined identifiers. Warning: 
+if you use this feature, your database will not be 
+downgradable to v.1.0.x or InterBase®. 
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>Transaction Savepoints</h2>
+          </td>
+        </tr>
+      </table>
+
+New SQL99­compliant user Savepoints (a.k.a. nested 
+transactions) provide a convenient method to handle 
+business logic errors without needing to roll back the 
+transaction. Available only in DSQL. 
+
+
+      <table>
+        <tr>
+          <td width=20 height=22 valign=top>
+<img src="./images/fb-tiny.gif">
+          </td>
+          <td valign=middle><h2>New Configuration File</h2>
+          </td>
+        </tr>
+      </table>
+
+Several files have been renamed in this release. In 
+most cases, the new names involve some variant of 
+"firebird" or "fb", e.g. the old gds32.dll is now called 
+fbclient.dll. One of them is the extended configuration 
+file now named firebird.conf. Firebird 1.5 provides 
+enhanced security settings and several tuning options 
+available through settings in this file. 
+
+<!-- END OF RIGHT COLUMN ->
+
+
+    </td>
+  </tr>
+
+  <tr><td colspan=2><hr size=1></td></tr>
+
+  <tr>
+    <td>
+<b>Download Firebird 1.5</b>: Click here to find a Firebird package and <A HREF="http://sourceforge.net/project/showfiles.php?group_id=9028">DOWNLOAD</a>.
+    </td>
+    <td> 
+<a href="http://www.ibphoenix.com/downloads/Firebird15_New.pdf">
+<img src="./images/pdflogo.gif" border=0></a>&nbsp; <b>Right-click</b> to get this page as a PDF file<p>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=2>
+<p>
+<center>
+<font size=1><a href="http://www.firebirdsql.org"><b>Back to Firebird Project HOME</b></a>
+</center>
+    </td>
+  </tr>
+
+  <tr><td colspan=2><hr size=1></td></tr>
+
+  <tr>
+    <td colspan=2 align=center valign=top><font size=1>
+
+© 2003 by The Firebird Project. All names of products and companies mentioned herein are trademarks of their respective owners.</font> 
+<p>&nbsp;
+
+    </td>
+  </tr>
+</table>
+</table>
+</span>
+</body>
+</html>
+
