@@ -16,7 +16,7 @@
 <tr>
 <td colspan=2>
 <font face="Verdana" size=1>
-<b><a href="<?=$fbRootDir ?>index.php" style="text-decoration:none;color:#000000;">FirebirdSQL
+<b><a href="<?=$fbRootDir ?>index.php" style="text-decoration:none;color:#000000;">Firebird
 </a></b>
 </td></tr>
 <tr>
