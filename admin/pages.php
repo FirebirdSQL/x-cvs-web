@@ -30,7 +30,7 @@ if (($radminsection==1) OR ($radminsuper==1)) {
 /*********************************************************/
 
 function sections() {
-    global $hlpfile, $admin, $admart;
+    global $hlpfile, $admin, $admart, $showsecid;
 	include("header.php");
 	GraphicAdmin($hlpfile);
 	$result = mysql_query("select secid, secname from sections order by secid");
@@ -93,11 +93,14 @@ function sections() {
 	<br>
 	<?php
 	if ($showsecid != "") {
+    $result2 = mysql_query("select secid, secname from sections where secid='$showsecid'");
+    list($secid, $secname) = mysql_fetch_row($result2);
+  	echo "<font size=4><b>$secname</b></font><br>";
   	echo "<ul>";
 	  $result = mysql_query("select artid, secid, title, content from seccont where secid='$showsecid'");
   	while(list($artid, $secid, $title, $content) = mysql_fetch_array($result)) {
-	      $result2 = mysql_query("select secid, secname from sections where secid='$secid' where secid='$showsecid'");
-	      list($secid, $secname) = mysql_fetch_row($result2);
+#	      $result2 = mysql_query("select secid, secname from sections where secid='$secid'");
+#	      list($secid, $secname) = mysql_fetch_row($result2);
 	      echo "<li><font size=2>$title ($secname) [ <a href=admin.php?op=secpageedit&artid=$artid>".translate("Edit")."</a> ]</font>";
 	  }    
 	  echo "</ul><br>";

@@ -17,9 +17,9 @@ if(!isset($mainfile)) { include("mainfile.php"); }
 function ViewPage($id) {
     include("header.php");
     global $bgcolor1;
-    mysql_query("update pages set counter=counter+1 where artid='$id'");
+    mysql_query("update seccont set counter=counter+1 where artid='$id'");
     
-    $result = mysql_query("select artid, secid, title, content, counter from pages where artid=$id");
+    $result = mysql_query("select artid, secid, title, content, counter from seccont where artid=$id");
     list($id, $secid, $title, $content, $counter) = mysql_fetch_row($result);
         
     $words = sizeof(explode(" ", $content));
@@ -47,7 +47,7 @@ function ViewPage($id) {
 
 function PrintPage($id) {
     global $site_logo, $nuke_url, $sitename, $site_font, $datetime;
-    $result=mysql_query("select title, content from pages where artid=$id");
+    $result=mysql_query("select title, content from seccont where artid=$id");
     list($title, $content) = mysql_fetch_row($result);
     echo "
     <html>
