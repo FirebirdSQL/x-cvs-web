@@ -17,18 +17,18 @@ If you are curious why we do it this way, or if you're interested in
 helping us, have a look at the Documentation
 for Firebird Docwriters (see links below).
 <p>
-If you want to write documentation for Firebird but you <i>really</i>
-can't or won't do it in DocBook XML, please post a message to the
+If you want to contact us, please post a message to the
 <a
 href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs
 list</a>.
 <p>
 
-<h4>New</h4>
+<h4>Latest</h4>
 
-IBPhoenix have kindly donated the Firebird Quick Start Guide (author: Helen Borrie)
-to the project. It has now been converted to DocBook but needs some more updating
-to reflect the Firebird 1.5 release. See links below.
+The Firebird Quick Start Guide, donated by IBPhoenix, has now been converted
+to DocBook, updated, and split in a 1.0 and a 1.5 version. See links below.
+<p>
+PDF rendering has again been improved.
 <p>
 
 <h4>Online documentation</h4>
@@ -40,8 +40,10 @@ of contents</a>
 <p>
 </li>
 
-<li><a href="/devel/doc/manual/defaulthtml/qsg.html">Firebird Quick Start
-            Guide</a> (work in progress)</li>
+<li><a href="/devel/doc/manual/defaulthtml/qsg15.html">Firebird 1.5 Quick Start
+            Guide</a></li>
+<li><a href="/devel/doc/manual/defaulthtml/qsg10.html">Firebird 1.0 Quick Start
+            Guide</a></li>
 <li><a href="/devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
             to Firebird Migration Guide</a></li>
 <li><a href="/devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
@@ -59,8 +61,9 @@ for Firebird Docwriters:</a>
 <p>
 And these are the PDF versions:
 <ul>
-<li><a href="/devel/doc/manual/pdf/Firebird-Quick-Start.pdf">Firebird Quick Start
-            Guide</a> (work in progress)</li>
+<li><a href="/devel/doc/manual/pdf/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start
+            Guide</a></li>
+<li>Firebird 1.0 Quick Start Guide... coming soon</li>
 <li><a href="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">MS SQL
             to Firebird Migration Guide</a></li>
 <li><a href="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">Coexistence
@@ -81,8 +84,7 @@ documentation page</a>.
 
 <h4>Under development</h4>
 <ul>
-<li>Updating of Quick Start Guide</li>
-<li>Improvement of PDF rendering</li>
+<li>More improvement of PDF rendering</li>
 <li>Additions to IB+Fb coexistence doc</li>
 <li>Reserved words list + glossary</li>
 </ul>
@@ -90,8 +92,7 @@ documentation page</a>.
 
 <h4>Future plans</h4>
 <ul>
-<li>API reference</li>
-<li>SQL and UDF reference</li>
+<li>More IBPhoenix docs will be coming our way. They need conversion to DocBook and updating to 1.5</li>
 </ul>
 <p>
 
