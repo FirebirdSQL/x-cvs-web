@@ -28,19 +28,17 @@ Version 1.6.1 is the most recent stable version.</p>
 <a href="http://sourceforge.net/project/shownotes.php?release_id=260239">Change Log</a></LI>
 </UL>
 
-<H5>Version 1.7 Alpha 1 for .NET 1.1 and mono:: 1.0</H5>
+<H5>Version 1.7 Alpha 2 for .NET 1.1 and mono:: 1.0</H5>
 
 <UL>
-<LI>21th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha1.exe?download">Data Provider for .NET Framework 1.1</a> (.exe) (937k)</LI>
-<LI>21th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha1-mono1.0-Bin.zip?download">Data Provider for mono:: 1.0</a> (.exe) (815k)</LI>
-<LI>21th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha1-Src.zip?download">Source Code</a> (.zip) (779k)</LI>
-<LI>21th Jul 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha1-Doc.zip?download">Documentation</a> (.zip) (914k)</LI>
-<LI>21th Jul 2004
-<a href="http://sourceforge.net/project/shownotes.php?release_id=254927">Change Log</a></LI>
+<LI>22th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha2.exe?download">Data Provider for .NET Framework 1.1</a> (.exe) (853kb)</LI>
+<LI>22th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha2-Src.zip?download">Source Code</a> (.zip) (484kb)</LI>
+<LI>22th Aug 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7Alpha2-Doc.zip?download">Documentation</a> (.zip) (1.028kb)</LI>
+<LI>22th Aug 2004
+<a href="http://sourceforge.net/project/shownotes.php?release_id=262264">Change Log</a></LI>
 </UL>
 
 
