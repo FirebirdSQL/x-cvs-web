@@ -19,9 +19,9 @@ if (eregi("main.php",$PHP_SELF)) {
 <blockquote>
 <a href="index.php?op=devel&sub=engine&id=roadmap">Roadmap</a> :: a draft of where we are headed for Firebird 2 and 3
 <p>
-Developer progress reports :: Project Coordination
+Developer progress reports :: Project Core Development &amp;Coordination
 <ul>
-<li><!-- a href="index.php?op=devel&sub=engine&id=coordff200409" -->Dmitry Yemanov, 2004-10-01<!-- /a -->
+<li><a href="index.php?op=devel&sub=engine&id=coreff200409">Dmitry Yemanov, 2004-10-07</a>
 <li>(earlier reports to be retrieved from archives)
 </ul>
 </blockquote>
@@ -34,6 +34,8 @@ Developer progress reports :: Project Coordination
 <h4>Security</h4> 
 <blockquote>
 <a href="index.php?op=devel&sub=engine&id=security">Security</a> :: overview of security enhancements under consideration for Firebird 2 and 3
+<p>
+<a href="index.php?op=devel&sub=engine&id=secur_diary01">Security Diary #1</a>  :: 12-OCT-2004 Thoughts and deeds on security, especially authentication
 <p>
 Developer progress reports :: periodic reports from developers
 <ul>
