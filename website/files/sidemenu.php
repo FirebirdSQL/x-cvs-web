@@ -6,16 +6,20 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 
   $title = "Download";
   $content = "
-  Our main commodity is the Firebird Relational Database Engine, which you can
-  download right here. But Firebird project is much more than the engine itself.
+  Our main commodity is the Firebird Relational Database Engine, but Firebird project is much more than the engine itself.
   <p>
-  <li><A href=index.php?op=files>Firebird RDBMS</A><br>
-  <li><A href=index.php?op=files&amp;id=interclient>InterClient</A><br>
-  <li><A href=index.php?op=files&amp;id=jcajdbc>JCA-JDBC driver</A><br>
-  <li>Test system<br>
-  <li>Documentation<br>
+  <li><a href=\"index.php?op=files&id=engine\">Firebird Database Engine</a></li>
+  <li><a href=\"index.php?op=files&id=odbc\">Firebird ODBC Driver</a></li>
+  <li><a href=\"index.php?op=files&id=jaybird\">Firebird JCA-JDBC Driver</a></li>
+  <li><a href=\"index.php?op=files&id=netprovider\">Firebird .NET Data Provider</a></li>
+  <li><A href=\"index.php?op=files&amp;id=interclient\">InterClient</A><br>
+  <li>Test system</li>
+  <li><a href=\"index.php?op=devel&sub=doc\">Documentation</a></li>
+  <li><a href=\"http://www.ibphoenix.com/downloads/qsg.pdf\">Firebird Quick Start Guide</a></li>
   <p>
-  You can also get all our sources directly from our <A href=http://sourceforge.net/cvs/?group_id=9028>CVS</A>.
+  You can also get all our sources directly from our <A href=\"http://sourceforge.net/cvs/?group_id=9028\">CVS</A>.
+  <p>
+  All our releases are also listed at our <a href=\"http://sourceforge.net/projects/firebird\">main SourceForge page</a>.
   <br>";
   sidebox($title,$content);
   

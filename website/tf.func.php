@@ -4538,6 +4538,44 @@ function members_list()
 	print parse_tpl(get_template(get_template_path().'members_page.htm'));
 }
 
+# prints rabbits list
+function manage_rabbits()
+{
+	global $page, $PHP_SELF, $l, $t;
+	$users = file(f_users);
+	$users = array_splice($users, 1, count($users));
+	$users = sort_array($users, 0, d, false);
+
+	if (is_array($users))
+	{
+		$members = grojsus($users, $page,30,0,'','page',true,'SE',10);
+	
+		$tpl_members_row = get_template(get_template_path().'members_row.htm');
+		$tpl_members_row_admin = get_template(get_template_path().'members_row_admin.htm');
+
+		$i=-1;
+		foreach($members[0] as $member)
+		{
+			$i++;
+			$t['css_id'] = ($i%2) ? '1' : '0';
+			$t['id'] = $i;
+			$a = explode(d, $member);
+			$t['username'] = $a[0];
+			$t['short_description'] = $a[5];
+			if (admin_in()==true)
+			{
+				$t['usersgroups'] = list_usersgroups($a[4]);
+				$t['admin_links'] = parse_tpl($tpl_members_row_admin);
+			}
+			$members_list .= parse_tpl($tpl_members_row);
+		}
+	}
+
+	$t['members_link_bar'] = $members[1];
+	$t['members_row'] = $members_list;
+	print parse_tpl(get_template(get_template_path().'members_page.htm'));
+}
+
 # bakup screen for admin...
 function form_admin_backup()
 {

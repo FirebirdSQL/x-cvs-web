@@ -21,7 +21,7 @@
 #
 
 # if this file is not included by any other file then: yeah! yeah! die! die!
-basename(__FILE__) == basename($PHP_SELF) ? die('tf.actions.php, contains actions definitions for <a href="http://zone.ee/txtforum/">txtForum</a>. <h2><a href="index.php">Local forum is here</a></h2>') : '';
+basename(__FILE__) == basename($PHP_SELF) ? die('tf.actions.php, contains actions definitions for <a href="http://firebird.sourceforge.net">Firebird website</a>. <h2><a href="index.php">Local site is here</a></h2>') : '';
 
 include_once('tf.conf.php');
 include_once('tf.func.php');
@@ -343,6 +343,11 @@ switch ($action)
 		if ($changegroup==1)
 		{
 			change_usergroup($f['username'], $f['usersgroups']);
+			break;
+		}
+		if ($rabbits==1)
+		{
+			manage_rabbits();
 			break;
 		}
 		form_admin_control_panel();

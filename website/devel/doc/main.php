@@ -29,6 +29,7 @@ list</a>.
 IBPhoenix have kindly donated the Firebird Quick Start Guide (author: Helen Borrie)
 to the project. It has now been converted to DocBook but needs some more updating
 to reflect the Firebird 1.5 release. See links below.
+<p>
 
 <h4>Online documentation</h4>
 

@@ -5,7 +5,8 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 }
 
   $title = "JDBC type 4 driver";
-  $content = "Sub-project specific material is not yet available.
+  $content = "<a href=\"index.php?op=devel&amp;sub=jdbc&amp;id=faq\" title=\"JayBird FAQ\">JayBird FAQ</a>
+
   <br>";
 
   sidebox($title,$content);

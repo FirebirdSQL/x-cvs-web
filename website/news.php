@@ -4,6 +4,7 @@ if (eregi("news.php",$PHP_SELF)) {
   die();
 }
 ?>
+<!--
 <hr>
 <H4>Last 10 Releases</H4>
 <p>
@@ -40,5 +41,6 @@ include("lastRSS.php");
 
 
 ?>
+-->
 </table>
 <p>

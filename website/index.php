@@ -79,7 +79,7 @@ if (file_exists("$xpage")) {
 else {
   echo "<table width=\"100%\" border=0 cellspacing=1 cellpadding=3 bgcolor=\"$bgcolor3\"><tr><td>\n";
   echo "<H4>Error</H4>
-  We are very sorry, but the requested xpage was not found at the server.
+  We are very sorry, but the requested page was not found at the server.
   Please, inform the <A href=mailto:pcisar@users.sourceforge.net>webmaster</A> about this problem.
   ";
   echo "</td></tr></table>";

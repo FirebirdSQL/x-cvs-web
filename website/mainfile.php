@@ -87,6 +87,17 @@ function GetRabbitInfoLink ($rabbit, $echo = false) {
   else return $result ;
 }
 
+function GetRabbitAdminLink ($rabbit, $echo = false) {
+  global $rootDir;
+  $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
+  $function = "" ; $subprojects = ""; $mainpage = "" ;
+  if (!eregi ("\.dat$",$rabbit)) {$rabbit .= ".dat" ;}
+  include ($rootDir."rabbits/".$rabbit);
+  $result = "<A href=\"index.php?op=admin&amp;info=$login\">$name</A>" ;
+  if ($echo) { echo $result ; return true ; }
+  else return $result ;
+}
+
 function GetDirectoryList ($path) {
   global $rootDir;
   $pwd = getcwd();

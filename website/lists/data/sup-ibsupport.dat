@@ -1,6 +1,6 @@
 <?php
 
-$list_id = "fbsupport" ;
+$list_id = "ibsupport" ;
 
 $list_name = "Open firebird-support" ;
 
