@@ -14,9 +14,8 @@ author the docs in DocBook XML format and then render them to HTML
 and PDF.
 <p>
 If you are curious why we do it this way, or if you're interested in
-helping us, have a look at the <a
-href="http://firebird.sourceforge.net/devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
-for Firebird Docwriters</a>.
+helping us, have a look at the Documentation
+for Firebird Docwriters (see links below).
 <p>
 If you want to write documentation for Firebird but you <i>really</i>
 can't or won't do it in DocBook XML, please post a message to the
