@@ -36,11 +36,13 @@ for new chapters.
 Links to the HTML documentation we have produced so far:
 <ul>
 <li><a href="/manual/index.html">Overall table of contents</a>
+    (also in <a href="/manual/fr/index.html">French</a>,
+     <a href="/manual/es/index.html">Spanish</a>)
 <p>
 </li>
 <li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a>
-    (also in <a href="/manual/fr/index.html">French</a>,
-     <a href="/manual/es/index.html">Spanish</a>)</li>
+    (also in <a href="/manual/fr/qsg15-fr.html">French</a>,
+     <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
@@ -49,7 +51,8 @@ Links to the HTML documentation we have produced so far:
 </li>
 <li><a href="/manual/firebird-docwriters-info.html">Documentation for Firebird Docwriters:</a>
 <ul>
-<li><a href="/manual/docbuildhowto.html">Docbuilding Howto</a></li>
+<li><a href="/manual/docbuildhowto.html">Docbuilding Howto</a>
+    (also in <a href="/manual/es/docbuildhowto-es.html">Spanish</a>)</li>
 <li><a href="/manual/docwritehowto.html">Docwriting Howto</a></li>
 </ul>
 </li>
@@ -64,7 +67,8 @@ And these are the PDF versions:
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
-<li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a></li>
+<li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a>
+    (Docbuilding Howto also in <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">Spanish</a>)</li>
 </ul>
 
 <p>
