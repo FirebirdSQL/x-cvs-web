@@ -1,0 +1,93 @@
+#!/usr/bin/python
+import cgi 
+import smtplib
+import os
+#import cgitb; cgitb.enable()
+#import cgitb; cgitb.enable(display=0, logdir="/tmp")
+
+class CgiMembersForm:
+
+    #thisUser='firebirds@users.sourceforge.net'
+    thisUser='foundation@firebirdsql.org'
+    destUser='ffcommittee@firebirdsql.org'
+
+    endLine='<br>\n'
+
+    def sendMail(self, user, subject, msg):
+
+        wholemsg = ('From: %s\r\nTo: %s\r\nSubject: %s\r\n' % (self.thisUser, user, subject))
+        wholemsg = wholemsg + msg
+        server = smtplib.SMTP('localhost')
+        #server.set_debuglevel(1)
+        #server.logon('user','password')
+        server.sendmail(self.thisUser, user, wholemsg)
+        server.quit()
+
+    def checkForm(self, form):
+        return 1
+            
+    def getLogInfo(self):
+        msg = ''
+        for i in [ 'REMOTE_ADDR', 'HTTP_USER_AGENT' ]:
+            msg = msg + i + ": " + os.getenv(i) + self.endLine
+
+        return msg
+
+    def printForm(self, form):
+        data = ''
+        for key in form.keys():
+            #value = form[key]
+            value = form.getvalue(key, '')
+
+            if isinstance(value, type([])):     
+                dataValue = ",".join(value)
+                data = data + key + ": " + dataValue + self.endLine
+            else:
+                data = data + key + ": " + str(value) +  self.endLine
+                #data = data + key + ": " + str(value) + ' ' + str(type(value)) + ' ' +  str(value.value)+  "<br>\n"
+                
+        return data
+            
+
+
+    def main(self):
+       print "<html>"
+       print "<head>"
+       print "<TITLE>FirebirdSQL Foundation Membership Application</TITLE>"
+       print "</head>"
+       print "<body>"
+       try :
+           form = cgi.FieldStorage()
+           if self.checkForm(form):
+                data = self.printForm(form)
+                data = data  + self.endLine
+                data = data  + self.endLine
+                data = data + self.getLogInfo()
+                print data
+                #self.sendMail(self.destUser, "newMemberApplication", data)
+                print """
+<br>
+Your membership application has been submitted<br>
+for approval by the Foundation Management Committee <br>
+You should hear from us shortly<p>
+Thank You for your interest in Firebird.
+<p>
+"""
+           #cgi.print_environ_usage()
+           #cgi.print_environ()
+       except:
+           print "" 
+       print "</body>\n"
+       print "</html>\n"
+
+
+def main():
+  print "Content-type: text/html"
+  print
+  import sys
+  sys.stderr = sys.stdout
+  handler = CgiMembersForm()
+  handler.main()
+
+if (__name__ == "__main__"):
+   main()
