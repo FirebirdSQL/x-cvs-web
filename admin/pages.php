@@ -59,7 +59,7 @@ function sections() {
 	<b><?php echo translate("Title:"); ?></b><br>
 	<input class=textbox type="text" name="title" size=60 value=""><br><br>
 	<b><?php echo translate("Section:"); ?></b><br>
-  <select name=section>
+  <select name=secid>
 	<?PHP
 	$result = mysql_query("select secid, secname from sections order by secid");
 	while(list($secid, $secname) = mysql_fetch_array($result)) {
@@ -69,7 +69,7 @@ function sections() {
 	<br>
 	<b><?php echo translate("Content:"); ?></b><br>
 	<textarea class=textbox name="content" cols=60 rows=20></textarea><br><br>
-	<input type=hidden name=op value=pageadd>
+	<input type=hidden name=op value=secpageadd>
 	<INPUT type="submit" value="<?php echo translate("Add Page!"); ?>">
 	</form>
 	</td></tr></table></td></tr></table>
@@ -150,7 +150,7 @@ function secartedit($artid) {
 	<b><?php echo translate("Title:"); ?></b><br>
 	<input class=textbox type="text" name="title" size=60 value="<?php echo "$title"; ?>"><br><br>
 	<b><?php echo translate("Section:"); ?></b><br>
-  <select name=section>
+  <select name=secid>
 	<?PHP
 	$result = mysql_query("select secid, secname from sections order by secname");
 	while(list($secid2, $secname) = mysql_fetch_array($result)) {
