@@ -84,45 +84,67 @@ Tool for manipulating the Firebird V1.5 Configuration file.
 <ul>
 <li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481-Win32.exe">Official Windows Setup and Installer For Classic and SuperServer</A> V1.5.1 (.exe) (4.0mb)</li>
 <li>16th Jul 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32.zip">SuperServer and Classic for Windows</A> V1.5.1 (.zip) (3.5mb)</li>
-<li>16th Jul 2004<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32.zip"> Embedded Server for Windows</A> V1.5.1 (.zip) (1.4mb)</li>
-
-<li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32_pdb.zip">Windows Debug Build</A> V1.5.1 (.zip) (6.0mb)</li>
-<li>16th Jul 2004 <A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32_pdb.zip">Embedded Server Debug Build for Windows</A> 1.5.1 (.zip) (2.3mb)</li>
-<li>16th Jul 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.rpm">Classic for Linux</A> V1.5.1 (.rpm) (3.0mb)</li>
-<li>16th Jul 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.tar.gz">Classic for Linux</A> V1.5.1 (.tar.gz) (2.8mb)</li>
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32.zip">
+SuperServer and Classic for Windows</A> V1.5.1 (.zip) (3.5mb)</li>
+<li>16th Jul 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32.zip"> Embedded Server for Windows</A> V1.5.1 (.zip) (1.4mb)</li>
 
 <li>16th Jul 2004 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-debuginfo-1.5.1.4481-0.i686.tar.gz">Classic Debug Build for Linux</A> V1.5.1 (.tar.gz) (13.4mb)</li>
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_win32_pdb.zip">
+Windows Debug Build</A> V1.5.1 (.zip) (6.0mb)</li>
+<li>16th Jul 2004 
+<A HREF=http://prdownloads.sourceforge.net/firebird/Firebird-1.5.1.4481_embed_win32_pdb.zip">
+Embedded Server Debug Build for Windows</A> 1.5.1 (.zip) (2.3mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.rpm">
+Classic for Linux</A> V1.5.1 (.rpm) (3.0mb)</li>
+
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-1.5.1.4481-0.i686.tar.gz">
+Classic for Linux</A> V1.5.1 (.tar.gz) (2.8mb)</li>
+<li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdCS-debuginfo-1.5.1.4481-0.i686.tar.gz">
+Classic Debug Build for Linux</A> V1.5.1 (.tar.gz) (13.4mb)</li>
 <li>16th Jul 2004 
 <A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.rpm">
 SuperServer for Linux</A> V1.5.1 (.rpm) (3.0mb) 
+
 </li>
-<li>28th Jul 2004
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4500-0.i686.nptl.rpm" >SuperServer for Linux NPTL</A> V1.5.1 (.rpm) (2.5mb)
+<li>6th Aug 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.nptl.rpm">
+SuperServer for Linux NPTL</A> V1.5.1 (.rpm) (2.7mb)
 </li>
 <li>16th Jul 2004 
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.tar.gz">
+SuperServer for Linux</A> V1.5.1 (.tar.gz) (2.7mb)
+<li>6th Aug 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.nptl.tar.gz">
+SuperServer for Linux NPTL</A> V1.5.1 (.tar.gz) (2.6mb)
 
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4481-0.i686.tar.gz">SuperServer for Linux</A> V1.5.1 (.tar.gz) (3.0mb)
-<li>28th Jul 2004
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-1.5.1.4500-0.i686.nptl.tar.gz" >SuperServer for Linux NPTL</A> V1.5.1 (.tar.gz) (2.5mb)
 </li>
 <li>16th Jul 2004 
 <A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.1.4481-0.i686.tar.gz"> SuperServer Debug Build for Linux</A> V1.5.1 (.tar.gz) (13.4mb)
 </li>
-<li>28th Jul 2004
-<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.1.4500-0.i686.nptl.tar.gz" >SuperServer Debug Build for Linux NPTL</A> V1.5.1 (.tar.gz) (12.5mb)
+<li>6th Aug 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/FirebirdSS-debuginfo-1.5.1.4481-0.i686.nptl.tar.gz">
+SuperServer Debug Build for Linux NPTL</A> V1.5.1 (.tar.gz) (13.3mb)
+</li>
+<li>5th Aug 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-CS-1.5.1-MacOS.zip">
+Classic for MacOS X</A> V1.51 (.zip) (3.1mb)
 
+</li>
+<li>11th Aug 2004
+<A HREF="http://prdownloads.sourceforge.net/firebird/Firebird-CS-1.5.1.4500-0-SolX86.pkg.tar.Z">
+Classic for Sun Solaris Intel</A> V1.51 (.tar.Z) (3.8mb)
 </li>
 <li>15th May 2004 
 <A HREF="http://prdownloads.sourceforge.net/firebird/firebird-1.5.0-fbsd48.tgz">Classic for FreeBSD 4.8 and 4.9</A> V1.5 (.tgz) (3.7mb)
 <li>15th May 2004 
 <A HREF="http://prdownloads.sourceforge.net/firebird/firebird-1.5.0-fbsd51.tbz">Classic for FreeBSD 5.1 and 5.2</A> V1.5 (.tbz) (2.0mb)
-<li>26th Nov 2003 
-<A HREF="http://prdownloads.sourceforge.net/firebird/MacOS-X-Firebird-CS-1.5-RC-7.pkg.tar.gz">Classic for MacOS X</A> Release Candidate 7.0 (.tar.gz) (3.0mb)
 </ul>
+
+
 
 <p>
 <a name="v10"></a><h4>Firebird V1.0x Downloads</h4>
