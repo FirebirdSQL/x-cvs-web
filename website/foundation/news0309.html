@@ -1,0 +1,156 @@
+
+<table width="90%">
+<tr><td>
+<font face="Verdana" size="-1">
+<span style="background-color:#696969;color:#ffffff"><h3>&nbsp;Monthly Newsletter September 2003&nbsp;</h3></span>
+
+<font size=1>Compiled by Svein Erling Tysv&aelig;r</font>
+<p>  
+<dt><b>Presidents Report (or The view from Philip Island)</b><p>
+
+<dd>
+<!- -------------------------------------- ->
+My original topic for this month was going to be about progress with registering the Firebird name. Essentially some work has been done, and progress is being made, but as usual with these things, it all takes time. However, for a few reasons, I'll defer that topic for a month or two. So alternatively I'll discuss an even more important subject.
+<p>
+<b>QA and Firebird 1.5</b>
+<br>
+The Firebird project is about to take a big step forward, as Firebird 1.5, which is currently at RC6, makes that additional step into a release version.
+<p>
+I believe a good Firebird 1.5 release and smooth transition process from 1.0.2, is essential. Not only for confidence in the 1.5 release itself but also for confidence in the ability of the firebird project to be able to create and continue the development of a piece of software that, to a lot of our users, is mission-critical.
+<p>
+<b>So how do we ensure that Firebird 1.5 is ready for production usage?</b>
+<br>
+Nothing indicates production readiness better than actual production usage, and the fact that some people are already using Fb 1.5 in production systems is a good measure of confidence.
+<p>
+However, for our project, a more formal validation of production readiness is needed, essentially the successful running of Fb 1.5 through our validation test suites. To help progress that work the foundation has issued a grant to Pavel Cisar, who has begun work on extending the QMTest suite (which he wrote), and coordinating the other QA validation work on Fb 1.5.
+<blockquote>
+However, to ensure progress can be quickly made in validating Fb 1.5, by running it through the test suites (both QMTest and TCS) and helping to resolve any issues that arise, the foundation is looking at making an additional testing grant. The exact details of the grant will be finalised at the next committee meeting, but roughly it will be of about three months' duration, at about $300 USD/month. The purpose of the grant will be to work at Pavel's direction, running TCS and QMTest test suites, setting up automated scripts and adding test cases as needed, all designed to get Fb 1.5 validated as production ready.
+<p>
+In addition to knowledge of Firebird, some knowledge of Python would be helpful for this role. Those interested in applying should email Pavel Cisar (pcisar AT ibphoenix.cz), who has offered to screen applications. Provid some useful details about yourself and your capabilities.
+<p>
+As I mentioned in my last report, the money offered is not huge by Western standards, but if anyone knows of someone whose circumstances or situation means this could make a difference, and they believe they have the skills to perform the task, then by all means please suggest them.
+</blockquote>
+Much work has already been done by all those working, reviewing and using the Fb 1.5 codebase, and this has got us to the stage we are at today with an advanced engine ready for production usage. We hope that with the additional work that Pavel and another resource can do that Fb 1.5 can make that transition into a validated, production-ready version as soon as possible.
+<p>
+And the view from Philip Island, well today looking back at mainland Australia <a href="http://www.ko-software.com/firebird/view/view1.jpg">it looks pretty reasonable</a>. 
+
+<p>
+Mark O'Donohue<br>
+<font size=1>
+(President, FirebirdSQL Foundation Inc.)
+</font>
+<p>
+<dt><b>News since last newsletter</b>
+<dd>Pavel Cisar has agreed to do some work as our Test Engineer.
+<p>
+
+<dt><b>Membership</b><p>
+<!- -------------------------------------- ->
+<dd>
+Since last report, we have yet again increased, making us now a total of 95 members. 7 of these were added in August. We are now 43 voting members (13 of which are corporate members), and 52 associate members (16 of which are honorary members).
+<p>
+Members who have not paid their subscription have been contacted, with the exception of Brazilians who seems to have a general problem with foreign payments. We still have 8 members that have not paid their membership.
+<p>
+
+<dt><b>Finance</b><p>
+<dd>
+Bank balances at Sep 7 were:
+<blockquote>13,193.46 $-AUD<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;482.21 $-USD<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;529.12 &pound;-Stg
+</blockquote>
+<p>New sponsorship:  the Committee accepted the offer of Silver sponsorship from DRB Systems, Inc., of Akron, Ohio, U.S.A.
+<p>Committee discussed possible ways to facilitate payment of subscriptions by Brazil members.
+
+<p>
+<dt><b>What's done lately by our grantees and what do they plan to do next</b><p>
+
+<dd>In July and August, our grantees have been preoccupied with activities apart from than Firebird. Most took a well-deserved holiday, while one has been taken up with private matters following an earthquake.
+<p>
+<table colspecs=2 cellpadding=5 border=0 bgcolor=lightcyan>
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Dmitry Yemanov<br>Principal code, release coordinator</td>
+<td  bgcolor=azure><font face="Verdana" size="-1">
+Done in July/August<ul type=circle>
+<li>Released Firebird 1.5 RC4 and RC5
+<li>Fixed ISQL bug related to tempfiles
+<li>Fixed UDF issues on win9x
+<li>Written some readme's for release notes regarding v1.5 additions
+<li>Fixed buffer overruns in the plan retrieval code
+<li>Fixed bug in GDSCODE evaluation
+<li>Added new error message for Arno's [language and optmizer]improvements 
+<li>Fixed BREAK/LEAVE/EXIT limitations (support of FOR EXECUTE STATEMENT loops) 
+<li>Applied a few contributed patches
+<li>Fixed broken savepoint handling in BREAK/LEAVE/EXIT
+
+<li>Firebird 2.0 development:
+   <ul>
+   <li>Fixed BUGCHECK(178)
+   <li>Enhanced SUBSTRING function
+   <li>Added SQL-compliant labels and LEAVE <label> statement
+   </ul>
+</ul>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Alexander Peshkov<br>
+Core coder, additional security brief</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+July<ul type=circle>
+<li>Minor bug fixes
+</ul>
+
+Planned for current period<ul type=circle>
+<li>RPM install for Linux SS (install completed, but uninstall still needs some work) 
+<li>Switch to HEAD branch
+<li>Continue security review
+<li>Re-implement EXECUTE STATEMENT to make it work faster and have a single implementation for all three types of this operator
+</ul>
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Claudio Valderrama</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Claudio's grant is for code review, but lately we have given him an additional grant for urgent changes in core code and the tree resulting from very high CVS activity. Hence, he is currently busy with<ul type=circle>
+<li>C -> C++ conversion
+<li>Verifying changes done by other committers
+</ul></td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Pavel Cisar <br>QA designer and coordinator</td>
+<td bgcolor=azure><font face="verdana" size="-1">
+Done in August: <ul type=circle>
+<li>An update to our QMtest extension classes. Introduction of core abstract class with basic test description, adaptation to QMTest 2.0.3 and latest Kinterbasdb and few minor enhancements
+<li>Audit of current tests. The majority of (200+) tests work as expected 
+<li>Analyzed bugs (~650) logged in our bug tracker and created 300+ new test descriptions 
+<li>Created a plan for complete Firebird QA containing things to do, procedures and organization
+</ul>
+
+Plans for September:<ul type=circle>
+<li>Introduction of QA plan to FB project and its implementation 
+<li>Further work on QMTest support classes and tests. The most outstanding issue with QMTest right now is the use of national characters in tests (it's not possible now) 
+<li>Changes to FB web site related to QA
+</ul>
+</td>
+</table>
+<p>
+<dt><b>Report from the committee meeting</b>
+<dd>The August meeting finished after long discussions, but without any conclusions (too many members absent due to holiday). Hence, the September meeting was held in a stricter fashion. Geoff Worboys (vice-president) presided.<p>
+Late in the meeting, the committee received a legal opinion from our trademark solicitor regarding the position of the Foundation with respect to applying for trademark registration on behalf of the Firebird Project.  It was determined to be incomplete and Geoff was asked to request completion.
+
+<p>
+<dt><b>Future plans</b><p>
+<dd>It was decided to 
+<ul type=circle>
+<li>convene committee meetings every two months and not every month as we have done so far. This will also affect this newsletter, which is published following discussion within the committee.
+<li>review our grants every six months
+<li>convene the Annual General Meeting for a date [to be announced] in November.
+</ul>
+</td></tr>
+</table>
+
