@@ -39,7 +39,7 @@ only)
 </ul>
 <h4>Firebird Class 4 JCA-JDBC Driver Downloads</h4>
 The driver requires at least JDK 1.3.1 to compile and run properly. Download <a href="index.
-php?op=files?id=jaybird">here</a>.
+php?op=files&id=jaybird">here</a>.
 
 <hr size=1>
 For more information please refer to
