@@ -229,7 +229,7 @@ SET
 <h4><i>Implement physical and multi-level incremental backup</i></h4>
 Proposed Release: 2.0
 <p>
-The new Nbackup utility (Nickolay Samofatov) needs to be confirmed as complete, documented and tested.
+The new <a href="index.php?op=devel&id=nbackup">Nbackup utility</a> (Nickolay Samofatov) needs to be confirmed as complete, documented and tested.
 
 <h4><i>New database shutdown modes</i></h4>
 Proposed Release: 2.0
