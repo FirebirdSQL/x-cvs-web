@@ -12,7 +12,7 @@ if (eregi("main.php",$PHP_SELF)) {
 </p>
 <p>
 	<ul>
-		<li>The reimplementation of the <b>Firebird events<b> system.</li>
+		<li>The reimplementation of the <b>Firebird events</b> system.</li>
 		<li>Improve management of resources allocated in the Firebird server (connections, statements, transactions, ...).</li>
 		<li>Improve .NET provider internals.</li>
 		<li>Make the API more consistent, for example, in the usage of connection strings.</li>
@@ -37,6 +37,13 @@ The default target frameworks in the nant build file are:
 The build will be done for all the framework versions that are installed and detected by nant.
 If you want to build the Nunit test suite you will need to install <a href="http://nunit.sourceforge.net">NUnit 2.2</a>
 </p>
+<p>
+If you want to build the v1.7 sources on windows using mono you will need to set the MONO_EXTERNAL_ENCODINGS environment
+variable, an example:
+</p>
+<p>
+	<b>MONO_EXTERNAL_ENCODINGS=default_locale</b>
+<p>
 
 <h3>Building the sources on Linux</h3>
 <p>
