@@ -29,17 +29,9 @@ The driver requires at least JDK 1.3.1 to compile and run properly.
 <p>
 For more information please refer to the
 <a href="http://jaybirdwiki.firebirdsql.org/JayBirdHome">JayBird Wiki pages</a>
-<p>
-5th November 2002
-<p>
-JayBird has complete JDBC 1.2 implementation, all JDBC 2.1 metadata
-support, BLOBs, none of JDBC 3.0 functions, some JDBC SE 2.1 (DataSource,
-some non-standard connection pooling, I have almost finished
-ConnectionPoolDataSource, but I need to make it JNDI-able), and the main part of
-JCA specification (ManagedConnectionFactory, ManagedConnection with
-XAResource support and LocalTransaction support).
-</p>
-<p>
+
+<hr size=1>
+
 Database connectivity in Java is fairly well standardised. The main standard is
 the JDBC specification (java.sql.* classes, current version 3.0). It defines
 the concepts for Connection, Statement, PreparedStatement, CallableStatement and
@@ -70,86 +62,39 @@ once, then set parameters and execute it many times.
 </p>
 <p>
 Also, there is a lot of metadata information associated with each of the
-object (database features, supported data types, fetch size, etc.).
+objects (database features, supported data types, fetch size, etc.).
 </p>
 <h5>Specifications:</h5>
 <ul>
-<li>JDBC 1.2 - basic metadata plus all of the described above.
-<li>JDBC 2.1 - support for arrays, BLOBs, batch updates, additional metadata,
-scrollable result sets, updatable result sets, modification of concurrency for specific statement/result set, mapping of Java objects into SQL data types.
-<li>JDBC 3.0 - more metadata and savepoints, more object-relational mapping.
+<li>JDBC 2.0 - Driver passed complete JDBC compatibility test suite, though some
+features are not implemented. It is not officially JDBC compliant, because
+of high certification costs.
+<p>
+<li>JDBC 2.0 Standard Extensions - JayBird implement the following
+interfaces from javax.sql.* package:
+<ul>
+<li>ConnectionPoolDataSource implementation provides connection and
+prepared statement pooling.
+<p>
+<li>DataSource implementation provides seamless integration with major web
+and application servers.
+<p>
+<li>XADataSource implementation provides the means to use the driver in
+distributed transactions.
 </ul>
 <p>
-In addition to JDBC specification, Java has JDBC SE (Standard Extensions)
-2.0. Standard extensions specify the features the driver has to provide in order to work correctly in a J2EE application server. It covers three main issues: connection pooling, integration with JNDI, and integration with JTA.
-</p>
+<li>JCA 1.0 - JayBird provides implementation of
+javax.resource.spi.ManagedConnectionFactory and related interfaces. CCI inte
+rfaces are not supported.
 <p>
-Connection pooling is easy to understand: opening a physical connection to a
-database is expensive operation. So we open some connections in the
-beginning and then reuse them in different parts of application.
-</p>
-<p>
-JNDI integration. JNDI (Java Naming and Directory Interface) is the main
-source for "services" within application server. Each service has a name,
-and an application developer uses this name to find an object. JNDI can be
-viewed as a generalization of NDS, LDAP, ActiveDirectory, etc.
-</p>
-<p>
-JTA integration. JTA (Java Transaction API) specifies "high-level interfaces
-between a transaction manager and the parties involved in a distributed
-transaction system: the application, the resource manager, and the
-application server". JTA defines the notion of a XAResource that can be enlisted
-in a distributed transaction. XA resources must support a two-phase commit
-protocol.
-</p>
-<h5>JDBC 2.0 SE</h5>
-<p>
-JDBC 2.0 SE defines concept of DataSource, ConnectionPoolDataSource, and
-XADataSource.
-</p>
-<p>
-<b>javax.sql.DataSource</b> is a factory of java.sql.Connection instances.
-DataSource objects are usually obtained doing a lookup in JNDI. DataSource
-objects return your already open JDBC connection. The main advantage is that an
-application developer does not need to worry about database connection
-parameters, this is handled by an application server. The only thing he/she
-needs to know is the JNDI name of data source object. The application server
-reads the configuration at startup, constructs the correct DataSource and binds it into the JNDI tree.
-</p>
-<p>
-<b>javax.sql.ConnectionPoolDataSource</b> is a factory of pooled connections. Each pooled connection represents a physical connection to a database, while
-connections returned by a javax.sql.DataSource object are "recyclable"
-connections (when you close recyclable connection, it is not closed
-physically, but returned to the connection pool).
-</p>
-<p>
-<b>javax.sql.XADataSource</b> is a factory of XAConnection objects. Each
-XAConnection object is a pooled connection (i.e. represents a physical
-connection to a database) and has an XAResource implementation that can be
-associated with XA transaction. The transaction manager of an application server
-manages the transaction for this connection. It is no longer allowed to call
-java.sql.Connection.commit() if the connection participates in a global
-transaction.
-</p>
 
-<h5>JCA (Java Connector Architecture)</h5>
+<li>JTA 1.0.1 - Driver provides implementation of
+javax.transaction.xa.XAResource interface via JCA framework and
+javax.sql.XADataSource implementation.
 <p>
-JCA (Java Connector Architecture) can be viewed as generalisation of JDBC SE
-2.0 for different types of EIS connectors (like connectors to CICS systems,
-etc.). It defines the concepts of ManagedConnection, ManagedConnectionFactory,
-LocalTransaction, and few others.
-</p>
-<p>
-<b>javax.resource.spi.ManagedConnectionFactory</b> is a factory of managed
-connections. It also implements managed connection pooling.
-</p>
-<p>
-<b>javax.resource.spi.ManagedConnection</b> represents a physical connection to the EIS system. Each managed connection can provide an XAResource implementation
-for distributed transaction management, but it also can provide a
-LocalTransaction that provides support of "transactions that are managed
-internally to an EIS resource manager, and do not require an external
-transaction manager".
-</p>
+
+<li>JMX 1.2 - JayBird provides MBean that allows creating and dropping databases
+via JMX agent.
 <p>
 
 Back to <A href="index.php?op=devel">Developer's Corner</A>.

@@ -4,12 +4,12 @@ if (eregi("main.php",$PHP_SELF)) {
   die();
 }
 ?>
-<h3>Firebird JCA/JDBC Driver v 1.5.0</h3>
-<b>Released 30 August 2004</b>
+<h3>Firebird JCA/JDBC Driver v 1.5.1</h3>
+<b>Released 17 September 2004</b>
 <h5>By Roman Rokytskyy</h5>
 
 
-<h4>What's new in JayBird 1.5</h4>
+<h4>What's new in JayBird 1.5.1</h4>
 <ul type=circle>
 <li>full JDBC 2.0 compatibity (passed JDBC CTS 1.3.1 suite)
 <li>full callable statement support
