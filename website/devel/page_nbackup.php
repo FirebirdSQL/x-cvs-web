@@ -5,14 +5,14 @@ if (eregi("page_nbackup.php",$PHP_SELF)) {
 }
 ?>
 
-<H4>NBackup</H4>
+<H2>NBackup</H2>
 Planned for inclusion in Firebird 2.0
 <p>
 The backup engine comprises two parts:</ul>
 <li>NBAK, the engine support module
 <li>NBACKUP, the tool that does the actual backups
 </ul>
-<h5>NBAK</h5>
+<h3>NBAK</h3>
 The functional responsibilities of NBAK are:<ol>
 <li> to redirect writes to difference files when asked (ALTER DATABASE BEGIN BACKUP statement)
 <li>to produce a GUID for the database snapshot and write it into the database header before the ALTER DATABASE BEGIN BACKUP statement returns
@@ -38,7 +38,7 @@ This is why we don't read mapped pages beyond the original end of the main datab
 current in difference file until the end of a merge.  This is almost half of nbak fetch and write logic, tested by
 using modified PIO on existing files containing garbage.
 
-<h5>NBACKUP</h5>
+<h3>NBACKUP</h3>
 The functional responsibilities of NBACKUP are<ol>
 <li>to provide a convenient way to issue ALTER DATABASE BEGIN/END BACKUP
 <li>to fix up the database after filesystem copy (physically change nbak_state_diff to nbak_state_normal in the database header)
@@ -61,7 +61,64 @@ Restore is simple:  we reconstruct the physical database image for the chain of 
  checking that the backup_guid of each file matches prev_guid of the next one,
  then fix it up (change its state in header to nbak_state_normal).
 <p>
+<h3>Usage</h3>
+<font face="Courier" size="+1"><pre>
+    nbackup &lt;options&gt;
+</pre></font>
+<h5>Valid options</h5>
+<table width="90%" colspecs=2 cellpadding=5>
+  <tr>
+    <td>
+-L &lt;database&gt;
+    </td>
+    <td>
+Lock database for filesystem copy
+    </td>
+  </tr>
+  <tr>
+    <td>
+  -U &lt;database&gt;
+    </td>
+    <td>
+Unlock previously locked database
+    </td>
+  </tr>
+  <tr>
+    <td>
+-F &lt;database&gt;
+    </td>
+    <td>
+Fixup database after filesystem copy
+    </td>
+  </tr>
+  <tr>
+    <td>
+-B &lt;level&gt; &lt;database&gt; [&lt;filename&gt;] 
+    </td>
+    <td>
+Create incremental backup
+    </td>
+  </tr>
+  <tr>
+    <td>
+-R &lt;database&gt; [&lt;file0&gt; [&lt;file1&gt;...]]
+    </td>
+    <td>
+Restore incremental backup
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+<b>Notes</b>
+<li>&lt;database&gt; may specify a database alias
+<li>incremental backups of multi-file databases are not supported yet
+<li>&quot;stdout&quot; may be used as a value of &lt;filename&gt; for the -B option
+    </td>
+  </tr>
+</table>
+<hr size=1>
 <i>Nickolay Samofatov</i>
+<hr size=1>
 <br>&nbsp;
 
 
