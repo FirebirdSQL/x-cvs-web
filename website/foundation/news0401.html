@@ -1,0 +1,159 @@
+
+<table width="90%">
+<tr><td>
+<font face="Verdana" size="-1">
+<span style="background-color:#696969;color:#ffffff"><h3>&nbsp;Monthly Newsletter January 2004&nbsp;</h3></span>
+
+<font size=1>Compiled by Svein Erling Tysv&aelig;r</font>
+<p>  
+<dt><b>Presidents Report (or The view from Philip Island)</b><p>
+
+<dd>
+No report available.
+<p>
+<!- -------------------------------------- ->
+<p>
+Mark O'Donohue<br>
+<font size=1>
+(President, FirebirdSQL Foundation Inc.)
+</font>
+<p>
+<dt><b>Membership</b><p>
+<dd>
+New members approved since October:&nbsp;&nbsp;16 (4 voting, 12 associate) <br>
+<dd>
+
+Membership total now:&nbsp;&nbsp;114
+<p>
+<!- -------------------------------------- ->
+
+<b>Finance</b><p>
+
+<ol>
+<li><u>Bank balances at January 16, 2004</u>
+<blockquote>
+&nbsp;&nbsp;AUD &nbsp;17,382.76<br>
+&nbsp;&nbsp;USD &nbsp;3,555.19<br>
+&nbsp;&nbsp;GBP &nbsp;1,991.62<br>
+&nbsp;&nbsp;RUR &nbsp;11,865.00
+</blockquote>
+
+ <li><u>Grant payments</u>
+<blockquote>
+USD  2,500.00 paid since November 16<br>
+</blockquote>
+
+<li><u>Receipts since last report (September 8 to November 8)</u>
+<blockquote>
+Membership subs received<br>
+&nbsp;&nbsp;USD &nbsp;2,425.00<br>
+&nbsp;&nbsp;GBP &nbsp;1,007.50<br>
+&nbsp;&nbsp;AUD &nbsp;532.19<br>
+&nbsp;&nbsp;RUR &nbsp;11,865.00<br>
+&nbsp;&nbsp;CDN &nbsp;50.00<p>
+
+
+Donations & Sponsorships<br>
+&nbsp;&nbsp;USD&nbsp;&nbsp;8,255.00<br>
+&nbsp;&nbsp;EUR&nbsp;&nbsp;1,000.00 (AUD  1,669.38)
+</blockquote>
+</ol>
+
+<!- -------------------------------------- ->
+<p>
+<dt><b>What's our grantees are doing</b><p>
+<dd>&nbsp;
+
+<table colspecs=2 cellpadding=5 border=0 bgcolor=lightcyan>
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Dmitry Yemanov</td>
+<td  bgcolor=azure><font face="Verdana" size="-1">
+Done in November and December<ul type=circle>
+
+<li>Fixed 11 bugs
+<li> Released RC7 & RC8
+<li>Solved a number of win32 client related issues (with Paul R. and Olivier M.)
+<li>Performed some benchmarking regarding the joins efficiency in FB (compared with Oracle) 
+<li>"Long-running query cancel" research + partial asynchronous remote protocol research
+<li>ome tests were performed regarding HASH JOIN implementation
+<li>Done 50% of the temp-space manager implementation
+
+</ul>
+Done and to do in January<ul type=circle>
+<li>Close the "long-running query cancel" research and provide a design specification for implementors
+<li>Finish the temp-space manager
+<li>Start implementing monitoring tables (something similar to IB7)
+<li>Bugfixing 
+<li>solve all known issues with v1.5 to be ready for the final release
+</ul>
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Alexander Peshkov</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+No report.
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Claudio Valderrama</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Claudio is currently receiving grants for two major projects:  code review (ongoing) and a special project co-sponsored by Broadview Software for cleaning obsolete code out of the Firebird 2 tree.  
+Ongoing<br>
+<ul type=circle>
+<li>Code reviewing and cleaning
+Discovered bugs and cleaned an estimated 15% (WAL and JOURNAL) of the engine. Cleaning the engine involves getting rid of several files, which means less interfaces to sync, meaning the cleaning activity should progress faster from here on.<br>
+Claudio has had some down-time because of accidents.
+
+</ul>
+</td>
+</tr>
+
+<tr>
+<td valign=top><font face="Verdana" size="-1">
+Pavel Cisar</td>
+<td bgcolor=azure><font face="Verdana" size="-1">
+Pavel Cisar is developing a test framework and forming a team of people with specific skills to write test case scenarios, set up test-beds, etc.<br>
+<p>
+Thanks to Slavomir Skopalik (he was very helpful with QA in the past). - PC
+<ul type=circle>
+
+<li>Identified three possible co-workers / grant applicants with good Python skills in the Czech Republic. Hopefully  we will find our person this month.
+
+<li>Two outstanding issues with QMTest slow down progress a bit: -a complex issue with national characters. This one is crucial for some tests, especially for bugs that involve INTL. Solution for this issue would probably mean a lot of changes in test structure etc, so this ought to be solved as soon as possible.
+-extension classes for QMTest that allow creating complex tests in Python with kinterbasdb.
+
+<li>New tests. We have several hundred tests for basic SQL functionality, but we still need better coverage. To get the full coverage, we need to develop about 200-300 new tests. Second are is the regression. Stubs for all bugs in our trackers are created, so we need to start implementing them.
+
+<li>Real-world testing. Some progress with real-world database & data & operations have been made, but it's still a lot of work to build a fully automated system.
+
+<li>Presented QA plan was blessed by FB-Admin group
+
+<li>E-mail communication with some new QA grant applicants and possible helpers
+
+<li>Public pursuit for real-world database for pre-release testing
+
+<li>SF tracker cleanup
+
+<li>Some work on FB website related to QA
+
+<li>Adaptation to forthcoming QMTest 2.5 (right now only in their CVS) with slightly different API
+<li>Further work on solution for national characters issue with qmtest
+
+<li>Some cleanup in existing tests
+</ul>
+</td>
+</tr>
+
+</table>
+<p>
+<dt><b>Report from the committee meeting</b>
+<dd>
+The committee held its January meeting in the ffmembers forum, to give the members an impression of what the committee does and what it involves being on the committee. <p>Surprisingly, even though there were ten times as many attendees as in a normal committee meeting, the number of emails was lower than usual.  General discussions concerned the roles of incoming new committee members, some special resolutions to be presented at the Annual General Meeting and further discussion of plans regarding Mozilla's use of our Firebird brandname for their browser.
+</td></tr>
+</table>
+
