@@ -1,0 +1,20 @@
+<?php
+
+# title - Title for this Sub-Project, mandatory
+
+$project_title = "Firebird Documentation" ;
+
+# cvs_modules - List of CVS modules that belongs to subproject
+
+$cvs_modules = "manual" ;
+
+# leaders - List of leaders (sf login names) separated by colon
+
+$leaders = "jalba:helebor:firebirds" ;
+
+# lists - List of mailing lists (.dat file in lists/data) separated by colon
+
+$lists = "fb-doc" ;
+
+?>
+

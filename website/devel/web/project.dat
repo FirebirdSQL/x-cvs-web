@@ -1,0 +1,20 @@
+<?php
+
+# title - Title for this Sub-Project, mandatory
+
+$project_title = "Firebird Website" ;
+
+# cvs_modules - List of CVS modules that belongs to subproject separated by ":"
+
+$cvs_modules = "web" ;
+
+# leaders - List of leaders (sf login names) separated by colon
+
+$leaders = "pcisar" ;
+
+# lists - List of mailing lists (.dat file in lists/data) separated by colon
+
+$lists = "fb-web" ;
+
+?>
+
