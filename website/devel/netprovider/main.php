@@ -9,7 +9,7 @@ if (eregi("main.php",$PHP_SELF)) {
 <h5>By Carlos Guzmán Álvarez</h5>
 26th July 2004
 <p>
-The Firebird ADO.NET Data Provider is distributed under the terms of the
+The Firebird ADO.NET Data Provider is licensed under the terms of the
 <a href="http://www.firebirdsql.org/index.php?op=doc&id=idpl">Initial Developer's Public License Version 1.0</a>
 </p>
 <p>
