@@ -30,19 +30,19 @@ Version 1.6.3 is the most recent stable version.</p>
 <a href="http://sourceforge.net/project/shownotes.php?release_id=275417">Change Log</a></LI>
 </UL>
 
-<H5>Version 1.7 Beta 1 for .NET 1.1 and Mono:: 1.0</H5>
+<H5>Version 1.7 Beta 2 for .NET 1.1 and Mono:: 1.0</H5>
 
 <UL>
-<LI>05th Nov 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta1-NET1.1.exe?download?">Data Provider for .NET Framework 1.1</a> (.exe) (870kb)</LI>
-<LI>05th Nov 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta1-Mono1.0.zip?download">Data Provider for Mono 1.0</a> (.zip) (879kb)</LI>
-<LI>05th Nov 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta1-Src.zip?download">Source Code</a> (.zip) (500kb)</LI>
-<LI>05th Nov 2004
-<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta1-Doc.zip?download">Documentation</a> (.zip) (1.019kb)</LI>
-<LI>05th Nov 2004
-<a href="http://sourceforge.net/project/shownotes.php?release_id=280499">Change Log</a></LI>
+<LI>04th Dec 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta2-NET1.1.exe?download?">Data Provider for .NET Framework 1.1</a> (.exe) (896kb)</LI>
+<LI>04th Dec 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta2-Mono1.0.zip?download">Data Provider for Mono 1.0</a> (.zip) (940kb)</LI>
+<LI>04th Dec 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta2-Src.zip?download">Source Code</a> (.zip) (543kb)</LI>
+<LI>04th Dec 2004
+<a href="http://prdownloads.sourceforge.net/firebird/FirebirdNETProvider-1.7-Beta2-Doc.zip?download">Documentation</a> (.zip) (1.080kb)</LI>
+<LI>04th Dec 2004
+<a href="http://sourceforge.net/project/shownotes.php?release_id=287538">Change Log</a></LI>
 </UL>
 
 
