@@ -14,9 +14,10 @@ if (eregi("main.php",$PHP_SELF)) {
 <p>5. <a href="#5">Can i use the provider with the Firebird embedded server ?</a></p>
 <p>6. <a href="#6">Does the provider use gds32.dll/fbclient.dll ?</a></p>
 <p>7. <a href="#7">Can the provider work with Delphi 8 for .NET ?</a></p>
-<p>8. <a href="#7">Can the provider work with Visual Studio .NET ?</a></p>
-<p>9. <a href="#8">Can i generate type datasets at design time using the FbDataAdapter component ?</a></p>
-<p>10. <a href="#9">There are sample applications using the .NET provider ?</a></p>
+<p>8. <a href="#8">Can the provider work with Visual Studio .NET ?</a></p>
+<p>9. <a href="#9">Can i generate type datasets at design time using the FbDataAdapter component ?</a></p>
+<p>10. <a href="#10">There are sample applications using the .NET provider ?</a></p>
+<p>11. <a href="#11">Why FbDataReader.HasRows returns always true ?</a></p>
 
 <br />
 
@@ -36,7 +37,7 @@ Yes.
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
 
-<p><a name="2"></a>3. <b>Can the provider be used with the MS.NET Compact Framework ?</b></p>
+<p><a name="3"></a>3. <b>Can the provider be used with the MS.NET Compact Framework ?</b></p>
 <p>
 No. There are plans to port the provider to the MS.NET Compact Framework in the near future.
 </p>
@@ -148,6 +149,15 @@ If you are interested on it send an email to <i>carlosga at telefonica.net</i>
 <p>
 For simple things you can review the <a href="nunit.sourceforge.net">nunit</a> test suite that
 ships with the .NET provider sources.
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="11"></a>11. <b>Why FbDataReader.HasRows returns always true ?</b></p>
+<p>
+<p>
+The FbDataReader.HasRows property is implemented for compatibility only.
+It returns always true because Firebird doesn't have a way for know if a 
+query returns rows of not without fetching the data.
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
 

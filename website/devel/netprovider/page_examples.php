@@ -10,6 +10,8 @@ if (eregi("main.php",$PHP_SELF)) {
 <p>1. <a href="#1">Connection pooling.</a></p>
 <p>2. <a href="#2">Update a text blob field.</a></p>
 <p>3. <a href="#3">Firebird events [v1.7].</a></p>
+<p>4. <a href="#4">Database backup [v1.7].</a></p>
+<p>5. <a href="#5">Database restore [v1.7].</a></p>
 
 <br />
 
@@ -209,6 +211,72 @@ static void EventCounts(FbEvent revent, int[] actualCounts)
         }
     }
 } 
+    </pre>
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="4"></a>4. <b>Database backup [v1.7].</b></p>
+<p>
+    <pre class=code>
+[STAThread]
+static void Main(string[] args)
+{
+    FbConnectionStringBuilder cs = new FbConnectionStringBuilder();
+
+    cs.UserID   = "SYSDBA";
+    cs.Password = "masterkey";
+    cs.Database = "nunit_testdb";
+
+    FbBackup backupSvc = new FbBackup();
+                
+    backupSvc.ConnectionString = cs.ToString();
+    backupSvc.BackupFiles.Add(new FbBackupFile(@"c:\testdb.gbk", 2048));
+    backupSvc.Verbose = true;
+
+    backupSvc.Options = FbBackupFlags.IgnoreLimbo;
+
+    backupSvc.ServiceOutput += new ServiceOutputEventHandler(ServiceOutput);
+
+    backupSvc.Execute();
+}
+
+static void ServiceOutput(object sender, ServiceOutputEventArgs e)
+{
+    Console.WriteLine(e.Message);
+}
+    </pre>
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="5"></a>5. <b>Database restore [v1.7].</b></p>
+<p>
+    <pre class=code>
+[STAThread]
+static void Main(string[] args)
+{
+    FbConnectionStringBuilder cs = new FbConnectionStringBuilder();
+
+    cs.UserID   = "SYSDBA";
+    cs.Password = "reuven";
+    cs.Database = "nunit_testdb";
+
+    FbRestore restoreSvc = new FbRestore();
+
+    restoreSvc.ConnectionString = cs.ToString();
+    restoreSvc.BackupFiles.Add(new FbBackupFile(@"c:\testdb.gbk", 2048));
+    restoreSvc.Verbose = true;
+    restoreSvc.PageSize = 4096;
+    restoreSvc.Options = FbRestoreFlags.Create | FbRestoreFlags.Replace;
+
+    restoreSvc.ServiceOutput += new ServiceOutputEventHandler(ServiceOutput);
+
+    restoreSvc.Execute();
+}
+
+static void ServiceOutput(object sender, ServiceOutputEventArgs e)
+{
+    Console.WriteLine(e.Message);
+}
     </pre>
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
