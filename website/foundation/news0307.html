@@ -76,13 +76,30 @@ Though new members and extended sponsorship does mean that we get more money to 
 Dmitry Yemanov</td>
 <td  bgcolor=azure><font face="Verdana" size="-1">
 Done in June<ul type=circle>
-<li>fixed metadata cache issue with CREATE OR ALTER statement -fixed broken exception handling in SPs/triggers -fixed optimizer bug with <value> STARTS WITH <field> -made savepoints handling SQL99-compliant -fixed exception handling bug in savepoints code -fixed broken manual TCP port assignment in firebird.conf -fixed parameter parsing in SQL-level EXECUTE PROCEDURE statement <li>introduced better error reporting (new messages in firebird.msg) -added VARCHAR trimming in the remote protocols by default -fixed thread management in SS builds (garbage collector and Services API) <li>fixed server crashes caused by the optimizer bug -fixed memory leak in CREATE/ATTACH DATABASE <li>released v1.5 RC3
+<li>fixed metadata cache issue with CREATE OR ALTER statement 
+<li>fixed broken exception handling in SPs/triggers 
+<li>fixed optimizer bug with <value> STARTS WITH <field> 
+<li>made savepoints handling SQL99-compliant 
+<li>fixed exception handling bug in savepoints code 
+<li>fixed broken manual TCP port assignment in firebird.conf 
+<li>fixed parameter parsing in SQL-level EXECUTE PROCEDURE statement 
+<li>introduced better error reporting (new messages in firebird.msg) 
+<li>added VARCHAR trimming in the remote protocols by default 
+<li>fixed thread management in SS builds (garbage collector and Services API) 
+<li>fixed server crashes caused by the optimizer bug 
+<li>fixed memory leak in CREATE/ATTACH DATABASE <li>released v1.5 RC3
 </ul>
 Planned for July<ul type=circle>
-<li>fix the config code to use only new-style management -prepare the embedded server for use on read-only drives, including fixing multiple-instance bug -fix v1.5 bug with ALTER INDEX INACTIVE (MSVC6 optimization issue) -fix tempfile bug in the current codebase -try to fix the win9x issue with UDFs
+<li>fix the config code to use only new-style management 
+<li>prepare the embedded server for use on read-only drives, including fixing multiple-instance bug <li>fix v1.5 bug with ALTER INDEX INACTIVE (MSVC6 optimization issue) 
+<li>fix tempfile bug in the current codebase 
+<li>try to fix the win9x issue with UDFs
 <li>polish up the embedded server
 <li>celebrate birthday &lt;g&gt;
-<li>write some docs for Helen Borrie regarding some new features/bugfixes -fix QMDB suite for v1.5 and test the server -help Paul Reeves with the win32 installation kit -release v1.5 RC4 and (fingers crossed) the final release
+<li>write some docs for Helen Borrie regarding some new features/bugfixes 
+<li>fix QMDB suite for v1.5 and test the server 
+<li>help Paul Reeves with the win32 installation kit 
+<li>release v1.5 RC4 and (fingers crossed) the final release
 </ul></td>
 </tr>
 
@@ -109,7 +126,9 @@ Done in June<ul type=circle>
 <li>Built first release candidate of linux SS.
 <li>Security fix - added -login switch to instsvc.exe.
 <li>Enhanced diagnostic in EXECUTE STATEMENT & DirectoryList firebird.conf's related stuff.
-<li>Fixed serious bug in vio.cpp, concerning execution of pre-(update/delete) triggers -Fixed restore of backup file without required UDF(s) -Added some README's
+<li>Fixed serious bug in vio.cpp, concerning execution of pre-(update/delete) triggers 
+<li>Fixed restore of backup file without required UDF(s) 
+<li>Added some README's
 </ul>
 Planned for July<ul type=circle>
 <li>Fixing bugs, it is time for polishing version 1.5 so other things will have to wait!
