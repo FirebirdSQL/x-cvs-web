@@ -1,4 +1,13 @@
 <td class="normal"  align="left" valign=top>
+
+<! trying to spread the column out more >
+<table>
+<tr>
+<td colspan=2>
+<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=100 height=1>
+</td></tr>
+</table>
+
 <table>
 <tr>
 <td colspan=2>
@@ -19,7 +28,7 @@
    <a href="<?=$rootDir ?>gettinginvolved.html" style="text-decoration:none;color:#696969;">Getting Involved</a></br>
    <a href="http://www.sourceforge.net/projects/firebird" style="text-decoration:none;color:#696969;">Sourceforge Project</a><br>
    <a href="<?=$rootDir ?>index.php?id=newsarchive" style="text-decoration:none;color:#696969;">News</a>
-<p>
+
 </td></tr>
 </table>
 
@@ -42,7 +51,7 @@
    <a href="<?=$rootDir ?>index.php?id=commercialsupport" style="text-decoration:none;color:#696969;">Commercial support</a><br>
    <a href="<?=$rootDir ?>index.php?id=support/bugs.html" style="text-decoration:none;color:#696969;">Bugs</a><br>
    <a href="<?=$rootDir ?>index.php?id=sites" style="text-decoration:none;color:#696969;">Sites of Interest</a>
-<p>
+
 </td></tr>
 </table>
 
@@ -60,7 +69,7 @@
    <a href="<?=$rootDir ?>index.php?op=files" style="text-decoration:none;color:#696969;">Firebird</a><br>
    <a href="<?=$rootDir ?>downloads/index.php?id=relatedTools.html" style="text-decoration:none;color:#696969;">Related tools</a><br>
    <a href="<?=$rootDir ?>downloads/index.php?id=relatedProjects.html" style="text-decoration:none;color:#696969;">Related projects</a>
-<p>
+
 </td></tr>
 </table>
 
@@ -78,7 +87,7 @@
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Jbird</a><br>
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">ODBC/JDBC  driver</a><br>
    <a href="<?=$rootDir ?>index.php?id=projects/index.html" style="text-decoration:none;color:#696969;">Other</a>
-<p>
+
 </td></tr>
 </table>
 
@@ -92,7 +101,7 @@
 <td>
 <font face="Verdana" size=1>
     <a href="<?=$rootDir ?>index.php?id=general/poweredByFirebird.html" style="text-decoration:none;color:#696969;">Powered by Firebird</a>
-<p>
+
 </td></tr>
 </table>
 
@@ -110,7 +119,7 @@
    <a href="<?=$rootDir ?>foundation/index.php?id=members.html" style="text-decoration:none;color:#696969;">Membership</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html" style="text-decoration:none;color:#696969;">Sponsors</a><br>
    <a href="<?=$rootDir ?>foundation/index.php?id=contributions.html" style="text-decoration:none;color:#696969;">Donate/Sponsor</a>
-<p>
+
 </td></tr>
 </table>
 
