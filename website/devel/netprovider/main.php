@@ -18,7 +18,7 @@ without the need of Firebird client install.
 Actual stable version is <b>1.6.3</b>
 </p>
 <p>
-Actual development version is <b>1.7 Alpha 3</b>
+Actual development version is <b>1.7 Beta 1</b>
 </p>
 <H4>Latest Developer Reports</H4>
 <blockquote>
