@@ -44,7 +44,7 @@ php?op=files&id=jaybird">here</a>.
 <hr size=1>
 For more information please refer to
 <ul type=circle>
-<li><a href="index.php?op=devel?id=aboutjbird.php">About Jaybird</a>: background about the 
+<li><a href="index.php?op=devel&id=aboutjbird.php">About Jaybird</a>: background about the 
 drivers<p>
 <a href="http://jaybirdwiki.firebirdsql.org/JayBirdHome">JayBird Wiki pages</a>
 </ul>
