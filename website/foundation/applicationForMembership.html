@@ -1,111 +1,167 @@
-<font face="Verdana" size=-1>
-<h4>FirebirdSQL Foundation Membership Application Form</h4>
+
+<font face="Verdana" size="-1">
+<span style="background-color:#696969;color:#ffffff;">
+<h3>&nbsp;Membership Application Form&nbsp;</h3></span>
+
+<table width="90%" border=1>
+<tr>
+<td colspan=2>
+
 <form method="post" action="/cgi-bin/foundation/applyForMembership"
  enctype="multipart/form-data">
-
  <input type="hidden" name="submitted" value="1">
-  <p>
-  <h4>Membership Type:</h4></p>
-  <table border="0" cellpadding="2" cellspacing="0">
-    <tbody>
-	<tr>
-	<td align="right">
-        		Membership Type: <br>
-	</td>
-        <td>
-        <select name="type">
+
+<table bgcolor=#faebd7>
+
+
+<tr>
+<td colspan=2>
+  <table>
+    <tr>
+      <td align=right valign=middle><font face="Verdana" size="-1">
+      <h4>Membership Type:</h4></td>
+      <td align=left valign=top><font face="Verdana" size="-1">
+      <select name="type">
         <option selected="selected" value="FULL">Voting</option>
         <option value="ASSOCIATE">Associate</option>
-        </select>
+      </select>
+<span style="color:#ff0000;">* Required</span>
+      </td>
+    </tr>
+  </table>
+</td></tr>
+
+<tr>
+<td width="40%" align=left>
+<font face="Verdana" size="-1">
+<h4>Personal Details</h4></td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan=2>
+  <table border="0" cellpadding="2" cellspacing="0">
+    <tbody>
+	<tr>
+	<td align="right"><font face="Verdana" size="-1">
+		Salutation:&nbsp;  	</td>
+        	<td><font face="Verdana" size="-1">
+		<input type="text" name="title" size="10">(Mr, Ms, Dr, Prof, etc.)
 	</td>
         </tr>
-
-    </tbody>
-  </table>
-
-  <p> <h4>Personal Details</h4></b>
-  <table border="0" cellpadding="2" cellspacing="0">
-    <tbody>
 	<tr>
-	<td align="right">		Title:  	</td>
-        	<td><input type="text" name="title" size="10">(Mr, Ms, Dr, Prof,etc)</td>
-         </tr>
-	<tr>
-        <td align="right">First/Given name(s): </td>
-        <td><input type="text" name="givennames" size="60"></td>
+        <td align="right"><font face="Verdana" size="-1">
+		Given name(s):&nbsp; </td>
+        	<td><font face="Verdana" size="-1">
+		<input type="text" name="givennames" size="40"></td>
        </tr>
-	<tr>
-        	<td align="right"> Last/Family name: </td>
-        	<td><input type="text" name="surname" size="60"></td>
+       <tr>
+        	<td align="right"><font face="Verdana" size="-1"> 
+		Family name:&nbsp; </td>
+      		<td><font face="Verdana" size="-1">
+		<input type="text" name="surname" size="40">
+		<span style="color:#ff0000;">* Required</span></td>
         </tr>
     </tbody>
   </table>
-  </p>
+</td></tr>
 
-  <p><br>
-                    </p>
+<tr>
+<td width="40%" align=left>
+<font face="Verdana" size="-1">
+<br>&nbsp;
+<h4>Contact Info</h4></td>
+<td></td>
+</tr> 
 
-  <p><h4>Contact Details&nbsp;</h4>
+<tr>
+<td colspan=2>  
   <table border="0" cellpadding="2" cellspacing="0">
     <tbody>
       <tr>
-        <td align="right">E-mail: </td>
-        <td><input type="text" name="email" size="40"></td>
+        <td align="right"><font face="Verdana" size="-1">E-mail:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="email" size="40">
+	<span style="color:#ff0000;">* Required</span></td>
       </tr>
       <tr>
-                          <td valign="top" align="right">Confirm-Email:<br>
-                          </td>
-                          <td valign="top"><input type="text" name="confirm_email" size="40"></td>
-                        </tr>
-                        <tr>
-                          <td valign="top">Telephone - Work:</td>
-                          <td valign="top"><input type="text" name="telephone_work" size="15" maxlength="15"></td>
-                        </tr>
-                        <tr>
-                          <td valign="top" align="right">Home:<br>
-                          </td>
-                          <td valign="top"><input type="text" name="telephone_home" size="15" maxlength="15"></td>
-                        </tr>
-                        <tr>
-                          <td valign="top" align="right">Mobile:<br>
-                          </td>
-                          <td valign="top"><input type="text" name="telephone_mobile" size="15" maxlength="15"></td>
-                        </tr>
+      	<td valign="top" align="right"><font face="Verdana" size="-1">
+	Confirm-Email:&nbsp;<br></td>
+        <td valign="top"><font face="Verdana" size="-1">
+	<input type="text" name="confirm_email" size="40">
+	<span style="color:#ff0000;">* Required</span></td>
+      </tr>
+
+      <tr>
+        <td valign="top"><font face="Verdana" size="-1">
+	Telephone - Work:&nbsp;</td>
+        <td valign="top"><font face="Verdana" size="-1">
+	<input type="text" name="telephone_work" size="15" maxlength="15"></td>
+      </tr>
+      <tr>
+	<td valign="top" align="right"><font face="Verdana" size="-1">
+	Home:&nbsp;<br></td>
+	<td valign="top"><font face="Verdana" size="-1">
+	<input type="text" name="telephone_home" size="15" maxlength="15"></td>
+      </tr>
+      <tr>
+	<td valign="top" align="right"><font face="Verdana" size="-1">
+	Mobile:&nbsp;<br></td>
+	<td valign="top"><font face="Verdana" size="-1">
+	<input type="text" name="telephone_mobile" size="15" maxlength="15"></td>
+      </tr>
     </tbody>
   </table>
-  </p>
+ </td></tr>
 
-  <p><br>
-                    </p>
+<tr>
+<td width="40%" align=left>
+<font face="Verdana" size="-1">
+<br>&nbsp;
+<h4>Address for Correspondence</h4></td>
+<td></td>
+</tr> 
 
-  <p><font size="+1" ><b>Address for Correspondance:</b></font>
+<tr>
+<td colspan=2>
   <table border="0" cellpadding="2" cellspacing="0">
     <tbody>
       <tr>
-        <td align="right">Address: </td>
-        <td><input type="text" name="address1" size="60"></td>
-      </tr>
-                        <tr>
-                          <td valign="top"><br>
-                          </td>
-                          <td valign="top"><input type="text"  name="address2" size="60"></td>
-                        </tr>
-      <tr>
-        <td align="right">City: </td>
-        <td><input type="text" name="city" size="60"></td>
+        <td align="right"><font face="Verdana" size="-1">
+	Address:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="address1" size="50">
+	<span style="color:#ff0000;">* Required</span></td>
       </tr>
       <tr>
-        <td align="right">County/State: </td>
-        <td><input type="text" name="state" size="60"></td>
+	<td valign="top"><font face="Verdana" size="-1"><br></td>
+        <td valign="top"><font face="Verdana" size="-1">
+	<input type="text"  name="address2" size="50"></td>
       </tr>
-                        <tr>
-                          <td valign="top">Postcode/Zip: </td>
-                          <td valign="top"><input type="text"
- name="postcode" size="9" maxlength="10"></td>
-                        </tr>
       <tr>
-        <td align="right">Country: </td>
-        <td>
+        <td align="right"><font face="Verdana" size="-1">
+	City:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="city" size="30">
+	<span style="color:#ff0000;">* Required</span></td>
+      </tr>
+      <tr>
+        <td align="right"><font face="Verdana" size="-1">
+	County/State:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="state" size="30">
+	<span style="color:#ff0000;">* Required</span></td>
+      </tr>
+      <tr>
+	<td valign="top"><font face="Verdana" size="-1">
+	Postcode/Zip:&nbsp; </td>
+	<td valign="top"><font face="Verdana" size="-1">
+	<input type="text" name="postcode" size="9" maxlength="10">
+	<span style="color:#ff0000;">* Required</span></td>
+      </tr>
+      <tr>
+        <td align="right"><font face="Verdana" size="-1">Country:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
         <select name="country">
         <option value="">Choose one of the following:</option>
         <option value="AF">AFGHANISTAN</option>
@@ -323,33 +379,79 @@
         <option value="ZM">ZAMBIA</option>
         <option value="ZW">ZIMBABWE</option>
         </select>
+        <span style="color:#ff0000;">* Required</span>
         </td>
       </tr>
     </tbody>
   </table>
-  </p>
-  <p><font size="+1" ><b>Work Details:</b></font>
+</td></tr>
+
+<tr>
+<td width="40%" align=left>
+<font face="Verdana" size="-1">
+<br>&nbsp;
+<h4>Work Details</h4></td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan=2>
   <table border="0" cellpadding="2" cellspacing="0">
     <tbody>
       <tr>
-        <td align="right">Job Title: </td>
-        <td><input type="text" name="job_title" size="60"></td>
+        <td align="right"><font face="Verdana" size="-1">
+	Job Title:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="job_title" size="60"></td>
       </tr>
       <tr>
-        <td align="right">Company: </td>
-        <td><input type="text" name="company" size="60"></td>
+        <td align="right"><font face="Verdana" size="-1">
+	Company:&nbsp; </td>
+        <td><font face="Verdana" size="-1">
+	<input type="text" name="company" size="60"></td>
       </tr>
     </tbody>
   </table>
-  </p>
-  <p><br>
+</td></tr>
+
+<tr>
+<td width="40%" align=left>
+<font face="Verdana" size="-1">
+<br>&nbsp;
+<h4>Declaration</h4></td>
+<td></td>
+</tr>
+
+<tr>
+  <td colspan=2>
+    <table>
+      <tr>
+        <td width=75%" valign=middle><font face="Verdana" size="-1">
   I hereby agree to the terms and conditions of the membership rules of the FirebirdSQL Foundation (Inc) Association
-  as listed <a href="index.php?id=rules.html" >here </a>.
-  <input type="checkbox" name="accept_rules" value="Accept Association Rules"></p>
-  <p></p>
-  <center><input type="submit" name="Send details" value="Send details"></center>
+  as defined in <a href="index.php?id=rules.html" >the Rules and Objectives of the FirebirdSQL Foundation (Inc.)</a>.</td>
+        <td valign=middle><font face="Verdana" size="-1">
+  <input type="checkbox" name="accept_rules" value="Accept Association Rules">
+  <span style="color:#ff0000;">* Required</span>
+  <p>&nbsp;
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+<tr>
+  <td colspan=2 align=center><font face="Verdana" size="-1">
+  <input type="submit" name="Send details" value="Send details">
+<p>
+
+Your subscription fee will be requested once your application has been approved.
+<p>&nbsp;
+  </td>
+</tr>
+</table>
+
+</td>
+</td>
 </form>
-<br>
-<p>Your subscription fee will be requested once your application has been approved.</p>
-<br>
-</font>
+</table>
+
