@@ -10,8 +10,9 @@ if (eregi("main.php",$PHP_SELF)) {
 <td>
 <center>
 <h1>Future Versions of Firebird</h1>
-Last updated :: 19 August 2004
+Last updated :: 20 August 2004
 </center>
+<br>
 This draft emanates from recent discussion in the reformed Admin group regarding the future direction of Firebird.  Feedback from the developers has been merged into the tentative plan and now it is time to throw open the discussion to a wider audience for feedback and comments.
 The proposed development Roadmap that follows is not cast in stone. It will be updated and expanded in response to further feedback from other Firebird developers and informed members of the user community.
 <p>
@@ -259,7 +260,19 @@ Proposed Release: 2.0
 The IPServer protocol on Windows is being transformed to use the XNET protocol layer instead of the current model whereby the server and client share IPC space.
 
 <h4><i>Context pools</i></h4>
-Alex Peshkov will complete the work to implement context pools and ensure that the class library (string, vectors, stack) requires no more rework. 
+Alex Peshkov will complete the work to implement context pools and ensure that the class library (string, vectors, stack) requires no more rework.
+
+<h4><i>Security enhancements </i></h4>
+Proposed Release: 2.0 and/or 3.0<p>
+&quot;What?&quot; and &quot;When?&quot; are still under consideration. Refer to current discussions in the firebird-security list.
+<ul>
+<li>Password encryption. Technically, a simple replacement of ENC_enc() with an appropriate PluginManager instance might automatically enhance encryption of passwords over the network. However, it breaks protocol and it is uncertain whether HEAD is ready for it.  Accompanying issues:  Configuration parameter required? With what default?</li>
+<li>A complete user authentication process may be implemented as one more PluginManager instance in the security database.  Implementation options could include LDAP, PAM, storing users in any database.</li>
+<li>Global user access parameters for creating, backing up and restoring databases?</li>
+<li>Login retry configuration?</li>
+<li>Disable default PUBLIC access to system tables? 
+<li>User privileges to support CREATE rights?</i>
+</ul>
 
 <h4><i>Bug-fixes</i></h4>
 
@@ -362,10 +375,18 @@ More explanation required
 Implement an MMC console service to allow the project and third parties to create Win32 management tools for Firebird and have a place to drop them in.
 <br>
 Ditto for Linux?
+
 <h4><i>Support for complex installs</i></h4>
 Extend Win32 installer to facilitate straightforward installs for complex configurations.
-<br>
-Ditto for Linux?
+<br>Olivier Mascia and Paul Reeves have been asked to provide a draft design specification SAP for the work need to complete the "instancing" stuff, from the both the installation and administration perspectives.<p>
+Ditto for Linux?<br>
+Also for Linux, proposed solutions to the problems currently experienced from ---
+<ul>
+<li>users being unable to install ".i686" rpm packages on 486 and 586 machines.</li>
+<li>the distro-specific character of the setup scripts</li>
+<li>lack of reliable How-to documentation for installing .tar kits on platforms that don't support rpm</li>
+<li>OS groups and users permissions problems not addressed by the installers
+</ul>
 
 <h3>EXTERNAL DEVELOPMENT</h3>
 Proposed Release: 2.0
