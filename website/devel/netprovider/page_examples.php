@@ -9,6 +9,7 @@ if (eregi("main.php",$PHP_SELF)) {
 
 <p>1. <a href="#1">Connection pooling.</a></p>
 <p>2. <a href="#2">Update a text blob field.</a></p>
+<p>3. <a href="#3">Firebird events [v1.7].</a></p>
 
 <br />
 
@@ -105,7 +106,8 @@ public static void Main(string[] args)
 
     FbCommand myCommand = new FbCommand();
 
-    myCommand.CommandText	= "UPDATE TEST_TABLE_01 SET CLOB_FIELD = @CLOB_FIELD WHERE INT_FIELD = @INT_FIELD";
+    myCommand.CommandText	= 
+        "UPDATE TEST_TABLE_01 SET CLOB_FIELD = @CLOB_FIELD WHERE INT_FIELD = @INT_FIELD";
     myCommand.Connection	= myConnection;
     myCommand.Transaction	= myTransaction;
 
@@ -141,6 +143,76 @@ public static string GetFileContents(string fileName)
     </pre>
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="3"></a>3. <b>Firebird events [v1.7].</b></p>
+<p>
+    <pre class=code>
+static void Main(string[] args)
+{
+    // Set the ServerType to 1 for connect to the embedded server
+    string connectionString =
+        "User=SYSDBA;"                  +
+        "Password=masterkey;"           +
+        "Database=employee.fdb;"        +
+        "DataSource=localhost;"         +
+        "Port=3050;"                    +
+        "Dialect=3;"                    +
+        "Charset=NONE;"                 +
+        "Role=;"                        +
+        "Connection lifetime=15;"       +
+        "Pooling=true;"                 +
+        "Packet Size=8192;"             +
+        "ServerType=0";
+
+    FbConnection connection = new FbConnection(connectionString);
+    connection.Open();
+
+    FbEvent revent = new FbEvent(connection);
+    revent.AddEvents(new string[] { "new_order" });
+
+    /* Add callback to the Firebird events */
+    revent.EventCountsCallback = new FbEventCountsCallback(EventCounts);
+
+    /* queue events */
+    connection.QueueEvents(revent);
+
+    string sql = "INSERT INTO SALES (PO_NUMBER, CUST_NO, SALES_REP, ORDER_STATUS, " + 
+                 "ORDER_DATE, SHIP_DATE, DATE_NEEDED, PAID, QTY_ORDERED, TOTAL_VALUE, " + 
+                 "DISCOUNT, ITEM_TYPE) VALUES (@po_number, 1004, 11, 'new', " +
+                 "'1991-03-04 00:00:00', '1991-03-05 00:00:00', NULL, 'y', 10, 5000, " +
+                 "0.100000001490116, 'hardware');";
+
+    FbCommand command = new FbCommand(sql, connection);
+
+    command.Parameters.Add("@po_number", FbDbType.Char, 8);
+
+    for (int i = 211; i < 220; i++)
+    {
+        command.Parameters[0].Value = "V91E0" + i.ToString();
+
+        command.ExecuteNonQuery();
+
+        /* Re-queue for the next event */
+        connection.QueueEvents(revent);
+    }
+
+    connection.Close();
+}
+
+static void EventCounts(FbEvent revent, int[] actualCounts)
+{
+    if (revent.HasChanges)
+    {
+        for (int i = 0; i < actualCounts.Length; i++)
+        {
+            Console.WriteLine("{0} : {1}", revent[i], actualCounts[i]);
+        }
+    }
+} 
+    </pre>
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
 
 <p>
 Back to <A href="index.php?op=devel">Developer's Corner</A>.
