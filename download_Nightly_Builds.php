@@ -80,344 +80,345 @@ function preface() {
   global $bgcolor1, $bgcolor2, $bgcolor3, $textcolor1, $textcolor2, $sitename;
 ?>
 
-     
-<div align="Center">
+       
+<div align="Center"> 
 <p><font size="2"><font face="Lucida,Verdana,Helvetica,Arial" color="black" size="-1"><font color="#e13601" size="+2">
-Firebird Nightly Builds</font></font></font></p>
-</div>
+ Firebird Nightly Builds</font></font></font></p>
+ </div>
+ 
 <p><small><font size="2"><font face="Lucida,Verdana,Helvetica,Arial" color="black" size="-1"><font color="#e13601" size="+1"><br>
-      Nightly Builds</font></font></font></small></p>
-           
+       Nightly Builds</font></font></font></small></p>
+             
 <blockquote>          <small>       </small><small>         </small><small>
-            </small><small>         </small><small>         </small><small>
-            </small><small>         </small><small>         </small><small>
-            </small><small>         </small><small>         </small><small>
-            </small><small>         </small><small>         </small><small>
-            </small><small>         </small><small>         </small><small>
-            </small><small>         </small><small>       </small>      
-  <small>      </small>     </blockquote>
-     
+             </small><small>         </small><small>         </small><small>
+             </small><small>         </small><small>         </small><small>
+             </small><small>         </small><small>         </small><small>
+             </small><small>         </small><small>         </small><small>
+             </small><small>         </small><small>         </small><small>
+             </small><small>         </small><small>       </small>     
+   <small>      </small>     </blockquote>
+         
   <table cellpadding="2" cellspacing="2" border="0" width="100%">
-        <tbody>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>Builds straight from
+         <tbody>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>Builds straight from 
 the CVS tree.</small><small><br>
-            </small><small>           </small></td>
-            </tr>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
-           <small>             </small><small>               </small><small>
-                  </small><small>                 </small><small>       
-       </small><small>               </small><small>                 </small><small>
-                  </small><small>               </small><small>         
-   </small>             <small>           </small>                      
+             </small><small>           </small></td>
+             </tr>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
+            <small>             </small><small>               </small><small>
+                   </small><small>                 </small><small>      
+        </small><small>               </small><small>                 </small><small>
+                   </small><small>               </small><small>        
+    </small>             <small>           </small>                     
+         
         <table cellpadding="2" cellspacing="2" border="0" width="100%">
-              <tbody>
-                <tr>
-                  <td valign="Middle" colspan="2"><big><small> MS  Win32
+               <tbody>
+                 <tr>
+                   <td valign="Middle" colspan="2"><big><small> MS  Win32 
 binaries</small></big><small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small></td>
-                  <td valign="Top"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Top" colspan="2"><small>                  </small>
-                                   
+                   <td valign="Top"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Top" colspan="2"><small>                 
+              </small>                                                  
               <ul>
-                    <small>                   </small>                  
-                   
-                <li><small>&lt;none currently&gt;<br>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Firebird Super server install 
-package for win32 platform <br>
-  (nightly build for win32 is not currently available - see milestone build,
- or download the source and build it yourself.)</small><br>
-                  <small>&nbsp;</small></td>
-                  </tr>
+                     <small>                   </small>                 
+                                     
+                <li><small><a href="/download/snapshot_builds/win32">   
+  win32 builds/packages</a>
+                  </small><br>
+                  <small>                   </small></li>
+                     <small>                 </small>                   
                              
-          </tbody>           
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Firebird Super server builds
+for win32 platforms. &nbsp;Although not an automated nightly build, regularly
+the latest win32 version is built packaged and placed into this directory.
+&nbsp;</small><br>
+                   <small>&nbsp;</small></td>
+                   </tr>
+                                         
+          </tbody>                    
         </table>
-            <small>           </small><small><br>
-            </small><small>           </small></td>
-            </tr>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
-           <small>             </small><small>               </small><small>
-                  </small><small>                 </small><small>       
-       </small><small>               </small><small>                 </small><small>
-                  </small><small>               </small><small>         
-     </small><small>                 </small><small>                 </small><small>
-                </small><small>             </small>             <small>
-          </small>                      
+             <small>           </small><small><br>
+             </small><small>           </small></td>
+             </tr>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
+            <small>             </small><small>               </small><small>
+                   </small><small>                 </small><small>      
+        </small><small>               </small><small>                 </small><small>
+                   </small><small>               </small><small>        
+      </small><small>                 </small><small>                 </small><small>
+                 </small><small>             </small>             <small>
+           </small>                               
         <table cellpadding="2" cellspacing="2" border="0" width="100%">
-              <tbody>
-                <tr>
-                  <td valign="Middle" colspan="2"> Linux i386 binaries</td>
-                  <td valign="Middle"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+               <tbody>
+                 <tr>
+                   <td valign="Middle" colspan="2"> Linux i386 binaries</td>
+                   <td valign="Middle"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/linux/fb_cs_linux_snapshot.tar.gz">
-     fb_cs_linux_snapshot.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
+      fb_cs_linux_snapshot.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
+                             
               </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Classic server packages for 
-i386  linux machines.&nbsp; A .tar.gz shell install is provided for general 
-linux  install.</small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Classic server packages for
+ i386  linux machines.&nbsp; A .tar.gz shell install is provided for general
+ linux  install.</small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/linux/fb_ss_linux_snapshot.tar.gz">
-     fb_ss_linux_snapshot.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Super server packages for i386 
- linux machines. &nbsp;.tar.gz install packages as described for classic.</small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
+      fb_ss_linux_snapshot.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
                              
-          </tbody>           
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Super server packages for
+i386   linux machines. &nbsp;.tar.gz install packages as described for classic.</small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                                         
+          </tbody>                    
         </table>
-            <small>           </small><small><br>
-            </small><small>           </small></td>
-            </tr>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
-           <small>             </small><small>               </small><small>
-                  </small><small>                 </small><small>       
-       </small><small>               </small><small>                 </small><small>
-                  </small><small>               </small><small>         
-     </small><small>                 </small><small>                 </small><small>
-                </small><small>             </small>             <small>
-          </small>                      
+             <small>           </small><small><br>
+             </small><small>           </small></td>
+             </tr>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
+            <small>             </small><small>               </small><small>
+                   </small><small>                 </small><small>      
+        </small><small>               </small><small>                 </small><small>
+                   </small><small>               </small><small>        
+      </small><small>                 </small><small>                 </small><small>
+                 </small><small>             </small>             <small>
+           </small>                               
         <table cellpadding="2" cellspacing="2" border="0" width="100%">
-              <tbody>
-                <tr>
-                  <td valign="Middle" colspan="2"> Sun Solaris</td>
-                  <td valign="Middle"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+               <tbody>
+                 <tr>
+                   <td valign="Middle" colspan="2"> Sun Solaris</td>
+                   <td valign="Middle"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/solaris-sparc/FirebirdCS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz">
-  FirebirdCS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz</a>
-                      </small><br>
-                      <small>                   </small></li>
-                    <small>                 </small>                    
-             
+   FirebirdCS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz</a>
+                       </small><br>
+                       <small>                   </small></li>
+                     <small>                 </small>                   
+                             
               </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Classic server packages for 
-Solaris                        </small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Classic server packages for
+ Solaris                        </small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/solaris-sparc/FirebirdSS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz">
-  FirebirdSS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz</a>
-                      </small><br>
-                      <small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Super server packages for Solaris 
-                       </small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
+   FirebirdSS-0.9.5.226-Beta1.Solaris-Sparc.tar.gz</a>
+                       </small><br>
+                       <small>                   </small></li>
+                     <small>                 </small>                   
                              
-          </tbody>           
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Super server packages for
+Solaris                         </small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                                         
+          </tbody>                    
         </table>
-            <small>           </small><small><br>
-            </small><small>           </small></td>
-            </tr>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
-           <small>             </small><small>               </small><small>
-                  </small><small>                 </small><small>       
-       </small><small>               </small><small>                 </small><small>
-                  </small><small>               </small><small>         
-     </small><small>                 </small><small>                 </small><small>
-                </small><small>             </small>             <small>
-          </small>                      
+             <small>           </small><small><br>
+             </small><small>           </small></td>
+             </tr>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
+            <small>             </small><small>               </small><small>
+                   </small><small>                 </small><small>      
+        </small><small>               </small><small>                 </small><small>
+                   </small><small>               </small><small>        
+      </small><small>                 </small><small>                 </small><small>
+                 </small><small>             </small>             <small>
+           </small>                               
         <table cellpadding="2" cellspacing="2" border="0" width="100%">
-              <tbody>
-                <tr>
-                  <td valign="Middle" colspan="2"> MAC OS-X (Darwin)</td>
-                  <td valign="Middle"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+               <tbody>
+                 <tr>
+                   <td valign="Middle" colspan="2"> MAC OS-X (Darwin)</td>
+                   <td valign="Middle"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/darwin/fb_cs_darwin_snapshot.tar.gz">
-     fb_cs_darwin_snapshot.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
+      fb_cs_darwin_snapshot.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
+                             
               </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Classic server packages for 
-Solaris                        </small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="2"><small>               
-  </small>                                  
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Classic server packages for
+ Solaris                        </small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="2"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/darwin/fb_ss_darwin_snapshot.tar.gz">
-     fb_ss_darwin_snapshot.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> Super server packages for Solaris 
-                       </small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
+      fb_ss_darwin_snapshot.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
                              
-          </tbody>           
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> Super server packages for
+Solaris                         </small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                                         
+          </tbody>                    
         </table>
-            <small>           </small><small><br>
-            </small><small>           </small></td>
-            </tr>
-          <tr>
-            <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
-           <small>             </small><small>               </small><small>
-                  </small><small>                 </small><small>       
-       </small><small>               </small><small>                 </small><small>
-                  </small><small>               </small><small>         
-     </small><small>                 </small><small>                 </small><small>
-                </small><small>               </small><small>           
-     </small><small>                 </small><small>               </small><small>
-                </small><small>                 </small><small>         
-       </small><small>               </small><small>             </small>
-             <small>           </small>                      
+             <small>           </small><small><br>
+             </small><small>           </small></td>
+             </tr>
+           <tr>
+             <td valign="Top" bgcolor="#e0e0e0"><small>           </small>
+            <small>             </small><small>               </small><small>
+                   </small><small>                 </small><small>      
+        </small><small>               </small><small>                 </small><small>
+                   </small><small>               </small><small>        
+      </small><small>                 </small><small>                 </small><small>
+                 </small><small>               </small><small>          
+      </small><small>                 </small><small>               </small><small>
+                 </small><small>                 </small><small>        
+        </small><small>               </small><small>             </small>
+              <small>           </small>                               
         <table cellpadding="2" cellspacing="2" border="0" width="100%">
-              <tbody>
-                <tr>
-                  <td valign="Middle" colspan="1"> Nightly generated Source 
-Packages</td>
-                  <td valign="Middle"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="1"><small>               
-  </small>                                  
+               <tbody>
+                 <tr>
+                   <td valign="Middle" colspan="1"> Nightly generated Source
+ Packages</td>
+                   <td valign="Middle"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="1"><small>              
+   </small>                                                 
               <ul>
-                    <small>                   </small>                  
-                   
+                     <small>                   </small>                 
+                                     
                 <li><small><a href="/download/snapshot_builds/interbase.tar.gz">
-     interbase.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> The latest nightly CVS source 
-tarball  used to build the nightly firebird 1 releases.</small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Top"><small>                 </small>     
-                            
-              <ul>
-                    <small>                   </small>                  
-                   
-                <li><small><a href="/download/bootbuild/bootbuild.tar.gz">
-     bootbuild.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                   </small>                  
-                   
-                <li><small><a href="/download/bootbuild/README">   README</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small><small><br>
-                  </small><small>                 </small></td>
-                  <td valign="Top"><small>To build firebird from the above 
-(interbase.tar.gz)  sources you will need to either have an existing running 
-fb/ib installation  or use the boot build available from our ftp site.</small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="1"><small>               
-  </small>                                  
-              <ul>
-                    <small>                   </small>                  
-                   
-                <li><small><a href="/download/snapshot_builds/firebird2.tar.gz">
-     firebird2.tar.gz</a>
-                      </small><small>                   </small></li>
-                    <small>                 </small>                    
-             
-              </ul>
-                  <small>                 </small></td>
-                  <td valign="Middle"><small> The latest nightly firebird2 
-CVS source tarball.</small><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
-                <tr>
-                  <td valign="Middle" colspan="1"><small><br>
-                  </small><small>                 </small></td>
-                  <td valign="Middle"><small><br>
-                  </small><small>                 </small></td>
-                  </tr>
+      interbase.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
                              
-          </tbody>           
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> The latest nightly CVS source
+ tarball  used to build the nightly firebird 1 releases.</small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Top"><small>                 </small>    
+                                            
+              <ul>
+                     <small>                   </small>                 
+                                     
+                <li><small><a href="/download/bootbuild/bootbuild.tar.gz">
+      bootbuild.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                   </small>                 
+                                     
+                <li><small><a href="/download/bootbuild/README">   README</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
+                             
+              </ul>
+                   <small>                 </small><small><br>
+                   </small><small>                 </small></td>
+                   <td valign="Top"><small>To build firebird from the above
+ (interbase.tar.gz)  sources you will need to either have an existing running
+ fb/ib installation  or use the boot build available from our ftp site.</small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="1"><small>              
+   </small>                                                 
+              <ul>
+                     <small>                   </small>                 
+                                     
+                <li><small><a href="/download/snapshot_builds/firebird2.tar.gz">
+      firebird2.tar.gz</a>
+                       </small><small>                   </small></li>
+                     <small>                 </small>                   
+                             
+              </ul>
+                   <small>                 </small></td>
+                   <td valign="Middle"><small> The latest nightly firebird2
+ CVS source tarball.</small><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                 <tr>
+                   <td valign="Middle" colspan="1"><small><br>
+                   </small><small>                 </small></td>
+                   <td valign="Middle"><small><br>
+                   </small><small>                 </small></td>
+                   </tr>
+                                         
+          </tbody>                    
         </table>
-            <small>           </small><small><br>
-            </small><small>           </small></td>
-            </tr>
-                 
-    </tbody>     
-  </table>
-       <br>
-     <small><font size="2"><font face="Lucida,Verdana,Helvetica,Arial" color="black" size="-1"><font color="#e13601" size="+1">
-       </font></font></font></small><br>
-     <small>     </small>               
-  <p><br>
-       </p>
+             <small>           </small><small><br>
+             </small><small>           </small></td>
+             </tr>
                        
+    </tbody>        
+  </table>
+        <br>
+      <small><font size="2"><font face="Lucida,Verdana,Helvetica,Arial" color="black" size="-1"><font color="#e13601" size="+1">
+        </font></font></font></small><br>
+      <small>     </small>                  
+  <p><br>
+        </p>
+                           
   <p></p>
-       <br>
-
-
-
+        <br>
 
 <?php
 }
