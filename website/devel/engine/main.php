@@ -8,11 +8,14 @@ if (eregi("main.php",$PHP_SELF)) {
 <table width="85%">
 <tr>
 <td>
-<center><h1>Future Versions of Firebird</h1></center>
+<center>
+<h1>Future Versions of Firebird</h1>
+Last updated :: 19 August 2004
+</center>
 This draft emanates from recent discussion in the reformed Admin group regarding the future direction of Firebird.  Feedback from the developers has been merged into the tentative plan and now it is time to throw open the discussion to a wider audience for feedback and comments.
 The proposed development Roadmap that follows is not cast in stone. It will be updated and expanded in response to further feedback from other Firebird developers and informed members of the user community.
 <p>
-At present (August 2004) we have three branches of Firebird code:
+At present we have three branches of Firebird code:
 <ul>
 <li>the current 1.5.1 code base
 <li>Firebird HEAD, the basis for the next major release
@@ -23,17 +26,17 @@ Also:<ul>
 <li>the Yaffil code currently in the process of being merged in a private branch.
 </ul>
 <h2>Current Plan</h2>
-The current plan is to tag the HEAD branch as 1.6, freeze development and use the code as the basis of the Firebird 2.0 release. Firebird 2.0 will require a change to the on-disk structure (ODS).
+The current plan is to tag the HEAD branch as 2.0, freeze development and use the code as the basis of the Firebird 2.0 release. Firebird 2.0 will require a change to the on-disk structure (ODS).
 <p>
 Beyond that, Firebird 2.0 would be merged with Vulcan for release as Firebird 3.0.
 <p>
-The rationale for this two-step plan is the realisation that trying to combine all three development streams in one hit (2.0 = HEAD + Yaffil + Vulcan) would extend the period until the next major version of Firebird to an unacceptable degree.
+The rationale for this two-step plan is the realisation that trying to combine all three development streams in one hit (2.0 = HEAD + Yaffil + Vulcan) would extend the release date for  the next major version of Firebird to an unacceptable degree.
 <h3>The <a href="#head">HEAD</a> branch</h3>
-HEAD is the currently-active development branch of the Firebird CVS tree on Sourceforge. The feature freeze should happen as soon as possible. HEAD would be tagged as 1.6 and all incomplete features would be finished. Merger of the Yaffil features for inclusion in Firebird 2.0 is to be considered a "must-do".
+HEAD is the currently-active development branch of the Firebird CVS tree on Sourceforge. The feature freeze should happen as soon as possible. HEAD would be tagged as 2.0 and all incomplete features would be finished. Merger of the Yaffil features for inclusion in Firebird 2.0 is to be considered a "must-do".
 <p>
 The aim would be a first alpha release in September with final release by the end of 2004.
 <h3><a href="#vulcan">Vulcan</a></h3>
-Vulcan is an experimental branch that Jim Starkey took from HEAD about 6 months ago to implement support for fine grained multi-threading, multiple CPUs and 64bit operating systems.  The Vulcan requirements stem from an open source development contract that IBPhoenix has with a large software supplier.
+Vulcan is an experimental branch that Jim Starkey took from HEAD about 6 months ago to implement fine grained multi-threading, and to provide support for shared memory multi-processor (SMP) machines and 64bit operating systems.  The Vulcan requirements stem from an open source development contract that IBPhoenix has with a large software supplier.
 <p>
 Initial alpha release is to happen soon with further beta releases as and when available. Final release is targeted at the end of 2004.
 
@@ -46,7 +49,7 @@ Merger of Firebird 2.0 and Vulcan, aiming for first alpha release April/May 2005
 <h2>Field testing</h2>
 Both Firebird 2.0 and Vulcan are likely to be available at around the same time as binary builds that users can install and experiment with simultaneously.    That means you, as field-testers, will have a period during which you can choose (and jump) between Vulcan's new capabilities-including SMP support--and Firebird 2.0 features.
 <h2>Outline plan</h2>
-The target dates are estimates, with no guarantee that any is achievable.  However, we will be trying to keep on target by improving our self-discipline with regard to "feature creep", QA and code scrutiny during the alpha and beta cycles.
+The target dates are estimates, with no guarantee that any is achievable.  However, we will be trying to keep on target by improving our self-discipline with regard to "feature creep", QA and code scrutiny during the alpha and beta cycles.  Large-scale code cleanup during the freeze would be forbidden.
 <p>
 The project is now in the fortunate position of having one full-time core developer and a number of part-timers positioned to remain available consistently, thanks to grants, or to accommodations made by employers.<br>
 As more detail comes to hand and we get a better handle on sequence, we will expand the following outline into a roadmap.
@@ -98,7 +101,12 @@ The current work on enhancements to indexing introduces a new B-tree page layout
 <h4><i>Segment-level index selectivity</i></h4>
 Proposed Release: 2.0
 <p>
-Arno Brinkman and Dmitry Yemanov have done all the necessary ODS changes to enable index selectivity to be computed segment-by-segment.  Amendment of the optimizer subsystem to accommodate the new statistics is still to be completed.
+Arno Brinkman and Dmitry Yemanov have done all the necessary ODS changes to enable index selectivity to be computed segment-by-segment.  Amendment of the optimizer subsystem to to properly use the per-segment selectivity statistics is still to be completed. 
+
+<h4><i>New record number encoding</i></h4>
+Proposed Release: 2.0
+<p>
+An enhanced system for record number encoding will be implemented for the new ODS by Nickolay Samofatov, to remove the existing upper limit on table rowcount. 
 
 <h4><i>Automatic casting in unions</i></h4>
 Proposed Release: 2.0
@@ -156,7 +164,7 @@ Completed by Dmitry Yemanov, this syntax re-implements the dormant cursor syntax
 <h4><i>CANCEL STATEMENT syntax</i></h4>
 Proposed Release: 2.0
 <p>
-A design proposal has been done (D. Yemanov) but a decision about implementation  is currently in the "deferred" box, pending related developments in Vulcan.
+A design proposal has been done (D. Yemanov) but a final decision about implementation is yet to be made, pending related decisions in Vulcan.  A full implementation would ideally be done through the API;  some degree of implementation will be available in the Firebird 2.0 release.
 
 <h4><i>Correct handling of table-aliases</i></h4>
 Proposed Release: 2.0
@@ -249,6 +257,14 @@ The Temporary File Manager behaves correctly.
 Proposed Release: 2.0
 <p>
 The IPServer protocol on Windows is being transformed to use the XNET protocol layer instead of the current model whereby the server and client share IPC space.
+
+<h4><i>Context pools</i></h4>
+Alex Peshkov will complete the work to implement context pools and ensure that the class library (string, vectors, stack) requires no more rework. 
+
+<h4><i>Bug-fixes</i></h4>
+
+To be finished by D. Yemanov. 
+
 <a name="yaffil"></a>
 <h3>YAFFIL</h3>
 <h4><i>Optimizer improvements</i></h4>
