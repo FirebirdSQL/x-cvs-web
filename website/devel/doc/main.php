@@ -35,41 +35,30 @@ PDF rendering has again been improved.
 
 Links to the HTML documentation we have produced so far:
 <ul>
-<li><a href="/devel/doc/manual/defaulthtml/index.html">Overall table
-of contents</a>
+<li><a href="/manual/index.html">Overall table of contents</a>
 <p>
 </li>
-
-<li><a href="/devel/doc/manual/defaulthtml/qsg15.html">Firebird 1.5 Quick Start
-            Guide</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/qsg10.html">Firebird 1.0 Quick Start
-            Guide</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/migration-mssql.html">MS SQL
-            to Firebird Migration Guide</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/ibfbcoex.html">Coexistence
-             of Firebird 1.5 and InterBase</a>
+<li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a></li>
+<li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
+<li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
+<li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a>
 <p>
 </li>
-<li><a href="/devel/doc/manual/defaulthtml/firebird-docwriters-info.html">Documentation
-for Firebird Docwriters:</a>
+<li><a href="/manual/firebird-docwriters-info.html">Documentation for Firebird Docwriters:</a>
 <ul>
-<li><a href="/devel/doc/manual/defaulthtml/docbuildhowto.html">Docbuilding Howto</a></li>
-<li><a href="/devel/doc/manual/defaulthtml/docwritehowto.html">Docwriting Howto</a></li>
+<li><a href="/manual/docbuildhowto.html">Docbuilding Howto</a></li>
+<li><a href="/manual/docwritehowto.html">Docwriting Howto</a></li>
 </ul>
 </li>
 </ul>
 <p>
 And these are the PDF versions:
 <ul>
-<li><a href="/devel/doc/manual/pdf/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start
-            Guide</a></li>
+<li><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start Guide</a></li>
 <li>Firebird 1.0 Quick Start Guide... coming soon</li>
-<li><a href="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">MS SQL
-            to Firebird Migration Guide</a></li>
-<li><a href="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">Coexistence
-             of Firebird 1.5 and InterBase</a></li>
-<li><a href="/devel/doc/manual/pdf/Firebird-Docwriters-Info.pdf">Documentation
-for Firebird Docwriters</a></li>
+<li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
+<li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
+<li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a></li>
 </ul>
 
 <p>

@@ -65,7 +65,7 @@ submenuItem("Firebird ODBC Driver",loc+"../"+"index.php?op=files&id=odbc","","fb
 submenuItem("Firebird class 4 JCA-JDBC Driver",loc+"../"+"index.php?op=files&id=jaybird","","fb_menu_plain");
 submenuItem("Firebird .NET Data Provider",loc+"../"+"index.php?op=files&id=netprovider","","fb_menu_plain");
 submenuItem("---","javascript:;","","fb_menu_plain");
-submenuItem("Firebird Quick Start Guide","http://www.ibphoenix.com/downloads/qsg.pdf","","fb_menu_plain");
+submenuItem("Firebird Quick Start Guide","/pdfmanual/Firebird-1.5-QuickStart.pdf","","fb_menu_plain");
 submenuItem("Third-party Tools and Libraries (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_contrib_download","","fb_menu_plain");
 endSubmenu("fb_menu_b2");
 

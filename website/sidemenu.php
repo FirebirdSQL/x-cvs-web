@@ -52,7 +52,7 @@ else {
   <p>
   Additionally, you may check our <A href=\"index.php?op=faq\">FAQ</A>, <A href=\"index.php?op=history\">history</A> records and...
   <p class=centre>
-  <A HREF=\"http://www.ibphoenix.com/downloads/qsg.pdf\"><IMG SRC=\"images/NF4_7.gif\" ALT=\"Firebird Quickstart Guide\" BORDER=\"0\"></A>
+  <A HREF=\"/pdfmanual/Firebird-1.5-QuickStart.pdf\"><IMG SRC=\"images/NF4_7.gif\" ALT=\"Firebird Quickstart Guide\" BORDER=\"0\"></A>
   </p>
   A collection of tips for the Firebird \"newbie\" to help you get underway with your newly-downloaded Firebird kit.
   <br>";
