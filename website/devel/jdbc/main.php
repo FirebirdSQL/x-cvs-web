@@ -5,8 +5,9 @@ if (eregi("main.php",$PHP_SELF)) {
 }
 ?>
 <h3>Firebird JCA/JDBC Driver v 1.5.0</h3>
-<h5>By Roman Rokytskyy</h5>
 <b>Released 30 August 2004</b>
+<h5>By Roman Rokytskyy</h5>
+
 
 <h4>What's new in JayBird 1.5</h4>
 <ul type=circle>
@@ -44,7 +45,7 @@ php?op=files&id=jaybird">here</a>.
 <hr size=1>
 For more information please refer to
 <ul type=circle>
-<li><a href="index.php?op=devel&sub=jdbc&id=aboutjbird.php">About Jaybird</a>: background about the
+<li><a href="index.php?op=devel&sub=jdbc&id=aboutjbird">About Jaybird</a>: background about the
 drivers<p>
 <li><a href="http://jaybirdwiki.firebirdsql.org/JayBirdHome">JayBird Wiki pages</a>
 </ul>
