@@ -51,7 +51,7 @@ As more detail comes to hand and we get a better handle on sequence, we will exp
 
 <h2>Planned features</h2>
 The following list summarises the features currently complete or under some degree of development.
-<a name="head">
+<a name="head"></a>
 <h3>HEAD</h3>
 <h4><i>Derived Tables</i></h4>
 Proposed Release: Firebird 2.0
@@ -245,7 +245,7 @@ The Temporary File Manager behaves correctly.
 Proposed Release: 2.0
 <p>
 The IPServer protocol on Windows is being transformed to use the XNET protocol layer instead of the current model whereby the server and client share IPC space.
-<a name="yaffil">
+<a name="yaffil"></a>
 <h3>YAFFIL</h3>
 <h4><i>Optimizer improvements</i></h4>
 Proposed Release: 2.0
@@ -307,7 +307,7 @@ The Firebird 2 implementation is currently under discussion among the architects
 Proposed Release: 2.0
 <p>
 An SQL feature for configuring statement timeouts will be considered alongside existing design issues regarding CANCEL STATEMENT.
-<a name="vulcan">
+<a name="vulcan"></a>
 <h3>VULCAN</h3>
 (Notes to be expanded by Team Harrison & Starkey)
 <p>
