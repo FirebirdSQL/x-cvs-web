@@ -17,8 +17,7 @@ $list_comment = "ATEN&Ccedil;&Atilde;O! &nbsp; Voc&ecirc; deve se cadastrar na
 lista atrav&eacute;s do site da FireBase (http://www.firebase.com.br)
 caso contr&aacute;rio ele ser&aacute; rejeitado.";
 
-$list_archive = "<a href=\"http://www.grupos.com.br/grupos/firebase-br\">
-www.grupos.com.br/grupos/firebase-br<\a>";
+$list_archive = "At the list's <a href=\"http://www.grupos.com.br/grupos/firebase-br\">web-site</a>.";
 
 $list_unsubscribe = "<a href=\"mailto:cancelar-firebase-br@grupos.com.br\">
 Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the 
