@@ -35,7 +35,7 @@ Developers often use home-made test applications to test basic functionality of 
 <b>How it works in Firebird project:</b><br>
 Right now, development test cases are used only in "JDBC type 4 driver" and ".NET Data Provider" development groups. These tests are based on UnitTest frameworks for Java and .NET. 
 <p>
-Due to internal structure of Firebird, it's not practical to start development of Unit tests for Firebird codebase, but wWe have initiated a subproject to create test cases based on C++ XP Unit test framework for Vulcan codebase, because Vulcan heavily use C++ classes and their subsystems are better separated. These Unit tests would be also important for forthcoming Vulcan merge with Firebird, and should be included into Firebird codebase after that.
+Due to internal structure of Firebird, it's not practical to start development of Unit tests for Firebird codebase, but we have initiated a subproject to create test cases based on C++ XP Unit test framework for Vulcan codebase, because Vulcan heavily use C++ classes and their subsystems are better separated. These Unit tests would be also important for forthcoming Vulcan merge with Firebird, and should be included into Firebird codebase after that.
 <p>
 These tests should verify correctness of various basic subsystems, like memory management, utility functions, parser etc. If you're interested to help us with development of Unit tests, don't hesitate to <?php GetRabbitSafeEMailLink("firebirds","contact us",true) ?>.
 
