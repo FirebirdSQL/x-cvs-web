@@ -1,0 +1,40 @@
+<?php
+
+# title - Title for this Rabbit hole, optional
+# Leave it empty for name + function
+
+$title = "" ;
+
+# login - SourceForge login name, mandatory
+
+$login = "gspeicher" ;
+
+# sfuid - SourceForge User ID (it's a number), mandatory
+
+$sfuid = "60524";
+
+# name - Full name, mandatory
+
+$name = "Geoffrey C. Speicher" ; 
+
+# email - Personal e-mail address, optional
+# Leave it empty for <login_name>@users.sourceforge.net
+
+$email = "";
+
+# function - Job description, mandatory
+
+$function = "Core Engine Developer (FreeBSD port)" ;
+
+# subprojects - Membership in subprojects (list of subprojects separated by colon)
+#               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
+# mandatory
+
+$subprojects = "engine";
+
+# mainpage - URL to main personal page, optional
+# Leave it empty for main.php page in personal subdirectory
+
+$mainpage = "" ;  
+
+?>

@@ -1,0 +1,115 @@
+rem @echo off
+rem Batch file for safe shutting down and restarting IB55
+rem This Batch will run on Win-NT, not on Win-9x
+C:
+CD "\Program Files\Interbase Corp\Interbase\Bin"
+SET BATLOGFILE=%1
+IF "%BATLOGFILE%" == "" SET BATLOGFILE=d:\newua\jobs\nightly.LOG
+echo ------------------------------------------------- >> %BATLOGFILE%
+Date /T >> %BATLOGFILE%
+Time /T >> %BATLOGFILE%
+rem ========= Step 1: shutdown database =========
+echo Try Shutdown Database... >> %BATLOGFILE%
+gfix -shut -attach 30 d:\newua\ua.gdb -user SYSDBA -pass masterkey 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_SHUT
+echo Shutdown ua ok >> %BATLOGFILE%
+
+gfix -shut -attach 30 d:\newua\train.gdb -user SYSDBA -pass masterkey 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_SHUT_TRAIN
+echo Shutdown train ok >> %BATLOGFILE%
+
+rem ========= Step 2: stop InterbaseServer =========
+echo Try stop InterbaseServer... >> %BATLOGFILE%
+NET STOP InterbaseServer 1> nul 2>> %BATLOGFILE%
+IF errorlevel 1 GOTO NOT_STOPPED
+echo stop InterbaseServer ok >> %BATLOGFILE%
+
+rem ========= Step 3: (re)start InterbaseGuardian =========
+echo Try start InterbaseGuardian... >> %BATLOGFILE%
+NET START InterbaseGuardian 1> nul 2>> %BATLOGFILE%
+IF errorlevel 1 GOTO NOT_STARTED
+echo start InterbaseGuardian ok >> %BATLOGFILE%
+
+
+rem ========= Step 4: backup database =========
+echo backup Database... >> %BATLOGFILE%
+gbak -B -t -user SYSDBA -pass masterkey  d:\newua\ua.gdb d:\newua\ua.bkp 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_BACKEDUP
+echo backup ua ok >> %BATLOGFILE%
+
+rem ========= Step 5: restore database =========
+echo restore Database... >> %BATLOGFILE%
+gbak -R -user SYSDBA -pass masterkey  -c -p 8192 d:\newua\ua.bkp d:\newua\ua.gdb 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_RESTORED
+echo restore train ok >> %BATLOGFILE%
+
+
+rem ========= Step 6: bring database online =========
+echo Try bring database online... >> %BATLOGFILE%
+gfix -online d:\newua\ua.gdb -user SYSDBA -pass masterkey 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_ONLINE
+echo Online ua again. Finished. >> %BATLOGFILE%
+
+gfix -online d:\newua\train.gdb -user SYSDBA -pass masterkey 2> errout.tmp
+echo 1> nul 2> empty.tmp
+echo N 1> N_CR.tmp
+comp errout.tmp empty.tmp 1> nul 2> nul < N_CR.tmp
+if errorlevel 1 GOTO NOT_ONLINE_TRAIN
+echo Online train again. Finished. >> %BATLOGFILE%
+
+GOTO END_BATCH
+
+:NOT_SHUT
+type errout.tmp >> %BATLOGFILE%
+echo Shutdown ua failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_SHUT_TRAIN
+type errout.tmp >> %BATLOGFILE%
+echo Shutdown train failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_STOPPED
+echo Stop InterbaseServer failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_STARTED
+echo Start InterbaseGuardian failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_BACKEDUP
+type errout.tmp >> %BATLOGFILE%
+echo Backup failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_RESTORED
+echo restore failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_ONLINE
+type errout.tmp >> %BATLOGFILE%
+echo Bringing ua database online failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:NOT_ONLINE_TRAIN
+type errout.tmp >> %BATLOGFILE%
+echo Bringing train database online failed! >> %BATLOGFILE%
+GOTO END_BATCH
+
+:END_BATCH
+del *.tmp

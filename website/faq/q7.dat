@@ -1,0 +1,16 @@
+<?php
+
+$question = "Will there be/ever be stable builds available for InterBase&reg; open
+source?" ;
+
+$answer = "
+<blockquote>
+We are not planning on giving away the binaries, the source on Source Forge is a work in progress...We
+are in business to make money. The source code is there for you to compile
+and use in accordance with the IPL. We are not currently going to build it
+for you.  (Jon Arthur, IB Product Manager, Borland SC)<p>
+[The answer should be] No, we don't have a open source &quot;stable&quot; binary for download. The open source tree is our work bench...Yes [it's a use-at-your-own-risk product].  We don't run QA tests on the open source.  (Aaron Ruddick, Borland/IB QA)
+</blockquote>
+";
+
+?>

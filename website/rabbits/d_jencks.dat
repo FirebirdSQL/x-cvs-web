@@ -1,0 +1,40 @@
+<?php
+
+# title - Title for this Rabbit hole, optional
+# Leave it empty for name + function
+
+$title = "" ;
+
+# login - SourceForge login name, mandatory
+
+$login = "d_jencks" ;
+
+# sfuid - SourceForge User ID (it's a number), mandatory
+
+$sfuid = "60525";
+
+# name - Full name, mandatory
+
+$name = "David Jencks" ; 
+
+# email - Personal e-mail address, optional
+# Leave it empty for <login_name>@users.sourceforge.net
+
+$email = "";
+
+# function - Job description, mandatory
+
+$function = "JDBC type 4 driver Developer/Leader, Firebird Documentation Project, Java Specialist, Project Admin" ;
+
+# subprojects - Membership in subprojects (list of subprojects separated by colon)
+#               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
+# mandatory
+
+$subprojects = "jdbc:interclient:doc";
+
+# mainpage - URL to main personal page, optional
+# Leave it empty for main.php page in personal subdirectory
+
+$mainpage = "" ;  
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$question = "How does open source affect the costs for companies which use Interbase or Firebird as an embedded server?" ;
+
+$answer = "
+<dl>
+<dt><u>Firebird</u>
+<dd>Firebird server and client are free of all licensing fees, regardless of whether you download a binary or build it yourself from the source code.
+<p>
+<dt><u>InterBase 6</u>
+<dd>Server and \"per seat\" licensing continues to apply to all binary versions released by Borland after 12 March 2001 as &quot;InterBase 6.0 Server Edition&quot; and &quot;InterBase 6.0 Desktop Edition&quot;.  Pricing info at the Borland site.
+<dt>.
+<dd>&quot;InterBase 6.0 Open Edition&quot; is free.  &quot;Open Edition&quot; refers <strong>only</strong> to the source code currently posted on Borland's CVS source tree <a href=\"http://sourceforge.net/projects/interbase\">at SourceForge</a>.  Borland will not distribute free binaries built from this source, which is described as &quot;work-in-progress&quot;.  It is illegal for binaries built from this source to be named &quot;InterBase&quot; except with permission from Borland.
+<dt>.
+<dd>Binaries of the beta versions prior to 12 March 2001 continue to be free of deployment charges.
+<dt>.
+<dd>The time-limited trial version is free.  Deployment is forbidden.
+</dl>
+";
+
+?>

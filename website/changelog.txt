@@ -1,0 +1,76 @@
+Web site changelog
+==================
+
+16.1.2002 pcisar
+-------------------------------------------------------------------------------
+changed - Rabbit Holes almost completed (more depends on user accounts).
+changed - List & NG descriptors.
+changed - Project descriptors and sidebars, automatic generation od project details.
+
+15.1.2002 pcisar
+-------------------------------------------------------------------------------
+added   - Development related information for Documentation project.
+added   - Development related information for Firebird Core Engine project (partialy).
+changed - Minor additions to cvs-howto.
+added   - Descriptors for all Firebird project members.
+
+14.1.2002 pcisar
+-------------------------------------------------------------------------------
+change  - More security to all files.
+added   - robots.txt file
+
+13.1.2002 pcisar
+-------------------------------------------------------------------------------
+removed - tppabs references
+added   - Link to Migration Guide on Doc/User doc page
+
+11.1.2002 pcisar
+-------------------------------------------------------------------------------
+changed - oldnews.php, news.php, newsflash.php
+added   - Who is Who page in History section
+added   - Download - RC2 Windows install
+fixed   - News server list order (lists -> sidebar.php, main.php)
+fixed   - FAQ List order (faq -> main.php)
+changed - Subproject pages
+changed - download directory renamed to files and files renamed to downloads, because there is download directory at our site that contain files for download and we can't change its name (it will break nightly build scripts and other old links)
+
+10.1.2002 pcisar
+-------------------------------------------------------------------------------
+added   - History pages
+fixed   - Broken link in Case Studies
+
+9.1.2002 pcisar
+-------------------------------------------------------------------------------
+
+added   - Automatic FAQ generation from Q&A chunks
+added   - Basic framework for automatic generation of Rabbit holes
+changed - Sidebar framework. It's now constructed from chunks in web areas.
+fixed   - Bad mailing list entries.
+added   - Entries for other Firebird mailing lists.
+changed - Sidebars for development subprojects
+
+8.1.2002 pcisar
+-------------------------------------------------------------------------------
+
+fixed   - Case studies links
+fixed   - Typos (hopefully all) in Novice's guide
+fixed   - Bad links on Novice's guide
+fixed   - Bad links on documentation index page
+fixed   - Helen's E-mail at Really Useful sidebar
+removed - Reference to Firebird site from documentation index page
+removed - TD text alignment from Firebird.css, so top menu now look as intended
+fixed   - Page title and encoding in header.php
+added   - Project contact list to Developer's Corner
+changed - index.php for second level subdirs and simpler code
+changed - Sidebar for Novice's guide is now more clear navigator along individual pages.
+added   - Pages for development subprojects, along with sidebars. It's only a nucleus for them.
+added   - Automatic generation of Mailing list & newsgroups index from data records and sideckick as well.
+added   - Routine for directory scan in mainfile.php
+
+
+Known issues / TODO :
+- Documentation merge from old Firebird site to Documentation section
+- More "meat" fore Developer's Corner
+- User accounts
+- Surveys
+- Rabbit Holes

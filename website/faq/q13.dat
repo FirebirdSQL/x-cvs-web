@@ -1,0 +1,13 @@
+<?php
+
+$question = "Will you make new versions of Firebird ?" ;
+
+$answer = "
+<blockquote>
+Yes, Firebird 2 is taking shape. For now, it's not externally different
+(in behavior), but Mike Nordell has changed the source from C to C++ and
+this is no light task.    (Claudio Valderrama, Firebird Developer)
+</blockquote>
+";
+
+?>

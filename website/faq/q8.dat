@@ -1,0 +1,11 @@
+<?php
+
+$question = "Will there be a new documentation set (from Borland) for downloading?" ;
+
+$answer = "
+<blockquote>
+No. The only way to get Docs is to buy the product.  (Aaron Ruddick, Borland/IB QA)
+</blockquote>
+";
+
+?>

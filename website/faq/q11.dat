@@ -1,0 +1,25 @@
+<?php
+
+$question = "What will be in the release version of Firebird - I mean FB Server, FB Client, FB IntraClient, Components(FBX), FB Documentation, ODBC, Replicator, FB Console?" ;
+
+$answer = "
+<blockquote>
+The Server and the Client are a thing that's built at the same time.
+There's no IBClient thing as a product really. The client is just the
+library that allows a client application to connect to the server, just like
+any vendor company provides a client library for its product.<br>
+There has been work on Inter[Server|Client] but I don't know the current status.
+Also, as I understand, Borland will have InterClient 2 non-free.<br>
+There's no such thing as FBX. If you want to use IBX to connect to IB or FB, no
+problem. IBX policy for the future is in Borland's hands. If you need a more
+serious alternative, consider FibPlus or IBO.<br>
+It's unlikely our documentation volunteers will have something like a big
+doco finished for the next month. <br>
+There are two ODBC works free and open source: the XTG driver and the
+ODBC/JDBC driver, also known as the Starkey driver.  These two drivers can
+connect to both FB and IB.  I can't make an assessment of the current state for now, but they are independent of the
+core engine. Volunteers to tackle them are welcome.  (Claudio Valderrama, Firebird Developer)
+</blockquote>
+";
+
+?>

@@ -1,0 +1,624 @@
+.:
+total 1.3M
+-rw-rw-r--    1 pcisar   firebird     2.4k Jan 11 13:32 changelog.txt
+-rw-rw-r--    1 pcisar   firebird      266 Jan 11 13:25 config.php
+drwxrwxr-x    9 pcisar   firebird     4.0k Jan 11 13:13 devel
+-rw-rw-r--    1 pcisar   firebird      11k Mar 27  2001 dhtmllib.js
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:14 doc
+drwxrwsr-x   15 pcisar   firebird     4.0k Dec 23 17:18 download
+-rw-rw-r--    1 pcisar   firebird     1.5k Jan 11 13:31 download.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:32 downloads
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:14 faq
+-rw-rw-r--    1 pcisar   firebird        0 Jan 11 13:35 filelist.txt
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:16 files
+-rw-rw-r--    1 pcisar   firebird     5.1k Jan 11 13:26 firebird.css
+-rw-rw-r--    1 pcisar   firebird     1.8k Jan 11 13:26 footer.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:18 guide
+-rw-rw-r--    1 pcisar   firebird      999 Jan 11 13:26 header.php
+drwxrwxr-x    3 pcisar   firebird     4.0k Jan 11 13:21 history
+drwxrwxr-x    3 pcisar   firebird     4.0k Jan 11 13:28 images
+-rw-rw-r--    1 pcisar   firebird     1.0k Jan 11 13:32 index.php
+-rw-rw-r--    1 pcisar   firebird     3.0k Jan 11 13:26 index2.php
+drwxrwxr-x    3 pcisar   firebird     4.0k Jan 11 13:23 lists
+-rw-rw-r--    1 pcisar   firebird     3.1k Jul 10  2001 logocontest.html
+-rw-rw-r--    1 pcisar   firebird      801 Jan 11 13:26 main.php
+-rw-rw-r--    1 pcisar   firebird     7.1k Jan 11 13:26 mainfile.php
+-rw-rw-r--    1 pcisar   firebird      439 Jan 11 13:27 news.php
+-rw-rw-r--    1 pcisar   firebird      416 Jan 11 13:27 newsflash.php
+-rw-rw-r--    1 pcisar   firebird      298 Jan 11 13:27 oldnews.php
+-rw-rw-r--    1 pcisar   firebird     138k Jan 11 12:58 oldsite.tar.gz
+-rw-rw-r--    1 pcisar   firebird    1008k Jan 11 12:55 oldsite2.tar.gz
+-rw-rw-r--    1 pcisar   firebird      111 Jan 11 13:27 page_newsarchive.php
+drwxrwxr-x    5 pcisar   firebird     4.0k Jan 11 13:12 rabbits
+-rw-rw-r--    1 pcisar   firebird      10k Mar 27  2001 scroller.js
+-rw-rw-r--    1 pcisar   firebird     2.3k Jan 11 13:27 sidemenu.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:23 survey
+-rw-rw-r--    1 pcisar   firebird     2.2k Jan 11 13:27 topmenu.php
+drwxrwxr-x    3 pcisar   firebird     4.0k Jan 11 13:24 useful
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:25 user
+
+./devel:
+total 52k
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 doc
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 engine
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:13 index.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 interclient
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 jdbc
+-rw-rw-r--    1 pcisar   firebird     1.7k Jan 11 13:12 main.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 odbc
+-rw-rw-r--    1 pcisar   firebird       51 Jan 11 13:13 page_bugdb.php
+-rw-rw-r--    1 pcisar   firebird     2.3k Jan 11 13:13 page_contacts.php
+-rw-rw-r--    1 pcisar   firebird     1.6k Jan 11 13:13 page_cvs_howto.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 qa
+-rw-rw-r--    1 pcisar   firebird     1.2k Jan 11 13:13 sidemenu.php
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:13 web
+
+./devel/doc:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      174 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      662 Jan 11 13:13 sidemenu.php
+
+./devel/engine:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird     1.3k Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird     1.1k Jan 11 13:13 sidemenu.php
+
+./devel/interclient:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      242 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      505 Jan 11 13:13 sidemenu.php
+
+./devel/jdbc:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      106 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      484 Jan 11 13:13 sidemenu.php
+
+./devel/odbc:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      106 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      417 Jan 11 13:13 sidemenu.php
+
+./devel/qa:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      405 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      545 Jan 11 13:13 sidemenu.php
+
+./devel/web:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:13 index.php
+-rw-rw-r--    1 pcisar   firebird      429 Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird      490 Jan 11 13:13 sidemenu.php
+
+./doc:
+total 76k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:14 index.php
+-rw-rw-r--    1 pcisar   firebird     3.8k Jan 11 13:13 main.php
+-rw-rw-r--    1 pcisar   firebird     4.2k Jan 11 13:14 page_install.php
+-rw-rw-r--    1 pcisar   firebird      26k Jan 11 13:14 page_ipl.php
+-rw-rw-r--    1 pcisar   firebird     3.1k Jan 11 13:14 page_kbases.php
+-rw-rw-r--    1 pcisar   firebird     1.5k Jan 11 13:13 page_sourcecode.php
+-rw-rw-r--    1 pcisar   firebird     3.2k Jan 11 13:13 page_techinfo.php
+-rw-rw-r--    1 pcisar   firebird     1.5k Jan 11 13:14 page_troubleshoot.php
+-rw-rw-r--    1 pcisar   firebird     8.0k Jan 11 13:14 page_userdoc.php
+-rw-rw-r--    1 pcisar   firebird      907 Jan 11 13:14 sidemenu.php
+
+./download:
+total 96M
+-rw-rw-r--    1 pcisar   firebird     3.6k Jul 11  2001 64bitiotest.c
+-rw-rw-r--    1 pcisar   firebird      34k Aug 16 06:58 ClosedBugsDetailed.PDF
+-rw-rw-r--    1 pcisar   firebird      11k Aug 16 06:58 ClosedFeaturesDetailedv1.PDF
+-rw-rw-r--    1 pcisar   firebird      60k Apr  9  2001 DarwinCS.patch
+-rw-rw-r--    1 pcisar   firebird     4.1M Apr 17  2001 DarwinCS.tar.gz
+-rw-rw-r--    1 pcisar   firebird     4.5M Jan 17  2001 FirebirdCS-0.9-4.AIX.bff.Z
+-rw-rw-r--    1 pcisar   firebird      12k Jan 17  2001 FirebirdCS-0.9-4.AIX.readme
+-rw-rw-r--    1 pcisar   firebird      20M Jan 12  2001 FirebirdCS-0.9-4.Darwin.tar.gz
+-rw-r--r--    1 paul_ree firebird      98k Oct 31 23:11 Firebird_Unix_Tools_for_Win32.zip
+-rw-rw-r--    1 pcisar   firebird      53k Aug 16 06:58 OpenBugsDetailed.PDF
+-rw-rw-r--    1 pcisar   firebird      21k Aug 16 06:59 OpenFeaturesDetailed.PDF
+-rw-rw-r--    1 pcisar   firebird      13k May  7  2001 RealUid.patch
+drwxrwsr-x    2 pcisar   firebird     4.0k Nov  7  2000 TCS
+-rw-rw-r--    1 pcisar   firebird     488k Sep 16 02:21 boot-kit.1.0.0.384.tar.gz
+drwxrwsr-x    2 pcisar   firebird     4.0k Aug  3 15:23 bootbuild
+-rw-rw-r--    1 pcisar   firebird     467k Nov 17 08:58 bootkit-RC1.tar.gz
+drwxrwsr-x    3 pcisar   firebird     4.0k Dec  3  2000 bug_112177
+drwxrwsr-x    2 pcisar   firebird     4.0k Dec 13  2000 download
+-rw-rw-r--    1 pcisar   firebird      12k Jul 31 03:47 download.ls
+drwxrwsr-x    2 pcisar   firebird     4.0k Nov 27  2000 download_pcisar
+dr-xr-sr-x    2 skywalke firebird     4.0k Aug  3 14:13 experimental
+-rw-rw-r--    1 pcisar   firebird     2.3M Jun  8  2001 fb_cs-linux-i386-Snapshot-0.9.5.154.tar.gz
+-rw-rw-r--    1 pcisar   firebird     5.9M Oct 25  2000 fb_inst_dbg_102500.zip
+-rw-rw-r--    1 pcisar   firebird     3.2M Jun  8  2001 fb_ss-linux-i386-Snapshot-0.9.5.154.tar.gz
+-rw-rw-r--    1 pcisar   firebird     4.0M Dec 29  2000 fb_win32_debug_dec_29_00.zip
+-rw-rw-r--    1 pcisar   firebird     2.1M Dec 29  2000 fb_win32_prod_dec_29_00.zip
+-rw-rw-r--    1 pcisar   firebird     5.2M Dec 31  2000 fbinst_0_9-4_dbg_2000_12_29-1.exe
+-rw-rw-r--    1 pcisar   firebird     3.2M Dec 31  2000 fbinst_0_9-4_prod_2000_12_29-1.exe
+lrwxrwxrwx    1 rfm      firebird       55 Aug  6 15:33 fbinst_0_9_5_314_UNSTABLE_DBG.exe -> snapshot_builds/win32/fbinst_0_9_5_314_UNSTABLE_DBG.exe
+lrwxrwxrwx    1 rfm      firebird       55 Aug  6 15:33 fbinst_0_9_5_314_UNSTABLE_PRD.exe -> snapshot_builds/win32/fbinst_0_9_5_314_UNSTABLE_PRD.exe
+-rw-rw-r--    1 pcisar   firebird     5.2M Dec 21  2000 fbinst_0_9_dbg_2000_12_08-1.exe
+-rw-rw-r--    1 pcisar   firebird     3.2M Dec 21  2000 fbinst_0_9_prod_2000_12_08-1.exe
+-rw-rw-r--    1 pcisar   firebird      27k Dec  9  2000 fbinst_build.zip
+-rw-rw-r--    1 pcisar   firebird     6.1M Nov 26  2000 fbinst_dbg_110300-3.exe
+-rw-rw-r--    1 pcisar   firebird     3.5M Nov 26  2000 fbinst_prod_110300-3.exe
+-rw-rw-r--    1 pcisar   firebird     5.9M Dec 29  2000 firebird-122900.tar.gz
+-rw-rw-r--    1 pcisar   firebird     472k Oct  9  2000 firebird-boot-kit.tar.gz
+-rw-r--r--    1 ph4ze    firebird     1.7M Nov 14 15:37 firebird-classic_20011115-1_i386.deb
+-rw-r--r--    1 ph4ze    firebird     108k Nov 14 15:37 firebird-devel_20011115-1_i386.deb
+-rw-rw-r--    1 pcisar   firebird     2.3M Aug 15  2000 firebird-freebsd-1.0.tgz
+-rw-r--r--    1 ph4ze    firebird     1.8M Nov 14 15:38 firebird-super_20011115-1_i386.deb
+-rw-r--r--    1 ph4ze    firebird      15k Nov 18 13:08 firebird_20011115-1.diff.gz
+-rw-r--r--    1 ph4ze    firebird      388 Nov 18 13:09 firebird_20011115-1.dsc
+-rw-r--r--    1 ph4ze    firebird     6.1M Nov 18 13:08 firebird_20011115.orig.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.0M Sep 16 02:21 ibconsole.exe
+-rw-rw-r--    1 pcisar   firebird      34k Aug 29  2000 intlerrors
+-rw-rw-r--    1 pcisar   firebird      64k May 12  2001 isolatin2.tar.bz2
+drwxrwsr-x    2 pcisar   firebird     4.0k Sep 16 02:21 kkuznetsov
+-rw-rw-r--    1 pcisar   firebird     119k Aug 25  2000 linux_compile_warnings.html
+-rw-rw-r--    1 pcisar   firebird     1.3M Apr 16  2001 mach_kernel.firebird.gz
+drwxrwsr-x    3 pcisar   firebird     4.0k Apr 16  2001 rabbits
+drwxrwxr-x    3 pcisar   firebird     4.0k Aug  8 09:45 release
+-rw-rw-r--    1 pcisar   firebird      13k Apr 24  2001 remote.patch
+drwxrwsr-x    2 pcisar   firebird     4.0k May 12  2001 rfm
+-rw-rw-r--    1 pcisar   firebird     3.8k Sep 27  2000 rpmscripts
+drwxrwsr-x    8 pcisar   firebird     4.0k Oct  3 06:01 snapshot_builds
+drwxrwsr-x    2 pcisar   firebird     4.0k May 12  2001 tamlin
+drwxrwxr-x    2 pcisar   firebird     4.0k Aug 22  2000 test
+-rw-rw-r--    1 pcisar   firebird     2.3k Jul 19 14:14 unix_64io.patch
+
+./download/TCS:
+total 12k
+-rw-rw-r--    1 pcisar   firebird      10k Nov 12  2000 TCS_linux.tar
+
+./download/bootbuild:
+total 460k
+-rw-rw-r--    1 pcisar   firebird      224 Apr 16  2001 README
+lrwxrwxrwx    1 skywalke firebird       28 Aug  6 11:26 bootbuild.tar.gz -> bootbuild_17-Apr-2001.tar.gz
+-rw-rw-r--    1 pcisar   firebird     450k Apr 16  2001 bootbuild_17-Apr-2001.tar.gz
+
+./download/bug_112177:
+total 16k
+-rw-rw-r--    1 pcisar   firebird     9.1k Dec  3  2000 bug_112177_proposed_patch
+drwxrwsr-x    2 pcisar   firebird     4.0k Dec  3  2000 tcs_tests
+
+./download/bug_112177/tcs_tests:
+total 104k
+-rw-rw-r--    1 pcisar   firebird       53 Dec  3  2000 bug_112177_01.result
+-rw-rw-r--    1 pcisar   firebird      925 Dec  3  2000 bug_112177_01.test
+-rw-rw-r--    1 pcisar   firebird      668 Dec  3  2000 bug_112177_02.result
+-rw-rw-r--    1 pcisar   firebird     1.4k Dec  3  2000 bug_112177_02.test
+-rw-rw-r--    1 pcisar   firebird      271 Dec  3  2000 bug_112177_03.result
+-rw-rw-r--    1 pcisar   firebird     1.5k Dec  3  2000 bug_112177_03.test
+-rw-rw-r--    1 pcisar   firebird      442 Dec  3  2000 bug_112177_04.result
+-rw-rw-r--    1 pcisar   firebird     1.5k Dec  3  2000 bug_112177_04.test
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_05.result
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_05.test
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_06.result
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_06.test
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_07.result
+-rw-rw-r--    1 pcisar   firebird     1.7k Dec  3  2000 bug_112177_07.test
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_08.result
+-rw-rw-r--    1 pcisar   firebird     1.7k Dec  3  2000 bug_112177_08.test
+-rw-rw-r--    1 pcisar   firebird     2.1k Dec  3  2000 bug_112177_09.result
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_09.test
+-rw-rw-r--    1 pcisar   firebird     1.6k Dec  3  2000 bug_112177_10.result
+-rw-rw-r--    1 pcisar   firebird     1.7k Dec  3  2000 bug_112177_10.test
+-rw-rw-r--    1 pcisar   firebird     1.6k Dec  3  2000 bug_112177_11.result
+-rw-rw-r--    1 pcisar   firebird     1.8k Dec  3  2000 bug_112177_11.test
+-rw-rw-r--    1 pcisar   firebird      523 Dec  3  2000 bug_112177_12.result
+-rw-rw-r--    1 pcisar   firebird      724 Dec  3  2000 bug_112177_12.test
+-rwxrwxr-x    1 pcisar   firebird      550 Dec  3  2000 extract_tests.ksh
+-rwxrwxr-x    1 pcisar   firebird      599 Dec  3  2000 load_test.ksh
+
+./download/download:
+total 11M
+-rw-rw-r--    1 pcisar   firebird      19k Nov 27  2000 FreeUDFLibC-0.8.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.8M Nov 27  2000 IB_4.0_FreeBSD.tar.gz
+-rw-rw-r--    1 pcisar   firebird     135k Nov 27  2000 Sql2gdb.zip
+-rw-rw-r--    1 pcisar   firebird      11k Nov 27  2000 altwise.zip
+-rw-rw-r--    1 pcisar   firebird      77k Nov 27  2000 blr_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     120k Nov 27  2000 call_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird      79k Nov 27  2000 ddl_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     950k Nov 27  2000 delpak5.zip
+-rw-rw-r--    1 pcisar   firebird     1.2M Nov 27  2000 freeibcomponents.exe
+-rw-rw-r--    1 pcisar   firebird     346k Nov 27  2000 freeudflib.zip
+-rw-rw-r--    1 pcisar   firebird      59k Nov 27  2000 fsplit.zip
+-rw-rw-r--    1 pcisar   firebird      80k Nov 27  2000 gdef.wi-v60.zip
+-rw-rw-r--    1 pcisar   firebird     112k Nov 27  2000 gdml_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     2.3M Nov 27  2000 ib_4_0_docs_tar.gz
+-rw-rw-r--    1 pcisar   firebird     871k Dec 13  2000 ibap_ver01.zip
+-rw-rw-r--    1 pcisar   firebird     202k Dec 13  2000 ibdbcopy.zip
+-rw-rw-r--    1 pcisar   firebird     495k Nov 27  2000 isc_docs.zip
+-rw-rw-r--    1 pcisar   firebird     204k Nov 27  2000 qli.wi-v60.zip
+-rw-rw-r--    1 pcisar   firebird     143k Nov 27  2000 qli_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     141k Nov 27  2000 source.zip
+-rw-rw-r--    1 pcisar   firebird      70k Nov 27  2000 sql_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird      63k Nov 27  2000 webdatamod.pdf
+
+./download/download_pcisar:
+total 9.5M
+-rw-rw-r--    1 pcisar   firebird      19k Nov 27  2000 FreeUDFLibC-0.8.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.8M Nov 27  2000 IB_4.0_FreeBSD.tar.gz
+-rw-rw-r--    1 pcisar   firebird     135k Nov 27  2000 Sql2gdb.zip
+-rw-rw-r--    1 pcisar   firebird      11k Nov 27  2000 altwise.zip
+-rw-rw-r--    1 pcisar   firebird      77k Nov 27  2000 blr_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     120k Nov 27  2000 call_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird      79k Nov 27  2000 ddl_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     950k Nov 27  2000 delpak5.zip
+-rw-rw-r--    1 pcisar   firebird     1.2M Nov 27  2000 freeibcomponents.exe
+-rw-rw-r--    1 pcisar   firebird     346k Nov 27  2000 freeudflib.zip
+-rw-rw-r--    1 pcisar   firebird      59k Nov 27  2000 fsplit.zip
+-rw-rw-r--    1 pcisar   firebird      80k Nov 27  2000 gdef.wi-v60.zip
+-rw-rw-r--    1 pcisar   firebird     112k Nov 27  2000 gdml_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     2.3M Nov 27  2000 ib_4_0_docs_tar.gz
+-rw-rw-r--    1 pcisar   firebird     495k Nov 27  2000 isc_docs.zip
+-rw-rw-r--    1 pcisar   firebird     204k Nov 27  2000 qli.wi-v60.zip
+-rw-rw-r--    1 pcisar   firebird     143k Nov 27  2000 qli_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird     141k Nov 27  2000 source.zip
+-rw-rw-r--    1 pcisar   firebird      70k Nov 27  2000 sql_syntax.pdf
+-rw-rw-r--    1 pcisar   firebird      63k Nov 27  2000 webdatamod.pdf
+
+./download/experimental:
+total 72k
+-r--r--r--    1 skywalke firebird      64k Aug  3 14:13 isolatin2.tar.bz2
+
+./download/kkuznetsov:
+total 6.0M
+-rw-rw-r--    1 pcisar   firebird     2.7M Apr 25  2001 FirebirdCS-0.9.4-Solaris-X86.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.6M Apr 25  2001 FirebirdSS-0.9.4-Solaris-X86.tar.gz
+-rwxrwxr-x    1 pcisar   firebird     578k Mar 28  2001 ForIntelSolaris.tgz
+-rw-rw-r--    1 pcisar   firebird      720 Apr 26  2001 README.Solaris.Intel.Classic
+-rw-rw-r--    1 pcisar   firebird      781 Apr 26  2001 README.Solaris.Intel.Super
+-rw-rw-r--    1 pcisar   firebird      41k Sep 16 02:21 common.h
+-rw-rw-r--    1 pcisar   firebird      29k Sep 16 02:21 unix.c
+
+./download/rabbits:
+total 4.0k
+drwxrwsr-x    3 pcisar   firebird     4.0k Jan  4 06:51 skywalker
+
+./download/rabbits/skywalker:
+total 4.0k
+drwxr-sr-x    2 skywalke firebird     4.0k Jan  4 19:40 build691
+
+./download/rabbits/skywalker/build691:
+total 14M
+-rw-r--r--    1 skywalke firebird     2.3M Jan  4 07:18 FirebirdCS-1.0.0.691-0.RC2.64IO.i386.rpm
+-rw-r--r--    1 skywalke firebird     2.4M Jan  4 18:43 FirebirdCS-1.0.0.691-0.RC2.i386.rpm
+-rw-r--r--    1 skywalke firebird     2.5M Jan  4 19:40 FirebirdCS-1.0.0.691-0.RC2.tar.gz
+-rw-r--r--    1 skywalke firebird     2.4M Jan  4 07:41 FirebirdSS-1.0.0.691-0.RC2.64IO.i386.rpm
+-rw-r--r--    1 skywalke firebird     2.4M Jan  4 18:58 FirebirdSS-1.0.0.691-0.RC2.i386.rpm
+-rw-r--r--    1 skywalke firebird     1.5M Jan  4 19:49 FirebirdSS-1.0.0.691-0.RC2.tar.gz
+
+./download/release:
+total 15M
+-rw-r--r--    1 paul_ree users        1.9M Aug  8 09:45 Fb094_cl_hpux10.tar.gz
+-rw-r--r--    1 paul_ree users        2.0M Aug 21 04:18 Fb094_ss_hpux10.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.6M Oct 22  2000 FirebirdCS-0.9-1.i386.rpm
+-rw-rw-r--    1 pcisar   firebird     2.5M Oct 22  2000 FirebirdCS-0.9-1.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.5M Oct 22  2000 FirebirdSS-0.9-1.i386.rpm
+-rw-rw-r--    1 pcisar   firebird     3.4M Oct 22  2000 FirebirdSS-0.9-1.tar.gz
+lrwxrwxrwx    1 pcisar   firebird       36 Jul 25 21:41 fbinst_dbg_current.exe -> ../fbinst_0_9-4_dbg_2000_12_29-1.exe
+lrwxrwxrwx    1 pcisar   firebird       37 Jul 25 21:41 fbinst_prod_current.exe -> ../fbinst_0_9-4_prod_2000_12_29-1.exe
+drwxrwxr-x    2 pcisar   firebird     4.0k Oct 22  2000 old
+
+./download/release/old:
+total 7.5M
+-rw-rw-r--    1 pcisar   firebird     2.6M Oct 21  2000 FirebirdCS-0.9-1.i386.rpm
+-rw-rw-r--    1 pcisar   firebird     2.4M Oct 12  2000 FirebirdCS0.9Install.tar.gz
+-rw-rw-r--    1 pcisar   firebird     2.5M Oct 20  2000 FirebirdSS-0.9-1.i386.rpm
+
+./download/rfm:
+total 96k
+-rw-rw-r--    1 pcisar   firebird      88k May 12  2001 no-cygwin-stuff.zip
+
+./download/snapshot_builds:
+total 14M
+-rw-r--r--    1 paul_ree firebird     2.1M Oct  3 05:37 Firebird-1.0.0.448-Beta-2-Win32.zip
+drwxr-sr-x    2 paul_ree firebird     4.0k Oct  3 05:55 FreeBSD
+drwxrwsr-x    2 pcisar   firebird     4.0k Jun  6  2001 darwin
+-rw-rw-r--    1 pcisar   firebird     5.3M Sep 16 02:21 firebird2.tar.gz
+-rw-rw-r--    1 pcisar   firebird     6.1M Sep 16 02:21 interbase.tar.gz
+drwxrwsr-x    2 pcisar   firebird     4.0k Jan  4 06:51 linux
+drwxrwsr-x    2 pcisar   firebird     4.0k Dec 23 17:18 solaris-sparc
+dr-xr-sr-x    2 skywalke firebird     4.0k Aug  3 15:33 source
+dr-xr-sr-x    2 skywalke firebird     4.0k Aug 15 08:00 win32
+
+./download/snapshot_builds/FreeBSD:
+total 2.8M
+-rw-r--r--    1 paul_ree firebird     414k Oct  3 05:47 bootkit-beta2.tar.gz
+-rw-r--r--    1 paul_ree firebird     2.3M Oct  3 05:55 firebird-1.0.0_Beta2.tgz
+-rw-r--r--    1 paul_ree firebird     6.2k Oct  3 05:55 firebird-port.tar.gz
+
+./download/snapshot_builds/darwin:
+total 17M
+-rw-rw-r--    1 pcisar   firebird     380k Sep 14 01:25 build.log
+-rw-rw-r--    1 pcisar   firebird     5.9M Sep 14 01:25 fb_cs_darwin_dev_snapshot.tar.gz
+-rw-rw-r--    1 pcisar   firebird     1.7M Sep 14 01:25 fb_cs_darwin_snapshot.tar.gz
+-rw-rw-r--    1 pcisar   firebird     6.5M Sep 14 01:25 fb_ss_darwin_dev_snapshot.tar.gz
+-rw-rw-r--    1 pcisar   firebird     1.9M Sep 14 01:25 fb_ss_darwin_snapshot.tar.gz
+
+./download/snapshot_builds/linux:
+total 5.3M
+-rw-rw-r--    1 pcisar   firebird     2.2M Jan 10 15:19 fb_cs_linux_snapshot.tar.gz
+-rw-rw-r--    1 pcisar   firebird     3.0M Jan 10 15:31 fb_ss_linux_snapshot.tar.gz
+
+./download/snapshot_builds/solaris-sparc:
+total 2.7M
+-rw-rw-r--    1 nmcc     firebird     2.6M Dec 23 17:03 FirebirdSS-1.0.0.702-RC2-64IO-Solaris-Sparc.tar.gz
+
+./download/snapshot_builds/source:
+total 12M
+-rw-rw-r--    1 skywalke firebird     5.3M Dec 17 10:42 firebird2.tar.gz
+-rw-rw-r--    1 skywalke firebird     6.4M Dec 17 10:40 interbase.tar.gz
+
+./download/snapshot_builds/win32:
+total 32M
+-r--r--r--    1 skywalke firebird     4.5M Aug 15 08:01 Firebird-1.0.0.338-Beta-2-Win32-Setup.zip
+-rw-rw-r--    1 pcisar   firebird     1.7k Aug  8 16:44 README.Win32.Snapshots.txt
+-rw-rw-r--    1 pcisar   firebird     2.1M May 16  2001 fb-Win32-Snapshot-0.9.5.156.zip
+-rw-r--r--    1 rfm      firebird     2.1M Aug  5 16:40 fb-Win32-Snapshot-0.9.5.314.zip
+-rw-r--r--    1 rfm      firebird     2.1M Aug  8 16:23 fb-Win32-Snapshot-1.0.0.338.zip
+-rw-rw-r--    1 pcisar   firebird     4.0M May 16  2001 fb-Win32-Snapshot-Dbg-0.9.5.156.zip
+-rw-r--r--    1 rfm      firebird     4.1M Aug  5 16:47 fb-Win32-Snapshot-Dbg-0.9.5.314.zip
+-rw-r--r--    1 rfm      firebird     4.1M Aug  8 16:31 fb-Win32-Snapshot-Dbg-1.0.0.338.zip
+-rw-r--r--    1 rfm      firebird     5.3M Aug  6 12:28 fbinst_0_9_5_314_UNSTABLE_DBG.exe
+-rw-r--r--    1 rfm      firebird     3.3M Aug  6 12:29 fbinst_0_9_5_314_UNSTABLE_PRD.exe
+
+./download/tamlin:
+total 18M
+-rw-rw-r--    1 pcisar   firebird      36k May 12  2001 fb2_builds_win32_MSVC6_projs.zip
+-rw-rw-r--    1 pcisar   firebird     6.1M May  4  2001 fb2_src_20010504.zip
+-rw-rw-r--    1 pcisar   firebird     5.6M May 10  2001 fb2_src_20010511.zip
+-rw-rw-r--    1 pcisar   firebird     6.2M Apr 27  2001 fb2_src_2001_04_27.zip
+-rw-rw-r--    1 pcisar   firebird     2.5k May 12  2001 generated.zip
+
+./download/test:
+total 3.0M
+-rw-rw-r--    1 pcisar   firebird      46k Aug 22  2000 jdbcth1_0-harness.tar.Z
+-rw-rw-r--    1 pcisar   firebird     208k Aug 22  2000 jdbcth1_0-tests.tar.Z
+-rw-rw-r--    1 pcisar   firebird     2.5M Aug 22  2000 v6_pc_isql.tar.Z
+-rw-rw-r--    1 pcisar   firebird     141k Aug 22  2000 wisconsin_benchmark_chapter4.pdf
+
+./downloads:
+total 160k
+-rw-rw-r--    1 pcisar   firebird     146k Jan 11 13:32 FB1_ReleaseNotes.pdf
+-rw-rw-r--    1 pcisar   firebird     1.6k Jan 11 13:32 IB_Shell_Backup_Restore_Win2k.reg
+-rw-rw-r--    1 pcisar   firebird     3.6k Jan 11 13:32 nightly.txt
+
+./faq:
+total 68k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:14 index.php
+-rw-rw-r--    1 pcisar   firebird     1010 Jan 11 13:14 main.php
+-rw-rw-r--    1 pcisar   firebird     2.4k Jan 11 13:14 q1.dat
+-rw-rw-r--    1 pcisar   firebird      263 Jan 11 13:14 q10.dat
+-rw-rw-r--    1 pcisar   firebird     1.3k Jan 11 13:14 q11.dat
+-rw-rw-r--    1 pcisar   firebird      234 Jan 11 13:14 q12.dat
+-rw-rw-r--    1 pcisar   firebird      334 Jan 11 13:14 q13.dat
+-rw-rw-r--    1 pcisar   firebird      368 Jan 11 13:14 q14.dat
+-rw-rw-r--    1 pcisar   firebird     2.9k Jan 11 13:14 q2.dat
+-rw-rw-r--    1 pcisar   firebird      254 Jan 11 13:14 q3.dat
+-rw-rw-r--    1 pcisar   firebird      324 Jan 11 13:14 q4.dat
+-rw-rw-r--    1 pcisar   firebird     1.3k Jan 11 13:14 q5.dat
+-rw-rw-r--    1 pcisar   firebird      125 Jan 11 13:14 q6.dat
+-rw-rw-r--    1 pcisar   firebird      727 Jan 11 13:14 q7.dat
+-rw-rw-r--    1 pcisar   firebird      233 Jan 11 13:14 q8.dat
+-rw-rw-r--    1 pcisar   firebird      404 Jan 11 13:14 q9.dat
+-rw-rw-r--    1 pcisar   firebird      251 Jan 11 13:14 sidemenu.php
+
+./files:
+total 380k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:15 index.php
+-rw-rw-r--    1 pcisar   firebird     4.3k Jan 11 13:15 main.php
+-rw-rw-r--    1 pcisar   firebird     4.3k Jan 11 13:15 page_fb094.php
+-rw-rw-r--    1 pcisar   firebird     1.2k Jan 11 13:15 page_fb095.php
+-rw-rw-r--    1 pcisar   firebird     2.7k Jan 11 13:15 page_fb10b2.php
+-rw-rw-r--    1 pcisar   firebird     3.7k Jan 11 13:15 page_fbrc1.php
+-rw-rw-r--    1 pcisar   firebird     111k Jan 11 13:15 page_fbrc1_BugsClosed.php
+-rw-rw-r--    1 pcisar   firebird      99k Jan 11 13:16 page_fbrc1_BugsOpen.php
+-rw-rw-r--    1 pcisar   firebird      21k Jan 11 13:16 page_fbrc1_FeatureRequestClosed.php
+-rw-rw-r--    1 pcisar   firebird      71k Jan 11 13:16 page_fbrc1_FeatureRequestOpen.php
+-rw-rw-r--    1 pcisar   firebird     6.0k Jan 11 13:16 page_fbrc1_faq.php
+-rw-rw-r--    1 pcisar   firebird     2.7k Jan 11 13:16 page_fbrc2.php
+-rw-rw-r--    1 pcisar   firebird     7.4k Jan 11 13:16 page_fbrc2_faq.php
+-rw-rw-r--    1 pcisar   firebird      482 Jan 11 13:16 page_interclient.php
+-rw-rw-r--    1 pcisar   firebird     1.6k Jan 11 13:15 sidemenu.php
+
+./guide:
+total 80k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:18 index.php
+-rw-rw-r--    1 pcisar   firebird     1.8k Jan 11 13:18 main.php
+-rw-rw-r--    1 pcisar   firebird      18k Jan 11 13:18 page_ib6_newfeatures.php
+-rw-rw-r--    1 pcisar   firebird      20k Jan 11 13:18 page_ib6_overview.php
+-rw-rw-r--    1 pcisar   firebird     3.5k Jan 11 13:18 page_ib6_techspec.php
+-rw-rw-r--    1 pcisar   firebird     8.6k Jan 11 13:18 page_ib_casestudies.php
+-rw-rw-r--    1 pcisar   firebird     2.8k Jan 11 13:18 page_links.php
+-rw-rw-r--    1 pcisar   firebird     1.6k Jan 11 13:18 page_project.php
+-rw-rw-r--    1 pcisar   firebird     3.1k Jan 11 13:18 page_rdbms.php
+-rw-rw-r--    1 pcisar   firebird      651 Jan 11 13:18 sidemenu.php
+
+./history:
+total 80k
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:20 images
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:19 index.php
+-rw-rw-r--    1 pcisar   firebird     1.1k Jan 11 13:19 main.php
+-rw-rw-r--    1 pcisar   firebird     9.9k Jan 11 13:21 page_ann_1.php
+-rw-rw-r--    1 pcisar   firebird     4.3k Jan 11 13:21 page_ann_2.php
+-rw-rw-r--    1 pcisar   firebird     2.0k Jan 11 13:20 page_beginning.php
+-rw-rw-r--    1 pcisar   firebird     3.3k Jan 11 13:21 page_borland.php
+-rw-rw-r--    1 pcisar   firebird     7.8k Jan 11 13:21 page_firebird.php
+-rw-rw-r--    1 pcisar   firebird     4.1k Jan 11 13:21 page_jim_1.php
+-rw-rw-r--    1 pcisar   firebird     8.8k Jan 11 13:21 page_opensource.php
+-rw-rw-r--    1 pcisar   firebird     7.7k Jan 11 13:21 page_whoiswho.php
+-rw-rw-r--    1 pcisar   firebird      652 Jan 11 13:19 sidemenu.php
+
+./history/images:
+total 144k
+-rw-rw-r--    1 pcisar   firebird      17k Jan 11 13:20 annharrison.gif
+-rw-rw-r--    1 pcisar   firebird      437 Jan 11 13:20 blankpic.gif
+-rw-rw-r--    1 pcisar   firebird      11k Jan 11 13:20 calford.gif
+-rw-rw-r--    1 pcisar   firebird     2.5k Jan 11 13:20 claudiovalderrama.jpg
+-rw-rw-r--    1 pcisar   firebird      18k Jan 11 13:20 helenb.gif
+-rw-rw-r--    1 pcisar   firebird     2.0k Jan 11 13:20 icon_history.gif
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:20 index.php
+-rw-rw-r--    1 pcisar   firebird     7.1k Jan 11 13:20 jasonwharton.gif
+-rw-rw-r--    1 pcisar   firebird      13k Jan 11 13:20 mideke.gif
+-rw-rw-r--    1 pcisar   firebird     9.2k Jan 11 13:20 odonohue.gif
+-rw-rw-r--    1 pcisar   firebird      20k Jan 11 13:20 paulbeach.gif
+-rw-rw-r--    1 pcisar   firebird      11k Jan 11 13:20 pavelcisar.gif
+-rw-rw-r--    1 pcisar   firebird     5.8k Jan 11 13:20 wolf1.jpg
+
+./images:
+total 112k
+-rw-rw-r--    1 pcisar   users          61 Jan 11 13:28 1x1.gif
+-rw-rw-r--    1 pcisar   users          43 Jan 11 13:28 clearpixel.gif
+-rw-rw-r--    1 pcisar   users         608 Jan 11 13:28 cvs16b.png
+-rw-rw-r--    1 pcisar   users         540 Jan 11 13:28 docman16b.png
+-rw-rw-r--    1 pcisar   users         31k Jan 11 13:28 firebird_main_header.png
+-rw-rw-r--    1 pcisar   users         421 Jan 11 13:28 home16b.png
+-rw-rw-r--    1 pcisar   users         322 Jan 11 13:28 icon_go2.gif
+-rw-rw-r--    1 pcisar   users          46 Jan 11 13:28 index.php
+-rw-rw-r--    1 pcisar   users         336 Jan 11 13:28 ivan_prenosil.gif
+-rw-rw-r--    1 pcisar   users         678 Jan 11 13:28 mail16b.png
+-rw-rw-r--    1 pcisar   users         552 Jan 11 13:28 manual16c.png
+-rw-rw-r--    1 pcisar   users         266 Jan 11 13:28 notes16.png
+-rw-rw-r--    1 pcisar   users        1.6k Jan 11 13:28 rabbithole.png
+-rw-rw-r--    1 pcisar   users         825 Jan 11 13:28 sf-icon-featured_project.gif
+-rw-rw-r--    1 pcisar   users         638 Jan 11 13:28 sf-icon-foundry_member.gif
+-rw-rw-r--    1 pcisar   users          88 Jan 11 13:28 smiley.gif
+-rw-rw-r--    1 pcisar   users         646 Jan 11 13:28 statistic16b.png
+-rw-rw-r--    1 pcisar   users         778 Jan 11 13:28 survey16b.png
+dr-xr-xr-x    2 skywalke users        4.0k Aug 19 04:38 topics
+-rw-rw-r--    1 pcisar   users         911 Jan 11 13:28 tux.gif
+-rw-rw-r--    1 pcisar   users        1.7k Jan 11 13:28 valde_icon.gif
+
+./images/topics:
+total 148k
+-r--r--r--    1 skywalke users        9.6k Aug 19 04:38 AllTopics.gif
+-r--r--r--    1 skywalke users        1.5k Aug 19 04:38 announces.gif
+-r--r--r--    1 skywalke users        2.9k Aug 19 04:38 beos.gif
+-r--r--r--    1 skywalke users        1.8k Aug 19 04:38 borland.gif
+-r--r--r--    1 skywalke users        2.7k Aug 19 04:38 bug.gif
+-r--r--r--    1 skywalke users        1.8k Aug 19 04:38 caldera.gif
+-r--r--r--    1 skywalke users        2.6k Aug 19 04:38 debian.gif
+-r--r--r--    1 skywalke users        1.4k Aug 19 04:38 design.gif
+-r--r--r--    1 skywalke users        3.1k Aug 19 04:38 documentacion.gif
+-r--r--r--    1 skywalke users        6.4k Aug 19 04:46 firebird_logo.png
+-r--r--r--    1 skywalke users        3.9k Aug 19 04:38 freebsd.gif
+-r--r--r--    1 skywalke users        4.1k Aug 19 04:38 gnu.gif
+-r--r--r--    1 skywalke users         856 Aug 19 04:38 hp.gif
+-r--r--r--    1 skywalke users        6.9k Aug 19 04:38 ib6box.gif
+-r--r--r--    1 skywalke users         330 Aug 19 04:38 ibm.gif
+-r--r--r--    1 skywalke users         13k Aug 19 04:38 ibphoenix_logo.png
+-r--r--r--    1 skywalke users           0 Aug 19 04:38 index.html
+-r--r--r--    1 skywalke users        3.4k Aug 19 04:38 intel.gif
+-r--r--r--    1 skywalke users        1.3k Aug 19 04:38 java.gif
+-r--r--r--    1 skywalke users        1.9k Aug 19 04:38 linux.gif
+-r--r--r--    1 skywalke users        1.7k Aug 19 04:38 mac.gif
+-r--r--r--    1 skywalke users        2.4k Aug 19 04:38 mandrake.gif
+-r--r--r--    1 skywalke users        1.4k Aug 19 04:38 microsoft.gif
+-r--r--r--    1 skywalke users        4.9k Aug 19 04:38 phpnuke.gif
+-r--r--r--    1 skywalke users         843 Aug 19 04:38 redhat.gif
+-r--r--r--    1 skywalke users        1.8k Aug 19 04:38 security.gif
+-r--r--r--    1 skywalke users         386 Aug 19 04:38 sun.gif
+-r--r--r--    1 skywalke users        2.6k Aug 19 04:38 suse.gif
+-r--r--r--    1 skywalke users        1.9k Aug 19 04:38 windows.gif
+
+./lists:
+total 20k
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:22 data
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:23 index.php
+-rw-rw-r--    1 pcisar   firebird     4.0k Jan 11 13:22 main.php
+-rw-rw-r--    1 pcisar   firebird     1.7k Jan 11 13:22 sidemenu.php
+
+./lists/data:
+total 76k
+-rw-rw-r--    1 pcisar   firebird      499 Jan 11 13:22 fb-admin.dat
+-rw-rw-r--    1 pcisar   firebird     1.1k Jan 11 13:22 fb-architect.dat
+-rw-rw-r--    1 pcisar   firebird      712 Jan 11 13:23 fb-checkins.dat
+-rw-rw-r--    1 pcisar   firebird      820 Jan 11 13:22 fb-devel.dat
+-rw-rw-r--    1 pcisar   firebird      760 Jan 11 13:22 fb-doc.dat
+-rw-rw-r--    1 pcisar   firebird      845 Jan 11 13:22 fb-java.dat
+-rw-rw-r--    1 pcisar   firebird      798 Jan 11 13:22 fb-odbc-devel.dat
+-rw-rw-r--    1 pcisar   firebird      977 Jan 11 13:22 fb-priorities.dat
+-rw-rw-r--    1 pcisar   firebird      741 Jan 11 13:22 fb-test.dat
+-rw-rw-r--    1 pcisar   firebird      825 Jan 11 13:22 fb-web.dat
+-rw-rw-r--    1 pcisar   firebird      851 Jan 11 13:22 gen-ib-br.dat
+-rw-rw-r--    1 pcisar   firebird     1.1k Jan 11 13:22 gen-ibdi.dat
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:22 index.php
+-rw-rw-r--    1 pcisar   firebird      281 Jan 11 13:22 ng-atkin.dat
+-rw-rw-r--    1 pcisar   firebird      297 Jan 11 13:22 ng-borland.dat
+-rw-rw-r--    1 pcisar   firebird      299 Jan 11 13:22 ng-cvalde.dat
+-rw-rw-r--    1 pcisar   firebird      978 Jan 11 13:22 sup-convers.dat
+-rw-rw-r--    1 pcisar   firebird      902 Jan 11 13:22 sup-ibo.dat
+-rw-rw-r--    1 pcisar   firebird      991 Jan 11 13:22 sup-ibsupport.dat
+
+./rabbits:
+total 24k
+drwxr-xr-x    2 fsg      users        4.0k Jun 28  2001 fsg
+-rw-rw-r--    1 pcisar   users          46 Jan 11 13:12 index.php
+-rw-rw-r--    1 pcisar   users        1.6k Jan 11 13:12 main.php
+drwxrwxr-x    2 pcisar   users        4.0k Nov 12 06:52 pcisar
+-rw-rw-r--    1 pcisar   users         168 Jan 11 13:12 sidemenu.php
+dr-xr-xr-x    2 skywalke users        4.0k Aug 23 08:54 skywalker
+
+./rabbits/fsg:
+total 0
+
+./rabbits/pcisar:
+total 544k
+-rw-rw-r--    1 pcisar   users        126k Nov 13 10:53 FirebirdBugsClosed.html
+-rw-rw-r--    1 pcisar   users        113k Nov 13 10:52 FirebirdBugsOpen.html
+-rw-rw-r--    1 pcisar   users         24k Nov 13 10:52 FirebirdFeatureRequestClosed.html
+-rw-rw-r--    1 pcisar   users         83k Nov 13 10:54 FirebirdFeatureRequestOpen.html
+-rw-rw-r--    1 pcisar   users        169k May  2  2001 transcript.htm
+
+./rabbits/skywalker:
+total 5.7M
+-r-xr-xr-x    1 skywalke users         12k Apr 16  2001 Animation1.gif
+-r-xr-xr-x    1 skywalke users         14k Apr 16  2001 Animation2.gif
+-r--r--r--    1 skywalke users        2.4M Aug 21 11:27 FirebirdCS-1.0.0-0a.Beta2.i386.rpm
+-r--r--r--    1 skywalke users        2.4M Aug 21 11:40 FirebirdSS-1.0.0-0a.Beta2.i386.rpm
+-r--r--r--    1 skywalke users         29k Jul 30 01:18 Firebird_Downloads.html
+-r--r--r--    1 skywalke users        108k Aug 23 08:55 LogosMarkus.zip
+-r--r--r--    1 skywalke users        227k May  5  2001 jrd.c.html
+-r--r--r--    1 skywalke users        232k May  6  2001 jrd2.c.html
+-r--r--r--    1 skywalke users        231k May  6  2001 jrdorig.c.html
+-rw-rw-r--    1 pcisar   firebird      32k Mar 28  2001 reports.zip
+
+./survey:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:23 index.php
+-rw-rw-r--    1 pcisar   firebird      141 Jan 11 13:23 main.php
+-rw-rw-r--    1 pcisar   firebird      387 Jan 11 13:23 sidemenu.php
+
+./useful:
+total 272k
+drwxrwxr-x    2 pcisar   firebird     4.0k Jan 11 13:24 images
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:23 index.php
+-rw-rw-r--    1 pcisar   firebird     8.9k Jan 11 13:23 main.php
+-rw-rw-r--    1 pcisar   firebird      97k Jan 11 13:24 page_Connectivity.php
+-rw-rw-r--    1 pcisar   firebird     2.1k Jan 11 13:23 page_alvarez.php
+-rw-rw-r--    1 pcisar   firebird      69k Jan 11 13:25 page_calford_1.php
+-rw-rw-r--    1 pcisar   firebird      17k Jan 11 13:24 page_deatz_udf.php
+-rw-rw-r--    1 pcisar   firebird      11k Jan 11 13:23 page_geldenhuis.php
+-rw-rw-r--    1 pcisar   firebird      14k Jan 11 13:23 page_ostenried_1.php
+-rw-rw-r--    1 pcisar   firebird     1.9k Jan 11 13:23 page_ostenried_2.php
+-rw-rw-r--    1 pcisar   firebird     1.8k Jan 11 13:23 page_schnepper.php
+-rw-rw-r--    1 pcisar   firebird     4.5k Jan 11 13:23 page_zamana.php
+-rw-rw-r--    1 pcisar   firebird      444 Jan 11 13:23 sidemenu.php
+
+./useful/images:
+total 40k
+-rw-rw-r--    1 pcisar   firebird      16k Jan 11 13:24 Connectivity_Matrix_bottom.gif
+-rw-rw-r--    1 pcisar   firebird      17k Jan 11 13:24 Connectivity_Matrix_top.gif
+-rw-rw-r--    1 pcisar   firebird       49 Jan 11 13:24 index.php
+
+./user:
+total 12k
+-rw-rw-r--    1 pcisar   firebird       46 Jan 11 13:25 index.php
+-rw-rw-r--    1 pcisar   firebird      189 Jan 11 13:25 main.php
+-rw-rw-r--    1 pcisar   firebird      290 Jan 11 13:25 sidemenu.php
