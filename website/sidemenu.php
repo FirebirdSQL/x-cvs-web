@@ -75,7 +75,7 @@ Development</small></i><br>
 <ul>
         <li><a href="<?=$rootDir ?>foundation/index.php#about">About</a></li>
         <li><a href="<?=$rootDir ?>foundation/index.php?id=members.html">Membership</a></li>
-        <li><a href="<?=$rootDir ?>foundation/index.php?id=sponsors.html">Sponsors</a></li>
+        <li><a href="<?=$rootDir ?>foundation/index.php?id=sponsorship.html">Sponsors</a></li>
         <li><a href="<?=$rootDir ?>foundation/index.php?id=contributions.html">Make
         a donation</a></li>
 </ul>
