@@ -193,9 +193,6 @@ static void Main(string[] args)
         command.Parameters[0].Value = "V91E0" + i.ToString();
 
         command.ExecuteNonQuery();
-
-        /* Re-queue for the next event */
-        connection.QueueEvents(revent);
     }
 
     connection.Close();
@@ -210,6 +207,9 @@ static void EventCounts(FbEvent revent, int[] actualCounts)
             Console.WriteLine("{0} : {1}", revent[i], actualCounts[i]);
         }
     }
+
+    /* Re-queue for the next event */
+    revent.Connection.QueueEvents(revent);
 } 
     </pre>
 </p>
