@@ -145,6 +145,10 @@ but, it's not downloadable in the web because it mantains the original license.
 <p>
 If you are interested on it send an email to <i>carlosga at telefonica.net</i>
 </p>
+<p>
+For simple things you can review the <a href="nunit.sourceforge.net">nunit</a> test suite that
+ships with the .NET provider sources.
+</p>
 <p align=CENTER><a href="#top">return to top</a></p>
 
 
