@@ -5,8 +5,8 @@ $bgcolor1 = "#CE383D";
 //$bgcolor1 = "#CCCCCC";
 $bgcolor2 = "999999";
 $bgcolor3 = "FFFFFF";
-//$bgcolor4 = "CCCCCC";
-$bgcolor4 = "FFFFFF";
+$bgcolor4 = "CCCCCC";
+//$bgcolor4 = "FFFFFF";
 $textcolor1 = "#FFFFFF";
 $textcolor2 = "#000000";
 $hr = 1; # 1 to have horizonal rule in comments instead of table bgcolor
@@ -17,7 +17,7 @@ function themepreview($title, $hometext, $bodytext="", $notes="") {
 }
 
 function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext, $notes, $morelink, $topicname, $topicimage, $topictext) {
-	global $tipath, $anonymous;
+	global $tipath, $anonymous, $bgcolor4, $textcolor2;
 
 
 
@@ -27,8 +27,8 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 <tr><td>
 
 <table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=CE383D>
-<font size=4 color=FFFFFF>
+<tr><td bgcolor=<?php echo"$bgcolor4"; ?>>
+<font size=4 color=<?php echo"$textcolor2"; ?>>
 <b><?php echo"$title"; ?></b><br>
 </td></tr><tr><td bgcolor=FFFFFF>
 <a href="search.php?query=&topic=<?php echo"$topic"; ?>&author="><img src=<?php echo"$tipath$topicimage"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10></a>
@@ -55,8 +55,8 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 <tr><td>
 
 <table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=CE383D>
-<font size=4 color=FFFFFF>
+<tr><td bgcolor=<?php echo"$bgcolor4"; ?>>
+<font size=4 color=<?php echo"$textcolor2"; ?>>
 <b><?php echo"$title"; ?></b><br>
 <font size=2>
 </td></tr><tr><td bgcolor=FFFFFF>
@@ -79,7 +79,7 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 }
 
 function themearticle ($aid, $informant, $datetime, $title, $thetext, $topic, $topicname, $topicimage, $topictext) {
-	global $admin, $sid, $tipath;
+	global $admin, $sid, $tipath, $bgcolor4, $textcolor2;
 	if ("$aid" == "$informant") {
 echo"
 
@@ -87,7 +87,7 @@ echo"
 <tr><td>
 
 <table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=CE383D><font color=FFFFFF>
+<tr><td bgcolor=$bgcolor4><font color=$textcolor2>
 <font size=4>
 <b>$title</b><br><font size=2> $datetime
 ";
@@ -119,7 +119,7 @@ echo "
 <table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
 <tr><td>
 <table border=0 cellpadding=3 cellspacing=0 width=100%>
-<tr><td bgcolor=CE383D><font color=FFFFFF>
+<tr><td bgcolor=$bgcolor4><font color=$textcolor2>
 <font size=4>
 <b>$title</b><br><font size=2> ".translate("Contributed by")." $informant ".translate("on")." $datetime</font>
 ";

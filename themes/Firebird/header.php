@@ -3,7 +3,7 @@
 ?>
 <LINK href="themes/Firebird/styles.css" rel=STYLESHEET 
 type=text/css>
-<body onload=init() bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" topmargin=5 leftmargin=0 rightmargin=0 marginheight=5>
+<body onload=init() bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF"" topmargin=5 leftmargin=0 rightmargin=0 marginheight=5>
 <?php
 if ($banners) {
     include("banners.php");
@@ -28,14 +28,12 @@ if ($banners) {
   <a href="<?php echo $nuke_url; ?>"><img src="themes/Firebird/firebird_header2.png" alt="<?php echo "".translate("Welcome to").""; ?> <?php echo $sitename; ?>" border=0></a>
 </td>
 <TD align=right>
-<TABLE border=0 cellPadding=0 cellSpacing=0 width="370">
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="310">
 <TBODY>
 <TR>
 <TD align=right vAlign=top><A class=s_menu href=index.php>&nbsp;Home&nbsp;</A></TD>
 <TD align=middle vAlign=righ>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=faq.php>&nbsp;FAQ&nbsp;</A></TD>
-<TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=friend.php>&nbsp;Recomend us&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
@@ -43,20 +41,26 @@ if ($banners) {
 <TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=links.php>&nbsp;Web Links&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=memberslist.php>&nbsp;Members List&nbsp;</A></TD>
-<TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
 <TD align=right vAlign=top><A class=s_menu href=topics.php>&nbsp;News Archive&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
+<TD align=right vAlign=top><A class=s_menu href=friend.php>&nbsp;Recomend us&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+</TR>
+<TR>
+<TD align=right vAlign=top><A class=s_menu href=sections.php>&nbsp;Featured articles&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+<TD align=right vAlign=top><A class=s_menu href=memberslist.php>&nbsp;Members List&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+</TR>
+<TR>
 <TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/project/showfiles.php?group_id=9028>&nbsp;Distributions&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=user.php>&nbsp;Your account&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=sections.php>&nbsp;Featured articles&nbsp;</A></TD>
-<TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=download.php>&nbsp;Other download&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 <TD align=right vAlign=top><A class=s_menu href=submit.php>&nbsp;Submit News&nbsp;</A></TD>
@@ -83,6 +87,12 @@ global $admin;
   userblock();
   adminblock();
   leftblocks();
+
+  pollNewest();
+  loginbox();
+  online();
+  oldNews($storynum);
+  rightblocks();
 
 //echo "<img src=images/pix.gif border=0 width=150 height=1>";
 echo "</td><td width=100% valign=top>";

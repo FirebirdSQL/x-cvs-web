@@ -365,12 +365,12 @@ function NewsBlock($storynum) {
     } else {
 	$options .= "&thold=0";
     }
-    while(list($sid, $title, $time, $comments) = mysql_fetch_row($result)) {
+    while(list($sid, $title, $time) = mysql_fetch_row($result)) {
 	setlocale ("LC_TIME", "$locale");
 	ereg ("([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})", $time, $datetime2);
 	$datetime2 = strftime("".translate("datestring2")."", mktime($datetime2[4],$datetime2[5],$datetime2[6],$datetime2[2],$datetime2[3],$datetime2[1]));
 	$datetime2 = ucfirst($datetime2);
-  $boxstuff .= "<li><a href=\"article.php?sid=$sid$options\">$title</a> ($comments)\n";
+  $boxstuff .= "<li><a href=\"article.php?sid=$sid$options\">$title</a>\n";
 	$vari++;
 	if ($vari==$oldnum) {
 	    if (isset($cookie[3])) {

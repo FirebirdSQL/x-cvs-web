@@ -3,11 +3,11 @@ global $admin;
 if ($index == 1) {
     echo "<td>&nbsp;</td><td valign=\"top\" width=150>";
 //    bigstory();
-    pollNewest();
-    loginbox();
-    online();
-    oldNews($storynum);
-    rightblocks();
+//    pollNewest();
+//    loginbox();
+//    online();
+//    oldNews($storynum);
+//    rightblocks();
     ephemblock();
     headlines();
 }
