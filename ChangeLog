@@ -1,7 +1,728 @@
-2003-10-20  helebor
-	* website/foundation/main.html:
-	* website/foundation/main_es.html:
-	* website/foundation/members.html:
+2004-04-24	helebor
+	* website/foundation/members.html 1.168:
+		*** empty log message ***
+
+2004-04-21	helebor
+	* website/foundation/aboutMembership.html 1.16:
+	* website/foundation/aboutMembership_fr.html 1.1:
+	* website/foundation/main.html 1.36:
+	* website/foundation/main_fr.html 1.1:
+		Added 2 French pages (ex P. Makowski, translator)
+
+2004-04-17	helebor
+	* website/foundation/finance_report_AGM_2004.html 1.5:
+		Amended again, Matters Arising (sigh)
+
+2004-04-13	helebor
+	* website/foundation/members.html 1.167:
+		Renewals update
+
+2004-04-10	helebor
+	* website/foundation/members.html 1.166:
+		*** empty log message ***
+
+2004-04-09	helebor
+	* website/foundation/finance_report_AGM_2004.html 1.4:
+		Amendments from Matters Arising were added.
+
+2004-04-08	helebor
+	* website/foundation/members.html 1.165:
+		*** empty log message ***
+
+2004-04-07	helebor
+	* website/foundation/finance_report_AGM_2004.html 1.3:
+		H.Borrie adjusted finance report for $3.00 AUD in PayPal charges 
+		wrongly accounted as expenses
+
+	* website/foundation/ff_agm_2004.html 1.12:
+		Added P.Makowski as committee candidate
+
+2004-04-07	skywalker
+	* website/foundation/PresidentsReport_2004.pdf 1.2:
+		Fixed friebird spelling
+
+	* website/foundation/PresidentsReport_2004.pdf 1.1:
+		Presidents report for April 2004
+
+2004-04-05	helebor
+	* website/foundation/members.html 1.163:
+	* website/foundation/members.html 1.164:
+		*** empty log message ***
+
+2004-04-04	helebor
+	* website/foundation/ff_agm_2004.html 1.11:
+	* website/foundation/members.html 1.162:
+		Updates
+
+2004-04-03	helebor
+	* website/foundation/members.html 1.161:
+		*** empty log message ***
+
+2004-03-28	pcisar
+	* website/foundation/index.php 1.4:
+		Fix for Foundation main page
+
+2004-03-26	pcisar
+	* website/config.php 1.2:
+	* website/devel/doc/index.php 1.2:
+	* website/devel/doc/main.php 1.4:
+	* website/devel/engine/index.php 1.2:
+	* website/devel/engine/main.php 1.2:
+	* website/devel/engine/page_development.php 1.2:
+	* website/devel/engine/project.dat 1.2:
+	* website/devel/engine/sidemenu.php 1.2:
+	* website/devel/index.php 1.2:
+	* website/devel/interclient/index.php 1.2:
+	* website/devel/interclient/main.php 1.2:
+	* website/devel/interclient/sidemenu.php 1.2:
+	* website/devel/jdbc/index.php 1.2:
+	* website/devel/jdbc/main.php 1.2:
+	* website/devel/jdbc/project.dat 1.2:
+	* website/devel/jdbc/sidemenu.php 1.2:
+	* website/devel/main.php 1.2:
+	* website/devel/netprovider/index.php 1.1:
+	* website/devel/netprovider/main.php 1.1:
+	* website/devel/netprovider/project.dat 1.1:
+	* website/devel/netprovider/sidemenu.php 1.1:
+	* website/devel/odbc/index.php 1.2:
+	* website/devel/odbc/main.php 1.2:
+	* website/devel/odbc/project.dat 1.2:
+	* website/devel/odbc/sidemenu.php 1.2:
+	* website/devel/page_bugdb.php 1.2:
+	* website/devel/page_contacts.php 1.2:
+	* website/devel/page_cvs_howto.php 1.2:
+	* website/devel/qa/index.php 1.2:
+	* website/devel/qa/main.php 1.2:
+	* website/devel/qa/page_methods.php 1.1:
+	* website/devel/qa/page_testdesign_howto.php 1.2:
+	* website/devel/qa/page_testlist.php 1.2:
+	* website/devel/qa/project.dat 1.2:
+	* website/devel/qa/sidemenu.php 1.2:
+	* website/devel/sidemenu.php 1.2:
+	* website/devel/web/index.php 1.2:
+	* website/devel/web/main.php 1.2:
+	* website/devel/web/project.dat 1.2:
+	* website/devel/web/sidemenu.php 1.2:
+	* website/dhtmllib.js 1.1:
+	* website/doc/main.php 1.2:
+	* website/doc/page_install.php 1.2:
+	* website/doc/page_ipl.php 1.2:
+	* website/doc/page_kbases.php 1.2:
+	* website/doc/page_sourcecode.php 1.2:
+	* website/doc/page_troubleshoot.php 1.2:
+	* website/faq/index.php 1.2:
+	* website/faq/main.php 1.2:
+	* website/faq/q1.dat 1.2:
+	* website/faq/q10.dat 1.3:
+	* website/faq/q11.dat 1.3:
+	* website/faq/q12.dat 1.3:
+	* website/faq/q13.dat 1.3:
+	* website/faq/q2.dat 1.2:
+	* website/faq/q3.dat 1.3:
+	* website/faq/q5.dat 1.3:
+	* website/faq/q6.dat 1.3:
+	* website/faq/sidemenu.php 1.2:
+	* website/files/index.php 1.2:
+	* website/files/main.php 1.2:
+	* website/files/page_fb094.php 1.2:
+	* website/files/page_fb095.php 1.2:
+	* website/files/page_fb10.php 1.2:
+	* website/files/page_fb10b2.php 1.2:
+	* website/files/page_fb1_faq.php 1.2:
+	* website/files/page_fbrc1.php 1.2:
+	* website/files/page_fbrc1_BugsClosed.php 1.2:
+	* website/files/page_fbrc1_BugsOpen.php 1.2:
+	* website/files/page_fbrc1_FeatureRequestClosed.php 1.2:
+	* website/files/page_fbrc1_FeatureRequestOpen.php 1.2:
+	* website/files/page_fbrc1_faq.php 1.2:
+	* website/files/page_fbrc2.php 1.2:
+	* website/files/page_fbrc2_faq.php 1.2:
+	* website/files/page_interclient.php 1.2:
+	* website/files/page_jcajdbc.php 1.2:
+	* website/files/sidemenu.php 1.2:
+	* website/footer.php 1.4:
+	* website/forum.php 1.1:
+	* website/forum/tf.data/categories.txt 1.1:
+	* website/forum/tf.data/header.txt 1.1:
+	* website/forum/tf.data/online_users.txt 1.1:
+	* website/forum/tf.data/settings.txt 1.1:
+	* website/forum/tf.data/users.php 1.1:
+	* website/forum/tf.data/users_groups.txt 1.1:
+	* website/forum/tf.doc/history.txt 1.1:
+	* website/forum/tf.doc/readme.htm 1.1:
+	* website/forum/tf.doc/tech.doc.txt 1.1:
+	* website/forum/tf.doc/template_howto.txt 1.1:
+	* website/forum/tf.img/avatars/avatar00.gif 1.1:
+	* website/forum/tf.img/avatars/readme.txt 1.1:
+	* website/forum/tf.img/smileys/cool.gif 1.1:
+	* website/forum/tf.img/smileys/doh.gif 1.1:
+	* website/forum/tf.img/smileys/happy.gif 1.1:
+	* website/forum/tf.img/smileys/sad.gif 1.1:
+	* website/forum/tf.img/smileys/smile.gif 1.1:
+	* website/forum/tf.img/smileys/uhoh.gif 1.1:
+	* website/forum/tf.img/smileys/wink.gif 1.1:
+	* website/forum/tf.img/topic_icons/angry.gif 1.1:
+	* website/forum/tf.img/topic_icons/bad.gif 1.1:
+	* website/forum/tf.img/topic_icons/cool.gif 1.1:
+	* website/forum/tf.img/topic_icons/doh.gif 1.1:
+	* website/forum/tf.img/topic_icons/good.gif 1.1:
+	* website/forum/tf.img/topic_icons/keel.gif 1.1:
+	* website/forum/tf.img/topic_icons/laugh.gif 1.1:
+	* website/forum/tf.img/topic_icons/question.gif 1.1:
+	* website/forum/tf.img/topic_icons/sad.gif 1.1:
+	* website/forum/tf.img/topic_icons/shocked.gif 1.1:
+	* website/forum/tf.img/topic_icons/smile.gif 1.1:
+	* website/forum/tf.img/topic_icons/wink.gif 1.1:
+	* website/forum/tf.lang/en.php 1.1:
+	* website/forum/tf.lang/readme.txt 1.1:
+	* website/forum/tf.tpl/default/Readme.txt 1.1:
+	* website/forum/tf.tpl/default/admin_backup_extract_page.htm 1.1:
+	* website/forum/tf.tpl/default/admin_backup_page.htm 1.1:
+	* website/forum/tf.tpl/default/admin_control_panel.htm 1.1:
+	* website/forum/tf.tpl/default/admin_form_category.htm 1.1:
+	* website/forum/tf.tpl/default/admin_form_cats.htm 1.1:
+	* website/forum/tf.tpl/default/admin_form_cats_down.htm 1.1:
+	* website/forum/tf.tpl/default/admin_form_cats_row.htm 1.1:
+	* website/forum/tf.tpl/default/admin_form_cats_up.htm 1.1:
+	* website/forum/tf.tpl/default/admin_main_settings.htm 1.1:
+	* website/forum/tf.tpl/default/admin_upgrade.htm 1.1:
+	* website/forum/tf.tpl/default/avatar_page.htm 1.1:
+	* website/forum/tf.tpl/default/avatar_row.htm 1.1:
+	* website/forum/tf.tpl/default/bb_code_help.htm 1.1:
+	* website/forum/tf.tpl/default/categories_page.htm 1.1:
+	* website/forum/tf.tpl/default/categories_row.htm 1.1:
+	* website/forum/tf.tpl/default/categories_row_lastposting.htm 1.1:
+	* website/forum/tf.tpl/default/categories_row_reg_user.htm 1.1:
+	* website/forum/tf.tpl/default/categories_row_unreg_user.htm 1.1:
+	* website/forum/tf.tpl/default/default.css 1.1:
+	* website/forum/tf.tpl/default/footer.htm 1.1:
+	* website/forum/tf.tpl/default/form_logged_in.htm 1.1:
+	* website/forum/tf.tpl/default/form_logged_in_admin.htm 1.1:
+	* website/forum/tf.tpl/default/form_logged_in_mode.htm 1.1:
+	* website/forum/tf.tpl/default/form_login.htm 1.1:
+	* website/forum/tf.tpl/default/form_login2.htm 1.1:
+	* website/forum/tf.tpl/default/form_news_posting.htm 1.1:
+	* website/forum/tf.tpl/default/form_posting.htm 1.1:
+	* website/forum/tf.tpl/default/form_posting_userdata.htm 1.1:
+	* website/forum/tf.tpl/default/form_profile.htm 1.1:
+	* website/forum/tf.tpl/default/form_profile_choose_avatar.htm 1.1:
+	* website/forum/tf.tpl/default/form_profile_name_0.htm 1.1:
+	* website/forum/tf.tpl/default/form_profile_name_1.htm 1.1:
+	* website/forum/tf.tpl/default/header.htm 1.1:
+	* website/forum/tf.tpl/default/members_page.htm 1.1:
+	* website/forum/tf.tpl/default/members_row.htm 1.1:
+	* website/forum/tf.tpl/default/members_row_admin.htm 1.1:
+	* website/forum/tf.tpl/default/moderator_control_panel.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_admin_delete_all.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_linkbar.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_lock_thread.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_make_sticky.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_make_unsticky.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_delete_topic.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_email_unreg.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_homepage.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_modify_topic.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_posts.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_signature.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_userdescription.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_username_regged.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_row_username_unreg.htm 1.1:
+	* website/forum/tf.tpl/default/news_item_page_unlock_thread.htm 1.1:
+	* website/forum/tf.tpl/default/news_page.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_admin_panel_checkbox.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_admin_panel_end.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_admin_panel_start.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_error.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_row.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_row_linkbar.htm 1.1:
+	* website/forum/tf.tpl/default/news_page_sticky_row.htm 1.1:
+	* website/forum/tf.tpl/default/online_users.htm 1.1:
+	* website/forum/tf.tpl/default/popup_window.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_admin_delete_all.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_linkbar.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_lock_thread.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_make_sticky.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_make_unsticky.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_avatar.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_delete_topic.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_email_unreg.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_homepage.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_location.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_modify_topic.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_posts.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_signature.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_userdescription.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_username_regged.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_row_username_unreg.htm 1.1:
+	* website/forum/tf.tpl/default/postings_page_unlock_thread.htm 1.1:
+	* website/forum/tf.tpl/default/smileys.htm 1.1:
+	* website/forum/tf.tpl/default/tf.js 1.1:
+	* website/forum/tf.tpl/default/topics_page.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_admin_panel_checkbox.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_admin_panel_end.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_admin_panel_start.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_error.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_row.htm 1.1:
+	* website/forum/tf.tpl/default/topics_page_row_linkbar.htm 1.1:
+	* website/forum/tf.tpl/default/viewprofile.htm 1.1:
+	* website/guide/index.php 1.2:
+	* website/guide/main.php 1.2:
+	* website/guide/page_ib6_newfeatures.php 1.2:
+	* website/guide/page_ib6_overview.php 1.2:
+	* website/guide/page_ib6_techspec.php 1.2:
+	* website/guide/page_ib_casestudies.php 1.2:
+	* website/guide/page_links.php 1.2:
+	* website/guide/page_project.php 1.2:
+	* website/guide/page_rdbms.php 1.2:
+	* website/guide/sidemenu.php 1.2:
+	* website/header.php 1.6:
+	* website/history/index.php 1.2:
+	* website/history/main.php 1.2:
+	* website/history/page_ann_1.php 1.2:
+	* website/history/page_ann_2.php 1.2:
+	* website/history/page_beginning.php 1.2:
+	* website/history/page_borland.php 1.2:
+	* website/history/page_firebird.php 1.2:
+	* website/history/page_jim_1.php 1.2:
+	* website/history/page_opensource.php 1.2:
+	* website/history/page_whoiswho.php 1.2:
+	* website/history/sidemenu.php 1.2:
+	* website/images/NF4_7.gif 1.1:
+	* website/images/firebird_logo.png 1.1:
+	* website/images/helloworld.gif 1.1:
+	* website/images/helloworld.png 1.1:
+	* website/images/welcome_to_yaffil.gif 1.1:
+	* website/images/welcome_to_yaffil.png 1.1:
+	* website/images/yaffilsmall.gif 1.1:
+	* website/images/yaffilsmall.png 1.1:
+	* website/index.php 1.3:
+	* website/lastRSS.php 1.1:
+	* website/lists/data/fb-admin.dat 1.2:
+	* website/lists/data/fb-architect.dat 1.5:
+	* website/lists/data/fb-checkins.dat 1.2:
+	* website/lists/data/fb-doc.dat 1.2:
+	* website/lists/data/fb-dotnet-provider.dat 1.5:
+	* website/lists/data/fb-java.dat 1.2:
+	* website/lists/data/fb-odbc-devel.dat 1.2:
+	* website/lists/data/fb-priorities.dat 1.2:
+	* website/lists/data/fb-test.dat 1.2:
+	* website/lists/data/gen-fbtools.dat 1.2:
+	* website/lists/data/gen-ibdi.dat 1.3:
+	* website/lists/data/index.php 1.2:
+	* website/lists/data/ng-atkin.dat 1.2:
+	* website/lists/data/ng-borland.dat 1.2:
+	* website/lists/data/ng-cvalde.dat 1.2:
+	* website/lists/data/sup-convers.dat 1.2:
+	* website/lists/data/sup-ibo.dat 1.2:
+	* website/lists/index.php 1.2:
+	* website/lists/main.php 1.3:
+	* website/lists/sidemenu.php 1.2:
+	* website/main.php 1.4:
+	* website/mainfile.php 1.4:
+	* website/news-old.php 1.1:
+	* website/news.php 1.5:
+	* website/newsflash.php 1.4:
+	* website/oldnews.php 1.3:
+	* website/page_maintest.php 1.1:
+	* website/rabbits/Benchmarks.stat 1.1:
+	* website/rabbits/NETProvider.stat 1.1:
+	* website/rabbits/OdbcJdbc.stat 1.2:
+	* website/rabbits/TCS.stat 1.2:
+	* website/rabbits/aafemt.dat 1.1:
+	* website/rabbits/addons.stat 1.1:
+	* website/rabbits/arnobrinkman.dat 1.1:
+	* website/rabbits/arturanjos.dat 1.1:
+	* website/rabbits/carlosga_fb.dat 1.1:
+	* website/rabbits/client-java.stat 1.2:
+	* website/rabbits/epocman.dat 1.1:
+	* website/rabbits/fbtcs.stat 1.1:
+	* website/rabbits/firebird2.stat 1.2:
+	* website/rabbits/hippoman.dat 1.1:
+	* website/rabbits/hvlad.dat 1.1:
+	* website/rabbits/interbase.stat 1.2:
+	* website/rabbits/manual.stat 1.2:
+	* website/rabbits/peter_jacobi.dat 1.1:
+	* website/rabbits/praktik.dat 1.1:
+	* website/rabbits/qmdb.stat 1.1:
+	* website/rabbits/rfincher.dat 1.1:
+	* website/rabbits/ryanbaldwin.dat 1.1:
+	* website/rabbits/skidder.dat 1.1:
+	* website/rabbits/web.stat 1.2:
+	* website/scroller.js 1.1:
+	* website/sidemenu.php 1.21:
+	* website/sidemenu_level1.php 1.3:
+	* website/survey/sidemenu.php 1.2:
+	* website/tf.actions.php 1.1:
+	* website/tf.archive.php 1.1:
+	* website/tf.conf.php 1.1:
+	* website/tf.func.php 1.1:
+	* website/tf.popup.php 1.1:
+	* website/topmenu.php 1.8:
+	* website/useful/main.php 1.2:
+	* website/user/index.php 1.2:
+	* website/user/main.php 1.2:
+	* website/user/sidemenu.php 1.2:
+		Forums and other updates and fixes
+
+2004-03-25	helebor
+	* website/foundation/members.html 1.160:
+	* website/foundation/sponsorship.html 1.26:
+		*** empty log message ***
+
+2004-03-21	paulvink
+	* website/devel/doc/main.php 1.3:
+		Updated doc subproject main page.
+
+2004-03-18	helebor
+	* website/foundation/members.html 1.159:
+		*** empty log message ***
+
+2004-03-17	helebor
+	* website/foundation/members.html 1.158:
+		*** empty log message ***
+
+2004-03-16	helebor
+	* website/foundation/members.html 1.157:
+		*** empty log message ***
+
+2004-03-12	helebor
+	* website/foundation/members.html 1.156:
+		*** empty log message ***
+
+2004-03-12	paulvink
+	* website/doc/contrib/DMX-PHP-FB.pdf 1.1:
+	* website/doc/contrib/OOoFBvp.pdf 1.1:
+	* website/doc/page_techinfo.php 1.2:
+	* website/doc/page_userdoc.php 1.3:
+		Added two contributed docs.
+
+	* website/devel/doc/main.php 1.2:
+	* website/devel/doc/sidemenu.php 1.2:
+	* website/doc/sidemenu.php 1.2:
+		Updated doc subproject pages and links.
+
+2004-03-10	helebor
+	* website/foundation/ff_agm_2004.html 1.10:
+		D.Kouzmenko confirmed
+
+	* website/foundation/members.html 1.154:
+	* website/foundation/members.html 1.155:
+		*** empty log message ***
+
+2004-03-10	paulvink
+	* website/devel/doc/project.dat 1.2:
+	* website/rabbits/andycanfield.dat 1.2:
+	* website/rabbits/d_jencks.dat 1.2:
+	* website/rabbits/firebirds.dat 1.2:
+	* website/rabbits/jalba.dat 1.2:
+	* website/rabbits/paulvink.dat 1.1:
+		Updated documentation subproject membership info
+
+2004-03-09	helebor
+	* website/foundation/FBFactsheet.html 1.3:
+		Added Portuguese link
+
+	* website/foundation/members.html 1.153:
+		*** empty log message ***
+
+	* website/foundation/members.html 1.152:
+		Update
+
+2004-03-08	helebor
+	* website/foundation/images/fulda2c.gif 1.1:
+	* website/foundation/images/umbrella-icon.gif 1.1:
+	* website/foundation/images/umbrella-pole.gif 1.1:
+	* website/foundation/images/under-umbrella-top.gif 1.1:
+		Blimey, this website area is a dog's dinner.
+
+	* website/foundation/umbrella.html 1.2:
+		Hmmm.
+
+	* website/foundation/images/firebird-japan.gif 1.1:
+	* website/foundation/umbrella.html 1.3:
+		*** empty log message ***
+
+	* website/foundation/umbrella.html 1.4:
+		Address changes
+
+	* website/foundation/umbrella.html 1.1:
+		new page
+
+	* website/foundation/images/groups/fulda2c.gif 1.1:
+	* website/foundation/images/groups/umbrella-icon.gif 1.1:
+	* website/foundation/images/groups/umbrella-pole.gif 1.1:
+	* website/foundation/images/groups/under-umbrella-top.gif 1.1:
+		Images for the groups (umbrella) page
+
+2004-03-08	paulvink
+	* website/doc/page_userdoc.php 1.2:
+		Added links to MS-SQL to Firebird Migration Guide and Fb-IB 
+		Coexistence Guide
+
+2004-03-07	helebor
+	* website/foundation/ff_agm_2004.html 1.9:
+	* website/foundation/finance_report_AGM_2004.html 1.2:
+		Updates...
+
+	* website/foundation/Minutes_2002.pdf 1.1:
+	* website/foundation/ff_agm_2004.html 1.8:
+		*** empty log message ***
+
+	* website/foundation/ff_agm_2004.html 1.7:
+	* website/foundation/finance_report_AGM_2004.html 1.1:
+		AGM stuff
+
+2004-03-06	helebor
+	* website/foundation/members.html 1.150:
+	* website/foundation/members.html 1.151:
+		*** empty log message ***
+
+2004-03-03	helebor
+	* website/foundation/FB15_New.html 1.1:
+	* website/foundation/FBFactsheet.html 1.2:
+	* website/foundation/images/fb-whatsnew-btn.gif 1.1:
+	* website/foundation/images/fb-whatsnew.gif 1.1:
+	* website/foundation/images/pdflogo.gif 1.1:
+		*** empty log message ***
+
+2004-02-29	helebor
+	* website/images/fulda2.gif 1.1:
+	* website/images/fulda2a.gif 1.1:
+	* website/images/fulda2b.gif 1.1:
+		*** empty log message ***
+
+2004-02-27	helebor
+	* website/lists/data/gen-ib-br.dat 1.5:
+		Address changes - Pavel please check
+
+	* website/lists/data/gen-ib-br.dat 1.6:
+		*** empty log message ***
+
+	* website/lists/data/gen-ib-br.dat 1.9:
+		Hmmm.  Changed a backslash to a fwd slash.
+
+	* website/lists/data/gen-ib-br.dat 1.8:
+		still trying to get this right (O Pavel, where are you?)
+
+	* website/lists/data/gen-ib-br.dat 1.7:
+		repairs :-(
+
+2004-02-25	helebor
+	* website/foundation/FBFactsheet.html 1.1:
+	* website/foundation/images/fb-bgimage.gif 1.1:
+	* website/foundation/images/fb-facts-btn.gif 1.1:
+	* website/foundation/images/fb-facts.gif 1.1:
+	* website/foundation/images/fb-tiny.gif 1.1:
+	* website/foundation/images/ff-text.gif 1.1:
+	* website/foundation/images/ff_linklogo_1.gif 1.1:
+	* website/foundation/images/grad-bg.gif 1.1:
+	* website/images/fb-facts-btn.gif 1.1:
+		*** empty log message ***
+
+2004-02-22	helebor
+	* website/foundation/members.html 1.149:
+	* website/foundation/sponsorship.html 1.25:
+		*** empty log message ***
+
+2004-02-16	helebor
+	* website/foundation/ff_agm_2004.html 1.6:
+	* website/foundation/members.html 1.148:
+		*** empty log message ***
+
+2004-02-11	helebor
+	* website/foundation/news.html 1.4:
+	* website/foundation/news0401.html 1.1:
+		*** empty log message ***
+
+2004-02-10	helebor
+	* website/foundation/members.html 1.147:
+		*** empty log message ***
+
+	* website/foundation/ff_agm_2004.html 1.5:
+	* website/foundation/mozilla_firefox.html 1.2:
+		1. Typo fixed in Mozilla story, 2. AGM Agenda etc. updated
+
+2004-02-09	helebor
+	* website/foundation/images/firebird_logo_105.gif 1.1:
+	* website/foundation/images/firefox.gif 1.1:
+	* website/foundation/images/firefox_small.gif 1.1:
+	* website/foundation/main.html 1.34:
+	* website/foundation/main.html 1.35:
+	* website/foundation/members.html 1.146:
+	* website/foundation/mozilla_firefox.html 1.1:
+		*** empty log message ***
+
+2004-02-06	helebor
+	* website/foundation/members.html 1.145:
+		*** empty log message ***
+
+2004-02-05	helebor
+	* website/foundation/ff_agm_2004.html 1.2:
+	* website/foundation/ff_agm_2004.html 1.3:
+	* website/foundation/ff_agm_2004.html 1.4:
+	* website/foundation/members.html 1.144:
+		*** empty log message ***
+
+2004-02-04	helebor
+	* website/foundation/ff_agm_2004.html 1.1:
+	* website/foundation/images/ff-agm.gif 1.1:
+		*** empty log message ***
+
+	* website/foundation/members.html 1.143:
+		New mbrs plus removed 4 Brazilians with never-paid subs
+
+2004-02-02	helebor
+	* website/foundation/members.html 1.141:
+	* website/foundation/members.html 1.142:
+		*** empty log message ***
+
+2004-01-20	helebor
+	* website/foundation/members.html 1.138:
+	* website/foundation/members.html 1.139:
+	* website/foundation/members.html 1.140:
+		*** empty log message ***
+
+2004-01-16	helebor
+	* website/foundation/members.html 1.135:
+	* website/foundation/members.html 1.136:
+	* website/foundation/members.html 1.137:
+		*** empty log message ***
+
+2004-01-07	helebor
+	* website/foundation/members.html 1.134:
+		*** empty log message ***
+
+2004-01-04	helebor
+	* website/foundation/news.html 1.3:
+	* website/foundation/news0311.html 1.1:
+		*** empty log message ***
+
+2004-01-02	helebor
+	* website/foundation/members.html 1.130:
+	* website/foundation/members.html 1.131:
+	* website/foundation/members.html 1.132:
+	* website/foundation/members.html 1.133:
+		*** empty log message ***
+
+2004-01-01	helebor
+	* website/foundation/images/sponsors/logismos.gif 1.1:
+	* website/foundation/sponsorship.html 1.24:
+		*** empty log message ***
+
+2003-12-31	helebor
+	* website/foundation/members.html 1.129:
+		*** empty log message ***
+
+2003-12-20	helebor
+	* website/foundation/members.html 1.128:
+		*** empty log message ***
+
+2003-12-18	helebor
+	* website/foundation/members.html 1.127:
+		*** empty log message ***
+
+2003-12-16	helebor
+	* website/foundation/members.html 1.126:
+		*** empty log message ***
+
+2003-12-13	helebor
+	* website/foundation/members.html 1.125:
+		*** empty log message ***
+
+2003-12-11	helebor
+	* website/foundation/members.html 1.124:
+		*** empty log message ***
+
+2003-12-09	helebor
+	* website/foundation/members.html 1.123:
+		*** empty log message ***
+
+2003-12-06	helebor
+	* website/foundation/members.html 1.120:
+		8 new members
+
+	* website/foundation/members.html 1.121:
+	* website/foundation/members.html 1.122:
+		*** empty log message ***
+
+2003-12-03	helebor
+	* website/foundation/members.html 1.119:
+		*** empty log message ***
+
+2003-11-28	helebor
+	* website/foundation/members.html 1.117:
+	* website/foundation/members.html 1.118:
+		*** empty log message ***
+
+2003-11-27	skywalker
+	* website/community/index.php 1.1:
+	* website/community/main.html 1.1:
+	* website/community/relatedProjects.html 1.1:
+	* website/community/sites.html 1.1:
+	* website/community/usingFirebird.html 1.1:
+	* website/firebird/contacts.html 1.1:
+	* website/firebird/feedback.html 1.1:
+	* website/firebird/index.php 1.1:
+	* website/firebird/main.html 1.1:
+		Added new files
+
+	* website/Firebird_NameDebate_References.html 1.2:
+	* website/download.php 1.2:
+	* website/downloads/downloadBinaries.html 1.1:
+	* website/downloads/downloadSource.html 1.1:
+	* website/downloads/index.php 1.2:
+	* website/downloads/main.html 1.1:
+	* website/downloads/relatedProjects.html 1.2:
+	* website/downloads/relatedTools.html 1.2:
+	* website/downloads/serverTools.html 1.1:
+	* website/downloads/userTools.html 1.1:
+	* website/firebird.css 1.3:
+	* website/firebird.css.x 1.2:
+	* website/firebirdsql.webprj 1.5:
+	* website/footer.php 1.3:
+	* website/foundation/index.php 1.3:
+	* website/foundation/main.html 1.33:
+	* website/header.php 1.5:
+	* website/header_foundationonly.php 1.1:
+	* website/images/TitleFirebirdBlackGill2.gif 1.1:
+	* website/index.php 1.2:
+	* website/index2.php 1.2:
+	* website/news.html 1.2:
+	* website/newsflash.html 1.11:
+	* website/oldnews.html 1.2:
+	* website/projects/index.html 1.2:
+	* website/projects/index.php 1.1:
+	* website/projects/main.html 1.1:
+	* website/sidemenu.php 1.20:
+	* website/sidemenu_foundationonly.php 1.1:
+	* website/sidemenu_level1.php 1.2:
+	* website/support/faq.html 1.1:
+	* website/support/index.php 1.1:
+	* website/support/jaybirdfaq.html 1.1:
+	* website/support/lists.html 1.1:
+	* website/support/main.html 1.1:
+	* website/support/sites.html 1.1:
+	* website/support/websiteHowto.html 1.1:
+	* website/topmenu.php 1.7:
+	* website/topmenu_foundationonly.php 1.1:
+		Updated menu structure and added latest news files
+
+2003-11-25	helebor
+	* website/foundation/members.html 1.116:
+		*** empty log message ***
+
+2003-11-08	helebor
+	* website/foundation/members.html 1.115:
+		*** empty log message ***
+
+2003-10-20	helebor
+	* website/foundation/main.html 1.32:
+	* website/foundation/main_es.html 1.2:
+	* website/foundation/members.html 1.114:
 		Draw member 100 updated
 
 2003-10-16  helebor
