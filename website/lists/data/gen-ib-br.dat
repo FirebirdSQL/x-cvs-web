@@ -4,22 +4,23 @@ $list_id = "ibbr" ;
 
 $list_name = "Firebase Brasil (Portuguese)" ;
 
-$list_address = "firebase-br<br>@yahoogroups.com" ;
+$list_address = "firebase-br@grupos.com.br" ;
 
 $list_purpose = "A lista da FireBase-BR (antiga Interbase-BR) &eacute; a maior 
 lista de discuss&atilde;o sobre os bancos de dados Firebird e Interbase em 
 portugu&ecirc;s. ";
 
-$list_subscribe = "<a href=\"mailto:firebase-br-subscribe@yahoogroups.com\">
-Subscribe directly</a>";
+$list_subscribe = "<a href=\"http://www.firebase.com.br\">
+Subscribe directly at website</a>";
 
 $list_comment = "ATEN&Ccedil;&Atilde;O! &nbsp; Voc&ecirc; deve se cadastrar na 
 lista atrav&eacute;s do site da FireBase (http://www.firebase.com.br)
 caso contr&aacute;rio ele ser&aacute; rejeitado.";
 
-$list_archive = "";
+$list_archive = "<a href=\"http://www.grupos.com.br/grupos/firebase-br\"
+www.grupos.com.br/grupos/firebase-br<\a>";
 
-$list_unsubscribe = "<a href=\"mailto:firebase-br-unsubscribe@yahoogroups.com\">
+$list_unsubscribe = "<a href=\"mailto:cancelar-firebase-br@grupos.com.br\">
 Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the 
 header of any list posting.";
 
