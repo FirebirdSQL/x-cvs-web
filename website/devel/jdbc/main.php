@@ -21,13 +21,13 @@ if (eregi("main.php",$PHP_SELF)) {
 <li>
 <h5>Type 2 JDBC driver support</h5>
 Now you can use gds32.dll/libgds.so,
-fbclient.dll/libfbclient.so and
-fbembed.dll/libfbembed.so (requires native library, available as separate
+fbclient.dll/libfbclient.so/libfbembed.so and
+fbembed.dll (requires native library, available as separate
 package).  It allows you to
 <ul type=circle>
 <li>connect locally when the application runs on localhost
-<li>use embedded version of the engine
-<li>use the driver with InterBase 5.x, 6.5, 7.0.
+<li>use the Win32 embedded version of the engine 
+<li>use the driver with InterBase 6.5, 7.0.
 </ul>
 <li>multi-thread safety: now you can use one connection from multiple threads
 <li>introduces Firebird-specific interfaces to enable you to utilize Firebird-specific
