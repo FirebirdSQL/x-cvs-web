@@ -126,7 +126,7 @@
 <table>
 <tr>
 <td colspan=2>
-<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1>
+<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1><br>
 <hr size=2>
 
 <p class="centre">
