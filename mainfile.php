@@ -279,7 +279,7 @@ function oldNews($storynum) {
     global $locale, $oldnum, $storyhome, $cookie, $categories, $cat;
     $storynum = $storyhome;
     $boxstuff = "";
-    $boxTitle = translate("Past Articles");
+    $boxTitle = translate("Past News");
     if ($categories == 1) {
 	$sel = "where catid='$cat'";
     } else {
@@ -333,6 +333,58 @@ function oldNews($storynum) {
     themesidebox($boxTitle, $boxstuff);
 }
 
+function NewsBlock($storynum) {
+    global $locale, $oldnum, $storyhome, $cookie, $categories, $cat;
+//    $storynum = $storyhome;
+    if (isset($cookie[3])) {
+	$storynum = $cookie[3];
+    } else {
+	$storynum = $storyhome;
+    }
+    $boxstuff = "";
+    $boxTitle = translate("Hot News");
+    if ($categories == 1) {
+	$sel = "where catid='$cat'";
+    } else {
+	$sel = "";
+    }
+    $result = mysql_query("select sid, title, time, comments from stories $sel order by time desc limit $storynum");
+    $vari = 0;
+    if (isset($cookie[4])) {
+	$options .= "&mode=$cookie[4]";
+    } else {
+	$options .= "&mode=thread";
+    }
+    if (isset($cookie[5])) {
+	$options .= "&order=$cookie[5]";
+    } else {
+	$options .= "&order=0";
+    }
+    if (isset($cookie[6])) {
+	$options .= "&thold=$cookie[6]";
+    } else {
+	$options .= "&thold=0";
+    }
+    while(list($sid, $title, $time, $comments) = mysql_fetch_row($result)) {
+	setlocale ("LC_TIME", "$locale");
+	ereg ("([0-9]{4})-([0-9]{1,2})-([0-9]{1,2}) ([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})", $time, $datetime2);
+	$datetime2 = strftime("".translate("datestring2")."", mktime($datetime2[4],$datetime2[5],$datetime2[6],$datetime2[2],$datetime2[3],$datetime2[1]));
+	$datetime2 = ucfirst($datetime2);
+  $boxstuff .= "<li><a href=\"article.php?sid=$sid$options\">$title</a> ($comments)\n";
+	$vari++;
+	if ($vari==$oldnum) {
+	    if (isset($cookie[3])) {
+		$storynum = $cookie[3];
+	    } else {
+		$storynum = $storyhome;
+	    }
+	    $min = $oldnum + $storynum;
+	    $boxstuff .= "<br><p align=right><font size=1><a href=\"search.php?min=$min&type=stories&category=$cat\"><b>".translate("Older Articles")."</b></a></font>\n";
+	}
+    }
+    thememainbox($boxTitle, $boxstuff);
+}
+
 function mainblock() {
 	$result = mysql_query("select title, content from mainblock");
 	while(list($title, $content) = mysql_fetch_array($result)) {
@@ -340,6 +392,15 @@ function mainblock() {
 		themesidebox($title, $content);
 	}
 }
+
+function mainblock2() {
+	$result = mysql_query("select title, content from mainblock");
+	while(list($title, $content) = mysql_fetch_array($result)) {
+		$content = nl2br($content);
+		thememainbox($title, $content);
+	}
+}
+
 
 function category() {
     global $cat, $language;

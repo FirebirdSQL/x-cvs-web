@@ -86,7 +86,15 @@ $foot1 = "<table CELLSPACING=\"5\" border=\"0\" width=\"100%\"><tr><td align=\"l
 
 
 
+
+
+
+
 <a href=\"http://sourceforge.net/project/?group_id=9028\">
+
+
+
+
 
 
 
@@ -94,7 +102,15 @@ $foot1 = "<table CELLSPACING=\"5\" border=\"0\" width=\"100%\"><tr><td align=\"l
 
 
 
+
+
+
+
 border=\"0\" alt=\"Firebird at SourceForge\"></a>
+
+
+
+
 
 
 
@@ -102,11 +118,23 @@ border=\"0\" alt=\"Firebird at SourceForge\"></a>
 
 
 
+
+
+
+
 This site and the pages contained within are Copyright © 2000, 2001, Firebird Project.<br>
 
 
 
+
+
+
+
 Firebird - Relational Database for the New Millennium.
+
+
+
+
 
 
 
@@ -130,7 +158,7 @@ $pollcomm = 1;
 ######################################################################
 
 $top = 10;
-$storyhome = 5;
+$storyhome = 20;
 $oldnum = 30;
 $ultramode = 0;
 

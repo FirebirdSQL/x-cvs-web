@@ -18,7 +18,6 @@ automatednews();
 
 function theindex() {
     global $storyhome, $httpref, $httprefmax, $topicname, $topicimage, $topictext, $datetime, $user, $cookie, $nuke_url;
-    include("header.php");
     if (isset($cookie[3])) {
 	$storynum = $cookie[3];
     } else {
@@ -121,8 +120,11 @@ function theindex() {
 switch ($op) {
 
     default:
-	theindex();
-
+    include("header.php");
+  mainblock2();
+//	theindex();
+  NewsBlock(0);
+  include("footer.php");
 }
 
 ?>

@@ -3,7 +3,7 @@
 ?>
 <LINK href="themes/Firebird/styles.css" rel=STYLESHEET 
 type=text/css>
-<body onload=init() background="images/fine_line_bg.gif" bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" topmargin=5 leftmargin=0 rightmargin=0 marginheight=5>
+<body onload=init() bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" topmargin=5 leftmargin=0 rightmargin=0 marginheight=5>
 <?php
 if ($banners) {
     include("banners.php");
@@ -72,6 +72,7 @@ if ($banners) {
    <font color=FFFFFF><a class=osdn>&nbsp;&nbsp;&nbsp;<?php echo "$slogan"; ?></a></font></TD>
  </TR>
 </TABLE>
+<br>
 <table border=0 width=100% cellspacing=5><tr><td valign=top>
 
 <?php

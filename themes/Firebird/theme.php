@@ -2,9 +2,11 @@
 
 $thename = "Firebird";
 $bgcolor1 = "#CE383D";
+//$bgcolor1 = "#CCCCCC";
 $bgcolor2 = "999999";
 $bgcolor3 = "FFFFFF";
-$bgcolor4 = "CCCCCC";
+//$bgcolor4 = "CCCCCC";
+$bgcolor4 = "FFFFFF";
 $textcolor1 = "#FFFFFF";
 $textcolor2 = "#000000";
 $hr = 1; # 1 to have horizonal rule in comments instead of table bgcolor
@@ -24,7 +26,7 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 <table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
 <tr><td>
 
-<table border=0 cellpadding=3 cellspacing=1 width=100%>
+<table border=0 cellpadding=3 cellspacing=0 width=100%>
 <tr><td bgcolor=CE383D>
 <font size=4 color=FFFFFF>
 <b><?php echo"$title"; ?></b><br>
@@ -52,7 +54,7 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
 <table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
 <tr><td>
 
-<table border=0 cellpadding=3 cellspacing=1 width=100%>
+<table border=0 cellpadding=3 cellspacing=0 width=100%>
 <tr><td bgcolor=CE383D>
 <font size=4 color=FFFFFF>
 <b><?php echo"$title"; ?></b><br>
@@ -84,7 +86,7 @@ echo"
 <table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
 <tr><td>
 
-<table border=0 cellpadding=3 cellspacing=1 width=100%>
+<table border=0 cellpadding=3 cellspacing=0 width=100%>
 <tr><td bgcolor=CE383D><font color=FFFFFF>
 <font size=4>
 <b>$title</b><br><font size=2> $datetime
@@ -116,7 +118,7 @@ echo "
 
 <table border=0 cellpadding=0 cellspacing=0 align=center bgcolor=000000 width=100%>
 <tr><td>
-<table border=0 cellpadding=3 cellspacing=1 width=100%>
+<table border=0 cellpadding=3 cellspacing=0 width=100%>
 <tr><td bgcolor=CE383D><font color=FFFFFF>
 <font size=4>
 <b>$title</b><br><font size=2> ".translate("Contributed by")." $informant ".translate("on")." $datetime</font>
@@ -147,16 +149,26 @@ echo "
 
 <?php
 function themesidebox($title, $content) {
+global $textcolor1, $textcolor2;
 ?>
-<table border=0 cellspacing=0 cellpadding=0 width=200 bgcolor=000000>
+<table border=0 cellspacing=0 cellpadding=0 width=200 bgcolor=CE383D>
 <tr>
 <td>
-<table width=100% border=0 cellspacing=2 cellpadding=3>
+<table width=100% border=0 cellspacing=0 cellpadding=3>
 <tr>
-<td colspan=1 bgcolor=CE383D align=center>
-<font size=3 color=FFFFFF><b><?php echo"$title"; ?></b>
+<td colspan=1 bgcolor=FFFFFF align=left>
+<font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
 </td>
 </tr>
+</table>
+<table border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TBODY>
+  <tr bgColor="#000000">
+    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+  </tr>
+</TBODY>
+</table>
+<table border=0 cellspacing=0 cellpadding=3 width=200 bgcolor=000000>
 <tr>
 <td bgcolor=FFFFFF>
 <font size=2>
@@ -164,6 +176,47 @@ function themesidebox($title, $content) {
 </td>
 </tr>
 </table>
+</td>
+</tr>
+</table><br>
+    
+<?php
+}
+
+function thememainbox($title, $content) {
+global $textcolor1, $textcolor2;
+
+if ("$title" != "") { ?>
+<table border=0 cellspacing=0 cellpadding=0 width=100% bgcolor=CE383D>
+<tr>
+<td>
+<table width=100% border=0 cellspacing=0 cellpadding=3>
+<tr>
+<td colspan=1 bgcolor=FFFFFF align=left>
+<font size=3 color=<?php echo"$textcolor2"; ?>><b><?php echo"$title"; ?></b>
+</td>
+</tr>
+</table>
+<table border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TBODY>
+  <tr bgColor="#000000">
+    <td><img alt height="2" src="themes/Firebird/1x1.gif" width="1"></td>
+  </tr>
+</TBODY>
+</table>
+<?php
+  } ?>
+<table border=0 cellspacing=0 cellpadding=3 width=100% bgcolor=000000>
+<tr>
+<td bgcolor=FFFFFF>
+<font size=2>
+<?php echo"$content"; 
+if ("$title" != "") { ?>
+</td>
+</tr>
+</table>
+<?php
+  } ?>
 </td>
 </tr>
 </table><br>
