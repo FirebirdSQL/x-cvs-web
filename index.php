@@ -21,7 +21,6 @@ function theindex() {
     include("header.php");
     if (isset($cookie[3])) {
 	$storynum = $cookie[3];
-    echo "Storynum = $storynum";
     } else {
 	$storynum = $storyhome;
     }

@@ -5,6 +5,7 @@ if ($index == 1) {
 //    bigstory();
     pollNewest();
     loginbox();
+    online();
     oldNews($storynum);
     rightblocks();
     ephemblock();

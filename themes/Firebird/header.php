@@ -25,41 +25,41 @@ if ($banners) {
 <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="FFFFFF">
 <tr>
 <td>
-  <a href="<?php echo $nuke_url; ?>"><img src="themes/Firebird/firebird_header.png" alt="<?php echo "".translate("Welcome to").""; ?> <?php echo $sitename; ?>" border=0></a>
+  <a href="<?php echo $nuke_url; ?>"><img src="themes/Firebird/firebird_header2.png" alt="<?php echo "".translate("Welcome to").""; ?> <?php echo $sitename; ?>" border=0></a>
 </td>
 <TD align=right>
-<TABLE border=0 cellPadding=0 cellSpacing=0>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="370">
 <TBODY>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=index.php>Home</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=index.php>&nbsp;Home&nbsp;</A></TD>
 <TD align=middle vAlign=righ>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=faq.php>FAQ</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=faq.php>&nbsp;FAQ&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=friend.php>Recomend us</A></TD>
-<TD align=middle vAlign=center>| </TD>
-</TR>
-<TR>
-<TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/projects/firebird>SourceForge Area</A></TD>
-<TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=links.php>Web Links</A></TD>
-<TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=memberslist.php>Members List</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=friend.php>&nbsp;Recomend us&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=topics.php>News Archive</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/projects/firebird>&nbsp;SourceForge Area&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/project/showfiles.php?group_id=9028>Distributions</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=links.php>&nbsp;Web Links&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=user.php>Your account</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=memberslist.php>&nbsp;Members List&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 <TR>
-<TD align=right vAlign=top><A class=s_menu href=sections.php>Featured articles</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=topics.php>&nbsp;News Archive&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=download.php>Other download</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=http://sourceforge.net/project/showfiles.php?group_id=9028>&nbsp;Distributions&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
-<TD align=right vAlign=top><A class=s_menu href=submit.php>Submit News</A></TD>
+<TD align=right vAlign=top><A class=s_menu href=user.php>&nbsp;Your account&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+</TR>
+<TR>
+<TD align=right vAlign=top><A class=s_menu href=sections.php>&nbsp;Featured articles&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+<TD align=right vAlign=top><A class=s_menu href=download.php>&nbsp;Other download&nbsp;</A></TD>
+<TD align=middle vAlign=center>| </TD>
+<TD align=right vAlign=top><A class=s_menu href=submit.php>&nbsp;Submit News&nbsp;</A></TD>
 <TD align=middle vAlign=center>| </TD>
 </TR>
 </TD></TBODY></TABLE>
@@ -82,7 +82,6 @@ global $admin;
   userblock();
   adminblock();
   leftblocks();
-  online();
 
 //echo "<img src=images/pix.gif border=0 width=150 height=1>";
 echo "</td><td width=100% valign=top>";
