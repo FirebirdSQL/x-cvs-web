@@ -357,7 +357,7 @@ function reply ($pid, $sid, $mode, $order, $thold) {
 	} else {
 		list($date, $subject, $temp_comment, $comment, $name, $notes) = mysql_fetch_row(mysql_query("select time, title, hometext, bodytext, informant, notes FROM stories where sid=$sid"));
 	}
-	if($comment == "") $comment = $temp_comment;
+//	if($comment == "") $comment = $temp_comment;
 	$titlebar = "<b>$subject</b>";
 	if($name == "") $name = $anonymous;
 	if($subject == "") $subject = "[".translate("No Subject")."]";

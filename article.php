@@ -89,6 +89,13 @@ $tbl = 180;
 $tbl = 0;
 echo "</td></tr></table>";
 cookiedecode($user);
+
+$boxstuff = "<table border=0 width=\"100%\"><tr><td align=center>";
+if ($anonpost==1 OR $admin OR $user) {
+    $boxstuff .= "<a href=\"comments.php?op=Reply&pid=0&sid=$sid\"><img src=\"$uimages/comment.gif\" border=\"0\" Alt=\"\"></a>";
+}
+$boxstuff .= "</td></tr></table>";
+ echo "$boxstuff";
 if($mode != "nocomments") {
     include("comments.php");
 }

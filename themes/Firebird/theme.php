@@ -36,6 +36,7 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
   </table>
   <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="000000">
   <tr><td bgcolor=FFFFFF>
+<img src=<?php echo"$tipath$topicimage"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10>
   <font size=2>
   <?php echo translate("Posted by "); ?> <b><?php formatAidHeader($aid) ?></b> <?php echo translate("on"); ?> <?php echo"$time $timezone"; ?><br>(<?php echo $counter; ?> <?php echo translate("reads"); ?>)
   </font><br><br><font size=2>
@@ -70,7 +71,7 @@ function themeindex ($aid, $informant, $time, $title, $counter, $topic, $thetext
   </table>
   <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="000000">
   <tr><td bgcolor=FFFFFF>
-  <font size=2>
+<img src=<?php echo"$tipath$topicimage"; ?> border=0 Alt=<?php echo"\"$topictext\""; ?> align=right hspace=10 vspace=10>  <font size=2>
   <?php echo translate("Posted by "); ?> <b><?php formatAidHeader($aid) ?></b> <?php echo translate("on"); ?> <?php echo"$time"; ?><br> (<?php echo $counter; ?> <?php echo translate("reads"); ?>)
   </font><br><br><font size=2>
   <?php echo"$boxstuff<br><br>"; ?></font>
@@ -98,9 +99,11 @@ echo"
 <tr><td bgcolor=$bgcolor4><font color=$textcolor2>
 <font size=4>
 <b>$title</b><br><font size=2> $datetime
+<br><a href=\"print.php?sid=$sid\"><img src=\"images/print.gif\" border=0 Alt=\"".translate("Printer Friendly Page")."\" width=15 height=11></a>&nbsp;&nbsp;
+<a href=\"friend.php?op=FriendSend&sid=$sid\"><img src=\"images/friend.gif\" border=0 Alt=\"".translate("Send this Story to a Friend")."\" width=15 height=11></a>
 ";
 if ($admin) {
-    echo "<br> <font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
+    echo "<font size=2> [ <a href=admin.php?op=EditStory&sid=$sid>".translate("Edit")."</a> | <a href=admin.php?op=RemoveStory&sid=$sid>".translate("Delete")."</a> ]";
 }
 echo "
 </td>
