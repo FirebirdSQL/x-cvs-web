@@ -1,0 +1,31 @@
+<?php
+
+$list_id = "firebird-priorities" ;
+
+$list_name = "Firebird-Priorities" ;
+
+$list_address = "firebird-priorities<br>@yahoogroups.com" ;
+
+$list_purpose = "
+The Wishlist List for sharing your ideas with the rest of the open source team about what the priorities should be as Firebird development moves forward.
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-priorities-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Moderated by fellow IBDI members and monitored by the Firebird design team.<p>
+<center><b>This is not a support list.</b><br>&nbsp;</center>
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/firebird-priorities\">at the list's web-site</a>.<br>Newsgroup mirror on <a href=\"news://news.atkin.com\">the Atkin server</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:firebird-priorities-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>
+

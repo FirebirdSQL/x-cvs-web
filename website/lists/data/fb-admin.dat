@@ -1,0 +1,24 @@
+<?php
+
+$list_id = "firebirds" ;
+
+$list_name = "Firebirds (Admins)" ;
+
+$list_address = "Firebirds<br>@lists.sourceforge.net" ;
+
+$list_purpose = "
+Non-subscription list for posting messages to Firebird admins.
+";
+
+$list_subscribe = "N/A";
+
+$list_comment = "
+Post message directly to <a href=\"mailto:firebirds@lists.sourceforge.net\">firebirds</a> and Miss Alice F. Bird will make sure it goes where you ask her to send it.<br>&nbsp;</center>
+";
+
+$list_archive = "Not available";
+
+$list_unsubscribe = "N/A";
+
+?>
+

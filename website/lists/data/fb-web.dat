@@ -1,0 +1,31 @@
+<?php
+
+$list_id = "fb-web" ;
+
+$list_name = "Firebird Website" ;
+
+$list_address = "Firebird-website<br>@lists.sourceforge.net" ;
+
+$list_purpose = "
+Open list for discussing development of Firebird website(s).
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-website-request@lists.sourceforge.net?subject=subscribe\">Subscribe directly</a>
+";
+
+$list_comment = "
+This is a discussion and work list moderated by Firebird Webmaster <a href=\"mailto:pcisar@users.sourceforge.net?subject=Firebird Website\">Pavel Cisar</a>.<p>
+<center><b>Please do not use this list for Firebird support questions.</b><br>&nbsp;</center>
+";
+
+$list_archive = "
+Threaded mirror available at <a href=\"news://news.atkin.com\">news.atkin.com News server</a>
+";
+
+$list_unsubscribe = "
+Click on the Unsubscribe link in the header of any list posting.
+";
+
+?>
+

@@ -1,0 +1,31 @@
+<?php
+
+$list_id = "ibo" ;
+
+$list_name = "IBObjects" ;
+
+$list_address = "ibobjects<br>@yahoogroups.com" ;
+
+$list_purpose = "
+Tech support list for IB developers using the IBObjects data access components for InterBase® & Firebird.
+";
+
+$list_subscribe = "
+<a href=\"mailto:ibobjects-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Unmoderated - but please restrict questions to IBO-specific topics and use ib-support@yahoogroups.com list for SQL and database problems.
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/ibobjects\" >at the list's web-site</a><br>
+Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:ibobjects-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>
+

@@ -1,0 +1,29 @@
+<?php
+
+$list_id = "ibbr" ;
+
+$list_name = "IB Brasil (Portuguese)" ;
+
+$list_address = "interbase-br<br>@yahoogroups.com" ;
+
+$list_purpose = "
+Portuguese language Brazilian open support and IB topics chat list for all versions of InterBase&reg; &amp Firebird.
+";
+
+$list_subscribe = "
+<a href=\"mailto:interbase-br-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Moderated by fellow IBDI members in Brazil. Website with upload/download area <a href=\"http://www.yahoogroups.com/group/interbase-br\" >HERE</a>.
+";
+
+$list_archive = "
+Unthreaded archive at <a href=\"http://www.yahoogroups.com/messages/interbase-br\" >the group web-site</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:interbase-br-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>

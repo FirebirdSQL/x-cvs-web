@@ -1,0 +1,30 @@
+<?php
+
+$list_id = "firebird-java" ;
+
+$list_name = "Firebird-Java" ;
+
+$list_address = "firebird-java<br>@yahoogroups.com" ;
+
+$list_purpose = "
+General discussion list for Java developers wanting to develop InterBase tools in Java or to discuss InterClient/Interserver issues for InterBase 6 and Firebird.
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-java-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Please write all messages in English.
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/firebird-java\">at the list's web-site</a>.<br>Newsgroup mirror on <a href=\"news://news.atkin.com\">the Atkin server</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:firebird-java-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>
+

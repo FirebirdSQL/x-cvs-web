@@ -1,0 +1,31 @@
+<?php
+
+$list_id = "ibdi" ;
+
+$list_name = "IBDI" ;
+
+$list_address = "IBDI<br>@yahoogroups.com" ;
+
+$list_purpose= "
+InterBase Developer Initiative forum for discussing issues of open source, documentation, impact on current and future development and support, etc.
+";
+
+$list_subscribe = "
+<a href=\"mailto:ibdi-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+This is the developer community heartland and it's watched regularly by notables in the IB open source community.  Files upload/download area is occasionally active.  It's also a list where someone is likely to call for help with community jobs!<P>
+<center><b>This is NOT a tech support list.</b></center><br>&nbsp;
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/ibdi\">at the list's web-site</a><br>
+Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:ibdi-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>

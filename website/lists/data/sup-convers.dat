@@ -1,0 +1,30 @@
+<?php
+
+$list_id = "dbconversion" ;
+
+$list_name = "Database Conversions" ;
+
+$list_address = "IB-Conversions<br>@yahoogroups.com" ;
+
+$list_purpose= "
+Converting from another database to InterBase? Or have you done a conversion already? Join this one to get and give tech support on database conversions.
+";
+
+$list_subscribe = "
+<a href=\"mailto:IB-Conversions-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+List archive will (we hope) grow into Tech Info sheets. Moderated by fellow IBDI members. Downloads available from the Files area of <a href=\"http://www.yahoogroups.com/groups/ib-conversions\">the list site</a>.
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/IB-Conversions\">at the list's web-site</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:IB-Conversions-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>
+

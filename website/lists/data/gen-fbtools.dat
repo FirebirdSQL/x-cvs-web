@@ -1,0 +1,32 @@
+<?php
+
+$list_id = "fb-tools" ;
+
+$list_name = "Firebird Tools" ;
+
+$list_address = "Firebird-tools<br>@yahoogroups.com" ;
+
+$list_purpose= "
+Special purpose public list for announcements and development discussions
+about third-party tools related to Firebird and InterBase.
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-tools-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Developers are welcome to post a short summary of news about new and updated tools, along with a link to more detailed information.  Please DO NOT USE THIS FORUM FOR ADVERTISING. Short summary = maximum TWO brief paragraphs.
+You may cross-post the same announcement to the IBDI list;  otherwise, please do not cross-post to other lists.<P>
+<center><b>This is NOT a tech support list.</b></center><br>&nbsp;
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/firebird-tools\">at the list's web-site</a>
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:firebird-tools-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>

@@ -1,0 +1,14 @@
+<?php
+
+$ng_id = "ng-cvalde" ;
+
+$ng_name = "Claudio<br>Valderrama's Site" ;
+
+$ng_address = "<a href=\"http://www.cvalde.com/misc/interbaseNewsgroups.htm\" >Visit site</a>." ;
+
+$ng_description = "
+Claudio maintains a full linked list of known InterBase, Firebird and related newsgroups.
+";
+
+?>
+

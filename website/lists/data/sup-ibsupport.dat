@@ -1,0 +1,30 @@
+<?php
+
+$list_id = "ibsupport" ;
+
+$list_name = "Open ib-support" ;
+
+$list_address = "ib-support<br>@yahoogroups.com" ;
+
+$list_purpose = "
+Open support list for all versions of InterBase&reg; and its feathered daughters.
+";
+
+$list_subscribe = "
+<a href=\"mailto:ib-support-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+A support  list where all Borland-controlled and open versions of the database and tools can be referred to openly and where a sense of humour is warmly applauded. <P>You are definitely allowed to use the word 'Firebird' here.<br>&nbsp;
+";
+
+$list_archive = "
+Unthreaded archive available <a href=\"http://www.yahoogroups.com/messages/ib-support\" >at the list's web-site</a><br>
+Mirrored in newsgroup <a href=\"news://news.atkin.com\">on the Atkin server</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:ib-support-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>

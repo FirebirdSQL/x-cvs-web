@@ -1,0 +1,30 @@
+<?php
+
+$list_id = "fb-odbc-devel" ;
+
+$list_name = "Firebird ODBC Development" ;
+
+$list_address = "Firebird-odbc-devel<br>@lists.sourceforge.net" ;
+
+$list_purpose = "
+Open list for discussing development of ODBC driver for Firebird.
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-odbc-devel-request@lists.sourceforge.net?subject=subscribe\">Subscribe directly</a>
+";
+
+$list_comment = "
+This is a discussion and work list for developing Firebird ODBC driver released as Open Source by IBPhoenix.<p>
+<center><b>Please do not use this list for user support questions.</b><br>&nbsp;</center>
+";
+
+$list_archive = "
+Threaded mirror available at <a href=\"news://news.atkin.com\">news.atkin.com News server</a>
+";
+
+$list_unsubscribe = "
+Click on the Unsubscribe link in the header of any list posting.
+";
+
+?>

@@ -1,0 +1,14 @@
+<?php
+
+$ng_id = "ng-atkin" ;
+
+$ng_name = "Atkin Server" ;
+
+$ng_address = "<a href=\"news://news.atkin.com/\">news://news.atkin.com</a>" ;
+
+$ng_description = "
+Server provides a newsgroup interface for most of the IBDI and Firebird  technical and support email lists.
+";
+
+?>
+
