@@ -22,6 +22,12 @@ SQL generation and object construction, an SQL factory for creating custom queri
 DataView construction helpers, excellent performance and reasonably complete docs."
 </p>
 
+<h1><a href="http://neo.codehaus.org/">NEO (.NET Entity Objects)</a></h1>
+<p>
+"Neo is a framework for .NET developers who want to write enterprise applications with an 
+object-based domain model. It is well suited for domain-driven design and agile development."
+</p>
+
 <h3>Commercial</h3>
 
 <h1><a href="http://www.llblgen.com/">LLBLGen Pro</a></h1>
