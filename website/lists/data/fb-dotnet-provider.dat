@@ -16,3 +16,4 @@ $list_comment = "This is a discussion and work list for developing Firebird .NET
 $list_archive = "Threaded mirror available at <a href=\"news://news.atkin.com\">news.atkin.com News server</a>";
 
 $list_unsubscribe = "Click on the Unsubscribe link in the header of any list posting.";?>
+<!-- -->
