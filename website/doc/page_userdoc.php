@@ -29,7 +29,7 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <td  width="40%"><font face="Verdana"><b>Firebird 1.5 Quick Start Guide</b></td>
 <td width="35%"><font face="Verdana">Helen Borrie</td>
 <td width="15%"><font face="Verdana">HTML, PDF</td>
-<td width="10%"><font face="Verdana">143 Kb</td>
+<td width="10%"><font face="Verdana">166 Kb</td>
 </tr>
 
 <tr><td colspan=4><font face="Verdana">An introduction to Firebird 1.5 for newcomers.</td></tr>
@@ -38,6 +38,35 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/manual/qsg15.html">View as multi-page HTML</a><br>
 <A HREF="/pdfmanual/Firebird-1.5-QuickStart.pdf">View/download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
+<!-- FIREBIRD 1.0 QUICKSTART GUIDE: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird 1.0 Quick Start Guide</b></td>
+<td width="35%"><font face="Verdana">Helen Borrie</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">161 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">An introduction to Firebird 1.0 for newcomers.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="/manual/qsg10.html">View as multi-page HTML</a><br>
+<A HREF="/pdfmanual/Firebird-1.0-QuickStart.pdf">View/download as PDF</a></td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
@@ -126,7 +155,7 @@ An updated, hard-copy version can be obtained by purchasing the InterBase 6 Medi
 Migration Guide</b></td>
 <td width="35%"><font face="Verdana">Marcelo Lopez Ruiz</td>
 <td width="15%"><font face="Verdana">HTML, PDF</td>
-<td width="10%"><font face="Verdana">82 Kb</td>
+<td width="10%"><font face="Verdana">93 Kb</td>
 </tr>
 
 <tr><td colspan=4><font face="Verdana">This guide describes the ins
