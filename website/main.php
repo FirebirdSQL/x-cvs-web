@@ -14,8 +14,8 @@ Firebird is a commercially independent project of C and C++ programmers, technic
 Want to get involved, but can't code? <a href="<?=$rootDir?>foundation"> Join the FirebirdSQL Foundation (Inc.)</a> ! This foundation, set up in the summer of 2002, has the purpose to ensure further development of Firebird as well as coordinate the efforts of people willing to financially support the project. Read more about the Foundation: what it's all about, who is involved and how to become a member.
 
 <?php
-include("newsflash.php");
+include("newsflash.html");
 ?>
 <?php
-include("news.php");
+include("news.html");
 ?>

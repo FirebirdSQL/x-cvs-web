@@ -1,6 +1,6 @@
 <!DOCTYPE webproject>
 <webproject>
-<project usePreviewPrefix="0" type="Local" previewPrefix="" name="FirebirdSQL" >
+<project usePreviewPrefix="0" previewPrefix="" type="Local" name="FirebirdSQL" >
 <upload/>
   <author>The FirebirdSQL Team</author>
   <email>webmaster@firebirdsql.org</email>

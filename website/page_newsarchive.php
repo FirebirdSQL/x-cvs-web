@@ -8,5 +8,5 @@ if (eregi("page_newsarchive.php",$PHP_SELF)) {
 <H4 class="centre">Archive of Firebird Project Development News</H4>
 <br>
 <?php
-include("oldnews.php");
+include("oldnews.html");
 ?>
