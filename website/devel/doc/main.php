@@ -25,10 +25,10 @@ list</a>.
 
 <h4>Latest</h4>
 
-The Firebird Quick Start Guide, donated by IBPhoenix, has now been converted
-to DocBook, updated, and split in a 1.0 and a 1.5 version. See links below.
-<p>
-PDF rendering has again been improved.
+<a href="/manual/fr/index.html">French</a> and
+<a href="/manual/es/index.html">Spanish</a> HTML docs are now up. 
+PDF versions to follow shortly. With thanks to translators Philippe 
+Makowski and Ernesto Cullen.
 <p>
 
 <h4>Online documentation</h4>
