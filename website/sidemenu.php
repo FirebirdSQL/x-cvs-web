@@ -125,13 +125,13 @@
 
 <table>
 <tr>
-<td colspan=2>
+<td colspan=2 align=center>
 <img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=130 height=1><br>
 <hr size=2>
 
-<p class="centre">
+<p>
     <a href="http://www.opensource.org/docs/definition.php">
-   <img src="<?=$rootDir ?>images/opensource-75x65.png" border="0" width="75" height="65" alt="" align="middle">
+   <img src="<?=$rootDir ?>images/opensource-75x65.png" border="0" width="75" height="65" alt="" align="center">
    </a><br>
 </p>
 </td></tr>
