@@ -10,6 +10,9 @@ Firebird is a relational database offering many ANSI SQL-92 features that runs o
 <p>
 Firebird is a commercially independent project of C and C++ programmers, technical advisors and supporters developing and enhancing a multi-platform relational database management system based on the source code released by Inprise Corp (now known as Borland Software Corp) under the <A href="index.php?op=doc&id=ipl">InterBase Public License v.1.0</A> on 25 July, 2000. 
 <p>
+
+Want to get involved, but can't code? <a href="<?=$rootDir?>foundation"> Join the FirebirdSQL Foundation (Inc.)</a> ! This foundation, set up in the summer of 2002, has the purpose to ensure further development of Firebird as well as coordinate the efforts of people willing to financially support the project. Read more about the Foundation: what it's all about, who is involved and how to become a member.
+
 <?php
 include("newsflash.php");
 ?>
