@@ -1,0 +1,30 @@
+<?php
+
+$list_id = "firebird-php" ;
+
+$list_name = "Firebird-PHP" ;
+
+$list_address = "firebird-php<br>@yahoogroups.com" ;
+
+$list_purpose = "
+General discussion list for PHP developers wanting to develop applications with Firebird back-ends. 
+";
+
+$list_subscribe = "
+<a href=\"mailto:firebird-php-subscribe@yahoogroups.com\">Subscribe directly</a>
+";
+
+$list_comment = "
+Please write all messages in English.
+";
+
+$list_archive = "
+Archive available <a href=\"http://www.yahoogroups.com/messages/firebird-php\">at the list's web-site</a>.
+";
+
+$list_unsubscribe = "
+<a href=\"mailto:firebird-php-unsubscribe@yahoogroups.com\">Send this &quot;empty&quot; email</a> or click on Unsubscribe link in the header of any list posting.
+";
+
+?>
+

@@ -7,7 +7,7 @@ $list_name = "Firebird-Java" ;
 $list_address = "firebird-java<br>@yahoogroups.com" ;
 
 $list_purpose = "
-General discussion list for Java developers wanting to develop InterBase tools in Java or to discuss InterClient/Interserver issues for InterBase 6 and Firebird.
+General discussion list for developers wanting to develop Java applications and tools using the Jaybird JDBC/JCA connectivity layers to connect applications to Firebird or InterBase. 
 ";
 
 $list_subscribe = "
