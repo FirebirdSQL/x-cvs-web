@@ -13,11 +13,11 @@ if (eregi("main.php",$PHP_SELF)) {
 <p>4. <a href="#4">What versions of Firebird are supported ?</a></p>
 <p>5. <a href="#5">Can i use the provider with the Firebird embedded server ?</a></p>
 <p>6. <a href="#6">Does the provider use gds32.dll/fbclient.dll ?</a></p>
-<p>7. <a href="#7">Can the provider work with Delphi 8 for .Net ?</a></p>
-<p>8. <a href="#8">Can i generate type datasets at design time using the FbDataAdapter component ?</a></p>
+<p>7. <a href="#7">Can the provider work with Delphi 8 for .NET ?</a></p>
+<p>8. <a href="#7">Can the provider work with Visual Studio .NET ?</a></p>
+<p>9. <a href="#8">Can i generate type datasets at design time using the FbDataAdapter component ?</a></p>
+<p>10. <a href="#9">There are sample applications using the .NET provider ?</a></p>
 
-<br />
-<br />
 <br />
 
 <p><a name="1"></a>1. <b>What versions of the MS.NET Framework are supported ?</b></p>
@@ -69,20 +69,34 @@ No, you don't need to install the Firebird client to work with the .NET provider
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
 
-<p><a name="7"></a>7. <b>Can the provider work with Delphi 8 for .Net ?</b></p>
+<p><a name="7"></a>7. <b>Can the provider work with Delphi 8 for .NET ?</b></p>
 <p>
 Yes, but no with the Borland Data Provider, for that you will need to use
 the Borland Data Provider for Firebird.
 </p>
+<p>
+You need to add a reference to the provider assembly in your project and 
+you can add the provider components to the Delphi 8 Toolbox.
+</p>
 <p align=CENTER><a href="#top">return to top</a></p>
 
-<p><a name="8"></a>8. <b>Can i generate type datasets at design time using the FbDataAdapter component ?
+<p><a name="8"></a>8. <b>Can the provider work with Visual Studio .NET ?</b></p>
+<p>
+Yes.
+</p>
+<p>
+You need to add a reference to the provider assembly in your project and 
+you can add the provider components to the Visual Studio .NET Toolbox.
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="9"></a>9. <b>Can i generate type datasets at design time using the FbDataAdapter component ?
 </b></p>
 <p>
 No, design time support is limited to the FbConnection and FbCommand components.
 </p>
 <p>
-You can generate typed datasets by code using the TypedDataSetGenerator .NET class.
+You can generate typed datasets by code using the <b>TypedDataSetGenerator</b> .NET class.
 </p>
 <p>	
     <pre class=code>
@@ -119,6 +133,17 @@ connection.Close();
     </pre>
 </p>
 <p align=CENTER><a href="#top">return to top</a></p>
+
+<p><a name="10"></a>10. <b>There are sample applications using the .NET provider ?</b></p>
+<p>
+There are a port to Firebird, that uses the .NET provider, of the <a href="http://www.asp.net/Default.aspx?tabindex=8&tabid=47">Microsoft IssueTracker Starter Kit</a>, 
+but, it's not downloadable in the web because it mantains the original license.
+</p>
+<p>
+If you are interested on it send an email to <i>carlosga at telefonica.net</i>
+</p>
+<p align=CENTER><a href="#top">return to top</a></p>
+
 
 <p>
 Back to <A href="index.php?op=devel">Developer's Corner</A>.
