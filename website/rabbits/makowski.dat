@@ -7,15 +7,15 @@ $title = "" ;
 
 # login - SourceForge login name, mandatory
 
-$login = "paulvink" ;
+$login = "makowski" ;
 
 # sfuid - SourceForge User ID (it's a number), mandatory
 
-$sfuid = "697739";
+$sfuid = "483965";
 
 # name - Full name, mandatory
 
-$name = "Paul Vinkenoog" ; 
+$name = "Philippe Makowski" ;
 
 # email - Personal e-mail address, optional
 # Leave it empty for <login_name>@users.sourceforge.net
@@ -24,7 +24,7 @@ $email = "";
 
 # function - Job description, mandatory
 
-$function = "Doc writer" ;
+$function = "Doc writer and translator" ;
 
 # subprojects - Membership in subprojects (list of subprojects separated by colon)
 #               Current subprojects: doc, engine, interclient, jdbc, odbc, qa, web
