@@ -1,0 +1,10 @@
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11615\" TARGET=new>Web Browser Darwinism? A Review of Mozilla</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11614\" TARGET=new>IDE CD-RW Installation Under Linux</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/tuneup/database.phtml/Misc/002171.html\" TARGET=new>Hotkeys!</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11604\" TARGET=new>Prepping for Linux World Live!</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/tuneup/database.phtml/Networking/Email/Procmail/2162.html\" TARGET=new>More procmail recipes</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11568\" TARGET=new>A Requiem for 3dfx</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11563\" TARGET=new>Interface Enhancement</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/tuneup/database.phtml/Misc/2155.html\" TARGET=new>Inserting Files in a Document Using vi</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11536\" TARGET=new>Using the /proc Filesystem</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://linux.com/newsitem.phtml?sid=1&amp;aid=11532\" TARGET=new>Kernel Upgrade: Know Your Hardware</A><BR>"; ?>

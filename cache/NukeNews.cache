@@ -1,0 +1,10 @@
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=18\" TARGET=new>The Next Apache</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=17\" TARGET=new>In Defense of Copyleft</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=16\" TARGET=new>From Opera and Avid - Software for Linux.</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=15\" TARGET=new>SuSE 7.1 available</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=14\" TARGET=new>Sun recasts StarPortal as Webtop</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=13\" TARGET=new>The Battle for PDA Market</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=12\" TARGET=new>QuakeForge 0.2.99 Beta 7 Released</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=11\" TARGET=new>The Greatest Hacks of All Time</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=10\" TARGET=new>VA Linux boosts professional services</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://nukenews.com/article.php?sid=9\" TARGET=new>Samba Black Book Review</A><BR>"; ?>

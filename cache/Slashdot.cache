@@ -1,0 +1,10 @@
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1835242\" TARGET=new>Everquesters Suing Sony Over Virtual Ownership</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1531205\" TARGET=new>Paul Guyot Releases ATA driver for NewtonOS</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/12/2253222\" TARGET=new>Ask What You Will Of Some Slashfolks, In Person</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1432231\" TARGET=new>Cross Platform Packaging: A Dream Or Something More?</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1440226\" TARGET=new>How Qwest Runs Things</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1444228\" TARGET=new>(Well Written) Essay Against Copyright</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1539218\" TARGET=new>Stormix Bankruptcy</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/1348241\" TARGET=new>Is Linus Killing Linux?</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/130213\" TARGET=new>Junkyard Wars Needs A Few Good Contestants</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://slashdot.org/article.pl?sid=01/01/27/0257218\" TARGET=new>Planning For The Colonization Of Mars</A><BR>"; ?>

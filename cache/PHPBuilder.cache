@@ -1,0 +1,10 @@
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/argerich20010125.php3\" TARGET=new>Compressing and Caching Dynamic Output</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/\" TARGET=new>APC 1.0 Released</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/tim20010117.php3\" TARGET=new>Best Practices: Database Transactions</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/mike20010118.php3\" TARGET=new>Introduction to WML, Apache, and PHP</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/allan20010115.php3\" TARGET=new>Best Practices: Database Abstraction</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/mattern20010111.php3\" TARGET=new>Graphing With Flash (SWF)</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/tim20010110.php3\" TARGET=new>Best Practices: Database Indexing</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/richard20010108.php3\" TARGET=new>Build Dynamic Form Controls</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/joe20010104.php3\" TARGET=new>SQL Theory &amp; How-To</A><BR>"; ?>
+<?php $boxstuff .= "<li><A HREF=\"http://www.phpbuilder.com/columns/tim20010101.php3\" TARGET=new>Best Practices: PHP Coding Style</A><BR>"; ?>
