@@ -25,7 +25,7 @@ if ($banners) {
 <table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="FFFFFF">
 <tr>
 <td>
-  <a href="<?php echo $nuke_url; ?>"><img src="themes/Firebird/firebird_header2.png" alt="<?php echo "".translate("Welcome to").""; ?> <?php echo $sitename; ?>" border=0></a>
+  <a href="<?php echo $nuke_url; ?>"><img src="themes/Firebird/firebird_header3.png" alt="<?php echo "".translate("Welcome to").""; ?> <?php echo $sitename; ?>" border=0></a>
 </td>
 <TD align=right>
 <TABLE border=0 cellPadding=0 cellSpacing=0 width="310">
