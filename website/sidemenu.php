@@ -4,7 +4,7 @@
 <table>
 <tr>
 <td colspan=2>
-<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=100 height=1>
+<img src="<?= $rootDir ?>images/clearpixel.gif" alt="" align="left" width=150 height=1>
 </td></tr>
 </table>
 
