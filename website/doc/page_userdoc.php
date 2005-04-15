@@ -71,6 +71,63 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><hr size=1></td></tr>
 
 
+<!-- FIREBIRD 1.5 Character Sets: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird 1.5 Character Sets</b></td>
+<td width="35%"><font face="Verdana">Helen Borrie</td>
+<td width="15%"><font face="Verdana">HTML (PHP)</td>
+<td width="10%"><font face="Verdana">n/a</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">Full listing of character sets extracted from RDB$CHARACTER_SETS and RDB$COLLATIONS for use in &quot;The Firebird Book&quot;.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="index.php?op=doc&id=fb_1_5_charsets&nosb=1">View</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
+<!-- FIREBIRD NULL GUIDE: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird Null Guide</b></td>
+<td width="35%"><font face="Verdana">Paul Vinkenoog</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">77 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">Null behaviour and pitfalls in Firebird SQL</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="/manual/nullguide.html">View as multi-page HTML</a><br>
+<A HREF="/pdfmanual/Firebird-Null-Guide.pdf">View/download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
 <!-- FIREBIRD 1.0 QUICKSTART GUIDE: -->
 
 <tr>

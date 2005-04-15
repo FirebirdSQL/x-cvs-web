@@ -246,7 +246,7 @@ the following changes: </P>
 Initial Developer can modify the terms applicable to Covered Code. </P>
 <P> 2) The license can be modified and used for code which is not already
 governed by this license. Modified versions of the license must be renamed to
-avoid confusion with Netscape's license Initial Developer's's license and must
+avoid confusion with the Initial Developer's Public License and must
 include a description of changes from the Initial Developer's Public License. 
 </P>
 <P> 3) The name of the license in Exhibit A is the &quot;Initial Developer's
