@@ -22,17 +22,21 @@ If you want to contact us, please post a message to the
 href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs
 list</a>.
 <p>
+As from 2005, all our documentation is released under the open-source
+<a href="http://www.firebirdsql.org/pdfmanual/Public-Documentation-License.pdf">Public Documentation License</a>.
+<p>
 
 <h4>Latest</h4>
 
-The Quick Start Guide is now available in Russian! See links below.
+The new Firebird Null Guide is now available in English and
+French. See links below.
+<p>
+The Quick Start Guide is also available in Russian. See links below.
 The translation is by Gregory Sapunkov, who is planning to do more
 Russian translations.
 <p>
-Norman Dunbar is working on a book about the Firebird command-line 
-tools. The first chapters - GSEC, GSPLIT, scripts - are now available
-in HTML and PDF (note: PDF lagging behind sometimes). Check back 
-regularly for new chapters. Again, see links below.
+Work on the command line utilities book is stalled - for now - as
+author Norman Dunbar has almost no time to spare.
 <p>
 
 <h4>Online documentation</h4>
@@ -50,6 +54,8 @@ Links to the HTML documentation we have produced so far:
      <a href="/manual/ru/qsg15-ru.html">Russian</a>,
      <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
+<li><a href="/manual/nullguide.html">Firebird Null Guide</a>
+    (also in <a href="/manual/fr/nullguide-fr.html">French</a>)</li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
@@ -71,6 +77,8 @@ And these are the PDF versions:
      <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">Russian</a>,
      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
+<li><a href="/pdfmanual/Firebird-Null-Guide.pdf">Firebird Null Guide</a>
+    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>)</li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
