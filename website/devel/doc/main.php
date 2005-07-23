@@ -28,12 +28,8 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-The new Firebird Null Guide is now available in English and
-French. See links below.
-<p>
-The Quick Start Guide is also available in Russian. See links below.
-The translation is by Gregory Sapunkov, who is planning to do more
-Russian translations.
+The new Firebird Null Guide is now available in English, French, and
+Spanish (the latter a fresh translation by V&iacute;ctor Zaragoza). See links below.
 <p>
 Work on the command line utilities book is stalled - for now - as
 author Norman Dunbar has almost no time to spare.
@@ -78,7 +74,8 @@ And these are the PDF versions:
      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/pdfmanual/Firebird-Null-Guide.pdf">Firebird Null Guide</a>
-    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>)</li>
+    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>
+     and in <a href="/pdfmanual/es/Guia-Null-en-Firebird.doc">Spanish (Word)</a>)</li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
@@ -98,16 +95,18 @@ documentation page</a>.
 
 <h4>Under development</h4>
 <ul>
+<li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
 <li>Further improvement of PDF rendering</li>
-<li>Additions to IB+Fb coexistence doc</li>
-<li>Reserved words list + glossary</li>
 <li>Preliminary NBackup doc</li>
 </ul>
 <p>
 
 <h4>Future plans</h4>
 <ul>
-<li>More IBPhoenix docs will be coming our way. They need conversion to DocBook and updating to 1.5</li>
+<li>Additions to IB+Fb coexistence doc, wrt running IB+Fb
+simultaneously</li>
+<li>Reserved words list + glossary (if still useful after we've 
+published <cite>Using Firebird</cite>)</li>
 </ul>
 <p>
 
