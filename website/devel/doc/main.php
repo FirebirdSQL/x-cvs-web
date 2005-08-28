@@ -28,8 +28,9 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-The new Firebird Null Guide is now available in English, French, and
-Spanish (the latter a fresh translation by V&iacute;ctor Zaragoza). See links below.
+V&iacute;ctor Zaragoza's Spanish translation of the <cite>Firebird Null Guide</cite>
+has been converted to DocBook XML and is (therefore) now available in HTML and PDF. 
+See links below.
 <p>
 Work on the command line utilities book is stalled - for now - as
 author Norman Dunbar has almost no time to spare.
@@ -51,7 +52,8 @@ Links to the HTML documentation we have produced so far:
      <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/manual/nullguide.html">Firebird Null Guide</a>
-    (also in <a href="/manual/fr/nullguide-fr.html">French</a>)</li>
+    (also in <a href="/manual/fr/nullguide-fr.html">French</a>,
+     <a href="/manual/es/nullguide-es.html">Spanish</a>)</li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
@@ -74,8 +76,8 @@ And these are the PDF versions:
      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
 <li><a href="/pdfmanual/Firebird-Null-Guide.pdf">Firebird Null Guide</a>
-    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>
-     and in <a href="/pdfmanual/es/Guia-Null-en-Firebird.doc">Spanish (Word)</a>)</li>
+    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>,
+     <a href="/pdfmanual/es/Null-en-Firebird.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
