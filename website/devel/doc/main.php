@@ -28,9 +28,9 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-V&iacute;ctor Zaragoza's Spanish translation of the <cite>Firebird Null Guide</cite>
-has been converted to DocBook XML and is (therefore) now available in HTML and PDF. 
-See links below.
+New manual: <cite>Firebird's nbackup tool</cite>. See links below. 
+Please note that the nbackup utility only comes with Firebird 2,
+not with earlier versions.
 <p>
 Work on the command line utilities book is stalled - for now - as
 author Norman Dunbar has almost no time to spare.
@@ -43,6 +43,7 @@ Links to the HTML documentation we have produced so far:
 <li><a href="/manual/index.html">Overall table of contents</a>
     (also in <a href="/manual/fr/index.html">French</a>,
      <a href="/manual/ru/index.html">Russian</a>,
+     <a href="/manual/nl/index.html">Dutch</a>,
      <a href="/manual/es/index.html">Spanish</a> - content may vary)
 <p>
 </li>
@@ -56,6 +57,8 @@ Links to the HTML documentation we have produced so far:
      <a href="/manual/es/nullguide-es.html">Spanish</a>)</li>
 <li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
+<li><a href="/manual/nbackup.html">Firebird's nbackup tool</a>
+    (also in <a href="/manual/nl/nbackup-nl.html">Dutch</a>)</li>
 <li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
 <p>
 </li>
@@ -80,6 +83,8 @@ And these are the PDF versions:
      <a href="/pdfmanual/es/Null-en-Firebird.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
+<li><a href="/pdfmanual/Firebird-nbackup.pdf">Firebird's nbackup tool</a>
+    (also in <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">Dutch</a>)</li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
 <li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a>
     (Docbuilding Howto also in <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">Spanish</a>)</li>
@@ -87,19 +92,23 @@ And these are the PDF versions:
 
 <p>
 These are by no means all the Firebird docs available. Other good
-starting places are the <a href="http://firebird.sourceforge.net/index.php?op=doc">
+starting places are:
+<ul>
+<li><a href="http://firebird.sourceforge.net/index.php?op=doc">The
 documentation index page on this site</a> (what you're looking at now
-is the documentation <i>development</i> homepage) and the
-<a
-href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">IBPhoenix
-documentation page</a>.
+is the documentation <i>development</i> homepage)</li>
+<li><a
+href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">The IBPhoenix
+documentation page</a></li>
+</ul>
 <p>
 
 <h4>Under development</h4>
 <ul>
 <li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
 <li>Further improvement of PDF rendering</li>
-<li>Preliminary NBackup doc</li>
+<li>Support for more non-Western languages</li>
+<li>Integration of Release Notes in our build system</li>
 </ul>
 <p>
 
