@@ -32,8 +32,8 @@ New manual: <cite>Firebird's nbackup tool</cite>. See links below.
 Please note that the nbackup utility only comes with Firebird 2,
 not with earlier versions.
 <p>
-Work on the command line utilities book is stalled - for now - as
-author Norman Dunbar has almost no time to spare.
+Existing manaul docbooked and added to our collection: <cite>Firebird 
+File and Metadata Security</cite> by Geoff Worboys.
 <p>
 
 <h4>Online documentation</h4>
@@ -52,6 +52,7 @@ Links to the HTML documentation we have produced so far:
      <a href="/manual/ru/qsg15-ru.html">Russian</a>,
      <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
 <li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
+<li><a href="/manual/fbmetasecur.html">Firebird File and Metadata Security</a></li>
 <li><a href="/manual/nullguide.html">Firebird Null Guide</a>
     (also in <a href="/manual/fr/nullguide-fr.html">French</a>,
      <a href="/manual/es/nullguide-es.html">Spanish</a>)</li>
@@ -78,6 +79,7 @@ And these are the PDF versions:
      <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">Russian</a>,
      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
 <li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
+<li><a href="/pdfmanual/Firebird-Security.pdf">Firebird File and Metadata Security</a></li>
 <li><a href="/pdfmanual/Firebird-Null-Guide.pdf">Firebird Null Guide</a>
     (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>,
      <a href="/pdfmanual/es/Null-en-Firebird.pdf">Spanish</a>)</li>
