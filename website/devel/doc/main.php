@@ -28,12 +28,16 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-New manual: <cite>Firebird's nbackup tool</cite>. See links below. 
-Please note that the nbackup utility only comes with Firebird 2,
-not with earlier versions.
+New manual for non-Western Firebird docwriters: <cite>Using non-Western
+fonts in your Firebird docs</cite>. With our extended build framework,
+we should now be able to generate docs in <em>any</em> of the world's 
+languages - at least theoretically. (22 Dec 2005)
 <p>
-Existing manaul docbooked and added to our collection: <cite>Firebird 
-File and Metadata Security</cite> by Geoff Worboys.
+Several new Russian and French translations - please check out the
+per-language Tables of Contents. (Dec 2005)
+<p>
+Existing manual docbooked and added to our collection: <cite>Firebird
+File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
 <p>
 
 <h4>Online documentation</h4>
@@ -56,10 +60,13 @@ Links to the HTML documentation we have produced so far:
 <li><a href="/manual/nullguide.html">Firebird Null Guide</a>
     (also in <a href="/manual/fr/nullguide-fr.html">French</a>,
      <a href="/manual/es/nullguide-es.html">Spanish</a>)</li>
-<li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a></li>
+<li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a>
+    (also in <a href="/manual/ru/migration-mssql-ru.html">Russian</a>)</li>
 <li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/manual/nbackup.html">Firebird's nbackup tool</a>
-    (also in <a href="/manual/nl/nbackup-nl.html">Dutch</a>)</li>
+    (also in <a href="/manual/nl/nbackup-nl.html">Dutch</a>,
+     <a href="/manual/fr/nbackup-fr.html">French</a>,
+     <a href="/manual/ru/nbackup-ru.html">Russian</a>)</li>
 <li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
 <p>
 </li>
@@ -68,6 +75,7 @@ Links to the HTML documentation we have produced so far:
 <li><a href="/manual/docbuildhowto.html">Docbuilding Howto</a>
     (also in <a href="/manual/es/docbuildhowto-es.html">Spanish</a>)</li>
 <li><a href="/manual/docwritehowto.html">Docwriting Howto</a></li>
+<li><a href="/manual/fontembed.html">Using non-Western fonts in your Firebird docs</a></li>
 </ul>
 </li>
 </ul>
@@ -86,10 +94,12 @@ And these are the PDF versions:
 <li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
 <li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
 <li><a href="/pdfmanual/Firebird-nbackup.pdf">Firebird's nbackup tool</a>
-    (also in <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">Dutch</a>)</li>
+    (also in <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">Dutch</a>,
+     <a href="/pdfmanual/fr/nbackup-fr.pdf">French</a>)</li>
 <li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
 <li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a>
     (Docbuilding Howto also in <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">Spanish</a>)</li>
+<li><a href="/pdfmanual/Fbdocs-Non-Western-Fonts.pdf">Using non-Western fonts in your Firebird docs</a></li>
 </ul>
 
 <p>
@@ -109,7 +119,6 @@ documentation page</a></li>
 <ul>
 <li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
 <li>Further improvement of PDF rendering</li>
-<li>Support for more non-Western languages</li>
 <li>Integration of Release Notes in our build system</li>
 </ul>
 <p>
