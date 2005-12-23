@@ -1,0 +1,1576 @@
+<?php
+
+if (eregi("page_fb_1_5_charsets.php",$PHP_SELF)) {
+  Header("Location: index.php");
+  die();
+}
+?>
+<table width="100%">
+
+  <tr>
+    <td>
+<h4>Firebird 1.5 </h4>
+<h2>Character Sets &amp; Collations </P></h2>
+<a href="index.php?op=doc&id=userdoc">Back</a>
+    </td> 
+  </tr>
+  <tr> 
+    <td>    
+<TABLE BORDER CELLSPACING=3 BORDERCOLOR="#bdecd0" CELLPADDING=7 WIDTH="100%">
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>ID</B></FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>Name</B></FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>Bytes per Char</B></FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>Collation</B></FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>Language</B></FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<B><FONT FACE="Verdana"><P>Aliases</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ASCII</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ASCII</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>English</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ASCII7, USASCII</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>56</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>BIG_5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>BIG_5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Chinese, Vietnamese, Korean</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>BIG5, DOS_950, WIN_950</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>50</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>CYRL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>CYRL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Russian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>50</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_RUS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Dbase Russian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>50</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_CYRL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Russian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>English—USA </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_437</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_DEU437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase German</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_ESP437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Spanish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_FRA437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase French</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_FIN437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Finnish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_ITA437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Italian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_NLD437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Dutch</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_SVE437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Swedish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_UK437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase English—UK </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_US437</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase English—USA </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_ASCII</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox ASCII code page</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_SWEDFIN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Swedish/Finnish code pages</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_INTL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox International English code page</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>9</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS737</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS737</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Greek</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_737</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>15</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS775</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS775</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Baltic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_775</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin I (no Euro symbol)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_850</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_DEU850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>German</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_ESP850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Spanish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_FRA850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>French</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_FRC850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>French—Canada </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_ITA850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Italian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_NLD850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Dutch</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_PTB850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Portuguese—Brazil </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_SVE850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Swedish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_UK850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—UK </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_US850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—USA </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS852</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS852</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin II</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_852</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_CSY</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Czech</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_PLK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Polish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_SLO</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Slovakian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_PLK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Polish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_HUN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Hungarian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_SLO</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Slovakian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>45</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_CSY</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Czech</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>46</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS857</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS857</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Turkish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_857</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>46</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_TRK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Turkish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>16</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS858</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS858</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin I + Euro symbol</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_858</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>13</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS860</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS860</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Portuguese</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_860</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>13</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_PTG860</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Portuguese</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>47</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS861</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS861</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Icelandic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_861</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>47</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_ISL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Icelandic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>17</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS862</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS862</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Hebrew</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_862</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>14</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS863</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS863</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>French—Canada </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_863</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>14</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_FRC863</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase French—Canada</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>18</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS864</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS864</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Arabic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_864</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>12</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS865</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS865</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Nordic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_865</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>12</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_DAN865</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Danish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>12</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DB_NOR865</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DBase Norwegian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>12</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PDOX_NORDAN4</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Norwegian &amp; Danish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>48</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS866</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS866</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Russian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_866</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>49</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS869</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS869</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Modern Greek</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_869</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>6</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>EUCJ_0208</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>EUCJ_0208</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>EUC Japanese</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>EUCJ</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>57</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>GB_2312</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>GB_2312</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Simplified Chinese (Hong Kong, PRC)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_936, GB2312, WIN_936</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin 1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI, ISO88591, LATIN1</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>FR_CA</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>French—Canada </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DA_DA</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Danish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DE_DE</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>German</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>ES_ES</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Spanish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>FI_FI</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Finnish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>FR_FR</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>French</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>IS_IS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Icelandic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>IT_IT</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Italian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NO_NO</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Norwegian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>DU_NL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Dutch</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PT_PT</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Portuguese</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>SV_SV</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Swedish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>EN_UK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—UK </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>EN_US</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—USA </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>22</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin 2—Central European (Croatian, Czech, Hungarian, Polish, Romanian, Serbian, Slovakian, Slovenian)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-2, ISO88592, LATIN2</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>22</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>CS_CZ</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Czech</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>22</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>ISO_HUN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Hungarian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>23</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_3</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_3</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin3—Southern European (Maltese, Esperanto)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-3, ISO88593, LATIN3</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>34</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_4</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_4</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin 4—Northern European (Estonian, Latvian, Lithuanian, Greenlandic, Lappish)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-4, ISO88594, LATIN4</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>35</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Cyrillic (Russian)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-5, ISO88595</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>36</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_6</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_6</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Arabic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-6, ISO88596</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>37</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_7</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_7</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Greek</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-7, ISO88597</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>38</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_8</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_8</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Hebrew</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-8, ISO88598</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>39</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_9</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_9</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin 5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-9, ISO88599, LATIN5</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>40</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_13</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO8859_13</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Latin 7—Baltic Rim</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ISO-8859-13, ISO885913, LATIN7</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>44</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>KSC_5601</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>KSC_5601</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Korean (Unified Hangeul)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>DOS_949, KSC5601, WIN_949</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>44</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>KSC_DICTIONARY</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Korean—dictionary order collation</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>NEXT</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>NEXT</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>NeXTSTEP encoding</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NXT_US</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—USA </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NXT_FRA</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>French</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NXT_ITA</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Italian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NXT_ESP</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Spanish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>NXT_DEU</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>German</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>0</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>NONE</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>NONE</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Codepage-neutral. Uppercasing limited to ASCII codes 97—122 </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>OCTETS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>OCTETS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Binary character</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>BINARY</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>5</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>SJIS_0208</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>2</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>SJIS_0208</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>Japanese</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>SJIS</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>3</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>UNICODE_FSS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>3</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>UNICODE_FSS</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>UNICODE</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>SQL_TEXT, UTF-8, UTF8, UTF_FSS</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1250</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1250</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI—Central European</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1250</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_PLK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Polish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_HUN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Hungarian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_CSY</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Czech</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_HUNDC</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Hungarian—dictionary sort</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>51</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_SLOV</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Slovakian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>52</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1251</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1251</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI--Cyrillic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1251</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>52</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>WIN1251_UA</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Ukrainian</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>52</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_CYRL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Cyrillic (Russian)</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1252</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1252</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI—Latin I</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1252</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_SWEDFIN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Swedish &amp; Finnish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_NORDAN4</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Norwegian &amp; Danish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_INTL</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>English—International </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_INTL850</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Multi-lingual Latin I</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>53</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_SPAN</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Spanish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>54</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1253</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1253</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI Greek</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1253</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>54</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_GREEK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Greek</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>55</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1254</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1254</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI Turkish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1254</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>55</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>PXW_TURK</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>Paradox Turkish</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#bdecd0">
+<FONT FACE="Verdana" SIZE=2><P>--</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>58</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1255</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1255</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI Hebrew</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1255</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>59</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1256</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1256</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI Arabic</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1256</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>60</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1257</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN1257</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>ANSI Baltic </FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" BGCOLOR="#9fe3bb">
+<FONT FACE="Verdana" SIZE=2><P>WIN_1257</FONT></TD>
+</TR>
+</TABLE>
+    </td>
+  </tr>
+  <tr>
+    <td> 
+<a href="index.php?op=doc&id=userdoc">Back</a>
+    </td>
+  </tr>
+</table>
+<p>

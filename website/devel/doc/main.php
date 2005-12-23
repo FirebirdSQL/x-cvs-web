@@ -28,13 +28,11 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-New manual for non-Western Firebird docwriters: <cite>Using non-Western
-fonts in your Firebird docs</cite>. With our extended build framework,
-we should now be able to generate docs in <em>any</em> of the world's 
-languages - at least theoretically. (22 Dec 2005)
-<p>
-Several new Russian and French translations - please check out the
-per-language Tables of Contents. (Dec 2005)
+New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts 
+in your Firebird docs</cite>. With our extended build framework, we should now 
+be able to generate docs in <em>any</em> of the world's languages &#8211; at least 
+theoretically. (22 Dec 2005)
+<p> Several new Russian and French translations. (Dec 2005) 
 <p>
 Existing manual docbooked and added to our collection: <cite>Firebird
 File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
@@ -42,66 +40,99 @@ File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
 
 <h4>Online documentation</h4>
 
-Links to the HTML documentation we have produced so far:
-<ul>
-<li><a href="/manual/index.html">Overall table of contents</a>
-    (also in <a href="/manual/fr/index.html">French</a>,
-     <a href="/manual/ru/index.html">Russian</a>,
-     <a href="/manual/nl/index.html">Dutch</a>,
-     <a href="/manual/es/index.html">Spanish</a> - content may vary)
-<p>
-</li>
-<li><a href="/manual/qsg15.html">Firebird 1.5 Quick Start Guide</a>
-    (also in <a href="/manual/fr/qsg15-fr.html">French</a>,
-     <a href="/manual/ru/qsg15-ru.html">Russian</a>,
-     <a href="/manual/es/qsg15-es.html">Spanish</a>)</li>
-<li><a href="/manual/qsg10.html">Firebird 1.0 Quick Start Guide</a></li>
-<li><a href="/manual/fbmetasecur.html">Firebird File and Metadata Security</a></li>
-<li><a href="/manual/nullguide.html">Firebird Null Guide</a>
-    (also in <a href="/manual/fr/nullguide-fr.html">French</a>,
-     <a href="/manual/es/nullguide-es.html">Spanish</a>)</li>
-<li><a href="/manual/migration-mssql.html">MS SQL to Firebird Migration Guide</a>
-    (also in <a href="/manual/ru/migration-mssql-ru.html">Russian</a>)</li>
-<li><a href="/manual/ibfbcoex.html">Coexistence of Firebird 1.5 and InterBase</a></li>
-<li><a href="/manual/nbackup.html">Firebird's nbackup tool</a>
-    (also in <a href="/manual/nl/nbackup-nl.html">Dutch</a>,
-     <a href="/manual/fr/nbackup-fr.html">French</a>,
-     <a href="/manual/ru/nbackup-ru.html">Russian</a>)</li>
-<li><a href="/manual/fbutils.html">Firebird Commandline Utilities</a> (Work in progress)
-<p>
-</li>
-<li><a href="/manual/firebird-docwriters-info.html">Documentation for Firebird Docwriters:</a>
-<ul>
-<li><a href="/manual/docbuildhowto.html">Docbuilding Howto</a>
-    (also in <a href="/manual/es/docbuildhowto-es.html">Spanish</a>)</li>
-<li><a href="/manual/docwritehowto.html">Docwriting Howto</a></li>
-<li><a href="/manual/fontembed.html">Using non-Western fonts in your Firebird docs</a></li>
-</ul>
-</li>
-</ul>
-<p>
-And these are the PDF versions:
-<ul>
-<li><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">Firebird 1.5 Quick Start Guide</a>
-    (also in <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">French</a>,
-     <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">Russian</a>,
-     <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">Spanish</a>)</li>
-<li><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">Firebird 1.0 Quick Start Guide</a></li>
-<li><a href="/pdfmanual/Firebird-Security.pdf">Firebird File and Metadata Security</a></li>
-<li><a href="/pdfmanual/Firebird-Null-Guide.pdf">Firebird Null Guide</a>
-    (also in <a href="/pdfmanual/fr/Firebird-et-Null.pdf">French</a>,
-     <a href="/pdfmanual/es/Null-en-Firebird.pdf">Spanish</a>)</li>
-<li><a href="/pdfmanual/MSSQL-to-Firebird.pdf">MS SQL to Firebird Migration Guide</a></li>
-<li><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">Coexistence of Firebird 1.5 and InterBase</a></li>
-<li><a href="/pdfmanual/Firebird-nbackup.pdf">Firebird's nbackup tool</a>
-    (also in <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">Dutch</a>,
-     <a href="/pdfmanual/fr/nbackup-fr.pdf">French</a>)</li>
-<li><a href="/pdfmanual/Firebird-Utils-WIP.pdf">Firebird Commandline Utilities</a> (Work in progress)
-<li><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">Documentation for Firebird Docwriters</a>
-    (Docbuilding Howto also in <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">Spanish</a>)</li>
-<li><a href="/pdfmanual/Fbdocs-Non-Western-Fonts.pdf">Using non-Western fonts in your Firebird docs</a></li>
-</ul>
-
+<p>This is the documentation we've produced so far. The links in the HTML and 
+  PDF columns point to the different language versions available for each document.</p>
+<table width="100%" border="1" cellpadding="2" cellspacing="2">
+  <tr> 
+    <th>Title</th>
+    <th>HTML</th>
+    <th>PDF</th>
+  </tr>
+  <tr>
+    <td><em>Firebird user documentation:</em></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td>Overall table of contents</td>
+    <td><a href="/manual/index.html">en</a> <a href="/manual/es/index.html">es</a> 
+      <a href="/manual/fr/index.html">fr</a><a href="/manual/ru/index.html"></a> 
+      <a href="/manual/nl/index.html">nl</a> <a href="/manual/ru/index.html">ru</a></td>
+    <td><a href="/pdfmanual/">en</a> <a href="/pdfmanual/es/">es</a> <a href="/pdfmanual/fr/">fr</a><a href="/pdfmanual/ru/"></a> 
+      <a href="/pdfmanual/nl/">nl</a> <a href="/pdfmanual/ru/">ru</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird 1.5 Quick Start Guide</td>
+    <td><a href="/manual/qsg15.html">en</a> <a href="/manual/es/qsg15-es.html">es</a> 
+      <a href="/manual/fr/qsg15-fr.html">fr</a> <a href="/manual/ru/qsg15-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">en</a> <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">es</a> 
+      <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">fr</a> <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">ru</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird 1.0 Quick Start Guide</td>
+    <td><a href="/manual/qsg10.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird File and Metadata Security</td>
+    <td><a href="/manual/fbmetasecur.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Security.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird Null Guide</td>
+    <td><a href="/manual/nullguide.html">en</a> <a href="/manual/es/nullguide-es.html">es</a> 
+      <a href="/manual/fr/nullguide-fr.html">fr</a></td>
+    <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a> <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a> 
+      <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a> </td>
+  </tr>
+  <tr> 
+    <td>MS SQL to Firebird Migration Guide</td>
+    <td><a href="/manual/migration-mssql.html">en</a> <a href="/manual/ru/migration-mssql-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/MSSQL-to-Firebird.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>Coexistence of Firebird 1.5 and InterBase</td>
+    <td><a href="/manual/ibfbcoex.html">en</a></td>
+    <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird's nbackup tool</td>
+    <td><a href="/manual/nbackup.html">en</a> <a href="/manual/fr/nbackup-fr.html">fr</a> 
+      <a href="/manual/nl/nbackup-nl.html">nl</a> <a href="/manual/ru/nbackup-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> <a href="/pdfmanual/fr/nbackup-fr.pdf">fr</a> 
+      <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a></td>
+  </tr>
+  <tr> 
+    <td>Firebird Commandline Utilities (work in progress)</td>
+    <td><a href="/manual/fbutils.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td><em>Manuals for Firebird docwriters:</em></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td>Docbuilding Howto</td>
+    <td><a href="/manual/docbuildhowto.html">en</a> <a href="/manual/es/docbuildhowto-es.html">es</a></td>
+    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a> <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a></td>
+  </tr>
+  <tr> 
+    <td>Docwriting Guide</td>
+    <td><a href="/manual/docwritehowto.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a></td>
+  </tr>
+  <tr> 
+    <td>Using non-Western fonts in your Firebird docs</td>
+    <td><a href="/manual/fontembed.html">en</a></td>
+    <td><a href="/pdfmanual/Fbdocs-Non-Western-Fonts.pdf">en</a></td>
+  </tr>
+</table>
 <p>
 These are by no means all the Firebird docs available. Other good
 starting places are:

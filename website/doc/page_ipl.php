@@ -7,12 +7,13 @@ if (eregi("page_ipl.php",$PHP_SELF)) {
 
 <H4>InterBase Public License</H4>
 
-<P>The current version of the InterBase Public License is available on the
+<P>The version of the InterBase Public license applicable to Firebird (Version 1.0) is reproduced in full 
+below.  Currently, the License is also available on the 
 Borland Web Site at the following URL
 <A
- HREF="http://www.borland.com/devsupport/interbase/opensource/IPL.html">http://www.borland.com/devsupport/interbase/opensource/IPL.html</A>
-(assuming of course that it hasn't been moved again, if it does relocate,
-<A HREF="mailto:firebirds@users.sourceforge.net">let us know</A> and we'll update the URL
+ HREF="http://bdn.borland.com/article/0,1410,30198,00.html">http://bdn.borland.com/article/0,1410,30198,00.html</A>
+(assuming of course that it hasn't been moved again. If it does relocate,
+<A HREF="mailto:firebirds@users.sourceforge.net">let us know</A> and we'll try to update the URL
 accordingly).</P>
 <P>For your interest - here is the original IPL</P>
 <P><H3>INTERBASE PUBLIC LICENSE</H3></P>

@@ -39,6 +39,15 @@ if (eregi("main.php",$PHP_SELF)) {
 </tr>
 
 <!-- ------------------------------------------------------- -->
+<tr>
+<td width=21 valign=bottom><a href="index.php?op=doc&amp;id=whitepapers"><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
+<td width="45%" valign=middle>White Papers</td>
+<td width=10><img src="images/clearpixel.gif" width=10 height=10 border=0></td>
+<td width=21 valign=bottom><a href="index.php?op=useful"><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
+<td width="45%" valign=middle>Really Useful pages</td>
+</tr>
+
+<!-- ------------------------------------------------------- -->
 <tr><td colspan=5>&nbsp;</td></tr>
 <!-- ------------------------------------------------------- -->
 
@@ -64,13 +73,6 @@ if (eregi("main.php",$PHP_SELF)) {
 <td width="45%" valign=middle>Borland Community site</td>
 </tr>
 <!-- ------------------------------------------------------- -->
-<tr>
-<td width=21 valign=bottom><a href="index.php?op=useful"><img src="images/icon_go2.png" width=21 height=10 border=0></a></td>
-<td width="45%" valign=middle>Really Useful pages</td>
-<td width=10><img src="images/clearpixel.gif" width=10 height=10 border=0></td>
-<td width=21 valign=bottom></td>
-<td width="45%" valign=middle></td>
-</tr>
-<!-- ------------------------------------------------------- -->
+
 <tr><td colspan=5>&nbsp;</td></tr>
 </table>

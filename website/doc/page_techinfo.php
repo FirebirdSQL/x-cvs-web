@@ -18,21 +18,6 @@ if (eregi("page_techinfo.php",$PHP_SELF)) {
 </tr>
 <!-- ------------------------------------------------------------------- -->
 <tr>
-<td  width="40%"><font face="Verdana"><b>Firebird File and Metadata Security</b></td>
-<td width="35%"><font face="Verdana">Geoff Worboys</td>
-<td width="15%"><font face="Verdana">HTML</td>
-<td width="10%"><font face="Verdana">-</td>
-</tr>
-
-<tr><td colspan=4><font face="Verdana">A discussion of security on Firebird, with emphasis on the ways developers go about trying to hide their metadata from people who can get access to it.</td>
-</tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW</td>
-<td colspan=3 align=left><font face="Verdana"><a href="index.php?op=doc&sub=contrib&id=fb_meta_security">Here</a>. To download as a file, right-click on link and choose 'Save As..' </td>
-</tr>
-<tr><td colspan=4><hr size=1></td></tr>
-
-<!-- ------------------------------------------------------------------- -->
-<tr>
 <td  width="40%"><font face="Verdana"><b>Connecting to Linux on Firebird 1.5</b></td>
 <td width="35%"><font face="Verdana">Mark O'Donohue</td>
 <td width="15%"><font face="Verdana">HTML</td>

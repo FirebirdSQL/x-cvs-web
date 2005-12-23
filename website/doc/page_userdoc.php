@@ -35,7 +35,7 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><font face="Verdana">An introduction to Firebird 1.5 for newcomers.</td></tr>
 
 <tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/manual/qsg15.html">View as multi-page HTML</a><br>
 <A HREF="/pdfmanual/Firebird-1.5-QuickStart.pdf">View/download as PDF</a></td>
 </tr>
@@ -120,9 +120,39 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><font face="Verdana">Null behaviour and pitfalls in Firebird SQL</td></tr>
 
 <tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/manual/nullguide.html">View as multi-page HTML</a><br>
 <A HREF="/pdfmanual/Firebird-Null-Guide.pdf">View/download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
+<!-- FIREBIRD NBACKUP GUIDE: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird 2's NBackup tool</b></td>
+<td width="35%"><font face="Verdana">Paul Vinkenoog</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">59 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">With NBackup you can make full and incremental backups,
+at hardware speed, using your own copying or backup tools if you prefer.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="/manual/nbackup.html">View as multi-page HTML</a><br>
+<A HREF="/pdfmanual/Firebird-nbackup.pdf">View/download as PDF</a></td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
@@ -149,7 +179,7 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><font face="Verdana">An introduction to Firebird 1.0 for newcomers.</td></tr>
 
 <tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/manual/qsg10.html">View as multi-page HTML</a><br>
 <A HREF="/pdfmanual/Firebird-1.0-QuickStart.pdf">View/download as PDF</a></td>
 </tr>
@@ -279,7 +309,7 @@ Migration Guide</b></td>
 and outs of converting databases from MS-SQL to Firebird.</td></tr>
 
 <tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/devel/doc/manual/defaulthtml/migration-mssql.html">View
 as multi-page HTML</a><br>
 <A HREF="/devel/doc/manual/pdf/MSSQL-to-Firebird.pdf">View/download as PDF</a></td>
@@ -311,7 +341,7 @@ and InterBase</b></td>
 InterBase on the same computer.</td></tr>
 
 <tr>
-<td width="20%" bgcolor="lavender" align=center><font face="Verdana">DOWNLOAD</td>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
 <td colspan=3 align=left><font face="Verdana"><A HREF="/devel/doc/manual/defaulthtml/
 ibfbcoex.html">View as multi-page HTML</a><br>
 <A HREF="/devel/doc/manual/pdf/InterBase-Firebird-Coexist.pdf">View/download as PDF</a></td>
