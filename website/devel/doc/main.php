@@ -35,7 +35,7 @@ theoretically. (22 Dec 2005)
 <p> Several new Russian and French translations. (Dec 2005) 
 <p>
 Existing manual docbooked and added to our collection: <cite>Firebird
-File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
+File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
 <p>
 
 <h4>Online documentation</h4>
@@ -55,40 +55,55 @@ File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
   </tr>
   <tr> 
     <td>Overall table of contents</td>
-    <td><a href="/manual/index.html">en</a> <a href="/manual/es/index.html">es</a> 
-      <a href="/manual/fr/index.html">fr</a><a href="/manual/ru/index.html"></a> 
-      <a href="/manual/nl/index.html">nl</a> <a href="/manual/ru/index.html">ru</a></td>
-    <td><a href="/pdfmanual/">en</a> <a href="/pdfmanual/es/">es</a> <a href="/pdfmanual/fr/">fr</a><a href="/pdfmanual/ru/"></a> 
-      <a href="/pdfmanual/nl/">nl</a> <a href="/pdfmanual/ru/">ru</a></td>
+    <td><a href="/manual/index.html">en</a> 
+      <a href="/manual/es/index.html">es</a>
+      <a href="/manual/fr/index.html">fr</a>
+      <a href="/manual/nl/index.html">nl</a>
+      <a href="/manual/ru/index.html">ru</a></td>
+    <td><a href="/pdfmanual/">en</a> 
+      <a href="/pdfmanual/es/">es</a>
+      <a href="/pdfmanual/fr/">fr</a>
+      <a href="/pdfmanual/nl/">nl</a>
+      <a href="/pdfmanual/ru/">ru</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird 1.5 Quick Start Guide</td>
-    <td><a href="/manual/qsg15.html">en</a> <a href="/manual/es/qsg15-es.html">es</a> 
-      <a href="/manual/fr/qsg15-fr.html">fr</a> <a href="/manual/ru/qsg15-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">en</a> <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">es</a> 
-      <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">fr</a> <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">ru</a></td>
+    <td><a href="/manual/qsg15.html">en</a> 
+      <a href="/manual/es/qsg15-es.html">es</a>
+      <a href="/manual/fr/qsg15-fr.html">fr</a> 
+      <a href="/manual/ru/qsg15-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">en</a>
+      <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">es</a>
+      <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">fr</a>
+      <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">ru</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird 1.0 Quick Start Guide</td>
     <td><a href="/manual/qsg10.html">en</a></td>
     <td><a href="/pdfmanual/Firebird-1.0-QuickStart.pdf">en</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird File and Metadata Security</td>
-    <td><a href="/manual/fbmetasecur.html">en</a></td>
-    <td><a href="/pdfmanual/Firebird-Security.pdf">en</a></td>
+    <td><a href="/manual/fbmetasecur.html">en</a>
+      <a href="/manual/ru/fbmetasecur-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/Firebird-Security.pdf">en</a>
+      <a href="/pdfmanual/ru/Firebird-Bezopasnost-Meta.pdf">ru</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird Null Guide</td>
-    <td><a href="/manual/nullguide.html">en</a> <a href="/manual/es/nullguide-es.html">es</a> 
+    <td><a href="/manual/nullguide.html">en</a> 
+      <a href="/manual/es/nullguide-es.html">es</a>
       <a href="/manual/fr/nullguide-fr.html">fr</a></td>
-    <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a> <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a> 
+    <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a> 
+      <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a>
       <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a> </td>
   </tr>
-  <tr> 
+  <tr>
     <td>MS SQL to Firebird Migration Guide</td>
-    <td><a href="/manual/migration-mssql.html">en</a> <a href="/manual/ru/migration-mssql-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/MSSQL-to-Firebird.pdf">en</a></td>
+    <td><a href="/manual/migration-mssql.html">en</a> 
+      <a href="/manual/ru/migration-mssql-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/MSSQL-to-Firebird.pdf">en</a>
+      <a href="/pdfmanual/ru/Firebird-Perehod-s-MSSQL.pdf">ru</a></td>
   </tr>
   <tr> 
     <td>Coexistence of Firebird 1.5 and InterBase</td>
@@ -97,12 +112,16 @@ File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
   </tr>
   <tr> 
     <td>Firebird's nbackup tool</td>
-    <td><a href="/manual/nbackup.html">en</a> <a href="/manual/fr/nbackup-fr.html">fr</a> 
-      <a href="/manual/nl/nbackup-nl.html">nl</a> <a href="/manual/ru/nbackup-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> <a href="/pdfmanual/fr/nbackup-fr.pdf">fr</a> 
-      <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a></td>
+    <td><a href="/manual/nbackup.html">en</a> 
+      <a href="/manual/fr/nbackup-fr.html">fr</a>
+      <a href="/manual/nl/nbackup-nl.html">nl</a> 
+      <a href="/manual/ru/nbackup-ru.html">ru</a></td>
+    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> 
+      <a href="/pdfmanual/fr/nbackup-fr.pdf">fr</a>
+      <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a>
+      <a href="/pdfmanual/ru/Firebird-nbackup-ru.pdf">ru</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird Commandline Utilities (work in progress)</td>
     <td><a href="/manual/fbutils.html">en</a></td>
     <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a></td>
@@ -119,8 +138,10 @@ File and Metadata Security</cite> by Geoff Worboys. (7 dec 2005)
   </tr>
   <tr> 
     <td>Docbuilding Howto</td>
-    <td><a href="/manual/docbuildhowto.html">en</a> <a href="/manual/es/docbuildhowto-es.html">es</a></td>
-    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a> <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a></td>
+    <td><a href="/manual/docbuildhowto.html">en</a> 
+      <a href="/manual/es/docbuildhowto-es.html">es</a></td>
+    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a> 
+      <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a></td>
   </tr>
   <tr> 
     <td>Docwriting Guide</td>
