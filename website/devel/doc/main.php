@@ -117,7 +117,7 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
       <a href="/manual/nl/nbackup-nl.html">nl</a> 
       <a href="/manual/ru/nbackup-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> 
-      <a href="/pdfmanual/fr/nbackup-fr.pdf">fr</a>
+      <a href="/pdfmanual/fr/Firebird-nbackup-fr.pdf">fr</a>               
       <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a>
       <a href="/pdfmanual/ru/Firebird-nbackup-ru.pdf">ru</a></td>
   </tr>
