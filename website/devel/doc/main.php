@@ -59,6 +59,7 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
       <a href="/manual/es/index.html">es</a>
       <a href="/manual/fr/index.html">fr</a>
       <a href="/manual/nl/index.html">nl</a>
+      <a href="/manual/pt_br/index.html">pt-br</a>
       <a href="/manual/ru/index.html">ru</a></td>
     <td><a href="/pdfmanual/">en</a> 
       <a href="/pdfmanual/es/">es</a>
@@ -107,7 +108,8 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
   </tr>
   <tr> 
     <td>Coexistence of Firebird 1.5 and InterBase</td>
-    <td><a href="/manual/ibfbcoex.html">en</a></td>
+    <td><a href="/manual/ibfbcoex.html">en</a>
+      <a href="/manual/pt_br/ibfbcoex-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a></td>
   </tr>
   <tr> 
@@ -117,13 +119,14 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
       <a href="/manual/nl/nbackup-nl.html">nl</a> 
       <a href="/manual/ru/nbackup-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> 
-      <a href="/pdfmanual/fr/Firebird-nbackup-fr.pdf">fr</a>               
+      <a href="/pdfmanual/fr/Firebird-nbackup-fr.pdf">fr</a>
       <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a>
       <a href="/pdfmanual/ru/Firebird-nbackup-ru.pdf">ru</a></td>
   </tr>
   <tr>
     <td>Firebird Commandline Utilities (work in progress)</td>
-    <td><a href="/manual/fbutils.html">en</a></td>
+    <td><a href="/manual/fbutils.html">en</a>
+      <a href="/manual/pt_br/fbutils-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a></td>
   </tr>
   <tr> 
@@ -138,14 +141,16 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
   </tr>
   <tr> 
     <td>Docbuilding Howto</td>
-    <td><a href="/manual/docbuildhowto.html">en</a> 
-      <a href="/manual/es/docbuildhowto-es.html">es</a></td>
+    <td><a href="/manual/docbuildhowto.html">en</a>
+      <a href="/manual/es/docbuildhowto-es.html">es</a>
+      <a href="/manual/pt_br/docbuildhowto-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a> 
       <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a></td>
   </tr>
   <tr> 
     <td>Docwriting Guide</td>
-    <td><a href="/manual/docwritehowto.html">en</a></td>
+    <td><a href="/manual/docwritehowto.html">en</a>
+      <a href="/manual/pt_br/docwritehowto-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a></td>
   </tr>
   <tr> 
