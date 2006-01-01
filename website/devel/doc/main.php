@@ -28,11 +28,13 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts 
-in your Firebird docs</cite>. With our extended build framework, we should now 
-be able to generate docs in <em>any</em> of the world's languages &#8211; at least 
+Brazilian Portuguese translations by Fabr&iacute;cio Ara&uacute;jo added. (31-12-2005 &ndash; 1-1-2006)
+<p>
+New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts
+in your Firebird docs</cite>. With our extended build framework, we should now
+be able to generate docs in <em>any</em> of the world's languages &#8211; at least
 theoretically. (22 Dec 2005)
-<p> Several new Russian and French translations. (Dec 2005) 
+<p> Several new Russian and French translations by Pavel Menshchikov and Philippe Makowski. (Dec 2005)
 <p>
 Existing manual docbooked and added to our collection: <cite>Firebird
 File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
@@ -61,10 +63,11 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
       <a href="/manual/nl/index.html">nl</a>
       <a href="/manual/pt_br/index.html">pt-br</a>
       <a href="/manual/ru/index.html">ru</a></td>
-    <td><a href="/pdfmanual/">en</a> 
+    <td><a href="/pdfmanual/">en</a>
       <a href="/pdfmanual/es/">es</a>
       <a href="/pdfmanual/fr/">fr</a>
       <a href="/pdfmanual/nl/">nl</a>
+      <a href="/pdfmanual/pt_br/">pt-br</a>
       <a href="/pdfmanual/ru/">ru</a></td>
   </tr>
   <tr>
@@ -110,7 +113,8 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td>Coexistence of Firebird 1.5 and InterBase</td>
     <td><a href="/manual/ibfbcoex.html">en</a>
       <a href="/manual/pt_br/ibfbcoex-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a></td>
+    <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a>
+      <a href="/pdfmanual/pt_br/Coexistencia-Firebird-InterBase.pdf">pt-br</a></td>
   </tr>
   <tr> 
     <td>Firebird's nbackup tool</td>
@@ -127,7 +131,8 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td>Firebird Commandline Utilities (work in progress)</td>
     <td><a href="/manual/fbutils.html">en</a>
       <a href="/manual/pt_br/fbutils-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a>
+      <a href="/pdfmanual/pt_br/Firebird-Utilitarios.pdf">pt-br</a></td>
   </tr>
   <tr> 
     <td>&nbsp;</td>
@@ -144,14 +149,16 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td><a href="/manual/docbuildhowto.html">en</a>
       <a href="/manual/es/docbuildhowto-es.html">es</a>
       <a href="/manual/pt_br/docbuildhowto-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a> 
-      <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a></td>
+    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a>
+      <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a>
+      <a href="/pdfmanual/pt_br/Gerando-Manuais-Firebird.pdf">pt-br</a></td>
   </tr>
   <tr> 
     <td>Docwriting Guide</td>
     <td><a href="/manual/docwritehowto.html">en</a>
       <a href="/manual/pt_br/docwritehowto-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a>
+      <a href="/pdfmanual/pt_br/Guia-Escrita-Firebird.pdf">pt-br</a></td>
   </tr>
   <tr> 
     <td>Using non-Western fonts in your Firebird docs</td>
