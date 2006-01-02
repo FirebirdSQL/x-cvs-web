@@ -1,3 +1,75 @@
+2006-01-01	paulvink
+	* website/devel/doc/main.php 1.26:
+		Now also added Braz. Portuguese PDFs.
+
+2005-12-31	paulvink
+	* website/devel/doc/main.php 1.25:
+		Brazilian Portuguese HTML docs added
+
+2005-12-29	paulvink
+	* website/devel/doc/main.php 1.24:
+		Updated link to French nbackup PDF
+
+2005-12-25	paulvink
+	* website/devel/doc/main.php 1.23:
+		Added links to new Russian HTML + PDFs
+
+2005-12-23	paulvink
+	* website/devel/doc/main.php 1.22:
+	* website/devel/doc/pagevars.php 1.1:
+	* website/doc/contrib/page_connect_to_linux.php 1.1:
+	* website/doc/contrib/page_fb_meta_security.php 1.1:
+	* website/doc/contrib/pagevars.php 1.1:
+	* website/doc/main.php 1.3:
+	* website/doc/page_fb_1_5_charsets.php 1.1:
+	* website/doc/page_ipl.php 1.3:
+	* website/doc/page_techinfo.php 1.4:
+	* website/doc/page_userdoc.php 1.10:
+	* website/doc/page_whitepapers.php 1.1:
+	* website/doc/pagevars.php 1.1:
+	* website/doc/whitepapers/fb_vs_ibm_vs_oracle.htm 1.1:
+	* website/doc/whitepapers/page_fb_meta_security.php 1.1:
+	* website/doc/whitepapers/pagevars.php 1.1:
+		Updated/added some doc pages.
+
+2005-12-22	paulvink
+	* website/devel/doc/main.php 1.21:
+		Doc subproject homepage updated (what else?)
+
+2005-12-16	paulvink
+	* website/devel/page_cvs_howto.php 1.4:
+		Fixed instructions on CVS Howto page
+
+	* website/devel/doc/main.php 1.20:
+		Mentioned Firebird Security document on doc subproject homepage.
+
+2005-12-15	paulvink
+	* website/devel/doc/main.php 1.19:
+		Doc subproject homepage updated
+
+2005-12-03	paulvink
+	* website/rabbits/menshchikov.dat 1.1:
+		Rabbit file added for menshchikov (Pavel Menshchikov)
+
+2005-08-28	paulvink
+	* website/devel/doc/main.php 1.18:
+		Updated main page because of added docs
+
+2005-07-23	paulvink
+	* website/rabbits/victorxata.dat 1.1:
+		Added rabbit file for Víctor Zaragoza (victorxata)
+
+	* website/devel/doc/main.php 1.17:
+		Updated doc subproject homepage to reflect latest developments
+
+2005-07-19	paulvink
+	* website/devel/doc/main.php 1.16:
+		Updated doc subproject homepage.
+
+2005-07-07	paulvink
+	* website/devel/doc/page_development.php 1.2:
+		Obsolete page, now truncated to a placeholder with links.
+
 2005-04-15	paulvink
 	* website/doc/page_idpl.php 1.2:
 	* website/doc/page_techinfo.php 1.3:
