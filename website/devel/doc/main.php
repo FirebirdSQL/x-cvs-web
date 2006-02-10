@@ -149,7 +149,7 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td><a href="/manual/docbuildhowto.html">en</a>
       <a href="/manual/es/docbuildhowto-es.html">es</a>
       <a href="/manual/pt_br/docbuildhowto-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a>
+    <td><a href="/pdfmanual/Firebird-Docbuilding-Howto.pdf">en</a>
       <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a>
       <a href="/pdfmanual/pt_br/Gerando-Manuais-Firebird.pdf">pt-br</a></td>
   </tr>
@@ -157,7 +157,7 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td>Docwriting Guide</td>
     <td><a href="/manual/docwritehowto.html">en</a>
       <a href="/manual/pt_br/docwritehowto-pt_br.html">pt-br</a></td>
-    <td><a href="/pdfmanual/Firebird-Docwriters-Info.pdf">en</a>
+    <td><a href="/pdfmanual/Firebird-Docwriting-Guide.pdf">en</a>
       <a href="/pdfmanual/pt_br/Guia-Escrita-Firebird.pdf">pt-br</a></td>
   </tr>
   <tr> 
