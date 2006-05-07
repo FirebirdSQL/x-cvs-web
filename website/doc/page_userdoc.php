@@ -128,6 +128,36 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <tr><td colspan=4><hr size=1></td></tr>
 
 
+<!-- FIREBIRD GENERATOR GUIDE: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird Generator Guide</b></td>
+<td width="35%"><font face="Verdana">Frank Ingermann</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">88 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">A guide on how and when to use generators 
+  (aka &quot;sequences&quot;) in Firebird.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="/manual/generatorguide.html">View as multi-page HTML</a><br>
+<A HREF="/pdfmanual/Firebird-Generator-Guide.pdf">View/download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
+
 <!-- FIREBIRD NBACKUP GUIDE: -->
 
 <tr>

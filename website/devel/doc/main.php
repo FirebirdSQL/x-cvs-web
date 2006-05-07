@@ -28,17 +28,24 @@ As from 2005, all our documentation is released under the open-source
 
 <h4>Latest</h4>
 
-Brazilian Portuguese translations by Fabr&iacute;cio Ara&uacute;jo added. (31-12-2005 &ndash; 1-1-2006)
-<p>
-New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts
+<dl>
+<dt><i>7 May 2006</i></dt>
+<dd><p>Added Firebird Generator Guide by Frank Ingermann.</p></dd>
+
+<dt><i>Jan 2006</i></dt>
+<dd><p>Firebird Release Note sources are now fully integrated in the manual module.</p></dd>
+
+<dt><i>31-12-2005 &ndash; 1-1-2006</i></dt>
+<dd><p>Brazilian Portuguese translations by Fabr&iacute;cio Ara&uacute;jo added.</p></dd>
+
+<dt><i>22 Dec 2005</i></dt>
+<dd><p>New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts
 in your Firebird docs</cite>. With our extended build framework, we should now
 be able to generate docs in <em>any</em> of the world's languages &#8211; at least
-theoretically. (22 Dec 2005)
-<p> Several new Russian and French translations by Pavel Menshchikov and Philippe Makowski. (Dec 2005)
-<p>
-Existing manual docbooked and added to our collection: <cite>Firebird
-File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
-<p>
+theoretically.</p></dd>
+
+</dl>
+
 
 <h4>Online documentation</h4>
 
@@ -101,6 +108,11 @@ File and Metadata Security</cite> by Geoff Worboys. (7 Dec 2005)
     <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a> 
       <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a>
       <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a> </td>
+  </tr>
+  <tr>
+    <td>Firebird Generator Guide</td>
+    <td><a href="/manual/generatorguide.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-Generator-Guide.pdf">en</a></td>
   </tr>
   <tr>
     <td>MS SQL to Firebird Migration Guide</td>
@@ -183,7 +195,6 @@ documentation page</a></li>
 <ul>
 <li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
 <li>Further improvement of PDF rendering</li>
-<li>Integration of Release Notes in our build system</li>
 </ul>
 <p>
 
