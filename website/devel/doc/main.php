@@ -29,6 +29,9 @@ As from 2005, all our documentation is released under the open-source
 <h4>Latest</h4>
 
 <dl>
+<dt><i>10 July 2006</i></dt>
+<dd><p>One day after the WC final, the first Italian translations are added!</p></dd>
+
 <dt><i>7 May 2006</i></dt>
 <dd><p>Added Firebird Generator Guide by Frank Ingermann.</p></dd>
 
@@ -38,18 +41,12 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>31-12-2005 &ndash; 1-1-2006</i></dt>
 <dd><p>Brazilian Portuguese translations by Fabr&iacute;cio Ara&uacute;jo added.</p></dd>
 
-<dt><i>22 Dec 2005</i></dt>
-<dd><p>New manual for non-Western Firebird docwriters: <cite>Using non-Western fonts
-in your Firebird docs</cite>. With our extended build framework, we should now
-be able to generate docs in <em>any</em> of the world's languages &#8211; at least
-theoretically.</p></dd>
-
 </dl>
 
 
 <h4>Online documentation</h4>
 
-<p>This is the documentation we've produced so far. The links in the HTML and 
+<p>This is the documentation we've produced so far. The links in the HTML and
   PDF columns point to the different language versions available for each document.</p>
 <table width="100%" border="1" cellpadding="2" cellspacing="2">
   <tr> 
@@ -67,12 +64,14 @@ theoretically.</p></dd>
     <td><a href="/manual/index.html">en</a> 
       <a href="/manual/es/index.html">es</a>
       <a href="/manual/fr/index.html">fr</a>
+      <a href="/manual/it/index.html">it</a>
       <a href="/manual/nl/index.html">nl</a>
       <a href="/manual/pt_br/index.html">pt-br</a>
       <a href="/manual/ru/index.html">ru</a></td>
     <td><a href="/pdfmanual/">en</a>
       <a href="/pdfmanual/es/">es</a>
       <a href="/pdfmanual/fr/">fr</a>
+      <a href="/pdfmanual/it/">it</a>
       <a href="/pdfmanual/nl/">nl</a>
       <a href="/pdfmanual/pt_br/">pt-br</a>
       <a href="/pdfmanual/ru/">ru</a></td>
@@ -160,9 +159,11 @@ theoretically.</p></dd>
     <td>Docbuilding Howto</td>
     <td><a href="/manual/docbuildhowto.html">en</a>
       <a href="/manual/es/docbuildhowto-es.html">es</a>
+      <a href="/manual/it/docbuildhowto-it.html">it</a>
       <a href="/manual/pt_br/docbuildhowto-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Docbuilding-Howto.pdf">en</a>
       <a href="/pdfmanual/es/Construir-los-docs-Firebird.pdf">es</a>
+      <a href="/pdfmanual/it/Fare-i-Manuali-Firebird.pdf">it</a>
       <a href="/pdfmanual/pt_br/Gerando-Manuais-Firebird.pdf">pt-br</a></td>
   </tr>
   <tr> 
