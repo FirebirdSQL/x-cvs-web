@@ -6,6 +6,10 @@ if (eregi("main.php",$PHP_SELF)) {
 ?>
 <h1>Firebird documentation subproject</h1>
 
+On this page: <a href="#act">Activities</a> | <a href="#latest">Latest</a> |
+<a href="#docmatrix">Links to the docs</a> | <a href="#other">Other stuff</a>
+
+<a name="act"></a>
 <h4>Activities</h4>
 
 Welcome to the documentation subproject homepage. Our goal is
@@ -26,9 +30,14 @@ As from 2005, all our documentation is released under the open-source
 <a href="http://www.firebirdsql.org/pdfmanual/Public-Documentation-License.pdf">Public Documentation License</a>.
 <p>
 
+<a name="latest"></a>
 <h4>Latest</h4>
 
 <dl>
+<dt><i>17 July 2006</i></dt>
+<dd><p>A large section on how to improve the PDF output by editing
+the .fo file has been added to the Docbuilding Howto.</p></dd>
+
 <dt><i>10 July 2006</i></dt>
 <dd><p>One day after the WC final, the first Italian translations are added!</p></dd>
 
@@ -38,18 +47,15 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>Jan 2006</i></dt>
 <dd><p>Firebird Release Note sources are now fully integrated in the manual module.</p></dd>
 
-<dt><i>31-12-2005 &ndash; 1-1-2006</i></dt>
-<dd><p>Brazilian Portuguese translations by Fabr&iacute;cio Ara&uacute;jo added.</p></dd>
-
 </dl>
 
-
+<a name="docmatrix"></a>
 <h4>Online documentation</h4>
 
 <p>This is the documentation we've produced so far. The links in the HTML and
   PDF columns point to the different language versions available for each document.</p>
 <table width="100%" border="1" cellpadding="2" cellspacing="2">
-  <tr> 
+  <tr>
     <th>Title</th>
     <th>HTML</th>
     <th>PDF</th>
@@ -59,9 +65,9 @@ As from 2005, all our documentation is released under the open-source
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
     <td>Overall table of contents</td>
-    <td><a href="/manual/index.html">en</a> 
+    <td><a href="/manual/index.html">en</a>
       <a href="/manual/es/index.html">es</a>
       <a href="/manual/fr/index.html">fr</a>
       <a href="/manual/it/index.html">it</a>
@@ -78,9 +84,9 @@ As from 2005, all our documentation is released under the open-source
   </tr>
   <tr>
     <td>Firebird 1.5 Quick Start Guide</td>
-    <td><a href="/manual/qsg15.html">en</a> 
+    <td><a href="/manual/qsg15.html">en</a>
       <a href="/manual/es/qsg15-es.html">es</a>
-      <a href="/manual/fr/qsg15-fr.html">fr</a> 
+      <a href="/manual/fr/qsg15-fr.html">fr</a>
       <a href="/manual/ru/qsg15-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">en</a>
       <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">es</a>
@@ -101,10 +107,10 @@ As from 2005, all our documentation is released under the open-source
   </tr>
   <tr>
     <td>Firebird Null Guide</td>
-    <td><a href="/manual/nullguide.html">en</a> 
+    <td><a href="/manual/nullguide.html">en</a>
       <a href="/manual/es/nullguide-es.html">es</a>
       <a href="/manual/fr/nullguide-fr.html">fr</a></td>
-    <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a> 
+    <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a>
       <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a>
       <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a> </td>
   </tr>
@@ -115,25 +121,25 @@ As from 2005, all our documentation is released under the open-source
   </tr>
   <tr>
     <td>MS SQL to Firebird Migration Guide</td>
-    <td><a href="/manual/migration-mssql.html">en</a> 
+    <td><a href="/manual/migration-mssql.html">en</a>
       <a href="/manual/ru/migration-mssql-ru.html">ru</a></td>
     <td><a href="/pdfmanual/MSSQL-to-Firebird.pdf">en</a>
       <a href="/pdfmanual/ru/Firebird-Perehod-s-MSSQL.pdf">ru</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Coexistence of Firebird 1.5 and InterBase</td>
     <td><a href="/manual/ibfbcoex.html">en</a>
       <a href="/manual/pt_br/ibfbcoex-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a>
       <a href="/pdfmanual/pt_br/Coexistencia-Firebird-InterBase.pdf">pt-br</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Firebird's nbackup tool</td>
-    <td><a href="/manual/nbackup.html">en</a> 
+    <td><a href="/manual/nbackup.html">en</a>
       <a href="/manual/fr/nbackup-fr.html">fr</a>
-      <a href="/manual/nl/nbackup-nl.html">nl</a> 
+      <a href="/manual/nl/nbackup-nl.html">nl</a>
       <a href="/manual/ru/nbackup-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a> 
+    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a>
       <a href="/pdfmanual/fr/Firebird-nbackup-fr.pdf">fr</a>
       <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a>
       <a href="/pdfmanual/ru/Firebird-nbackup-ru.pdf">ru</a></td>
@@ -145,17 +151,17 @@ As from 2005, all our documentation is released under the open-source
     <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a>
       <a href="/pdfmanual/pt_br/Firebird-Utilitarios.pdf">pt-br</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
     <td><em>Manuals for Firebird docwriters:</em></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
     <td>Docbuilding Howto</td>
     <td><a href="/manual/docbuildhowto.html">en</a>
       <a href="/manual/es/docbuildhowto-es.html">es</a>
@@ -166,14 +172,14 @@ As from 2005, all our documentation is released under the open-source
       <a href="/pdfmanual/it/Fare-i-Manuali-Firebird.pdf">it</a>
       <a href="/pdfmanual/pt_br/Gerando-Manuais-Firebird.pdf">pt-br</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Docwriting Guide</td>
     <td><a href="/manual/docwritehowto.html">en</a>
       <a href="/manual/pt_br/docwritehowto-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Docwriting-Guide.pdf">en</a>
       <a href="/pdfmanual/pt_br/Guia-Escrita-Firebird.pdf">pt-br</a></td>
   </tr>
-  <tr> 
+  <tr>
     <td>Using non-Western fonts in your Firebird docs</td>
     <td><a href="/manual/fontembed.html">en</a></td>
     <td><a href="/pdfmanual/Fbdocs-Non-Western-Fonts.pdf">en</a></td>
@@ -183,7 +189,7 @@ As from 2005, all our documentation is released under the open-source
 These are by no means all the Firebird docs available. Other good
 starting places are:
 <ul>
-<li><a href="http://firebird.sourceforge.net/index.php?op=doc">The
+<li><a href="http://www.firebirdsql.org/index.php?op=doc">The
 documentation index page on this site</a> (what you're looking at now
 is the documentation <i>development</i> homepage)</li>
 <li><a
@@ -192,6 +198,7 @@ documentation page</a></li>
 </ul>
 <p>
 
+<a name="other"></a>
 <h4>Under development</h4>
 <ul>
 <li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
@@ -203,7 +210,7 @@ documentation page</a></li>
 <ul>
 <li>Additions to IB+Fb coexistence doc, wrt running IB+Fb
 simultaneously</li>
-<li>Reserved words list + glossary (if still useful after we've 
+<li>Reserved words list + glossary (if still useful after we've
 published <cite>Using Firebird</cite>)</li>
 </ul>
 <p>
