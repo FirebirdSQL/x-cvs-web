@@ -34,12 +34,17 @@ As from 2005, all our documentation is released under the open-source
 <h4>Latest</h4>
 
 <dl>
+<dt><i>27 July 2006</i></dt>
+<dd><p>Japanese translation of the Firebird 1.5 Quick Start Guide is available.
+       Translator: Tsutomu Hayashi.</p></dd>
+
 <dt><i>17 July 2006</i></dt>
 <dd><p>A large section on how to improve the PDF output by editing
 the .fo file has been added to the Docbuilding Howto.</p></dd>
 
 <dt><i>10 July 2006</i></dt>
-<dd><p>One day after the WC final, the first Italian translations are added!</p></dd>
+<dd><p>One day after the WC final, the first Italian translations are added!
+       Translator: Umberto Masotti.</p></dd>
 
 <dt><i>7 May 2006</i></dt>
 <dd><p>Added Firebird Generator Guide by Frank Ingermann.</p></dd>
@@ -71,6 +76,7 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
       <a href="/manual/es/index.html">es</a>
       <a href="/manual/fr/index.html">fr</a>
       <a href="/manual/it/index.html">it</a>
+      <a href="/manual/ja/index.html">ja</a>
       <a href="/manual/nl/index.html">nl</a>
       <a href="/manual/pt_br/index.html">pt-br</a>
       <a href="/manual/ru/index.html">ru</a></td>
@@ -78,6 +84,7 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
       <a href="/pdfmanual/es/">es</a>
       <a href="/pdfmanual/fr/">fr</a>
       <a href="/pdfmanual/it/">it</a>
+      <a href="/pdfmanual/ja/">ja</a>
       <a href="/pdfmanual/nl/">nl</a>
       <a href="/pdfmanual/pt_br/">pt-br</a>
       <a href="/pdfmanual/ru/">ru</a></td>
@@ -87,10 +94,12 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
     <td><a href="/manual/qsg15.html">en</a>
       <a href="/manual/es/qsg15-es.html">es</a>
       <a href="/manual/fr/qsg15-fr.html">fr</a>
+      <a href="/manual/ja/qsg15-ja.html">ja</a>
       <a href="/manual/ru/qsg15-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-1.5-QuickStart.pdf">en</a>
       <a href="/pdfmanual/es/Firebird-1.5-Arranque.pdf">es</a>
       <a href="/pdfmanual/fr/Firebird-1.5-Demarrage.pdf">fr</a>
+      <a href="/pdfmanual/ja/Firebird-1.5-QuickStart-Jap.pdf">ja</a>
       <a href="/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf">ru</a></td>
   </tr>
   <tr>
