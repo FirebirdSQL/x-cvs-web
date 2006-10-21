@@ -34,6 +34,11 @@ As from 2005, all our documentation is released under the open-source
 <h4>Latest</h4>
 
 <dl>
+
+<dt><i>21 October 2006</i></dt>
+<dd><p>The Firebird Null Guide has been translated into Russian by
+       Sergey Kovalev (translator) and Pavel Menshchikov (editor).</p></dd>
+
 <dt><i>27 July 2006</i></dt>
 <dd><p>Japanese translation of the Firebird 1.5 Quick Start Guide is available.
        Translator: Tsutomu Hayashi.</p></dd>
@@ -48,9 +53,6 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
 
 <dt><i>7 May 2006</i></dt>
 <dd><p>Added Firebird Generator Guide by Frank Ingermann.</p></dd>
-
-<dt><i>Jan 2006</i></dt>
-<dd><p>Firebird Release Note sources are now fully integrated in the manual module.</p></dd>
 
 </dl>
 
@@ -118,10 +120,12 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
     <td>Firebird Null Guide</td>
     <td><a href="/manual/nullguide.html">en</a>
       <a href="/manual/es/nullguide-es.html">es</a>
-      <a href="/manual/fr/nullguide-fr.html">fr</a></td>
+      <a href="/manual/fr/nullguide-fr.html">fr</a>
+      <a href="/manual/ru/nullguide-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a>
       <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a>
-      <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a> </td>
+      <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a>
+      <a href="/pdfmanual/ru/Firebird-PovedeniyeNULL.pdf">ru</a></td>
   </tr>
   <tr>
     <td>Firebird Generator Guide</td>
