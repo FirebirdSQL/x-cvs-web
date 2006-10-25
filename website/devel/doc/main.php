@@ -35,6 +35,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>25 October 2006</i></dt>
+<dd><p>The Firebird-InterBase Coexistence Guide has been translated into Russian by
+       Alexandr Karpeykin (translator) and Pavel Menshchikov (editor).</p></dd>
+
 <dt><i>21 October 2006</i></dt>
 <dd><p>The Firebird Null Guide has been translated into Russian by
        Sergey Kovalev (translator) and Pavel Menshchikov (editor).</p></dd>
@@ -142,9 +146,11 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
   <tr>
     <td>Coexistence of Firebird 1.5 and InterBase</td>
     <td><a href="/manual/ibfbcoex.html">en</a>
-      <a href="/manual/pt_br/ibfbcoex-pt_br.html">pt-br</a></td>
+      <a href="/manual/pt_br/ibfbcoex-pt_br.html">pt-br</a>
+      <a href="/manual/ru/ibfbcoex-ru.html">ru</a></td>
     <td><a href="/pdfmanual/InterBase-Firebird-Coexist.pdf">en</a>
-      <a href="/pdfmanual/pt_br/Coexistencia-Firebird-InterBase.pdf">pt-br</a></td>
+      <a href="/pdfmanual/pt_br/Coexistencia-Firebird-InterBase.pdf">pt-br</a>
+      <a href="/pdfmanual/ru/Firebird-IB-i-FB-Vmeste.pdf">ru</a></td>
   </tr>
   <tr>
     <td>Firebird's nbackup tool</td>
