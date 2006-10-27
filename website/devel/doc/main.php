@@ -35,6 +35,9 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>27 October 2006</i></dt>
+<dd><p>Umberto Masotti has translated the Docwriting Guide into Italian.</p></dd>
+
 <dt><i>25 October 2006</i></dt>
 <dd><p>The Firebird-InterBase Coexistence Guide has been translated into Russian by
        Alexandr Karpeykin (translator) and Pavel Menshchikov (editor).</p></dd>
@@ -194,8 +197,10 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
   <tr>
     <td>Docwriting Guide</td>
     <td><a href="/manual/docwritehowto.html">en</a>
+      <a href="/manual/it/docwritehowto-it.html">it</a>
       <a href="/manual/pt_br/docwritehowto-pt_br.html">pt-br</a></td>
     <td><a href="/pdfmanual/Firebird-Docwriting-Guide.pdf">en</a>
+      <a href="/pdfmanual/it/Scrivere-Documenti-Firebird.pdf">it</a>
       <a href="/pdfmanual/pt_br/Guia-Escrita-Firebird.pdf">pt-br</a></td>
   </tr>
   <tr>
