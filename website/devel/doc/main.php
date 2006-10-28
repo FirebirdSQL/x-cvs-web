@@ -36,7 +36,10 @@ As from 2005, all our documentation is released under the open-source
 <dl>
 
 <dt><i>27 October 2006</i></dt>
-<dd><p>Umberto Masotti has translated the Docwriting Guide into Italian.</p></dd>
+<dd><p>Italian translation of the Docwriting Guide by Umberto Masotti.</p></dd>
+
+<dt><i>25 October 2006</i></dt>
+<dd><p>Norman Dunbar has updated the GSEC chapter of the Firebird Commandline Utilities book.</p></dd>
 
 <dt><i>25 October 2006</i></dt>
 <dd><p>The Firebird-InterBase Coexistence Guide has been translated into Russian by
