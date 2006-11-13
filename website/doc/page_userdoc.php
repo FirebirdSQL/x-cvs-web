@@ -29,7 +29,7 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 <td  width="40%"><font face="Verdana"><b>Firebird 2 Quick Start Guide</b></td>
 <td width="35%"><font face="Verdana">IBPhoenix Editors, Firebird Project</td>
 <td width="15%"><font face="Verdana">HTML, PDF</td>
-<td width="10%"><font face="Verdana">225Kb</td>
+<td width="10%"><font face="Verdana">225 Kb</td>
 </tr>
 
 <tr><td colspan=4><font face="Verdana">An introduction to Firebird 2 for newcomers.</td></tr>
@@ -41,6 +41,36 @@ if (eregi("page_userdoc.php",$PHP_SELF)) {
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
+
+
+<!-- USING FIREBIRD: -->
+
+<tr>
+<td bgcolor="lightsteelblue" width="40%"><font face="Verdana"><b>Title</b></td>
+<td bgcolor="lightsteelblue" width="35%"><font face="Verdana"><b>Author</b></td>
+<td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
+<td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
+</tr>
+
+<!-- ------------------------------------------------------------------- -->
+
+<tr>
+<td  width="40%"><font face="Verdana"><b>Using Firebird (work in progress)</b></td>
+<td width="35%"><font face="Verdana">IBPhoenix Editors, Firebird Project</td>
+<td width="15%"><font face="Verdana">HTML, PDF</td>
+<td width="10%"><font face="Verdana">188 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">The official Firebird manual is slowly being built up.</td></tr>
+
+<tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
+<td colspan=3 align=left><font face="Verdana"><A HREF="/manual/ufb.html">View as multi-page HTML</a><br>
+<A HREF="/pdfmanual/Using-Firebird_(wip).pdf">View/download as PDF</a></td>
+</tr>
+
+<tr><td colspan=4><hr size=1></td></tr>
+
 
 
 <!-- FIREBIRD 1.5 QUICKSTART GUIDE: -->
