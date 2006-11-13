@@ -35,6 +35,11 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>12 November 2006</i></dt>
+<dd><p>On the day that Firebird 2 is released, the first two chapters of 
+       <cite>Using Firebird</cite> go online, as well as the <cite>Firebird 2
+       Quick Start Guide</cite>.</p></dd>
+
 <dt><i>7 November 2006</i></dt>
 <dd><p>Russian translation of the Generator Guide by Sergei Kovalev (translator)
        and Pavel Menshchikov (editor).</p></dd>
@@ -52,21 +57,6 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>21 October 2006</i></dt>
 <dd><p>The Firebird Null Guide has been translated into Russian by
        Sergei Kovalev (translator) and Pavel Menshchikov (editor).</p></dd>
-
-<dt><i>27 July 2006</i></dt>
-<dd><p>Japanese translation of the Firebird 1.5 Quick Start Guide is available.
-       Translator: Tsutomu Hayashi.</p></dd>
-
-<dt><i>17 July 2006</i></dt>
-<dd><p>A large section on how to improve the PDF output by editing
-the .fo file has been added to the Docbuilding Howto.</p></dd>
-
-<dt><i>10 July 2006</i></dt>
-<dd><p>One day after the WC final, the first Italian translations are added!
-       Translator: Umberto Masotti.</p></dd>
-
-<dt><i>7 May 2006</i></dt>
-<dd><p>Added Firebird Generator Guide by Frank Ingermann.</p></dd>
 
 </dl>
 
@@ -104,6 +94,16 @@ the .fo file has been added to the Docbuilding Howto.</p></dd>
         <a href="/pdfmanual/nl/">nl</a>
         <a href="/pdfmanual/pt_br/">pt-br</a>
         <a href="/pdfmanual/ru/">ru</a></td>
+  </tr>
+  <tr>
+    <td>Using Firebird (work in progress)</td>
+    <td><a href="/manual/ufb.html">en</a></td>
+    <td><a href="/pdfmanual/Using-Firebird_(wip).pdf">en</a></td>
+  </tr>
+  <tr>
+    <td>Firebird 2.0 Quick Start Guide</td>
+    <td><a href="/manual/qsg2.html">en</a></td>
+    <td><a href="/pdfmanual/Firebird-2.0-QuickStart.pdf">en</a></td>
   </tr>
   <tr>
     <td>Firebird 1.5 Quick Start Guide</td>
