@@ -1,3 +1,58 @@
+2006-11-13	paulvink
+	* website/doc/page_userdoc.php 1.13:
+		Added Using Firebird link
+
+	* website/devel/doc/main.php 1.37:
+		Added links to Using Firebird and QSG2.
+
+	* website/doc/page_userdoc.php 1.12:
+		Added Firebird 2 QSG link
+
+2006-11-10	paulvink
+	* website/devel/doc/main.php 1.36:
+		Links to Russian Generator Guide added.
+
+2006-10-28	paulvink
+	* website/devel/doc/main.php 1.35:
+		Mentioned update of GSEC chapter in fbutils book
+
+2006-10-27	paulvink
+	* website/devel/doc/main.php 1.34:
+		Italian Docwriting Guide added
+
+2006-10-25	paulvink
+	* website/devel/doc/main.php 1.33:
+		Russian Fb-IB coexistence guide added
+
+2006-10-21	paulvink
+	* website/devel/doc/main.php 1.32:
+		Russian nullguides added
+
+2006-07-27	paulvink
+	* website/devel/doc/main.php 1.31:
+		Links to Japanese docs added
+
+2006-07-18	paulvink
+	* website/rabbits/umasotti.dat 1.1:
+		Added rabbit file for Umberto Masotti
+
+2006-07-17	paulvink
+	* website/devel/doc/main.php 1.30:
+		Doc subproject homepage updated
+
+2006-07-10	paulvink
+	* website/devel/doc/main.php 1.29:
+		Added links to Italian docs
+
+2006-05-07	paulvink
+	* website/devel/doc/main.php 1.28:
+	* website/doc/page_userdoc.php 1.11:
+		Updated pages, included links to new Generator Guide
+
+2006-02-10	paulvink
+	* website/devel/doc/main.php 1.27:
+		Updated links to docbuilding and docwriting guides
+
 2006-01-01	paulvink
 	* website/devel/doc/main.php 1.26:
 		Now also added Braz. Portuguese PDFs.
