@@ -251,11 +251,12 @@ These are by no means all the Firebird docs available. Other good
 starting places are:
 <ul>
 <li><a href="http://www.firebirdsql.org/index.php?op=doc">The
-documentation index page on this site</a> (what you're looking at now
-is the documentation <i>development</i> homepage)</li>
+documentation index page on this site</a><br>
+(what you're looking at now is the documentation <i>development</i> homepage)</li>
 <li><a
-href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">The IBPhoenix
+href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">IBPhoenix
 documentation page</a></li>
+<li><a href="http://www.janus-software.com/fbmanual/">Firebird 2 Online Manual at Janus Software</li>
 </ul>
 <p>
 
