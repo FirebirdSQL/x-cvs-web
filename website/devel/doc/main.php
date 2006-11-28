@@ -35,8 +35,15 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>28 November 2006</i></dt>
+<dd><p>Finally a German translation! Of the Firebird 2.0 Quick Start Guide,
+       by Thomas Steinmaurer.</p></dd>
+
+<dt><i>28 November 2006</i></dt>
+<dd><p>Helen Borrie has updated the Firebird Enterprise Whitepaper.</p></dd>
+
 <dt><i>12 November 2006</i></dt>
-<dd><p>On the day that Firebird 2 is released, the first two chapters of 
+<dd><p>On the day that Firebird 2 is released, the first two chapters of
        <cite>Using Firebird</cite> go online, as well as the <cite>Firebird 2
        Quick Start Guide</cite>.</p></dd>
 
@@ -78,7 +85,8 @@ As from 2005, all our documentation is released under the open-source
   </tr>
   <tr>
     <td>Overall table of contents</td>
-    <td><a href="/manual/index.html">en</a>
+    <td><a href="/manual/de/index.html">de</a>
+        <a href="/manual/index.html">en</a>
         <a href="/manual/es/index.html">es</a>
         <a href="/manual/fr/index.html">fr</a>
         <a href="/manual/it/index.html">it</a>
@@ -86,7 +94,8 @@ As from 2005, all our documentation is released under the open-source
         <a href="/manual/nl/index.html">nl</a>
         <a href="/manual/pt_br/index.html">pt-br</a>
         <a href="/manual/ru/index.html">ru</a></td>
-    <td><a href="/pdfmanual/">en</a>
+    <td><a href="/pdfmanual/de/">de</a>
+        <a href="/pdfmanual/">en</a>
         <a href="/pdfmanual/es/">es</a>
         <a href="/pdfmanual/fr/">fr</a>
         <a href="/pdfmanual/it/">it</a>
@@ -102,8 +111,10 @@ As from 2005, all our documentation is released under the open-source
   </tr>
   <tr>
     <td>Firebird 2.0 Quick Start Guide</td>
-    <td><a href="/manual/qsg2.html">en</a></td>
-    <td><a href="/pdfmanual/Firebird-2.0-QuickStart.pdf">en</a></td>
+    <td><a href="/manual/de/qsg2-de.html">de</a>
+        <a href="/manual/qsg2.html">en</a></td>
+    <td><a href="/pdfmanual/de/Firebird-2.0-Schnellanleitung.pdf">de</a>
+        <a href="/pdfmanual/Firebird-2.0-QuickStart.pdf">en</a></td>
   </tr>
   <tr>
     <td>Firebird 1.5 Quick Start Guide</td>
@@ -188,6 +199,23 @@ As from 2005, all our documentation is released under the open-source
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td><em>Papers and other material:</em></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Firebird Enterprise White Paper</td>
+    <td><a href="/devel/doc/papers/html/paper-fbent.html">en</a>
+        <a href="/devel/doc/papers/html/fr/paper-fbent-fr.html">fr</a></td>
+    <td><a href="/devel/doc/papers/pdf/paper-fbent.pdf">en</a>
+        <a href="/devel/doc/papers/pdf/fr/Firebird-en-Entreprise.pdf">fr</a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td><em>Manuals for Firebird docwriters:</em></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -234,7 +262,7 @@ documentation page</a></li>
 <a name="other"></a>
 <h4>Under development</h4>
 <ul>
-<li>Conversion of <cite>Using Firebird</cite> to DocBook XML</li>
+<li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
 <li>Further improvement of PDF rendering</li>
 </ul>
 <p>
