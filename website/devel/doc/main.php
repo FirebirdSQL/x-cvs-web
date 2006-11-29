@@ -36,6 +36,11 @@ As from 2005, all our documentation is released under the open-source
 <dl>
 
 <dt><i>28 November 2006</i></dt>
+<dd><p>Sergey Kovalev, Alexandr Karpeykin and Vasiliy Ovchinnikov have translated
+  the Commandline Utilities manual into Russian. Corrections, supervision and
+  HTML + PDF building: Pavel Menshchikov.</p></dd>
+
+<dt><i>28 November 2006</i></dt>
 <dd><p>Finally a German translation! Of the Firebird 2.0 Quick Start Guide,
        by Thomas Steinmaurer.</p></dd>
 
@@ -189,9 +194,11 @@ As from 2005, all our documentation is released under the open-source
   <tr>
     <td>Firebird Commandline Utilities (work in progress)</td>
     <td><a href="/manual/fbutils.html">en</a>
-        <a href="/manual/pt_br/fbutils-pt_br.html">pt-br</a></td>
+        <a href="/manual/pt_br/fbutils-pt_br.html">pt-br</a>
+        <a href="/manual/ru/fbutils-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-Utils-WIP.pdf">en</a>
-        <a href="/pdfmanual/pt_br/Firebird-Utilitarios.pdf">pt-br</a></td>
+        <a href="/pdfmanual/pt_br/Firebird-Utilitarios.pdf">pt-br</a>
+        <a href="/pdfmanual/ru/Firebird-Utiliti.pdf">ru</a></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
