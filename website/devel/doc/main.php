@@ -6,71 +6,12 @@ if (eregi("main.php",$PHP_SELF)) {
 ?>
 <h1>Firebird documentation subproject</h1>
 
-On this page: <a href="#act">Activities</a> | <a href="#latest">Latest</a> |
-<a href="#docmatrix">Links to the docs</a> | <a href="#other">Other stuff</a>
+On this page:
+<a href="#docmatrix">Online documentation</a> |
+<a href="#act">Activities</a> |
+<a href="#latest">Latest</a> |
+<a href="#other">Other stuff</a>
 
-<a name="act"></a>
-<h4>Activities</h4>
-
-Welcome to the documentation subproject homepage. Our goal is
-to produce a fully cross-linked documentation set for Firebird. We
-author the docs in DocBook XML format and then render them to HTML
-and PDF.
-<p>
-If you are curious why we do it this way, or if you're interested in
-helping us, have a look at the Documentation
-for Firebird Docwriters (see links below).
-<p>
-If you want to contact us, please post a message to the
-<a
-href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs
-list</a>.
-<p>
-As from 2005, all our documentation is released under the open-source
-<a href="http://www.firebirdsql.org/pdfmanual/Public-Documentation-License.pdf">Public Documentation License</a>.
-<p>
-
-<a name="latest"></a>
-<h4>Latest</h4>
-
-<dl>
-
-<dt><i>28 November 2006</i></dt>
-<dd><p>Sergey Kovalev, Alexandr Karpeykin and Vasiliy Ovchinnikov have translated
-  the Commandline Utilities manual into Russian. Corrections, supervision and
-  HTML + PDF building: Pavel Menshchikov.</p></dd>
-
-<dt><i>28 November 2006</i></dt>
-<dd><p>Finally a German translation! Of the Firebird 2.0 Quick Start Guide,
-       by Thomas Steinmaurer.</p></dd>
-
-<dt><i>28 November 2006</i></dt>
-<dd><p>Helen Borrie has updated the Firebird Enterprise Whitepaper.</p></dd>
-
-<dt><i>12 November 2006</i></dt>
-<dd><p>On the day that Firebird 2 is released, the first two chapters of
-       <cite>Using Firebird</cite> go online, as well as the <cite>Firebird 2
-       Quick Start Guide</cite>.</p></dd>
-
-<dt><i>7 November 2006</i></dt>
-<dd><p>Russian translation of the Generator Guide by Sergei Kovalev (translator)
-       and Pavel Menshchikov (editor).</p></dd>
-
-<dt><i>27 October 2006</i></dt>
-<dd><p>Italian translation of the Docwriting Guide by Umberto Masotti.</p></dd>
-
-<dt><i>25 October 2006</i></dt>
-<dd><p>Norman Dunbar has updated the GSEC chapter of the Firebird Commandline Utilities book.</p></dd>
-
-<dt><i>25 October 2006</i></dt>
-<dd><p>The Firebird-InterBase Coexistence Guide has been translated into Russian by
-       Alexandr Karpeykin (translator) and Pavel Menshchikov (editor).</p></dd>
-
-<dt><i>21 October 2006</i></dt>
-<dd><p>The Firebird Null Guide has been translated into Russian by
-       Sergei Kovalev (translator) and Pavel Menshchikov (editor).</p></dd>
-
-</dl>
 
 <a name="docmatrix"></a>
 <h4>Online documentation</h4>
@@ -257,17 +198,66 @@ As from 2005, all our documentation is released under the open-source
 These are by no means all the Firebird docs available. Other good
 starting places are:
 <ul>
-<li><a href="http://www.firebirdsql.org/index.php?op=doc">The
-documentation index page on this site</a><br>
+<li><a href="http://www.firebirdsql.org/index.php?op=doc">The documentation index page on this site</a><br>
 (what you're looking at now is the documentation <i>development</i> homepage)</li>
 <li><a
-href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">IBPhoenix
+href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_download_documentation">The IBPhoenix
 documentation page</a></li>
-<li><a href="http://www.janus-software.com/fbmanual/">Firebird 2 Online Manual at Janus Software</li>
+<li><a href="http://www.janus-software.com/fbmanual/">The Firebird 2 Online Manual at Janus Software</li>
 </ul>
 <p>
 
+
+<a name="act"></a>
+<h4>Subproject activities</h4>
+
+Our goal is to produce a fully cross-linked documentation set for Firebird.
+We author the docs in DocBook XML format and then render them to HTML and PDF.
+<p>
+If you are curious why we do it this way, or if you're interested in
+helping us, have a look at the manuals for Firebird doc writers (see table above).
+<p>
+If you want to contact us, please post a message to the
+<a
+href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs
+list</a>.
+<p>
+As from 2005, all our documentation is released under the open-source
+<a href="http://www.firebirdsql.org/pdfmanual/Public-Documentation-License.pdf">Public Documentation License</a>.
+<p>
+
+
+<a name="latest"></a>
+<h4>Latest additions</h4>
+
+<dl>
+
+<dt><i>28 November 2006</i></dt>
+<dd><p>Sergey Kovalev, Alexandr Karpeykin and Vasiliy Ovchinnikov have translated
+  the Commandline Utilities manual into Russian. Corrections, supervision and
+  HTML + PDF building: Pavel Menshchikov.</p></dd>
+
+<dt><i>28 November 2006</i></dt>
+<dd><p>Finally a German translation! Of the Firebird 2.0 Quick Start Guide,
+       by Thomas Steinmaurer.</p></dd>
+
+<dt><i>28 November 2006</i></dt>
+<dd><p>Helen Borrie has updated the Firebird Enterprise Whitepaper.</p></dd>
+
+<dt><i>12 November 2006</i></dt>
+<dd><p>On the day that Firebird 2 is released, the first two chapters of
+       <cite>Using Firebird</cite> go online, as well as the <cite>Firebird 2
+       Quick Start Guide</cite>.</p></dd>
+
+<dt><i>7 November 2006</i></dt>
+<dd><p>Russian translation of the Generator Guide by Sergei Kovalev (translator)
+       and Pavel Menshchikov (editor).</p></dd>
+
+</dl>
+
+
 <a name="other"></a>
+
 <h4>Under development</h4>
 <ul>
 <li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
