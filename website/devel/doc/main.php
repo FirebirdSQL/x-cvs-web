@@ -100,9 +100,11 @@ On this page:
   </tr>
   <tr>
     <td>Firebird Generator Guide</td>
-    <td><a href="/manual/generatorguide.html">en</a>
+    <td><a href="/manual/de/generatorguide-de.html">de</a>
+        <a href="/manual/generatorguide.html">en</a>
         <a href="/manual/ru/generatorguide-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/Firebird-Generator-Guide.pdf">en</a>
+    <td><a href="/pdfmanual/de/Firebird-Generatoren.pdf">de</a>
+        <a href="/pdfmanual/Firebird-Generator-Guide.pdf">en</a>
         <a href="/pdfmanual/ru/Firebird-Generatori.pdf">ru</a></td>
   </tr>
   <tr>
@@ -123,11 +125,13 @@ On this page:
   </tr>
   <tr>
     <td>Firebird's nbackup tool</td>
-    <td><a href="/manual/nbackup.html">en</a>
+    <td><a href="/manual/de/nbackup-de.html">de</a>
+    	  <a href="/manual/nbackup.html">en</a>
         <a href="/manual/fr/nbackup-fr.html">fr</a>
         <a href="/manual/nl/nbackup-nl.html">nl</a>
         <a href="/manual/ru/nbackup-ru.html">ru</a></td>
-    <td><a href="/pdfmanual/Firebird-nbackup.pdf">en</a>
+    <td><a href="/pdfmanual/de/Firebird-nbackup-de.pdf">de</a>
+        <a href="/pdfmanual/Firebird-nbackup.pdf">en</a>
         <a href="/pdfmanual/fr/Firebird-nbackup-fr.pdf">fr</a>
         <a href="/pdfmanual/nl/Firebird-nbackup-nl.pdf">nl</a>
         <a href="/pdfmanual/ru/Firebird-nbackup-ru.pdf">ru</a></td>
@@ -231,6 +235,12 @@ As from 2005, all our documentation is released under the open-source
 <h4>Latest additions</h4>
 
 <dl>
+
+<dt><i>4 December 2006</i></dt>
+<dd><p>Thomas Steinmaurer has translated the Firebird's nbackup tool manual into German.</p></dd>
+
+<dt><i>4 December 2006</i></dt>
+<dd><p>Frank Ingermann has translated his Firebird Generator Guide back to German.</p></dd>
 
 <dt><i>28 November 2006</i></dt>
 <dd><p>Sergey Kovalev, Alexandr Karpeykin and Vasiliy Ovchinnikov have translated
