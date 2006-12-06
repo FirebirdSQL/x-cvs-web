@@ -163,6 +163,11 @@ On this page:
         <a href="/devel/doc/papers/pdf/fr/Firebird-en-Entreprise.pdf">fr</a></td>
   </tr>
   <tr>
+    <td>Firebird Database Server on MacOSX</td>
+    <td><a href="/devel/doc/papers/html/paper-fb-macosx.html">en</a></td>
+    <td><a href="/devel/doc/papers/pdf/paper-fb-macosx.pdf">en</a></td>
+  </tr>
+  <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
