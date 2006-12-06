@@ -241,6 +241,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>6 December 2006</i></dt>
+<dd><p>David Pugh has contributed the sources of his <cite>Firebird
+       on Mac OSX</cite> paper to the project.</p></dd>
+
 <dt><i>4 December 2006</i></dt>
 <dd><p>Thomas Steinmaurer has translated the Firebird's nbackup tool manual into German.</p></dd>
 

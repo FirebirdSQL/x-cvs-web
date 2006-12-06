@@ -358,7 +358,7 @@ An updated, hard-copy version can be obtained by purchasing the InterBase 6 Medi
 <td  width="40%"><font face="Verdana"><b>Firebird OSX Howto</b></td>
 <td width="35%"><font face="Verdana">David Pugh</td>
 <td width="15%"><font face="Verdana">HTML, PDF</td>
-<td width="10%"><font face="Verdana">221 Kb (PDF)</td>
+<td width="10%"><font face="Verdana">84 Kb (PDF)</td>
 </tr>
 
 <tr><td colspan=4><font face="Verdana">How to install and use
@@ -366,10 +366,9 @@ Firebird 1.5.x on MacOSX</td></tr>
 
 <tr>
 <td width="20%" bgcolor="lavender" align=center><font face="Verdana">VIEW/DOWNLOAD</td>
-<td colspan=3 align=left><font face="Verdana"><A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/FirebirdDatabaseonOSX.html">Single-page
+<td colspan=3 align=left><font face="Verdana"><a href="/devel/doc/papers/html/paper-fb-macosx.html">Single-page
 HTML</a><br>
-<A HREF="http://homepage.mac.com/david.pugh/FirebirdOSX/FirebirdDatabaseonOSX.pdf">PDF
-version</a></td>
+<a href="/devel/doc/papers/pdf/paper-fb-macosx.pdf">PDF version</a></td>
 </tr>
 
 <tr><td colspan=4><hr size=1></td></tr>
