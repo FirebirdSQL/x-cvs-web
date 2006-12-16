@@ -92,10 +92,12 @@ On this page:
     <td><a href="/manual/nullguide.html">en</a>
         <a href="/manual/es/nullguide-es.html">es</a>
         <a href="/manual/fr/nullguide-fr.html">fr</a>
+        <a href="/manual/it/nullguide-it.html">it</a>
         <a href="/manual/ru/nullguide-ru.html">ru</a></td>
     <td><a href="/pdfmanual/Firebird-Null-Guide.pdf">en</a>
         <a href="/pdfmanual/es/Null-en-Firebird.pdf">es</a>
         <a href="/pdfmanual/fr/Firebird-et-Null.pdf">fr</a>
+        <a href="/pdfmanual/it/Usare-NULL-in-Firebird.pdf">it</a>
         <a href="/pdfmanual/ru/Firebird-PovedeniyeNULL.pdf">ru</a></td>
   </tr>
   <tr>
@@ -240,6 +242,10 @@ As from 2005, all our documentation is released under the open-source
 <h4>Latest additions</h4>
 
 <dl>
+
+<dt><i>16 December 2006</i></dt>
+<dd><p>Umberto Masotti has translated the <cite>Firebird
+       Null Guide</cite> into Italian.</p></dd>
 
 <dt><i>6 December 2006</i></dt>
 <dd><p>David Pugh has contributed the sources of his <cite>Firebird
