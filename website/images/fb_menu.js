@@ -20,7 +20,7 @@ mainMenuItem("fb_menu_b2",".png",18,99,loc+"../"+"index.php?op=files","","Downlo
 mainMenuItem("fb_menu_b3",".png",18,140,"javascript:;","","Documentation",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b4",".png",18,104,"javascript:;","","Resources",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b5",".png",18,124,"javascript:;","","Development",2,2,"fb_menu_plain");
-mainMenuItem("fb_menu_b6",".png",18,110,"http://www.firebirdsql.org/foundation/","","Foundation",2,2,"fb_menu_plain");
+mainMenuItem("fb_menu_b6",".png",18,110,"index.php?op=ffoundation","","Foundation",2,2,"fb_menu_plain");
 endMainMenu("fb_menu_right.png",18,5)
 
 startSubmenu("fb_menu_b5","fb_menu_menu",225);
@@ -28,7 +28,6 @@ submenuItem("Subprojects",loc+"../"+"index.php?op=devel","","fb_menu_plain");
 submenuItem("---","javascript:;","","fb_menu_plain");
 submenuItem("Firebird Database Engine",loc+"../"+"index.php?op=devel&sub=engine","","fb_menu_plain");
 submenuItem("Firebird Documentation",loc+"../"+"index.php?op=devel&sub=doc","","fb_menu_plain");
-submenuItem("InterClient/InterServer",loc+"../"+"index.php?op=devel&sub=interclient","","fb_menu_plain");
 submenuItem("Firebird JDBC Driver",loc+"../"+"index.php?op=devel&sub=jdbc","","fb_menu_plain");
 submenuItem("Firebird ODBC Driver",loc+"../"+"index.php?op=devel&sub=odbc","","fb_menu_plain");
 submenuItem("Firebird .NET Data Provider",loc+"../"+"index.php?op=devel&sub=netprovider","","fb_menu_plain");
@@ -44,17 +43,22 @@ endSubmenu("fb_menu_b5");
 startSubmenu("fb_menu_b4","fb_menu_menu",412);
 submenuItem("Bugs and feature requests",loc+"../"+"index.php?op=devel&id=bugdb","","fb_menu_plain");
 submenuItem("Lists and Newsgroups",loc+"../"+"index.php?op=lists","","fb_menu_plain");
-submenuItem("Firebird / InterBase Community Sites (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&s=1082027481:10186&page=ibp_member_sites","","fb_menu_plain");
+submenuItem("Firebird Official Logo Images",loc+"../"+"index.php?id=firebird-logo","","fb_menu_plain");
+submenuItem("Firebird Job Board","http://www.yahoogroups.com/groups/firebird-job-board","","fb_menu_plain");
+submenuItem("News Portal",loc+"../"+"index.php?op=newsportal","","fb_menu_plain");
+submenuItem("Under the Firebird Umbrella",loc+"../"+"index.php?op=umbrella","","fb_menu_plain");
+submenuItem("Other Firebird Community Sites (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_member_sites","","fb_menu_plain");
 submenuItem("Professional support services","http://www.ibphoenix.com","","fb_menu_plain");
 endSubmenu("fb_menu_b4");
 
 startSubmenu("fb_menu_b3","fb_menu_menu",224);
 submenuItem("Novice's Guide",loc+"../"+"index.php?op=guide","","fb_menu_plain");
-submenuItem("History",loc+"../"+"index.php?op=history","","fb_menu_plain");
+submenuItem("Firebird Documentation",loc+"../"+"index.php?op=devel&sub=doc","","fb_menu_plain");
 submenuItem("FAQ",loc+"../"+"index.php?op=faq","","fb_menu_plain");
 submenuItem("Knowledgebase",loc+"../"+"index.php?op=doc","","fb_menu_plain");
 submenuItem("Really Useful Articles",loc+"../"+"index.php?op=useful","","fb_menu_plain");
 submenuItem("Publications (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_publications","","fb_menu_plain");
+submenuItem("History",loc+"../"+"index.php?op=history","","fb_menu_plain");
 endSubmenu("fb_menu_b3");
 
 startSubmenu("fb_menu_b2","fb_menu_menu",364);
