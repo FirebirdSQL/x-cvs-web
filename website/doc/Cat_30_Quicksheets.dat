@@ -1,0 +1,55 @@
+# Category title (shown on web page):
+Quick Sheets
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Get to know Firebird in 2 minutes
+en:http://www.firebirdnews.org/docs/fb2min.html
+en:http://www.firebirdnews.org/docs/fb2min.pdf
+cz:http://www.firebirdnews.org/docs/fb2min_cz.html
+pt-br:http://www.firebirdnews.org/docs/fb2min_ptbr.html
+pl:http://www.firebirdnews.org/docs/fb2min_pl.html
+de:http://www.firebirdnews.org/docs/fb2min_de.html
+tk:http://www.firebirdnews.org/docs/fb2min_tk.html
+pt:http://www.firebirdnews.org/docs/fb2min_ptpt.html
+es:http://www.firebirdnews.org/docs/fb2min_es.html
+se:http://www.firebirdnews.org/docs/fb2min_sw.html
+fr:http://www.firebirdnews.org/docs/fb2min_fr.html
+it:http://www.firebirdnews.org/docs/fb2min_it.html
+hu:http://www.firebirdnews.org/docs/fb2min_hu.html
+bg:http://www.firebirdnews.org/docs/fb2min_bg.html
+ru:http://www.firebirdnews.org/docs/fb2min_ru.html
+ja:http://www.firebirdnews.org/docs/fb2min_jp.html
+
+Firebird Facts
+en:/guide/FBFactsheet.html
+en:/guide/Firebird_Factsheet.pdf
+pt:/guide/Firebird-1.5-Factsheet-pt.html
+
+What's new in Firebird 1.5
+en:/guide/FB15_New.html
+en:/guide/Firebird15_New.pdf
+
+Upgrading from Firebird 1.0 to 1.5
+en:/index.php?op=guide&id=upgrading
+
+Trouble Connecting to Firebird 1.5 on Linux?
+en:/index.php?op=doc&sub=contrib&id=connect_to_linux
+
+Firebird, DreamWeaver, PHP & Phakt
+en:/doc/contrib/DMX-PHP-FB.pdf
+
+Using Firebird with OpenOffice
+en:/doc/contrib/OOoFBvp.pdf

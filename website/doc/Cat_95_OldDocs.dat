@@ -1,0 +1,32 @@
+# Category title (shown on web page):
+Old but Possibly Useful
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+# current title. After that, either EOF or a following title is expected.
+
+Writing UDFs for InterBase (2000)
+en:/index.php?op=useful&id=deatz_udf
+
+InterBase Connectivity for Delphi/C++Builder (2000)
+en:/index.php?op=useful&id=Connectivity
+
+Some Solutions to Old Problems
+en:/index.php?op=useful&id=calford_1
+
+InterBase: What Sets It Apart?
+en:http://www.dbginc.com/tech_pprs/IB.html
+
+Ten Things To Make Interbase Scream (1998)
+en:/download.php?op=file&id=makeibscream.pdf

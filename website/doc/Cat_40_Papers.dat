@@ -1,0 +1,57 @@
+# Category title (shown on web page):
+Papers
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Firebird Enterprise White Paper
+en:/devel/doc/papers/html/paper-fbent.html
+fr:/devel/doc/papers/html/fr/paper-fbent-fr.html
+en:/devel/doc/papers/pdf/paper-fbent.pdf
+fr:/devel/doc/papers/pdf/fr/Firebird-en-Entreprise.pdf
+
+The Power of Firebird Events
+en:/doc/whitepapers/events_paper.pdf
+
+Convert Data from another DBMS to Firebird
+en:/index.php?op=useful&id=netzka
+
+Firebird File and Metadata Security
+en:/manual/fbmetasecur.html
+ru:/manual/ru/fbmetasecur-ru.html
+en:/pdfmanual/Firebird-Security.pdf
+ru:/pdfmanual/ru/Firebird-Bezopasnost-Meta.pdf
+
+Firebird Database Server on MacOSX
+en:/devel/doc/papers/html/paper-fb-macosx.html
+en:/devel/doc/papers/pdf/paper-fb-macosx.pdf
+
+User and Password Management
+en:http://www.volny.cz/iprenosil/interbase/ip_ib_isc4.htm
+
+Firebird 2.0 Enhancements
+en:/index.php?op=devel&sub=engine&id=fb20_release
+
+Writing Firebird UDFs in Delphi
+en:/index.php?op=useful&id=geldenhuis
+
+To BLOB or Not To BLOB?
+en:http://www.volny.cz/iprenosil/interbase/ip_ib_strings.htm
+
+Some Stored Procedures to Massage Dates
+en:/index.php?op=useful&id=ostenried_1
+
+Multi Version Concurrency Control
+en:/doc/whitepapers/fb_vs_ibm_vs_oracle.pdf
+en:/doc/whitepapers/fb_vs_ibm_vs_oracle.htm

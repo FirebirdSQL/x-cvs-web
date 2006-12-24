@@ -1,0 +1,52 @@
+# Category title (shown on web page):
+Release Notes
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Firebird 2.0 Release Notes
+en:/rlsnotes/Firebird-2.0-ReleaseNotes.pdf
+
+Firebird 1.5.3 Release Notes
+en:/rlsnotes/Firebird-1.5.3-ReleaseNotes.pdf
+
+Firebird 1.5.2 Release Notes
+en:/rlsnotes/Firebird-1.5.2-ReleaseNotes.pdf
+de:/rlsnotes/de/Firebird-1.5.2-ReleaseNotes-German.pdf
+fr:/rlsnotes/fr/Firebird-1.5.2-ReleaseNotes-French.pdf
+
+Firebird 1.5.1 Release Notes
+en:/rlsnotes/Firebird-1.5.1-ReleaseNotes.pdf
+fr:/rlsnotes/fr/Firebird-1.5.1-ReleaseNotes-French.pdf
+
+Firebird 1.5 Release Notes
+en:/rlsnotes/Firebird-1.5-ReleaseNotes.pdf
+cz:/rlsnotes/cz/Firebird-1.5-ReleaseNotes-Czech.pdf
+de:/rlsnotes/de/Firebird-1.5-ReleaseNotes-German.pdf
+es:/rlsnotes/es/Firebird-1.5-ReleaseNotes-Spanish.pdf
+fr:/rlsnotes/fr/Firebird-1.5-ReleaseNotes-French.pdf
+it:/rlsnotes/it/Firebird-1.5-ReleaseNotes-Italian.pdf
+pt:/rlsnotes/pt/Firebird-1.5-ReleaseNotes-Portuguese.pdf
+pt-br:/rlsnotes/pt-br/Firebird-1.5-ReleaseNotes-Brazilian.pdf
+
+Firebird 1.0.3 Readme
+en:/rlsnotes/Firebird-1.0.3-ReadMe.txt
+
+Firebird 1.0.2 Readme
+en:/rlsnotes/Firebird-1.0.2-ReadMe.txt
+
+Firebird 1.0 Release Notes
+en:/rlsnotes/Firebird-1.0-ReleaseNotes.pdf
+ja:/rlsnotes/ja/Firebird-1.0-ReleaseNotes-Japanese.pdf
+pt:/rlsnotes/pt/Firebird-1.0-ReleaseNotes-Portuguese.pdf

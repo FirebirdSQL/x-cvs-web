@@ -1,0 +1,73 @@
+# Category title (shown on web page):
+User Manuals
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Firebird Null Guide
+en:/manual/nullguide.html
+es:/manual/es/nullguide-es.html
+fr:/manual/fr/nullguide-fr.html
+it:/manual/it/nullguide-it.html
+ru:/manual/ru/nullguide-ru.html
+en/pdfmanual/Firebird-Null-Guide.pdf
+es:/pdfmanual/es/Null-en-Firebird.pdf
+fr:/pdfmanual/fr/Firebird-et-Null.pdf
+it:/pdfmanual/it/Usare-NULL-in-Firebird.pdf
+ru:/pdfmanual/ru/Firebird-PovedeniyeNULL.pdf
+
+Firebird Generator Guide
+de:/manual/de/generatorguide-de.html
+en:/manual/generatorguide.html
+ru:/manual/ru/generatorguide-ru.html
+de:/pdfmanual/de/Firebird-Generatoren.pdf
+en:/pdfmanual/Firebird-Generator-Guide.pdf
+ru:/pdfmanual/ru/Firebird-Generatori.pdf
+
+MS SQL to Firebird Migration Guide
+en:/manual/migration-mssql.html
+ru:/manual/ru/migration-mssql-ru.html
+en:/pdfmanual/MSSQL-to-Firebird.pdf
+ru:/pdfmanual/ru/Firebird-Perehod-s-MSSQL.pdf
+
+Coexistence of Firebird 1.5 and InterBase
+en:/manual/ibfbcoex.html
+pt-br:/manual/pt_br/ibfbcoex-pt_br.html
+ru:/manual/ru/ibfbcoex-ru.html
+en:/pdfmanual/InterBase-Firebird-Coexist.pdf
+pt-br:/pdfmanual/pt_br/Coexistencia-Firebird-InterBase.pdf
+ru:/pdfmanual/ru/Firebird-IB-i-FB-Vmeste.pdf
+
+Firebird's nbackup tool
+de:/manual/de/nbackup-de.html
+en:/manual/nbackup.html
+fr:/manual/fr/nbackup-fr.html
+nl:/manual/nl/nbackup-nl.html
+ru:/manual/ru/nbackup-ru.html
+de:/pdfmanual/de/Firebird-nbackup-de.pdf
+en:/pdfmanual/Firebird-nbackup.pdf
+fr:/pdfmanual/fr/Firebird-nbackup-fr.pdf
+nl:/pdfmanual/nl/Firebird-nbackup-nl.pdf
+ru:/pdfmanual/ru/Firebird-nbackup-ru.pdf
+
+Firebird Commandline Utilities (work in progress)
+en:/manual/fbutils.html
+pt-br:/manual/pt_br/fbutils-pt_br.html
+ru:/manual/ru/fbutils-ru.html
+en:/pdfmanual/Firebird-Utils-WIP.pdf
+pt-br:/pdfmanual/pt_br/Firebird-Utilitarios.pdf
+ru:/pdfmanual/ru/Firebird-Utiliti.pdf
+
+Using ZeBeDee with Firebird
+en:/download.php?op=file&id=firebird_zebedee_eng.pdf

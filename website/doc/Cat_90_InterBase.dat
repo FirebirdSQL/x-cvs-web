@@ -1,0 +1,43 @@
+# Category title (shown on web page):
+InterBase 6.0 Manuals
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Getting Started
+en:http://www.ibphoenix.com/downloads/60GetStart.zip
+
+API Guide
+en:http://www.ibphoenix.com/downloads/60ApiGuide.zip
+
+Data Definition Guide
+en:http://www.ibphoenix.com/downloads/60DataDef.zip
+
+Developers Guide
+en:http://www.ibphoenix.com/downloads/60DevGuide.zip
+
+Embedded SQL Guide
+en:http://www.ibphoenix.com/downloads/60EmbedSQL.zip
+
+Language Reference
+en:http://www.ibphoenix.com/downloads/60LangRef.zip
+
+Operations Guide
+en:http://www.ibphoenix.com/downloads/60OpGuide.zip
+
+Full Set, cross-indexed
+en:http://www.ibphoenix.com/downloads/60All.zip
+
+SQL Reference (not included in full set)
+en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}

@@ -1,6 +1,6 @@
 <?php
 // Page variables
 $top_menu = "other";
-$htitle="Firebird Knowledgebase";
-$toptext="Knowledgebase";
+$htitle="Firebird Documentation Index";
+$toptext="Documentation Index";
 ?>

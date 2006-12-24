@@ -1,0 +1,45 @@
+# Category title (shown on web page):
+Basic Documentation
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Firebird 2.0 Quick Start Guide
+en:/pdfmanual/Firebird-2.0-QuickStart.pdf
+en:/manual/qsg2.html
+de:/manual/de/qsg2-de.html
+de:/pdfmanual/de/Firebird-2.0-Schnellanleitung.pdf
+
+Firebird 1.5 Quick Start Guide
+ru:/manual/ru/qsg15-ru.html
+ja:/pdfmanual/ja/Firebird-1.5-QuickStart-Jap.pdf
+en:/manual/qsg15.html
+ja:/manual/ja/qsg15-ja.html
+en:/pdfmanual/Firebird-1.5-QuickStart.pdf
+es:/pdfmanual/es/Firebird-1.5-Arranque.pdf
+fr:/pdfmanual/fr/Firebird-1.5-Demarrage.pdf
+es:/manual/es/qsg15-es.html
+ru:/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf
+fr:/manual/fr/qsg15-fr.html
+
+Firebird 1.0 Quick Start Guide
+en:/manual/qsg10.html
+en:/pdfmanual/Firebird-1.0-QuickStart.pdf
+
+Using Firebird (work in progress)
+en:/pdfmanual/Using-Firebird_(wip).pdf
+en:/manual/ufb.html
+
+Frequently Asked Questions
+en:http://www.firebirdsql.org/index.php?op=faq

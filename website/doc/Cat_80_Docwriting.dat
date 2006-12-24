@@ -1,0 +1,38 @@
+# Category title (shown on web page):
+Manuals for Firebird Docwriters
+
+# Every manual or paper gets its own section below, formatted like this:
+# - 1st line: Document title in English.
+# - Following lines: The links to the different languages/formats. Each line
+#   starts with the language code, followed by ":", followed by the document's URL.
+#   You can optionally add a {type override} to the URL, in case the PHP script
+#   doesn't determine it correctly. Example:
+#     en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+#
+# One or more empty (or all-blanks) lines mark the end of the section for the
+# current title. After that, either EOF or a following title is expected.
+#
+# Comment lines must have '#' as their first non-blank character. You can't add
+# comments after a 'live' line.
+
+Firebird Docbuilding Howto
+en:/manual/docbuildhowto.html
+en:/pdfmanual/Firebird-Docbuilding-Howto.pdf
+es:/manual/es/docbuildhowto-es.html
+es:/pdfmanual/es/Construir-los-docs-Firebird.pdf
+it:/manual/it/docbuildhowto-it.html
+it:/pdfmanual/it/Fare-i-Manuali-Firebird.pdf
+pt-br:/manual/pt_br/docbuildhowto-pt_br.html
+pt-br:/pdfmanual/pt_br/Gerando-Manuais-Firebird.pdf
+
+Firebird Docwriting Guide
+en:/manual/docwritehowto.html
+en:/pdfmanual/Firebird-Docwriting-Guide.pdf
+it:/manual/it/docwritehowto-it.html
+it:/pdfmanual/it/Scrivere-Documenti-Firebird.pdf
+pt-br:/manual/pt_br/docwritehowto-pt_br.html
+pt-br:/pdfmanual/pt_br/Guia-Escrita-Firebird.pdf
+
+Using non-Western fonts in your Firebird docs
+en:/manual/fontembed.html
+en:/pdfmanual/Fbdocs-Non-Western-Fonts.pdf
