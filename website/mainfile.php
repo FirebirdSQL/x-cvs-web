@@ -87,17 +87,6 @@ function GetRabbitInfoLink ($rabbit, $echo = false) {
   else return $result ;
 }
 
-function GetRabbitAdminLink ($rabbit, $echo = false) {
-  global $rootDir;
-  $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
-  $function = "" ; $subprojects = ""; $mainpage = "" ;
-  if (!eregi ("\.dat$",$rabbit)) {$rabbit .= ".dat" ;}
-  include ($rootDir."rabbits/".$rabbit);
-  $result = "<A href=\"index.php?op=admin&amp;info=$login\">$name</A>" ;
-  if ($echo) { echo $result ; return true ; }
-  else return $result ;
-}
-
 function GetDirectoryList ($path) {
   global $rootDir;
   $pwd = getcwd();
@@ -274,7 +263,7 @@ global $textcolor1, $textcolor2, $bgcolor1;
 ?>
 <table border="0" cellspacing="0" cellpadding="0" width="200">
 <tr><td>
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="3">
   <tr>
   <td bgcolor="<?php echo"$bgcolor1"; ?>" align="left">
   <font color="<?php echo $textcolor1 ?>"><b><?php echo"$title"; ?></b></font>
@@ -287,7 +276,7 @@ global $textcolor1, $textcolor2, $bgcolor1;
     <td><img alt="" height="2" src="images/1x1.gif" width="1"></td>
     </tr>
   </table>
-  <table border="0" cellspacing="0" cellpadding="0" width="200" bgcolor="#000000">
+  <table border="0" cellspacing="0" cellpadding="3" width="200" bgcolor="#000000">
   <tr><td class="normal" bgcolor="<?php echo"$bgcolor1"; ?>" align="left">
     <br><?php echo"$content"; ?><br>
   </td>
@@ -335,4 +324,46 @@ if ("$title" != "") { ?>
     
 <?php
 }
+
+function NewsItem($datetime, $title, $content)
+{
+?>
+  <tr><td class="news-head" valign="top" width="18%">
+  <i><?php echo "$datetime"; ?></i></td>
+  <td class="news-head" width="80%"><?php echo "<b>$title</b>"; ?></td></tr>
+  <tr><td class="news-content" valign="top" width="18%"></td>
+  <td class="news-content" width="80%"><?php echo "$content"; ?></td></tr>
+<?php
+}
+
+function BlogItem($blogItem, $datetime, $title, $blogger, $content)
+{
+?>
+  <tr>
+    <td class="news-head" valign="top" width="18%">
+    <?php echo "
+    <a name=\"".basename($blogItem, ".blog")."\"></a>"; ?>
+    <i>
+    <?php echo "$datetime"; ?>
+    </i>
+    </td>
+    <td class="news-head" width="64%" valign="top">
+    <?php echo "<b>$title</b>"; ?>
+    </td>
+    <td class="news-head" width="18%" align="left" valign="top">
+    <?php echo "$blogger"; ?>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan=2 class="news-content" width="82%">
+    <?php echo "$content"; ?>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=3><hr size=1></td>
+  </tr>
+<?php
+}
+
 ?>

@@ -14,13 +14,27 @@ if (eregi("header.php",$PHP_SELF)) {
 # if this isnt correct, u can change it from /tf.lang/??.php,
 # where ?? is your lang code (english->en etc)
 
+if (IsSet($encoding)) 
+  echo $encoding;
+else
+  {
 print $l['ENCODING'];
-
+  }
 ?>">
 <meta name="DESCRIPTION" content="Firebird is a relational database offering many ANSI SQL-92 features that runs on Linux, Windows, and a variety of Unix platforms. Firebird offers excellent concurrency, high performance, and powerful language support for stored procedures and triggers. It has been used in production systems, under a variety of names since 1981. Firebird is a commercially independent project of C and C++ programmers, technical advisors and supporters developing and enhancing a multi-platform relational database management system based on the source code released by Inprise Corp (now known as Borland Software Corp) under the InterBase Public License v.1.0 on 25 July, 2000.">
 <meta name="KEYWORDS" content="Firebird, InterBase, ISC, interbase, Database, database, Relational, relational, Relational Database, PostgreSQL, MYSQL, Borland, IBPhoenix, BORLAND, INPRISE, Inprise Corporation, Client/Server, client server products, client/server solutions, Development Tools, Delphi, JBuilder, Linux, Open Source, Web Database Development, C++Builder, database tools, database development tools, database engines, database programming, SQL, SQL programming, SQL links, SQL databases">
-<title>Firebird - Relational Database for the New Millennium</title>
+<?php 
+// <title>Firebird - Relational Database for the New Millennium</title>
+echo "
+<title>$htitle</title>
+";
+if ($rss != "") {
+  echo "
+    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"./$xroot$rss\">
+  ";
+}
 
+?>
 <link rel="stylesheet" href="<?php
 
 # if there are user logged in we get him/her personal template css-file
@@ -34,11 +48,9 @@ print get_css_path();
 	print get_template_path().'tf.js';
 ?>"></script>
 <?php
-if (get_favicon_path() != false)
-{
-	print '<link rel="shortcut icon" href="'.get_favicon_path().'" />'."\n";
-}
+print '<link rel="icon" type="image/jpg" href="/images/favicon.jpg">'."\n";
 ?>
 </head>
 
 <body bgcolor="#FFFFFF">
+<!-- END OF HEADER CHUNK -->

@@ -9,11 +9,12 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 <?PHP
 
   # permanent sidebar
-
-  $title = "User Login";
-  $content = tpl_get_login_form();
-  sidebox($title,$content);
-
+if ($no_menu == 1) 
+  $no_op = "";
+else
+  {
+  # Place any sidebox that should appear on all pages here
+  }
 if (IsSet($op)) {
 
   # Sidebar for web section
@@ -40,50 +41,148 @@ if (IsSet($op)) {
 else {
 
 # Sidebar for main page
-
   $title = "New visitors";
   $content = "
-  If you're new to the Firebird, you may find the 
-  <A href=\"index.php?op=guide\">Novice's Guide</A> a quite helpful ! 
-  <p>
-  <A href=\"index.php?op=guide\">Novice's Guide</A> provide you with basic
-  information about Firebird project, and about Firebird relational database 
-  engine (including it's predecessor - InterBase).
-  <p>
-  Additionally, you may check our <A href=\"index.php?op=faq\">FAQ</A>, <A href=\"index.php?op=history\">history</A> records and...
-  <p class=centre>
-  <A HREF=\"/pdfmanual/Firebird-1.5-QuickStart.pdf\"><IMG SRC=\"images/NF4_7.gif\" ALT=\"Firebird Quickstart Guide\" BORDER=\"0\"></A>
-  </p>
-  A collection of tips for the Firebird \"newbie\" to help you get underway with your newly-downloaded Firebird kit.
+<img src=\"images/clearpixel.gif\" width=\"15\">
+<a href=\"index.php?op=guide#facts\">
+<img src=\"images/fbg-facts.gif\" border=\"0\"></a>
+<br><br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=guide\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Novice's Guide</A>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">  
+  <A href=\"index.php?op=faq\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Frequently Asked Questions</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">  
+  <A HREF=\"/pdfmanual/Firebird-2.0-QuickStart.pdf\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Firebird 2.0 Quick Start Guide</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">  
+  <A HREF=\"/pdfmanual/Firebird-1.5-QuickStart.pdf\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Firebird 1.5 Quick Start Guide</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://www.yahoogroups.com/groups/firebird-support\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird-support email list</a>
   <br>";
   sidebox($title,$content);
 
   $title = "Users";
   $content = "
-  If you're looking for help with your problems, please visit our 
-  <A href=\"index.php?op=faq\">FAQ</A> and check our <A href=\"index.php?op=devel&id=bugdb\">Bug database</A> first,
-  as it's possible that you may find answers there.
-  <p>
-  Additionally, you can find help in various <A href=\"index.php?op=lists\">Lists and Newsgroups</A>.
-  <p>
-  Looking for <A href=\"index.php?op=doc\">documentation</A> ? Don't miss our collection
-  of <A href=\"index.php?op=useful\">really useful</A> articles, tips and tricks !
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+    <A href=\"index.php?op=doc\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">More
+    Documentation</A>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+    <A href=\"index.php?op=lists\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">More Lists &amp; Newsgroups</A>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=useful\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Tips &amp;
+  Tricks</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A HREF=\"index.php?op=devel&id=bugdb\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Report a Bug</a>
   <br>";
   sidebox($title,$content);
 
+  $title = "Downloads";
+  $content = "
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=files\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird Released kits </a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"download/prerelease\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Pre-release kits (testing)</a>
+  <br>";
+  sidebox($title,$content);
+  
   $title = "Developers";
   $content = "
-  Do you want to keep up with Firebird's development ? Or even better, do you
-  want to join or support our efforts ? Check out the <A href=\"index.php?op=devel\">Developer's corner</A> !
+
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=devjournal\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+<img src=\"images/devjournal_logo.gif\" width=\"165\" border=\"0\">
+</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=devel\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Developers' Corner</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"https://lists.sourceforge.net/lists/listinfo/firebird-devel\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird-devel email list</a>
+  <br><br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://tracker.firebirdsql.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+<img src=\"images/fbtracker.gif\" width=\"165\" border=\"0\">
+</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://www.yahoogroups.com/groups/firebird-architect\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird-Architect email list</a>
+    <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <span style=\"font-size:8pt;\">
+  No support questions <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  in these lists please!!</span>
   <br>";
   sidebox($title,$content);
 
-  $alice = GetRabbitSafeEMailLink("firebirds","contact us");
+
+  $title = "Community";
+  $content = "
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=umbrella\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Under the Firebird Umbrella</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=newsportal\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  News Portal</a>
+<br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://www.yahoogroups.com/groups/firebird-job-board\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird Job Board</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=ffoundation&sub=connect\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  CONNECT!</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=ffoundation\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  The Firebird Foundation</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://www.ibphoenix.com\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  IBPhoenix Resource Site</a>
+  <br>";
+  sidebox($title,$content);
+
+  $title = "Admin Tools";
+  $content = "
+    <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_admin_tools\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Catalogue of Admin Tools</a>
+  <br><center>. . . . . . . . . . . . . . . </center><br>
+  <a href=\"http://www.flamerobin.org\">
+<img src=\"images/flamerobin3.gif\" alt=\"FlameRobin Project\" width=\"139\" height=\"30\" border=0></a>
+<a href=\"http://www.flamerobin.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+is a project to build a cross-platform, lightweight GUI admin tool for Firebird completely</a>
+<span style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">with open source components.
+Alpha builds for Linux, Mac OS X and FreeBSD are available.</span>
+  <br>";
+  sidebox($title, $content);
+
+  $alice = GetRabbitSafeEMailLink("firebirds","Contact us");
   $title = "Feedback";
   $content = "
-  Comments ? Suggestions ? Questions ? Feel free to ".$alice." !
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <span style=\"color:#6a5acd;font-size:8pt;\">
+  Comments ? Suggestions ? 
+  <br><center>".$alice." !</center>
   <p class=\"centre\">
-  <a href=\"http://www.opensource.org/docs/definition.php\"><img src=\"images/opensource.gif\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a>
+  <!-- a href=\"http://www.opensource.org/docs/definition.php\">
+  <img src=\"images/opensource.gif\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a -->
   </p>
   <br>";
   sidebox($title,$content);

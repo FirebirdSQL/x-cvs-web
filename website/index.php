@@ -1,8 +1,25 @@
 <?PHP
 $rootDir="./";
 
+# finder for pagevars
+$xroot = "";
+if (IsSet($op))
+  {
+  if (strpos($op,"http") === false and strpos($op,".") === false) {
+  	$xroot = $op."/";
+  	if (IsSet($sub)) 
+    	$xroot = $xroot . $sub."/";
+    	}
+  else  {
+  	print "Hacker attack in progress.";
+  	die();
+	}
+  }
+if (file_exists($xroot . "pagevars.php"))
+	include($xroot . "pagevars.php");
+
 include_once('tf.conf.php');
-require_once("mainfile.php"); 
+require_once("mainfile.php");
 # first we load file, which contains all txtForum functions
 require_once('tf.func.php');
 # now we start counting xpage generation time
@@ -21,8 +38,8 @@ include_once(get_langfile_path());
 
 $userid = "";
 
-include_once("header.php");
-
+// include_once("header.php");
+include("header.php");
 # login/logout
 if (IsSet($action)){
 	$settings = get_settings();
@@ -45,7 +62,7 @@ if (IsSet($action)){
 	}
 }
 
-include_once("topmenu.php");
+include("topmenu.php");
 
 if (!IsSet($nosb)) 
 include_once("sidemenu.php");
