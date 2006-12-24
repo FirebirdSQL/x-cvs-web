@@ -16,6 +16,45 @@ if (eregi("page_whitepapers.php",$PHP_SELF)) {
 <td bgcolor="lightsteelblue" width="15%"><font face="Verdana"><b>Format</b></td>
 <td bgcolor="lightsteelblue"  width="10%"><font face="Verdana"><b>Size</b></td>
 </tr>
+
+<!-- ------------------------------------------------------------------- -->
+<tr>
+<td  width="40%"><font face="Verdana"><b>The Power of Firebird Events</b></td>
+<td width="35%"><font face="Verdana">Milan Babuskov</td>
+<td width="15%"><font face="Verdana">PDF</td>
+<td width="10%"><font face="Verdana">505 Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">This paper, presented at the 2005 Firebird Conference in Prague, discusses the inner and outer workings of the Firebird events mechanism.
+</td>
+
+</tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana"></td>
+<td colspan=3 align=left><font face="Verdana"><a href="doc/whitepapers/events_paper.pdf">Download (right-click) or view (left-click)</a> as a PDF file</a>. </td>
+</tr>
+<tr><td colspan=4><hr size=1></td></tr>
+<!-- ------------------------------------------------------------------- -->
+<tr>
+<td  width="40%"><font face="Verdana"><b>Firebird Databases as the Back-end
+to Enterprise Software Systems</b></td>
+<td width="35%"><font face="Verdana">Helen Borrie/IBPhoenix</td>
+<td width="15%"><font face="Verdana">HTML &amp; PDF</td>
+<td width="10%"><font face="Verdana">70 Kb &amp; 122Kb</td>
+</tr>
+
+<tr><td colspan=4><font face="Verdana">This paper was prepared in February 2006 for a customer of IBPhoenix
+in Australia. The customer has kindly allowed its release to
+the Firebird community as an open document for translation and other
+uses by the community for informing the public about the capabilities
+of Firebird for enterprise use.
+</td>
+
+</tr>
+<td width="20%" bgcolor="lavender" align=center><font face="Verdana"><a href="devel/doc/papers/html/paper-fbent.html">VIEW AS HTML</a></td>
+<td colspan=3 align=left><font face="Verdana"><a href="devel/doc/papers/pdf/paper-fbent.pdf">Download (right-click) or view (left-click)</a> as a PDF file</a>. </td>
+</tr>
+<tr><td colspan=4><hr size=1></td></tr>
+
 <!-- ------------------------------------------------------------------- -->
 <tr>
 <td  width="40%"><font face="Verdana"><b>A
