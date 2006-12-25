@@ -17,7 +17,7 @@ if(typeof(frames)=="undefined"){var frames=0;}
 startMainMenu("fb_menu_left.png",18,20,2,0,0)
 mainMenuItem("fb_menu_b1",".png",18,70,loc+"../"+"index.php","","Home",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b2",".png",18,99,loc+"../"+"index.php?op=files","","Download",2,2,"fb_menu_plain");
-mainMenuItem("fb_menu_b3",".png",18,140,"javascript:;","","Documentation",2,2,"fb_menu_plain");
+mainMenuItem("fb_menu_b3",".png",18,140,loc+"../"+"index.php?op=doc","","Documentation",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b4",".png",18,104,"javascript:;","","Resources",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b5",".png",18,124,"javascript:;","","Development",2,2,"fb_menu_plain");
 mainMenuItem("fb_menu_b6",".png",18,110,"index.php?op=ffoundation","","Foundation",2,2,"fb_menu_plain");
@@ -51,13 +51,12 @@ submenuItem("Other Firebird Community Sites (at IBPhoenix)","http://www.ibphoeni
 submenuItem("Professional support services","http://www.ibphoenix.com","","fb_menu_plain");
 endSubmenu("fb_menu_b4");
 
-startSubmenu("fb_menu_b3","fb_menu_menu",224);
-submenuItem("Novice's Guide",loc+"../"+"index.php?op=guide","","fb_menu_plain");
-submenuItem("Firebird Documentation",loc+"../"+"index.php?op=devel&sub=doc","","fb_menu_plain");
+startSubmenu("fb_menu_b3","fb_menu_menu",250);
+submenuItem("Firebird Documentation Index",loc+"../"+"index.php?op=doc","","fb_menu_plain");
+//submenuItem("Novice's Guide",loc+"../"+"index.php?op=guide","","fb_menu_plain");  // update and uncomment?
+submenuItem("Other documentation sites",loc+"../"+"index.php?op=doc&id=othersites","","fb_menu_plain");
+submenuItem("Books (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_publications","","fb_menu_plain");
 submenuItem("FAQ",loc+"../"+"index.php?op=faq","","fb_menu_plain");
-submenuItem("Knowledgebase",loc+"../"+"index.php?op=doc","","fb_menu_plain");
-submenuItem("Really Useful Articles",loc+"../"+"index.php?op=useful","","fb_menu_plain");
-submenuItem("Publications (at IBPhoenix)","http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_publications","","fb_menu_plain");
 submenuItem("History",loc+"../"+"index.php?op=history","","fb_menu_plain");
 endSubmenu("fb_menu_b3");
 
