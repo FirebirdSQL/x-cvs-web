@@ -34,8 +34,8 @@ submenuItem("Firebird .NET Data Provider",loc+"../"+"index.php?op=devel&sub=netp
 submenuItem("Firebird QA",loc+"../"+"index.php?op=devel&sub=qa","","fb_menu_plain");
 submenuItem("Firebird website",loc+"../"+"index.php?op=devel&sub=web","","fb_menu_plain");
 submenuItem("---","javascript:;","","fb_menu_plain");
-submenuItem("Rabbit Holes",loc+"../"+"index.php?op=rabbits","","fb_menu_plain");
-submenuItem("---","javascript:;","","fb_menu_plain");
+// submenuItem("Rabbit Holes",loc+"../"+"index.php?op=rabbits","","fb_menu_plain");
+// submenuItem("---","javascript:;","","fb_menu_plain");
 submenuItem("Firebird at SourceForge","http://sourceforge.net/projects/firebird","","fb_menu_plain");
 submenuItem("CVS Repository","http://sourceforge.net/cvs/?group_id=9028","","fb_menu_plain");
 endSubmenu("fb_menu_b5");
