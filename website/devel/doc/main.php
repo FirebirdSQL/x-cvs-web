@@ -9,7 +9,7 @@ if (eregi("main.php",$PHP_SELF)) {
 On this page:
 <a href="#act">Activities</a> |
 <a href="#latest">Latest</a> |
-<a href="#docmatrix">Links for Doc Writers</a> |
+<a href="#docmatrix">Links for docwriters</a> |
 <a href="#other">Other stuff</a>
 
 <h4>Welcome</h4>
@@ -17,7 +17,7 @@ On this page:
 <p>Hello, and welcome to the Firebird Documentation Subproject
 homepage. If you're a Firebird user and looking for documentation,
 visit 
-<a href="http://www.firebirdsql.org/index.php?op=doc">http://www.firebirdsql.org/index.php?op=doc</a>
+<a href="http://www.firebirdsql.org/?op=doc">http://www.firebirdsql.org/?op=doc</a>
 (or choose <cite> Documentation</cite> -> <cite>Firebird
 Documentation Index</cite> from the top menu).</p>
 
@@ -53,6 +53,11 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>24 January 2007</i></dt>
+<dd><p>The new version of the <cite>Firebird Null Guide</cite> is ready.
+       With lots of new topics covered, it has grown to around 4 times
+       its previous size.</p></dd>
+
 <dt><i>24 December 2006</i></dt>
 <dd><p>Finally created a proper Firebird documentation index page.
 The links table on this page is no longer necessary, except for a few
@@ -72,32 +77,11 @@ docwriting-related URLs.<p></dd>
 <dt><i>4 December 2006</i></dt>
 <dd><p>Frank Ingermann has translated his Firebird Generator Guide back to German.</p></dd>
 
-<dt><i>28 November 2006</i></dt>
-<dd><p>Sergey Kovalev, Alexandr Karpeykin and Vasiliy Ovchinnikov have translated
-  the Commandline Utilities manual into Russian. Corrections, supervision and
-  HTML + PDF building: Pavel Menshchikov.</p></dd>
-
-<dt><i>28 November 2006</i></dt>
-<dd><p>Finally a German translation! Of the Firebird 2.0 Quick Start Guide,
-       by Thomas Steinmaurer.</p></dd>
-
-<dt><i>28 November 2006</i></dt>
-<dd><p>Helen Borrie has updated the Firebird Enterprise Whitepaper.</p></dd>
-
-<dt><i>12 November 2006</i></dt>
-<dd><p>On the day that Firebird 2 is released, the first two chapters of
-       <cite>Using Firebird</cite> go online, as well as the <cite>Firebird 2
-       Quick Start Guide</cite>.</p></dd>
-
-<dt><i>7 November 2006</i></dt>
-<dd><p>Russian translation of the Generator Guide by Sergei Kovalev (translator)
-       and Pavel Menshchikov (editor).</p></dd>
-
 </dl>
 
 
 <a name="docmatrix"></a>
-<h4>Doc writer's documentation</h4>
+<h4>Docwriters' documentation</h4>
 
 
 <p>The links in the HTML and PDF columns point to the different
@@ -164,7 +148,6 @@ language versions available for each document.</p>
 
 <h4>Under development</h4>
 <ul>
-<li>Extensive update of the Firebird Null Guide</li>
 <li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
 <li>Further improvement of PDF rendering</li>
 </ul>
