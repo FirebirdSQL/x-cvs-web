@@ -5,9 +5,9 @@ if (eregi("main.php",$PHP_SELF)) {
 }
 ?>
 <h1>Other Firebird documentation sites</h1>
-
+<!--
 <h5><font color='#E13601'>Listed below are a number of sites that carry useful Firebird documentation.</font></h5>
-
+-->
 <dl>
 
 <dt><i>IBPhoenix:</i></dt>
@@ -30,6 +30,9 @@ if (eregi("main.php",$PHP_SELF)) {
 
 <dt><i>Firebird online manuals at Janus Software:</i></dt>
 <dd><p><a href="http://www.janus-software.com/fbmanual/">http://www.janus-software.com/fbmanual/</a></p></dd>
+
+<dt><i>Stefan Heymann's Firebird articles:</i></dt>
+<dd><p><a href="http://www.destructor.de/firebird/">http://www.destructor.de/firebird/</a></p></dd>
 
 <dt><i>Documentation at DotNetFirebird.org:</i></dt>
 <dd><p><a href="http://www.dotnetfirebird.org/documentation/">http://www.dotnetfirebird.org/documentation/</a></p></dd>
