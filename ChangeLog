@@ -1,12 +1,6 @@
-2006-11-13	paulvink
-	* website/doc/page_userdoc.php 1.13:
-		Added Using Firebird link
-
-	* website/devel/doc/main.php 1.37:
-		Added links to Using Firebird and QSG2.
-
-	* website/doc/page_userdoc.php 1.12:
-		Added Firebird 2 QSG link
+2006-11-27	pcisar
+	* ChangeLog 1.9:
+		changelog update
 
 2006-11-10	paulvink
 	* website/devel/doc/main.php 1.36:
