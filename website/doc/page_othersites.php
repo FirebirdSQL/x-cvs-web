@@ -50,7 +50,7 @@ if (eregi("main.php",$PHP_SELF)) {
   </tr>
   <tr valign="top">
     <td style='padding-bottom: 5px; border-bottom: 1px solid #848D84'>Firebird Wiki</td>
-    <td style='padding-bottom: 5px; border-bottom: 1px solid #848D84'><a href="http://www.firebirdserver.org/wiki/">http://www.firebirdserver.org/wiki/</a></td>
+    <td style='padding-bottom: 5px; border-bottom: 1px solid #848D84'><a href="http://wiki.firebirdsql.org">http://wiki.firebirdsql.org</a></td>
   </tr>
 </table>
 
