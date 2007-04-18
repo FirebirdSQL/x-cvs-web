@@ -53,6 +53,15 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>18 April 2007</i></dt>
+<dd><p>Rodney Gedda has joined our team, and as his first contribution
+       he has just delivered the <cite>Setting up Firebird on Ubuntu
+       Linux</cite> guide.</p></dd>
+
+<dt><i>April 2007</i></dt>
+<dd><p>The latest (patched) Apache FOP code shows a lot of improvements.
+       No more endless FO hacking to prevent widowed headers in our PDFs!</p></dd>
+
 <dt><i>24 January 2007</i></dt>
 <dd><p>The new version of the <cite>Firebird Null Guide</cite> is ready.
        With lots of new topics covered, it has grown to around 4 times

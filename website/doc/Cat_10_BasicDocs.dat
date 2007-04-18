@@ -12,8 +12,8 @@ Basic Documentation
 # One or more empty (or all-blanks) lines mark the end of the section for the
 # current title. After that, either EOF or a following title is expected.
 #
-# Comment lines must have '#' as their first non-blank character. You can't add
-# comments after a 'live' line.
+# Comment lines must have '#' as their first non-blank character. End-of-line
+# comments are not supported.
 
 Firebird 2.0 Quick Start Guide
 en:/pdfmanual/Firebird-2.0-QuickStart.pdf

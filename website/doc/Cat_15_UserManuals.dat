@@ -12,8 +12,8 @@ User Manuals
 # One or more empty (or all-blanks) lines mark the end of the section for the
 # current title. After that, either EOF or a following title is expected.
 #
-# Comment lines must have '#' as their first non-blank character. You can't add
-# comments after a 'live' line.
+# Comment lines must have '#' as their first non-blank character. End-of-line
+# comments are not supported.
 
 Firebird Null Guide
 en:/manual/nullguide.html
@@ -34,6 +34,10 @@ ru:/manual/ru/generatorguide-ru.html
 de:/pdfmanual/de/Firebird-Generatoren.pdf
 en:/pdfmanual/Firebird-Generator-Guide.pdf
 ru:/pdfmanual/ru/Firebird-Generatori.pdf
+
+Setting up Firebird on Ubuntu Linux
+en:/manual/ubusetup.html
+en:/pdfmanual/Firebird-on-Ubuntu.pdf
 
 MS SQL to Firebird Migration Guide
 en:/manual/migration-mssql.html
