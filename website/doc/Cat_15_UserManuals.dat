@@ -38,6 +38,8 @@ ru:/pdfmanual/ru/Firebird-Generatori.pdf
 Setting up Firebird on Ubuntu Linux
 en:/manual/ubusetup.html
 en:/pdfmanual/Firebird-on-Ubuntu.pdf
+it:/manual/it/ubusetup-it.html
+it:/pdfmanual/it/Firebird-su-Ubuntu.pdf
 
 MS SQL to Firebird Migration Guide
 en:/manual/migration-mssql.html

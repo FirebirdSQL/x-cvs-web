@@ -21,5 +21,8 @@ en:/index.php?op=doc&id=fb_1_5_charsets
 Firebird 1.5 Error Codes
 en:/doc/contrib/fb_1_5_errorcodes.pdf
 
+Firebird Date Literals
+en:/doc/contrib/FirebirdDateLiterals.html
+
 Firebird SQL Conformance
 en:/index.php?op=devel&sub=engine&id=SQL_conformance
