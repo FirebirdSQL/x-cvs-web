@@ -53,6 +53,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>5 May 2007</i></dt>
+<dd><p>Important updates and additions to the DocBuilding Howto and Docwriting
+       Guide, mainly to do with our recent transition to FOP 0.93-patched.</p></dd>
+
 <dt><i>18 April 2007</i></dt>
 <dd><p>Rodney Gedda has joined our team, and as his first contribution
        he has just delivered the <cite>Setting up Firebird on Ubuntu
@@ -67,25 +71,6 @@ As from 2005, all our documentation is released under the open-source
        With lots of new topics covered, it has grown to around 4 times
        its previous size.</p></dd>
 
-<dt><i>24 December 2006</i></dt>
-<dd><p>Finally created a proper Firebird documentation index page.
-The links table on this page is no longer necessary, except for a few
-docwriting-related URLs.<p></dd>
-
-<dt><i>16 December 2006</i></dt>
-<dd><p>Umberto Masotti has translated the <cite>Firebird
-       Null Guide</cite> into Italian.</p></dd>
-
-<dt><i>6 December 2006</i></dt>
-<dd><p>David Pugh has contributed the sources of his <cite>Firebird
-       on Mac OSX</cite> paper to the project.</p></dd>
-
-<dt><i>4 December 2006</i></dt>
-<dd><p>Thomas Steinmaurer has translated the Firebird's nbackup tool manual into German.</p></dd>
-
-<dt><i>4 December 2006</i></dt>
-<dd><p>Frank Ingermann has translated his Firebird Generator Guide back to German.</p></dd>
-
 </dl>
 
 
@@ -95,6 +80,12 @@ docwriting-related URLs.<p></dd>
 
 <p>The links in the HTML and PDF columns point to the different
 language versions available for each document.</p>
+
+<!--
+  TODO:
+  Make this a PHP script reading the category file so it will
+  automagically stay up-to-date.
+-->
 
 <table width="100%" border="1" cellpadding="2" cellspacing="2">
   <tr valign="top">
