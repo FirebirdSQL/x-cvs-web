@@ -17,6 +17,10 @@ if (eregi("main.php",$PHP_SELF)) {
     <td><a href="http://www.ibphoenix.com">http://www.ibphoenix.com</a></td>
   </tr>
   <tr valign="top">
+    <td>Firebird FAQ site - very rich content</td>
+    <td><a href="http://www.firebirdfaq.org">http://www.firebirdfaq.org</a></td>
+  </tr>
+  <tr valign="top">
     <td>Ivan Prenosil's Firebird/InterBase site</td>
     <td><a href="http://www.volny.cz/iprenosil/interbase/">http://www.volny.cz/iprenosil/interbase/</a></td>
   </tr>
