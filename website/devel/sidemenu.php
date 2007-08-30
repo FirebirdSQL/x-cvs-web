@@ -8,7 +8,7 @@ if (eregi("sidemenuphp",$PHP_SELF)) {
     $title = "Developer's Corner";
     $content = "
     This is not a support area for Firebird users !
-    If you're looking for support, please refer to <A href=index.php?op=lists#ibsupport>IB-Support</A> mailing list / newgroup.
+    If you're looking for support, please refer to <A href=index.php?op=lists#fbsupport>Firebird-Support</A> mailing list / newgroup.
     <p>
     If you'd like <b>report a bug</b> or see what bugs are known, fixed or open, or if
     you want to <b>submit a feature request</b>, please refer to our 
