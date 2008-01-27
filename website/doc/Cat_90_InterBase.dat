@@ -15,8 +15,8 @@ InterBase 6.0 Manuals
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
-Getting Started
-en:http://www.ibphoenix.com/downloads/60GetStart.zip
+Migration Guide (IB 5.x and below to IB 6.0)
+en:http://www.ibphoenix.com/downloads/InterBase60_MigrationGuide.zip
 
 API Guide
 en:http://www.ibphoenix.com/downloads/60ApiGuide.zip
@@ -41,3 +41,7 @@ en:http://www.ibphoenix.com/downloads/60All.zip
 
 SQL Reference (not included in full set)
 en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_60_sqlref{html}
+
+Migrating from InterBase 6.01 to Firebird 1.5 and 2.0 (third-party HOWTO)
+en:http://www.topicscape.com/InterBase_Firebird_migration/IB2FB.php{html}
+

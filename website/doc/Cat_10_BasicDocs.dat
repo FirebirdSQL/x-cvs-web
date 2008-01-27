@@ -20,6 +20,8 @@ en:/pdfmanual/Firebird-2.0-QuickStart.pdf
 en:/manual/qsg2.html
 de:/manual/de/qsg2-de.html
 de:/pdfmanual/de/Firebird-2.0-Schnellanleitung.pdf
+it:/manual/it/qsg2-it.html
+it:/pdfmanual/it/Guida-rapida-Firebird2_0.pdf
 
 Firebird 1.5 Quick Start Guide
 ru:/manual/ru/qsg15-ru.html
@@ -42,4 +44,4 @@ en:/pdfmanual/Using-Firebird_(wip).pdf
 en:/manual/ufb.html
 
 Frequently Asked Questions
-en:http://www.firebirdsql.org/index.php?op=faq
+en:http://www.firebirdfaq.org{html}

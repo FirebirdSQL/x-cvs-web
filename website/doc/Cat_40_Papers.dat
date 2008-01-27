@@ -55,3 +55,7 @@ en:/index.php?op=useful&id=ostenried_1
 Multi Version Concurrency Control
 en:/doc/whitepapers/fb_vs_ibm_vs_oracle.pdf
 en:/doc/whitepapers/fb_vs_ibm_vs_oracle.htm
+
+Firebird Embedded Stand-alone on Linux HOWTO
+en:http://www.firebirdfaq.org/Firebird-Embedded-Linux-HOWTO.html{html}
+
