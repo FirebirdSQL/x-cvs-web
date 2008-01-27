@@ -53,6 +53,18 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>25 January 2008</i></dt>
+<dd><p>Italian version of the Firebird 2 Quick Start Guide available,
+       translated by Umberto Masotti.</p></dd>
+
+<dt><i>October 2007</i></dt>
+<dd><p>An initiative of Holger Klemt, Frank Ingermann and others: set up a database to gather content for
+       a Firebird SQL Reference - one record per keyword/function. This makes it easy for everyone to contribute
+       even small amounts of text. We'll worry about XML markup later. Meanwhile the database is functional and
+       there's a lot of content to write and update. Would-be contributors, please subscribe to
+       <a href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs</a>
+       and make yourselves known!</p></dd>
+
 <dt><i>5 May 2007</i></dt>
 <dd><p>Important updates and additions to the DocBuilding Howto and Docwriting
        Guide, mainly to do with our recent transition to FOP 0.93-patched.</p></dd>
@@ -65,11 +77,6 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>April 2007</i></dt>
 <dd><p>The latest (patched) Apache FOP code shows a lot of improvements.
        No more endless FO hacking to prevent widowed headers in our PDFs!</p></dd>
-
-<dt><i>24 January 2007</i></dt>
-<dd><p>The new version of the <cite>Firebird Null Guide</cite> is ready.
-       With lots of new topics covered, it has grown to around 4 times
-       its previous size.</p></dd>
 
 </dl>
 
@@ -148,6 +155,7 @@ language versions available for each document.</p>
 
 <h4>Under development</h4>
 <ul>
+<li>Firebird SQL Reference - currently writing and updating content. Still a long way to go till publication.</li>
 <li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
 <li>Further improvement of PDF rendering</li>
 </ul>
