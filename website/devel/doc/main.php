@@ -53,6 +53,9 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>2 March 2008</i></dt>
+<dd><p>Fabio Codebue joined us as a documentation translator. Welcome, Fabio!</p></dd>
+
 <dt><i>28 January 2008</i></dt>
 <dd><p>Norman Dunbar has added a chapter on gfix to the Firebird Command-Line Utilities book.</p></dd>
 
