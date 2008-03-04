@@ -53,6 +53,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>4 March 2008</i></dt>
+<dd><p>Brazilian Portuguese translation of the Firebird File and Metadata Security paper,
+       by Gabriel Frones.</p></dd>
+
 <dt><i>2 March 2008</i></dt>
 <dd><p>Fabio Codebue joined us as a documentation translator. Welcome, Fabio!</p></dd>
 

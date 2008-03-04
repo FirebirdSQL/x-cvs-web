@@ -30,12 +30,18 @@ en:/index.php?op=useful&id=netzka
 Firebird File and Metadata Security
 en:/manual/fbmetasecur.html
 ru:/manual/ru/fbmetasecur-ru.html
+pt-br:/manual/pt_br/fbmetasecur-pt_br.html
 en:/pdfmanual/Firebird-Security.pdf
 ru:/pdfmanual/ru/Firebird-Bezopasnost-Meta.pdf
+pt-br:/pdfmanual/pt_br/Firebird-Seguran&ccedil;a.pdf
 
 Firebird Database Server on MacOSX
 en:/devel/doc/papers/html/paper-fb-macosx.html
 en:/devel/doc/papers/pdf/paper-fb-macosx.pdf
+
+Setting up PHP and Firebird on Linux
+en:/devel/doc/papers/html/paper-fb-phplnx.html
+en:/devel/doc/papers/pdf/paper-fb-phplnx.pdf
 
 User and Password Management
 en:http://www.volny.cz/iprenosil/interbase/ip_ib_isc4.htm
@@ -59,3 +65,5 @@ en:/doc/whitepapers/fb_vs_ibm_vs_oracle.htm
 Firebird Embedded Stand-alone on Linux HOWTO
 en:http://www.firebirdfaq.org/Firebird-Embedded-Linux-HOWTO.html{html}
 
+Firebird RDBMS Win32 and OBDC under PuppyLinux HOWTO
+en:http://compkarori.no-ip.biz:8090/Linux/Installing_Firebird_RDBMS_Win32_and_OBDC_under_PuppyLinux{html}
