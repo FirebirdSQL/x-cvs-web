@@ -112,9 +112,23 @@ if (eregi("main.php",$PHP_SELF)) {
   make_cat_links();
 
   vspace( 10 );
-  echo "<p>The HTML and PDF columns contain links to the various language versions of each document.</p>",
-       "<p><i>Please notice:</i> Many HTML manuals consist of several files.",
-       " If you right-click on a link to download such a manual, you'll only catch the first section.</p>";
+  
+  ?>
+
+  <p>While we <i>are</i> working on full user's and reference guides, the current &quot;standard set&quot; of
+     Firebird manuals still consists of the:
+     <ul>
+       <li><a href="#category_9">InterBase 6.0 manuals</a> (legacy command set and behaviour)</li>
+       <li><a href="#category_2">Firebird Release Notes</a> (our improvements and additions)</li>
+     </ul>
+  </p>
+
+  <!-- <p>The HTML and PDF columns contain links to the various language versions of each document.</p> -->
+
+  <p><i>Please notice:</i> Many HTML manuals consist of several files.
+     If you right-click on a link to download such a manual, you'll only catch the first section.</p>
+
+  <?php
 
   // create table with links to all docs:
   make_table();
