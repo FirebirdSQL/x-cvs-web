@@ -15,16 +15,16 @@ Release Notes
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
-Firebird 2.1 Release Notes (RC 1)
-en:/rlsnotes/Firebird-2.1RC1-ReleaseNotes.pdf
+Firebird 2.1 Release Notes (RC 2)
+en:/rlsnotes/Firebird-2.1RC2-ReleaseNotes.pdf
 en:/rlsnotesh/rlsnotes210.html
 
-Firebird 2 Migration & Installation Notes (2.1 RC 1)
-en:/rlsnotes/Firebird-2.1RC1-Installation.pdf
+Firebird 2 Migration & Installation Notes (2.1 RC 2)
+en:/rlsnotes/Firebird-2.1RC2-Installation.pdf
 en:/rlsnotesh/install210.html
 
-Firebird 2 Cumulative Bug Fixes (2.1 RC 1)
-en:/rlsnotes/Firebird-2.1RC1-BugFixes.pdf
+Firebird 2 Cumulative Bug Fixes (2.0.3 to 2.1 RC 2)
+en:/rlsnotes/Firebird-2.1RC2-BugFixes.pdf
 en:/rlsnotesh/bugfix210.html
 
 Firebird 2.0.3 Release Notes
