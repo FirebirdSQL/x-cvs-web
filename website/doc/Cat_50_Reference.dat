@@ -18,11 +18,20 @@ Reference Material
 Firebird 1.5 Character Sets & Collations
 en:/index.php?op=doc&id=fb_1_5_charsets
 
+Firebird Database Limits
+en:/index.php?op=guide&id=techspec
+
 Firebird 1.5 Error Codes
 en:/doc/contrib/fb_1_5_errorcodes.pdf
 
+Firebird 2.0 Error Codes
+en:/doc/contrib/fb_2_0_errorcodes.pdf
+
 Firebird Date Literals
 en:/doc/contrib/FirebirdDateLiterals.html
+
+Locale/Collation Charts (A. Barkov, MySQL)
+en:http://www.collation-charts.org{html}
 
 Firebird SQL Conformance
 en:/index.php?op=devel&sub=engine&id=SQL_conformance

@@ -15,8 +15,8 @@ Basic Documentation
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
-Firebird 2.0 Quick Start Guide
-en:/pdfmanual/Firebird-2.0-QuickStart.pdf
+Firebird 2.0 and 2.1 Quick Start Guide
+en:/pdfmanual/Firebird-2-QuickStart.pdf
 en:/manual/qsg2.html
 de:/manual/de/qsg2-de.html
 de:/pdfmanual/de/Firebird-2.0-Schnellanleitung.pdf
