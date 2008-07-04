@@ -53,6 +53,12 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+
+<dt><i>4 July 2008</i></dt>
+<dd><p>Published the Firebird 1.5 Language Reference Update. This is our first step toward a
+       complete Firebird Language Reference. Sergey Mereutsa is going to help us with this, using
+       some resources from the company he co-owns.</p></dd>
+
 <dt><i>4 March 2008</i></dt>
 <dd><p>Brazilian Portuguese translation of the Firebird File and Metadata Security paper,
        by Gabriel Frones.</p></dd>
@@ -66,27 +72,6 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>25 January 2008</i></dt>
 <dd><p>Italian version of the Firebird 2 Quick Start Guide available,
        translated by Umberto Masotti.</p></dd>
-
-<dt><i>October 2007</i></dt>
-<dd><p>An initiative of Holger Klemt, Frank Ingermann and others: set up a database to gather content for
-       a Firebird SQL Reference - one record per keyword/function. This makes it easy for everyone to contribute
-       even small amounts of text. We'll worry about XML markup later. Meanwhile the database is functional and
-       there's a lot of content to write and update. Would-be contributors, please subscribe to
-       <a href="http://lists.sourceforge.net/lists/listinfo/firebird-docs">firebird-docs</a>
-       and make yourselves known!</p></dd>
-
-<dt><i>5 May 2007</i></dt>
-<dd><p>Important updates and additions to the DocBuilding Howto and Docwriting
-       Guide, mainly to do with our recent transition to FOP 0.93-patched.</p></dd>
-
-<dt><i>18 April 2007</i></dt>
-<dd><p>Rodney Gedda has joined our team, and as his first contribution
-       he has just delivered the <cite>Setting up Firebird on Ubuntu
-       Linux</cite> guide.</p></dd>
-
-<dt><i>April 2007</i></dt>
-<dd><p>The latest (patched) Apache FOP code shows a lot of improvements.
-       No more endless FO hacking to prevent widowed headers in our PDFs!</p></dd>
 
 </dl>
 
@@ -165,7 +150,8 @@ language versions available for each document.</p>
 
 <h4>Under development</h4>
 <ul>
-<li>Firebird SQL Reference - currently writing and updating content. Still a long way to go till publication.</li>
+<li>Firebird SQL Reference - currently writing and updating content. Still a long way to go
+    before we can publish a full reference.</li>
 <li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
 <li>Further improvement of PDF rendering</li>
 </ul>
@@ -176,7 +162,7 @@ language versions available for each document.</p>
 <li>Additions to IB+Fb coexistence doc, wrt running IB+Fb
 simultaneously</li>
 <li>Reserved words list + glossary (if still useful after we've
-published <cite>Using Firebird</cite>)</li>
+published <cite>Using Firebird</cite> and the <cite>Language Reference</cite>)</li>
 </ul>
 <p>
 
