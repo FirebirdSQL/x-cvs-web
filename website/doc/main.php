@@ -123,6 +123,13 @@ if (eregi("main.php",$PHP_SELF)) {
      </ul>
   </p>
 
+  <p><b>New</b>: The <cite>Firebird 1.5 Language Reference Update</cite>
+                 (<a href="/refdocs/langrefupd15.html">HTML</a> 
+                 | <a href ="/pdfrefdocs/Firebird-1.5-LangRef-Update.pdf">PDF</a>)
+                 documents all the changes in Firebird SQL since IB 6. Use in conjunction with the
+                 <cite>InterBase 6 Language Reference</cite>.
+                 Updates for 2.0 and 2.1, as well as a complete reference, are in preparation.</p>
+
   <!-- <p>The HTML and PDF columns contain links to the various language versions of each document.</p> -->
 
   <p><i>Please notice:</i> Many HTML manuals consist of several files.

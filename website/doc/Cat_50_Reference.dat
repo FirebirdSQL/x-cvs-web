@@ -15,6 +15,10 @@ Reference Material
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
+Firebird 1.5 Language Reference Update
+en:/refdocs/langrefupd15.html
+en:/pdfrefdocs/Firebird-1.5-LangRef-Update.pdf
+
 Firebird 1.5 Character Sets & Collations
 en:/index.php?op=doc&id=fb_1_5_charsets
 
@@ -26,6 +30,9 @@ en:/doc/contrib/fb_1_5_errorcodes.pdf
 
 Firebird 2.0 Error Codes
 en:/doc/contrib/fb_2_0_errorcodes.pdf
+
+Firebird 2.1 Error Codes
+en:/doc/contrib/fb_2_1_errorcodes.pdf
 
 Firebird Date Literals
 en:/doc/contrib/FirebirdDateLiterals.html
