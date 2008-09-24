@@ -24,16 +24,16 @@ it:/manual/it/qsg2-it.html
 it:/pdfmanual/it/Guida-rapida-Firebird2_0.pdf
 
 Firebird 1.5 Quick Start Guide
-ru:/manual/ru/qsg15-ru.html
-ja:/pdfmanual/ja/Firebird-1.5-QuickStart-Jap.pdf
 en:/manual/qsg15.html
-ja:/manual/ja/qsg15-ja.html
 en:/pdfmanual/Firebird-1.5-QuickStart.pdf
-es:/pdfmanual/es/Firebird-1.5-Arranque.pdf
-fr:/pdfmanual/fr/Firebird-1.5-Demarrage.pdf
 es:/manual/es/qsg15-es.html
-ru:/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf
+es:/pdfmanual/es/Firebird-1.5-Arranque.pdf
 fr:/manual/fr/qsg15-fr.html
+fr:/pdfmanual/fr/Firebird-1.5-Demarrage.pdf
+ja:/manual/ja/qsg15-ja.html
+ja:/pdfmanual/ja/Firebird-1.5-QuickStart-Jap.pdf
+ru:/manual/ru/qsg15-ru.html
+ru:/pdfmanual/ru/Firebird-1.5-BystryjStart.pdf
 
 Firebird 1.0 Quick Start Guide
 en:/manual/qsg10.html

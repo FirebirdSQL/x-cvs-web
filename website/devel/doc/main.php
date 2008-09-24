@@ -53,6 +53,8 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>24 September 2008</i></dt>
+<dd><p>The Firebird 2.0 Language Reference Update is out, just in time for the Firebird Conference.</p></dd>
 
 <dt><i>4 July 2008</i></dt>
 <dd><p>Published the Firebird 1.5 Language Reference Update. This is our first step toward a
