@@ -15,6 +15,10 @@ Manuals for Firebird Docwriters
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
+
+Intro to Writing Firebird Docs (conference session)
+en:/pdfmanual/Writing-Firebird-Docs-Intro.pdf
+
 Firebird Docbuilding Howto
 en:/manual/docbuildhowto.html
 en:/pdfmanual/Firebird-Docbuilding-Howto.pdf

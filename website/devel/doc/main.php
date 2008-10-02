@@ -53,6 +53,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>2 October 2008</i></dt>
+<dd><p>Frank Ingermann's conference session - a hands-on introduction to Firebird docwriting and docbuilding -
+     is now available for download in PDF format.</p></dd>
+
 <dt><i>24 September 2008</i></dt>
 <dd><p>The Firebird 2.0 Language Reference Update is out, just in time for the Firebird Conference.</p></dd>
 
@@ -97,6 +101,7 @@ language versions available for each document.</p>
     <th "width="20%">HTML</th>
     <th "width="20%">PDF</th>
   </tr>
+
   <tr valign="top">
     <td>Overall Table of Contents<br>
         (only for our DocBook-based manuals!)</td>
@@ -118,6 +123,11 @@ language versions available for each document.</p>
         <a href="/pdfmanual/nl/">nl</a>
         <a href="/pdfmanual/pt_br/">pt-br</a>
         <a href="/pdfmanual/ru/">ru</a></td>
+  </tr>
+  <tr valign='top'>
+    <td>Intro to Writing Firebird Docs (conference session)</td>
+    <td>&nbsp;</td>
+    <td><a href="/pdfmanual/Writing-Firebird-Docs-Intro.pdf">en</a></td>
   </tr>
   <tr valign="top">
     <td>Docbuilding Howto</td>
