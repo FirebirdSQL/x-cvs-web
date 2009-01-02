@@ -10,7 +10,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   Firebird/InterBase documentation to put what you need literally at 
   your fingertips.
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content,1);
   
   $title = "Firebird Documentation Project";
   $content = "
@@ -24,11 +24,13 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   
   $title = "Firebird License Conditions";
   $content = "
-  InterBase® was released by Borland under <A href=index.php?op=doc&amp;id=ipl>InterBase 
-  Public Licence</A>, a variant of <A href=http://www.mozilla.org/MPL/MPL-1.1.html>Mozilla 
-  Public Licence</A> (MPL).
+  InterBase&reg; was released by Inprise under <A href=\"index.php?op=doc&amp;id=ipl\">InterBase 
+  Public Licence</A>.   New Firebird&reg; modules are released under the <A href=\"index.php?op=doc&amp;id=idpl\">Initial Developer's Public License</a>.  Both are variants of the <A href=http://www.mozilla.org/MPL/MPL-1.1.html>Mozilla 
+  Public Licence V.1.1</A> (MPL).
+<br><br>
+  Firebird Project documentation is released under the <a href=\"./manual/pdl.html\">Public Documentation License</a> unless stated otherwise.
   <br>";
 
-  sidebox($title,$content);
+  sidebox($title,$content,2);
 
 ?>
