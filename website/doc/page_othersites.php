@@ -25,6 +25,10 @@ if (eregi("main.php",$PHP_SELF)) {
     <td><a href="http://www.volny.cz/iprenosil/interbase/">http://www.volny.cz/iprenosil/interbase/</a></td>
   </tr>
   <tr valign="top">
+    <td>IBSurgeon's Database Rescue site</td>
+    <td><a href="http://www.ib-aid.com/knowledgebase/">http://www.ib-aid.com/knowledgebase/</a></td>
+  </tr>
+  <tr valign="top">
     <td>Claudio Valderrama's Firebird/InterBase site</td>
     <td><a href="http://www.cvalde.net">http://www.cvalde.net</a></td>
   </tr>
