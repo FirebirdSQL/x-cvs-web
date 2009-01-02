@@ -46,3 +46,6 @@ en:http://www.collation-charts.org{html}
 
 Firebird SQL Conformance
 en:/index.php?op=devel&sub=engine&id=SQL_conformance
+
+ISO 9075 SQL Standard Keywords/Reserved Words
+en:/doc/contrib/standardSQLkeywords.html
