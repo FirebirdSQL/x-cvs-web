@@ -21,7 +21,7 @@ visit
 (or choose <cite> Documentation</cite> -> <cite>Firebird
 Documentation Index</cite> from the top menu).</p>
 
-<p>If you're interested in how we write and produce our manuals, read
+<p>If you are interested in how we write and produce our manuals, read
 on.</p>
 
 
@@ -53,6 +53,10 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>3 January 2009</i></dt>
+<dd><p>German translation of the Firebird File and Metadata Security paper,
+       by Daniel Albuschat.</p></dd>
+
 <dt><i>2 October 2008</i></dt>
 <dd><p>Frank Ingermann's conference session - a hands-on introduction to Firebird docwriting and docbuilding -
      is now available for download in PDF format.</p></dd>
@@ -63,7 +67,7 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>4 July 2008</i></dt>
 <dd><p>Published the Firebird 1.5 Language Reference Update. This is our first step toward a
        complete Firebird Language Reference. Sergey Mereutsa is going to help us with this, using
-       some resources from the company he co-owns.</p></dd>
+       some resources of the company he co-owns.</p></dd>
 
 <dt><i>4 March 2008</i></dt>
 <dd><p>Brazilian Portuguese translation of the Firebird File and Metadata Security paper,
@@ -102,27 +106,6 @@ language versions available for each document.</p>
     <th "width="20%">PDF</th>
   </tr>
 
-  <tr valign="top">
-    <td>Overall Table of Contents<br>
-        (only for our DocBook-based manuals!)</td>
-    <td><a href="/manual/de/index.html">de</a>
-        <a href="/manual/index.html">en</a>
-        <a href="/manual/es/index.html">es</a>
-        <a href="/manual/fr/index.html">fr</a>
-        <a href="/manual/it/index.html">it</a>
-        <a href="/manual/ja/index.html">ja</a>
-        <a href="/manual/nl/index.html">nl</a>
-        <a href="/manual/pt_br/index.html">pt-br</a>
-        <a href="/manual/ru/index.html">ru</a></td>
-    <td><a href="/pdfmanual/de/">de</a>
-        <a href="/pdfmanual/">en</a>
-        <a href="/pdfmanual/es/">es</a>
-        <a href="/pdfmanual/fr/">fr</a>
-        <a href="/pdfmanual/it/">it</a>
-        <a href="/pdfmanual/ja/">ja</a>
-        <a href="/pdfmanual/nl/">nl</a>
-        <a href="/pdfmanual/pt_br/">pt-br</a>
-        <a href="/pdfmanual/ru/">ru</a></td>
   </tr>
   <tr valign='top'>
     <td>Intro to Writing Firebird Docs (conference session)</td>
@@ -162,15 +145,14 @@ language versions available for each document.</p>
 
 <h4>Under development</h4>
 <ul>
-<li>Firebird SQL Reference - currently writing and updating content. Still a long way to go
-    before we can publish a full reference.</li>
-<li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
+<li>Firebird SQL Reference - currently working on the Firebird 2.1 Language Update Reference</li>
 <li>Further improvement of PDF rendering</li>
 </ul>
 <p>
 
 <h4>Future plans</h4>
 <ul>
+<li>Update &amp; publication of more <cite>Using Firebird</cite> chapters</li>
 <li>Additions to IB+Fb coexistence doc, wrt running IB+Fb
 simultaneously</li>
 <li>Reserved words list + glossary (if still useful after we've
