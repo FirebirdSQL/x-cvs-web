@@ -29,12 +29,13 @@ en:/index.php?op=useful&id=netzka
 
 Firebird File and Metadata Security
 en:/manual/fbmetasecur.html
-ru:/manual/ru/fbmetasecur-ru.html
-pt-br:/manual/pt_br/fbmetasecur-pt_br.html
-de:/pdfmanual/de/Firebird-Sicherheit.pdf
 en:/pdfmanual/Firebird-Security.pdf
+de:/pdfmanual/de/Firebird-Sicherheit.pdf
+de:/manual/de/Firebird-Sicherheit.html
+pt-br:/manual/pt_br/fbmetasecur-pt_br.html
+pt-br:/pdfmanual/pt_br/Firebird-Seguranca.pdf
+ru:/manual/ru/fbmetasecur-ru.html
 ru:/pdfmanual/ru/Firebird-Bezopasnost-Meta.pdf
-pt-br:/pdfmanual/pt_br/Firebird-Seguran&ccedil;a.pdf
 
 Firebird Database Server on MacOSX
 en:/devel/doc/papers/html/paper-fb-macosx.html
