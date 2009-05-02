@@ -53,6 +53,9 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>April 2009</i></dt>
+<dd><p>Marius Popa joined us as a documentation translator. Welcome, Marius!</p></dd>
+
 <dt><i>3 January 2009</i></dt>
 <dd><p>German translation of the Firebird File and Metadata Security paper,
        by Daniel Albuschat.</p></dd>
@@ -68,20 +71,6 @@ As from 2005, all our documentation is released under the open-source
 <dd><p>Published the Firebird 1.5 Language Reference Update. This is our first step toward a
        complete Firebird Language Reference. Sergey Mereutsa is going to help us with this, using
        some resources of the company he co-owns.</p></dd>
-
-<dt><i>4 March 2008</i></dt>
-<dd><p>Brazilian Portuguese translation of the Firebird File and Metadata Security paper,
-       by Gabriel Frones.</p></dd>
-
-<dt><i>2 March 2008</i></dt>
-<dd><p>Fabio Codebue joined us as a documentation translator. Welcome, Fabio!</p></dd>
-
-<dt><i>28 January 2008</i></dt>
-<dd><p>Norman Dunbar has added a chapter on gfix to the Firebird Command-Line Utilities book.</p></dd>
-
-<dt><i>25 January 2008</i></dt>
-<dd><p>Italian version of the Firebird 2 Quick Start Guide available,
-       translated by Umberto Masotti.</p></dd>
 
 </dl>
 
