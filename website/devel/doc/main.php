@@ -53,6 +53,9 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>10 July 2009</i></dt>
+<dd><p>The Firebird 2.1 Language Reference Update is available!</p></dd>
+
 <dt><i>April 2009</i></dt>
 <dd><p>Marius Popa joined us as a documentation translator. Welcome, Marius!</p></dd>
 
