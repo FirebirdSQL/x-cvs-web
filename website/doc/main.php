@@ -124,17 +124,15 @@ if (eregi("main.php",$PHP_SELF)) {
   </p>
 
   <p><font color='#E13601'><b>New</b></font>:
-                 The <cite>Firebird 2.0 Language Reference Update</cite>
-                 (<a href="/refdocs/langrefupd20.html">HTML</a>
-                 | <a href ="/pdfrefdocs/Firebird-2.0-LangRef-Update.pdf">PDF</a>)
+                 The <cite>Firebird 2.1 Language Reference Update</cite>
+                 (<a href="/refdocs/langrefupd21.html">HTML</a> - PDF coming later)
                  documents all the changes in Firebird SQL since IB 6. Use in conjunction with the
                  <cite>InterBase 6 Language Reference</cite>.
 
-                 Versions for Firebird 1.5 were already available
-                 (<a href="/refdocs/langrefupd15.html">HTML</a>
-                 | <a href ="/pdfrefdocs/Firebird-1.5-LangRef-Update.pdf">PDF</a>).
+                 Versions for Firebird 1.5 and 2.0 were already available; see the
+                 <a href="#category_5">Reference Material</a> section on this page.
 
-                 Updates for Firebird 2.1, as well as a complete reference, are in preparation.</p>
+                 A complete reference is in preparation.</p>
 
   <!-- <p>The HTML and PDF columns contain links to the various language versions of each document.</p> -->
 
@@ -482,7 +480,7 @@ if (eregi("main.php",$PHP_SELF)) {
     $links = array();
     foreach( $linkarray as $linkinfo )
     {
-      $ahref     = 'a href="' . $linkinfo->url  . '"';
+      $ahref     = 'a href="' . $linkinfo->url . '"';
       $title_alt = ' title="' . $linkinfo->file . '" alt="' . $linkinfo->file . '"';
       $extra     = $linkinfo->type == 'html' || $linkinfo->type == 'pdf' ? "" : ":$linkinfo->type";
       $links[]   = '<' . $ahref . $title_alt . '>' . $linkinfo->lang  . $extra . '</a>';

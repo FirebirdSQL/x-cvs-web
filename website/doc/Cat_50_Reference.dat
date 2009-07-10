@@ -15,6 +15,9 @@ Reference Material
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
+Firebird 2.1 Language Reference Update
+en:/refdocs/langrefupd21.html
+
 Firebird 2.0 Language Reference Update
 en:/refdocs/langrefupd20.html
 en:/pdfrefdocs/Firebird-2.0-LangRef-Update.pdf

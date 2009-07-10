@@ -53,3 +53,7 @@ en:/doc/contrib/DMX-PHP-FB.pdf
 
 Using Firebird with OpenOffice
 en:/doc/contrib/OOoFBvp.pdf
+
+Tracking Down Crashes on Linux
+en:http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_gdb_linux{html}
+

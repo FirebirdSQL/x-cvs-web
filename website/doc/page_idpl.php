@@ -1,5 +1,5 @@
 <?php
-if (eregi("page_ipl.php",$PHP_SELF)) {
+if (eregi("page_idpl.php",$PHP_SELF)) {
   Header("Location: index.php");
   die();
 }
@@ -10,28 +10,28 @@ if (eregi("page_ipl.php",$PHP_SELF)) {
 <P> 1. Definitions </P>
 <P> 1.0 &quot;<B>Commercial Use</B>&quot; means distribution or otherwise
 making the Covered Code available to a third party. </P>
-<P> 1.1 ''<B>Contributor</B>'' means each entity that creates or contributes to
+<P> 1.1 &quot;<B>Contributor</B>&quot; means each entity that creates or contributes to
 the creation of Modifications. </P>
-<P> 1.2 ''<B>Contributor Version</B>'' means the combination of the Original
+<P> 1.2 &quot;<B>Contributor Version</B>&quot; means the combination of the Original
 Code, prior Modifications used by a Contributor, and the Modifications made by
 that particular Contributor. </P>
-<P> 1.3. ''<B>Covered Code</B>'' means the Original Code or Modifications or
+<P> 1.3. &quot;<B>Covered Code</B>&quot; means the Original Code or Modifications or
 the combination of the Original Code and Modifications, in each case including
 portions thereof. </P>
-<P>1.4. ''<B>Electronic Distribution Mechanism</B>'' means a mechanism
+<P>1.4. &quot;<B>Electronic Distribution Mechanism</B>&quot; means a mechanism
 generally accepted in the software development community for the electronic
 transfer of data. </P>
-<P> 1.5. ''<B>Executable</B>'' means Covered Code in any form other than Source
+<P> 1.5. &quot;<B>Executable</B>&quot; means Covered Code in any form other than Source
 Code. </P>
-<P> 1.6. ''<B>Initial Developer</B>'' means the individual or entity identified
+<P> 1.6. &quot;<B>Initial Developer</B>&quot; means the individual or entity identified
 as the Initial Developer in the Source Code notice required by Exhibit A. </P>
-<P> 1.7. ''<B>Larger Work</B>'' means a work which combines Covered Code or
+<P> 1.7. &quot;<B>Larger Work</B>&quot; means a work which combines Covered Code or
 portions thereof with code not governed by the terms of this License. </P>
-<P> 1.8. ''<B>License</B>'' means this document. </P>
+<P> 1.8. &quot;<B>License</B>&quot; means this document. </P>
 <P> 1.8.1. &quot;<B>Licensable</B>&quot; means having the right to grant, to
 the maximum extent possible, whether at the time of the initial grant or
 subsequently acquired, any and all of the rights conveyed herein. </P>
-<P>1.9. ''<B>Modifications</B>'' means any addition to or deletion from the
+<P>1.9. &quot;<B>Modifications</B>&quot; means any addition to or deletion from the
 substance or structure of either the Original Code or any previous
 Modifications. When Covered Code is released as a series of files, a
 Modification is: </P>
@@ -39,14 +39,14 @@ Modification is: </P>
 Code or previous Modifications. </P>
 <P>Any new file that contains any part of the Original Code or previous
 Modifications. </P>
-<P> 1.10. ''<B>Original Code</B>'' means Source Code of computer software code
+<P> 1.10. &quot;<B>Original Code</B>&quot; means Source Code of computer software code
 which is described in the Source Code notice required by Exhibit A as Original
 Code, and which, at the time of its release under this License is not already
 Covered Code governed by this License. </P>
 <P> 1.10.1. &quot;<B>Patent Claims</B>&quot; means any patent claim(s), now
 owned or hereafter acquired, including without limitation, method, process, and
 apparatus claims, in any patent Licensable by grantor. </P>
-<P>1.11. ''<B>Source Code</B>'' means the preferred form of the Covered Code
+<P>1.11. &quot;<B>Source Code</B>&quot; means the preferred form of the Covered Code
 for making modifications to it, including all modules it contains, plus any
 associated interface definition files, scripts used to control compilation and
 installation of an Executable, or source code differential comparisons against
@@ -54,12 +54,12 @@ either the Original Code or another well known, available Covered Code of the
 Contributor's choice. The Source Code can be in a compressed or archival form,
 provided the appropriate decompression or de-archiving software is widely
 available for no charge. </P>
-<P> 1.12. &quot;<B>You</B>'' (or &quot;<B>Your</B>&quot;) means an individual
+<P> 1.12. &quot;<B>You</B>&quot; (or &quot;<B>Your</B>&quot;) means an individual
 or a legal entity exercising rights under, and complying with all of the terms
 of, this License or a future version of this License issued under Section 6.1.
-For legal entities, &quot;You'' includes any entity w hich controls, is
+For legal entities, &quot;You&quot; includes any entity w hich controls, is
 controlled by, or is under common control with You. For purposes of this
-definition, &quot;control'' means (a) the power, direct or indirect, to cause
+definition, &quot;control&quot; means (a) the power, direct or indirect, to cause
 the direction or management of such entity, whether by contract or otherwise,
 or (b) ownership of more than fifty percent (50%) of the outstanding shares or
 beneficial ownership of such entity.</P>
@@ -147,7 +147,7 @@ which You describe the origin or ownership of the Covered Code.</P>
 <P> a) Third Party Claims. If Contributor has knowledge that a license under a
 third party's intellectual property rights is required to exercise the rights
 granted by such Contributor under Sections 2.1 or 2.2, Contributor must include
-a text file with the Source Code distribution titled &quot;LEGAL'' which
+a text file with the Source Code distribution titled &quot;LEGAL&quot; which
 describes the claim and the party making the claim in sufficient detail that a
 recipient will know whom to contact. If Contributor obtains such knowledge
 after the Modification is made available as described in Section 3.2,
@@ -230,8 +230,8 @@ modify the terms applicable to Covered Code created under this License. </P>
 <P><B>6.3. Derivative Works.</B> If You create or use a modified version of
 this License (which you may only do in order to apply it to code which is not
 already Covered Code governed by this License), You must </P>
-<P> (a) rename Your license so that the phrases ''Mozilla'', ''MOZILLAPL'',
-''MOZPL'', ''Netscape'', &quot;MPL&quot;, ''NPL&quot;, or any confusingly
+<P> (a) rename Your license so that the phrases &quot;Mozilla&quot;, &quot;MOZILLAPL&quot;,
+&quot;MOZPL&quot;, &quot;Netscape&quot;, &quot;MPL&quot;, &quot;NPL&quot;, or any confusingly
 similar phrases do not appear in your license (except to note that your license
 differs from this License) and </P>
 <P> (b) otherwise make it clear that Your version of the license contains terms
@@ -256,7 +256,7 @@ Public License&quot;. </P>
 <P> 5) Amendments I, II, III, V, and VI have been deleted. </P>
 <P> 6) Exhibit A, Netscape Public License has been deleted </P>
 <P> 7. DISCLAIMER OF WARRANTY. </P>
-<P>COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN &quot;AS IS'' BASIS,
+<P>COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT
 LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE,
 FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE
@@ -323,9 +323,9 @@ LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
 INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT
 APPLY TO YOU. </P>
 <P> 10. U.S. GOVERNMENT END USERS. </P>
-<P> The Covered Code is a ''commercial item,'' as that term is defined in 48
-C.F.R. 2.101 (Oct. 1995), consisting of ''commercial computer software'' and
-''commercial computer software documentation,'' as such terms are used in 48
+<P> The Covered Code is a &quot;commercial item&quot;, as that term is defined in 48
+C.F.R. 2.101 (Oct. 1995), consisting of &quot;commercial computer software&quot; and
+&quot;commercial computer software documentation&quot;, as such terms are used in 48
 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R.
 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users
 acquire Covered Code with only those rights set forth herein. </P>
