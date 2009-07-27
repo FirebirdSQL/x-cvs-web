@@ -125,9 +125,10 @@ if (eregi("main.php",$PHP_SELF)) {
 
   <p><font color='#E13601'><b>New</b></font>:
                  The <cite>Firebird 2.1 Language Reference Update</cite>
-                 (<a href="/refdocs/langrefupd21.html">HTML</a> - PDF coming later)
-                 documents all the changes in Firebird SQL since IB 6. Use in conjunction with the
-                 <cite>InterBase 6 Language Reference</cite>.
+                 (<a href="/refdocs/langrefupd21.html">HTML</a> |
+                  <a href="/pdfrefdocs/Firebird-2.1-LangRef-Update.pdf">PDF</a>)
+                 documents all the changes in Firebird SQL since IB 6.
+                 Use in conjunction with the <cite>InterBase 6 Language Reference</cite>.
 
                  Versions for Firebird 1.5 and 2.0 were already available; see the
                  <a href="#category_5">Reference Material</a> section on this page.
