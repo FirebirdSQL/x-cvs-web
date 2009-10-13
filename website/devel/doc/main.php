@@ -53,6 +53,9 @@ As from 2005, all our documentation is released under the open-source
 
 <dl>
 
+<dt><i>October 2009</i></dt>
+<dd><p>Norman Dunbar has added chapters on gbak and fbmgr to the Commandline Utilities book.</p></dd>
+
 <dt><i>10 July 2009</i></dt>
 <dd><p>The Firebird 2.1 Language Reference Update is available!</p></dd>
 
@@ -62,18 +65,6 @@ As from 2005, all our documentation is released under the open-source
 <dt><i>3 January 2009</i></dt>
 <dd><p>German translation of the Firebird File and Metadata Security paper,
        by Daniel Albuschat.</p></dd>
-
-<dt><i>2 October 2008</i></dt>
-<dd><p>Frank Ingermann's conference session - a hands-on introduction to Firebird docwriting and docbuilding -
-     is now available for download in PDF format.</p></dd>
-
-<dt><i>24 September 2008</i></dt>
-<dd><p>The Firebird 2.0 Language Reference Update is out, just in time for the Firebird Conference.</p></dd>
-
-<dt><i>4 July 2008</i></dt>
-<dd><p>Published the Firebird 1.5 Language Reference Update. This is our first step toward a
-       complete Firebird Language Reference. Sergey Mereutsa is going to help us with this, using
-       some resources of the company he co-owns.</p></dd>
 
 </dl>
 
