@@ -119,25 +119,39 @@ if (eregi("main.php",$PHP_SELF)) {
      Firebird manuals still consists of the:
      <ul>
        <li><a href="#category_9">InterBase 6.0 manuals</a> (legacy command set and behaviour)</li>
-       <li><a href="#category_2">Firebird Release Notes</a> (our improvements and additions)</li>
+       <li><a href="#category_5">Firebird LangRef Updates</a> (our SQL improvements and additions)</li>
+       <li><a href="#category_2">Firebird Release Notes</a> (all our improvements and additions)</li>
      </ul>
   </p>
 
-  <p><font color='#E13601'><b>New</b></font>:
-                 The <cite>Firebird 2.1 Language Reference Update</cite>
-                 (<a href="/refdocs/langrefupd21.html">HTML</a> |
-                  <a href="/pdfrefdocs/Firebird-2.1-LangRef-Update.pdf">PDF</a>)
-                 documents all the changes in Firebird SQL since IB 6.
-                 Use in conjunction with the <cite>InterBase 6 Language Reference</cite>.
+  <?php vspace( 10 ); ?>
 
-                 Versions for Firebird 1.5 and 2.0 were already available; see the
-                 <a href="#category_5">Reference Material</a> section on this page.
+  <table width='100%' border='0' cellpadding='3' cellspacing='2'>
+  <tr valign='top'><td><font color='#E13601' size='3'><b>Latest</b></font></td></tr>
+  </table>
 
-                 A complete reference is in preparation.</p>
+  <table width='100%' border='0' cellpadding='3' cellspacing='2'>
+    <tr valign='top'>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Oct 2009</font></td>
+      <td>The <cite>Firebird Commandline Utilities</cite> book
+                   (<a href="/manual/fbutils.html">HTML</a>|<a href="/pdfmanual/Firebird-Utils-WIP.pdf">PDF</a>)
+                   now has chapters on gbak and fbmgr.</td>
+    </tr>
+    <tr valign='top'>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Sep 2009</font></td>
+      <td><cite>Firebird 2.1.3 Release Notes</cite>
+                 (<a href="/rlsnotesh/rlsnotes210.html">HTML</a>|<a href="/rlsnotes/Firebird-2.1.3-ReleaseNotes.pdf">PDF</a>)</td>
+    </tr>
+    <tr valign='top'>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Aug 2009</font></td>
+      <td><cite>Firebird 2.5 Beta 2 Release Notes</cite>
+                 (<a href="/rlsnotesh/rlsnotes25.html">HTML</a>)</td>
+    </tr>
+  </table>
 
-  <!-- <p>The HTML and PDF columns contain links to the various language versions of each document.</p> -->
+  <?php vspace( 10 ); ?>
 
-  <p><i>Please notice:</i> Many HTML manuals consist of several files.
+  <p style='padding: 0px 5px'><i>Please notice:</i> Many HTML manuals consist of several files.
      If you right-click on a link to download such a manual, you'll only catch the first section.</p>
 
   <?php
