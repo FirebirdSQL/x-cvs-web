@@ -133,19 +133,19 @@ if (eregi("main.php",$PHP_SELF)) {
   <table width='100%' border='0' cellpadding='3' cellspacing='2'>
     <tr valign='top'>
       <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Oct 2009</font></td>
-      <td>The <cite>Firebird Commandline Utilities</cite> book
-                   (<a href="/manual/fbutils.html">HTML</a>|<a href="/pdfmanual/Firebird-Utils-WIP.pdf">PDF</a>)
-                   now has chapters on gbak and fbmgr.</td>
+      <td>The <cite>Firebird Commandline Utilities</cite> book has been split into separate manuals.<br>
+          New: <cite>Gbak user manual</cite> (<a href="/manual/gbak.html">HTML</a>|<a href="/pdfmanual/Firebird-gbak.pdf">PDF</a>),
+          <cite>Fbmgr user manual</cite> (<a href="/manual/fbmgr.html">HTML</a>|<a href="/pdfmanual/Firebird-fbmgr.pdf">PDF</a>).</td>
     </tr>
     <tr valign='top'>
       <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Sep 2009</font></td>
       <td><cite>Firebird 2.1.3 Release Notes</cite>
-                 (<a href="/rlsnotesh/rlsnotes210.html">HTML</a>|<a href="/rlsnotes/Firebird-2.1.3-ReleaseNotes.pdf">PDF</a>)</td>
+          (<a href="/rlsnotesh/rlsnotes210.html">HTML</a>|<a href="/rlsnotes/Firebird-2.1.3-ReleaseNotes.pdf">PDF</a>)</td>
     </tr>
     <tr valign='top'>
       <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Aug 2009</font></td>
       <td><cite>Firebird 2.5 Beta 2 Release Notes</cite>
-                 (<a href="/rlsnotesh/rlsnotes25.html">HTML</a>)</td>
+          (<a href="/rlsnotesh/rlsnotes25.html">HTML</a>)</td>
     </tr>
   </table>
 

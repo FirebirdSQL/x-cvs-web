@@ -67,7 +67,31 @@ fr:/pdfmanual/fr/Firebird-nbackup-fr.pdf
 nl:/pdfmanual/nl/Firebird-nbackup-nl.pdf
 ru:/pdfmanual/ru/Firebird-nbackup-ru.pdf
 
-Firebird Commandline Utilities (work in progress)
+Firebird's gsec User Management tool
+en:/manual/gsec.html
+en:/pdfmanual/Firebird-gsec.pdf
+
+Firebird's gbak Backup and Restore tool
+en:/manual/gbak.html
+en:/pdfmanual/Firebird-gbak.pdf
+
+Firebird's gfix Database Housekeeping tool
+en:/manual/gfix.html
+en:/pdfmanual/Firebird-gfix.pdf
+
+Firebird's gsplit Dumpfile Splitting tool
+en:/manual/gsplit.html
+en:/pdfmanual/Firebird-gsplit.pdf
+
+Firebird's Shell Script tools
+en:/manual/fb-shell-scripts.html
+en:/pdfmanual/Firebird-fb-shell-scripts.pdf
+
+Firebird's fbmgr Database Engine Manager tool
+en:/manual/fbmgr.html
+en:/pdfmanual/Firebird-fbmgr.pdf
+
+Firebird Commandline Utilities (English version obsolete!)
 en:/manual/fbutils.html
 pt-br:/manual/pt_br/fbutils-pt_br.html
 ru:/manual/ru/fbutils-ru.html
