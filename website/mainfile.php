@@ -1,6 +1,6 @@
 <?php
 
-foreach ($HTTP_GET_VARS as $secvalue) {
+foreach ($_GET as $secvalue) {
     if (eregi("<[^>]*script*\"?[^>]*>", $secvalue) OR eregi("\([^>]*.*\"?[^>]*\)", $secvalue)) {
 	die ("I don't like you...");
     }
@@ -87,38 +87,89 @@ function GetRabbitInfoLink ($rabbit, $echo = false) {
   else return $result ;
 }
 
-function GetDirectoryList ($path) {
-  global $rootDir;
-  $pwd = getcwd();
-  chdir($path);
-  $d = dir(".");
-  while($entry=$d->read()) {
-      if (is_dir($entry) && ($entry != ".") && ($entry != "..")) $dir[] = $entry ;
+function path_to_file ($dir, $filename) {
+  $pathsep = '/';
+  $len = strlen($dir);
+  if ($len == 0 || $dir[$len-1] == $pathsep) {
+    return $dir.$filename;
   }
-  $d->close();
-  chdir($pwd);
-  return $dir;
+  else {
+    return $dir.$pathsep.$filename;
+  }
 }
 
-function GetFileList ($path, $flags = "", $regexp = "") {
-  global $rootDir;
-  $flags .= " ";  // Important for correct evaluation of strpos below !!!
-  $pwd = getcwd();
-  chdir($path);
-  if ($regexp == "") $regexp = ".*";
-  $d = dir(".");
-  while($entry=$d->read()) {
-      if (is_file($entry)) {
-        if (!((strpos($flags,"R") && !is_readable($entry))
-           || (strpos($flags,"W") && !is_writable($entry)))
-           && ereg($regexp,$entry)
-           )
-        $dir[] = $entry ;
+/*
+   Get entries from a directory.
+
+   $path    - path to directory to be listed (default is current dir)
+   $type    - 'd'          : list only directories
+              'f'          : list only regular files
+              anything else: list all types (default)
+   $flags   - 'R': entry must be readable to be listed
+              'W': entry must be writable to be listed
+              R and W may be combined, or be both absent (latter is default)
+   $include - a Perl-compatible regexp pattern or array thereof (default includes all)
+   $exclude - a Perl-compatible regexp pattern or array thereof (default excludes nothing)
+
+   @result: an array with zero or more strings.
+
+   An entry is listed if and only if all of the following are true:
+   - the (optional) type is matched
+   - the (optional) flags are matched
+   - at least one include pattern is matched
+   - no exclude pattern is matched
+
+   With the default argument values, every entry is included.
+*/
+function GetDirEntries ($path = '.', $type = '', $flags = '', $include = array('/.*/'), $exclude = array()) {
+  if (is_string($include)) $include = array($include);
+  if (is_string($exclude)) $exclude = array($exclude);
+
+  $d = dir($path);
+  if (!is_object($d)) return array();  // or null - but then caller must be prepared for this
+
+  $entries = array();
+  while (false !== ($entry = $d->read())) {
+    // prepend path for use in file/dir functions:
+    $path_to_entry = path_to_file($path, $entry);
+    // skip if entry is not of the right type:
+    if (   $type == 'd' && !is_dir($path_to_entry)
+        || $type == 'f' && !is_file($path_to_entry)) {
+      continue;
+    }
+    // skip if entry is not readable/writable while it ought to be:
+    if (   (strpos($flags, 'R') !== false && !is_readable($path_to_entry))
+        || (strpos($flags, 'W') !== false && !is_writable($path_to_entry))) {
+      continue;
+    }
+    // skip if any exclude pattern matched:
+    foreach ($exclude as $excl) {
+      if (preg_match($excl, $entry)) {
+        continue 2; // i.e. continue the while loop
       }
+    }
+    // add if any include pattern matched:
+    foreach ($include as $incl) {
+      if (preg_match($incl, $entry)) {
+        $entries[] = $entry;
+        break;
+      }
+    }
   }
   $d->close();
-  chdir($pwd);
-  return $dir;
+
+  return $entries;
+}
+
+function GetDirectoryList ($path = '.', $flags = '') {
+  // get all dir entries except '.' and '..'
+  return GetDirEntries($path, 'd', $flags, '/.*/', '/^\.{1,2}$/');
+}
+
+function GetFileList ($path = '.', $flags = '', $regexp = '') {
+  // GetDirEntries wants a delimited regexp; ereg will disappear!
+  $include = $regexp == '' ? '/.*/' : '/'.$regexp.'/';
+  return GetDirEntries($path, 'f', $flags, $include);
 }
 
 function OpenTable() {
@@ -258,8 +309,11 @@ function filter_text($Message, $strip="") {
     return ($EditedMessage);
 }
 
-function sidebox($title, $content) {
-global $textcolor1, $textcolor2, $bgcolor1;
+function sidebox($title, $content, $isfirst=0) {
+global $textcolor1, $textcolor2, $bgcolor1,$sidetop,$sidebtm;
+
+if ($isfirst == 1) {
+  echo "$sidetop"; }
 ?>
 <table border="0" cellspacing="0" cellpadding="0" width="200">
 <tr><td>
@@ -279,11 +333,18 @@ global $textcolor1, $textcolor2, $bgcolor1;
   <table border="0" cellspacing="0" cellpadding="3" width="200" bgcolor="#000000">
   <tr><td class="normal" bgcolor="<?php echo"$bgcolor1"; ?>" align="left">
     <br><?php echo"$content"; ?><br>
-  </td>
-<!--   <td valign=top bgcolor="<?php echo $bgcolor1 ?>" width=2><img alt="" src=images/1x1.gif width=1></td> -->
+    </td>
   </tr></table>
 </td>
-</tr></table>   
+</tr>
+<?php 
+if ($isfirst == 2) {
+  echo "
+<tr><td>$sidebtm</td></tr>
+"; }
+?> 
+
+</table>   
 <?php
 }
 
