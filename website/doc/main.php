@@ -217,7 +217,7 @@ if (eregi("main.php",$PHP_SELF)) {
   {
     global $categories;
 
-    $lines = file( &$filename );
+    $lines = file( $filename );
     if ( $lines === FALSE ) return FALSE;
 
     $category;  // becomes reference to current category
