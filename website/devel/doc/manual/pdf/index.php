@@ -19,80 +19,80 @@
   }
   
   
-  /*
-     Get entries from a directory.
-  
-     $path    - path to directory to be listed (default is current dir)
-     $type    - 'd'          : list only directories
-                'f'          : list only regular files
-                anything else: list all types
-     $flags   - 'R': entry must be readable to be listed
-                'W': entry must be writable to be listed
-                R and W may be combined, or be both absent.
-     $include - a Perl-compatible regexp pattern or array thereof.
-     $exclude - a Perl-compatible regexp pattern or array thereof.
-  
-     @result: an array with zero or more strings.
-  
-     An entry is listed if and only if all of the following are true:
-     - the (optional) type is right
-     - the (optional) flags are matched
-     - at least one include pattern is matched
-     - no exclude pattern is matched
-  
-     With the default argument values, every entry is included.
-  */
-  function GetDirEntries ($path = '.', $type = '', $flags = '', $include = '/.*/', $exclude = '') {
-    if (is_string($include)) $include = array($include);
-    if (is_string($exclude)) $exclude = array($exclude);
-  
-    $d = dir($path);
-    if (!is_object($d)) return array();  // or null - but then caller must be prepared for this
-  
-    $entries = array();
-    while (false !== ($entry = $d->read())) {
-      // prepend path for use in file/dir functions:
-      $path_to_entry = path_to_file($path, $entry);
-      // skip if entry is not of the right type:
-      if (   $type == 'd' && !is_dir($path_to_entry)
-          || $type == 'f' && !is_file($path_to_entry)) {
-        continue;
-      }
-      // skip if entry is not readable/writable while it ought to be:
-      if (   (strpos($flags, 'R') !== false && !is_readable($path_to_entry))
-          || (strpos($flags, 'W') !== false && !is_writable($path_to_entry))) {
-        continue;
-      }
-      // skip if any exclude pattern matched:
-      foreach ($exclude as $excl) {
-        if (preg_match($excl, $entry)) {
-          continue 2; // i.e. continue the while loop
-        }
-      }
-      // add if any include pattern matched:
-      foreach ($include as $incl) {
-        if (preg_match($incl, $entry)) {
-          $entries[] = $entry;
-          break;
-        }
+/*
+   Get entries from a directory.
+
+   $path    - path to directory to be listed (default is current dir)
+   $type    - 'd'          : list only directories
+              'f'          : list only regular files
+              anything else: list all types (default)
+   $flags   - 'R': entry must be readable to be listed
+              'W': entry must be writable to be listed
+              R and W may be combined, or be both absent (latter is default)
+   $include - a Perl-compatible regexp pattern or array thereof (default includes all)
+   $exclude - a Perl-compatible regexp pattern or array thereof (default excludes nothing)
+
+   @result: an array with zero or more strings.
+
+   An entry is listed if and only if all of the following are true:
+   - the (optional) type is matched
+   - the (optional) flags are matched
+   - at least one include pattern is matched
+   - no exclude pattern is matched
+
+   With the default argument values, every entry is included.
+*/
+function GetDirEntries ($path = '.', $type = '', $flags = '', $include = array('/.*/'), $exclude = array()) {
+  if (is_string($include)) $include = array($include);
+  if (is_string($exclude)) $exclude = array($exclude);
+
+  $d = dir($path);
+  if (!is_object($d)) return array();  // or null - but then caller must be prepared for this
+
+  $entries = array();
+  while (false !== ($entry = $d->read())) {
+    // prepend path for use in file/dir functions:
+    $path_to_entry = path_to_file($path, $entry);
+    // skip if entry is not of the right type:
+    if (   $type == 'd' && !is_dir($path_to_entry)
+        || $type == 'f' && !is_file($path_to_entry)) {
+      continue;
+    }
+    // skip if entry is not readable/writable while it ought to be:
+    if (   (strpos($flags, 'R') !== false && !is_readable($path_to_entry))
+        || (strpos($flags, 'W') !== false && !is_writable($path_to_entry))) {
+      continue;
+    }
+    // skip if any exclude pattern matched:
+    foreach ($exclude as $excl) {
+      if (preg_match($excl, $entry)) {
+        continue 2; // i.e. continue the while loop
       }
     }
-    $d->close();
-  
-    return $entries;
+    // add if any include pattern matched:
+    foreach ($include as $incl) {
+      if (preg_match($incl, $entry)) {
+        $entries[] = $entry;
+        break;
+      }
+    }
   }
-  
-  
+  $d->close();
+
+  return $entries;
+}
+
+
   function GetDirectoryList ($path = '.', $flags = '') {
     return GetDirEntries($path, 'd', $flags, '/.*/', '/^\.$/');  // exclude '.' (current dir)
   }
-  
-  
+
+
   function GetFileList ($path = '.', $flags = '') {
     return GetDirEntries($path, 'f', $flags, '/.*/', '/^index\.php$/');  // exclude index.php (this file)
   }
-  
-  
+
+
   function ShowDirectory($dirname, $parentdir)
   {
     $dirpath = path_to_file($parentdir, $dirname);
