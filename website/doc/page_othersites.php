@@ -37,8 +37,8 @@ if (eregi("main.php",$PHP_SELF)) {
     <td><a href="http://www.firebirdnews.org">http://www.firebirdnews.org</a></td>
   </tr>
   <tr valign="top">
-    <td>Firebird.Br (in Brazilian Portuguese)</td>
-    <td><a href="http://www.firebird.com.br">http://www.firebird.com.br</a></td>
+    <td>FireBase (in Brazilian Portuguese)</td>
+    <td><a href="http://www.firebase.com.br">http://www.firebase.com.br</a></td>
   </tr>
   <tr valign="top">
     <td>Firebird en Fran&ccedil;ais</td>
@@ -52,10 +52,12 @@ if (eregi("main.php",$PHP_SELF)) {
     <td>Stefan Heymann's Firebird articles</td>
     <td><a href="http://www.destructor.de/firebird/">http://www.destructor.de/firebird/</a></td>
   </tr>
+<!--
   <tr valign="top">
     <td>Documentation at DotNetFirebird.org</td>
     <td><a href="http://www.dotnetfirebird.org/documentation/">http://www.dotnetfirebird.org/documentation/</a></td>
   </tr>
+-->
   <tr valign="top">
     <td style='padding-bottom: 5px; border-bottom: 1px solid #848D84'>Firebird Wiki</td>
     <td style='padding-bottom: 5px; border-bottom: 1px solid #848D84'><a href="http://wiki.firebirdsql.org">http://wiki.firebirdsql.org</a></td>
