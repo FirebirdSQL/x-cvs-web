@@ -91,6 +91,10 @@ Firebird's fbmgr Database Engine Manager tool
 en:/manual/fbmgr.html
 en:/pdfmanual/Firebird-fbmgr.pdf
 
+Firebird's gstat Database Statistics Reporting tool
+en:/manual/gstat.html
+en:/pdfmanual/Firebird-gstat.pdf
+
 Firebird Commandline Utilities (English version obsolete!)
 pt-br:/manual/pt_br/fbutils-pt_br.html
 ru:/manual/ru/fbutils-ru.html
