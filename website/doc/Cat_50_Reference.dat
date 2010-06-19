@@ -53,3 +53,11 @@ en:/index.php?op=devel&sub=engine&id=SQL_conformance
 
 ISO 9075 SQL Standard Keywords/Reserved Words
 en:/doc/contrib/standardSQLkeywords.html
+
+Firebird Internals (Work In Progress)
+en:/manual/fb-internals.html
+en:/pdfmanual/Firebird-Internals.pdf
+
+Firebird Cache
+en:/manual/fbcache.html
+en:/pdfmanual/Firebird-cache.pdf
