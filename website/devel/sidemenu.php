@@ -8,14 +8,14 @@ if (eregi("sidemenuphp",$PHP_SELF)) {
     $title = "Developer's Corner";
     $content = "
     This is not a support area for Firebird users !
-    If you're looking for support, please refer to <A href=index.php?op=lists#fbsupport>Firebird-Support</A> mailing list / newgroup.
+    If you're looking for support, please refer to <A href=index.php?op=lists#fbsupport>FB-Support</A> mailing list / newgroup.
     <p>
     If you'd like <b>report a bug</b> or see what bugs are known, fixed or open, or if
     you want to <b>submit a feature request</b>, please refer to our 
-    <A href=index.php?op=devel&amp;id=bugdb>Bug Database</A>.
+    <A href=\"http://tracker.firebirdsql.org\">Bug Database</A>.
     <br>";
 
-    sidebox($title,$content);
+    sidebox($title,$content,1);
   }
   else {
 
@@ -63,16 +63,31 @@ if (eregi("sidemenuphp",$PHP_SELF)) {
         $content .= "<li><A href=\"index.php?op=lists#$list_id\">$list_name</A><br>" ;
       }
     }
-  
-  # CVS Modules
-  
-    $content .= "<p><b>CVS Modules:</b><br>" ;
-    $modules = explode(":",$cvs_modules) ;
-    foreach ($modules as $module) {
-      $content .= "<li><A href=\"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/firebird/$module\">$module</A><br>" ;
+
+  # SVN Repositories
+  # Added by Jiri Cincura (jiri@cincura.net) [21.05.2008]
+
+    if (!empty($svn_repositories))
+    {
+      $content .= '<p><b>SVN repositories:</b><br>';
+      $repos = explode(':', $svn_repositories);
+      foreach ($repos as $repo)
+      {
+        $content .= sprintf('<li><a href="http://firebird.svn.sourceforge.net/svnroot/firebird/%1$s/">%1$s</a><br>', $repo);
+      }
     }
   
-    sidebox($title,$content);
+  # CVS Modules
+    if (!empty($cvs_modules))
+    { 
+      $content .= "<p><b>CVS Modules:</b><br>" ;
+      $modules = explode(":",$cvs_modules) ;
+      foreach ($modules as $module) {
+        $content .= "<li><A href=\"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/firebird/$module\">$module</A><br>" ;
+      }
+    }
+  
+    sidebox($title,$content,$isempty);
 
   }
 
@@ -90,6 +105,6 @@ if (eregi("sidemenuphp",$PHP_SELF)) {
     $content .= "<br>" ;
   }
   
-  sidebox($title,$content);
+  sidebox($title,$content,2);
 
 ?>

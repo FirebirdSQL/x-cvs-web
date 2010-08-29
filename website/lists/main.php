@@ -17,21 +17,33 @@ global $textcolor1, $textcolor2, $bgcolor1;
     include ($descfile);
     echo "
 <tr>
-<td bgcolor=\"skyblue\" width=\"34%\"><a name=\"$list_id\"></A><b>List</b></td>
-<td bgcolor=\"skyblue\" width=\"33%\"><b>Purpose</b></td>
-<td bgcolor=\"skyblue\" width=\"33%\"><b>Subscribe</b></td></tr>
+  <td colspan=\"3\"><a name=\"$list_id\"></a></td>
 <tr>
-<td width=\"34%\"><font color=\"indianred\"><b>$list_address</b></td>
-<td width=\"33%\">$list_purpose</td>
-<td width=\"33%\">$list_subscribe</td></tr>
+  <td valign=\"top\" width=\"34%\">
+    <table width=\"100%\" border=1 cellpadding=5>
+      <tr bgcolor=#d3fde2>
+        <td valign=\"middle\"><small><b>$list_name</b></small></td>
+      </tr>
+    </table>
+  </td>
+  <td colspan=\"2\"><small>$list_purpose</small></td>
+</tr>
+
 <tr>
-<td colspan=3>$list_comment
-</td></tr>
+  <td colspan=3><small>$list_comment</small>
+  </td>
+</tr>
 <tr>
-<td bgcolor=\"gainsboro\" align=right><b>ARCHIVES</b></td>
-<td colspan=2 align=left>$list_archive</td></tr>
-<tr><td bgcolor=\"gainsboro\" align=right><b>UNSUBSCRIBE</b></td>
-<td colspan=2 bgcolor=\"$bgcolor1\" align=left>$list_unsubscribe</td></tr>
+  <td width=\"34%\"><small><b>ARCHIVES</b></small></td>
+  <td width=\"33%\"><small><b>SUBSCRIBE</b></small></td>
+  <td width=\"33%\"><small><b>UNSUBSCRIBE</b></small></td>
+</tr>
+<tr>
+  <td valign=\"top\"><small>$list_archive</small></td>
+  <td valign=\"top\"><small>$list_subscribe</small></td>
+  <td valign=\"top\"><small>$list_unsubscribe</small></td>
+</tr>
+
 <tr><td colspan=3><hr size=1></td><tr>
 ";
 
@@ -45,43 +57,91 @@ function EmitNewsgroups($descfile) {
     include ($descfile);
     echo "
 <tr>
-<td bgcolor=\"gold\" width=\"34%\"><a name=\"#$ng_id\"></A><b>Server</b></td>
-<td bgcolor=\"gold\" width=\"33%\"><b>Description</b></td>
-<td bgcolor=\"gold\" width=\"33%\"><b>URL</b></td></tr>
+<td bgcolor=#bdecd0 width=\"25%\"><a name=\"#$ng_id\"></A><b>Server</b></td>
+<td bgcolor=#bdecd0 width=\"35%\"><b>Description</b></td>
+<td bgcolor=#bdecd0 width=\"40%\"><b>URL</b></td></tr>
 <tr>
-<td width=\"34%\"><font color=\"indianred\"><b>$ng_name</b></td>
-<td width=\"33%\">$ng_description</td>
-<td width=\"33%\">$ng_address</td></tr>
+<td width=\"25%\"><font color=\"indianred\"><b>$ng_name</b></td>
+<td width=\"35%\">$ng_description</td>
+<td width=\"40%\">$ng_address</td></tr>
 <tr><td colspan=3><hr size=1></td><tr>
 ";
 
 }
 
 ?>
-
-<H4>Usage Guidelines</H4>
-<A href="#top"></A>
 <!-- THIS TABLE CONTAINS THE PAGE CONTENT -->
-<tr><td colspan=3>
-<b>Many of these forums are NOT for support.  Please refer to <a href="#ibsupport
-">firebird-support</a> for support.</b>
-<p class="centre">
-<font color="red"><b>S M A R T &nbsp; Q U E S T I O N S</b></font><br>PLEASE READ <a href="http://www.catb.org/~esr/faqs/smart-questions.html">THIS</a> BEFORE SUBSCRIBING TO THE LISTS
-</p>
-We don't moderate the lists prescriptively but we do operate on a rule of &quot;three strikes and you're out&quot;.  Reasonable &quot;flak&quot; is acceptable but NO FLAMING, monopolisation or excessive requoting.  Please move specialised or off-topic threads into suggested other lists when requested by a moderator.
-<p>
-Many mailing lists listed here has a newsgroup mirror at <a href="#ng-atkin">Atkin server</a>, so you do not need to subscribe to high-traffic lists just to occasionally watch discussed topics. But if you want post messages to a newsgroup of mirrored mailing lists, you must be subsribed to this list (even with no-mail/web access only option), otherwise your messages doesn't pass through news/mail gate and mailing list users don't get it.
+<A href="#top"></A>
+<table>
+  <tr>
+    <td colspan=3 valign="top">
+
+<h4>Usage Guidelines for Our Lists</h4>
+
+We don't moderate the lists prescriptively but we do operate on a rule of &quot;three strikes and you're out&quot;.  No whining, no flaming, monopolisation or excessive requoting.  It is considered polite to sign your messages and to use your own first name, not a nickname.  Users posting with offensive nicknames or email addresses are likely to be bumped off and banned.
+<p>Please move specialised or off-topic threads into suggested other lists when requested by a moderator.
+<p>Advertisements of any kind will result in immediate banning.</p>  
 <hr size=1>
-</td></tr>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3">
+      <table>
+        <tr>
+          <td width="15%">
+            <table cellpadding=5 border=1>
+              <tr bgcolor="papayawhip">
+                <td class="centre">
+<a href="http://www.catb.org/~esr/faqs/smart-questions.html" style="color:darkred;text-decoration:none;font-weight:bold;"> 
+ASK SMART QUESTIONS!</A>
+<p class="centre"><a href="http://www.catb.org/~esr/faqs/smart-questions.html" style="color:darkred;text-decoration:none;">PLEASE READ THIS ARTICLE BEFORE SUBSCRIBING TO ANY LIST</a></p>
+                </td>
+              </tr>
+            </table  
+          </td>
+          <td>
+<p>The people who help you in the lists are volunteers.  Please don't waste their time by not providing enough information.  As a minimum, provide:
+<ul>
+  <li>a smart Subject for your message.  &quot;Problem&quot; or &quot;Bug&quot; are not smart.
+  <li>the version and model (Classic/Superserver/embedded) of the server you are using
+  <li> the operating system the server is running on, including version
+  <li> what language and data access interface you are using for your client application
+</ul>
+          </td>
+        </tr> 
+     </table>
+   </td>
+</tr>
 
 <!-- ------------------------------------------------------------------- -->
+
+
 <?php
 
-# Support lists
+# Support lists English
 
 $filelist = GetFileList($op."/data","R","^sup-.*\.dat") ;
 if ($filelist) {
-  echo "<tr><td colspan=3 bgcolor=\"darkblue\"><font size=\"+1\" color=\"FFFFFF\"><b>Support Lists</a></td></tr>";
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Support Lists (English)</b></font></td></tr>";
+  foreach ($filelist as $file) 
+    EmitList($op."/data/".$file);
+}
+
+# Support lists non-English
+
+$filelist = GetFileList($op."/data","R","^lng-.*\.dat") ;
+if ($filelist) {
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Support Lists (Non-English)</b></font></td></tr>";
+  foreach ($filelist as $file) 
+    EmitList($op."/data/".$file);
+}
+
+# Driver lists
+
+$filelist = GetFileList($op."/data","R","^drv-.*\.dat") ;
+if ($filelist) {
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Driver Support Lists</b></font></td></tr>";
   foreach ($filelist as $file) 
     EmitList($op."/data/".$file);
 }
@@ -91,7 +151,7 @@ if ($filelist) {
 $filelist = GetFileList($op."/data","R","^fb-.*\.dat") ;
 
 if ($filelist) {
-  echo "<tr><td colspan=3 bgcolor=\"darkblue\"><font size=\"+1\" color=\"FFFFFF\"><b>Firebird Project Lists</a></td></tr>";
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Firebird Project Lists</b></font></td></tr>";
   foreach ($filelist as $file) 
     EmitList($op."/data/".$file);
 }
@@ -100,7 +160,7 @@ if ($filelist) {
 
 $filelist = GetFileList($op."/data","R","^gen-.*\.dat") ;
 if ($filelist) {
-  echo "<tr><td colspan=3 bgcolor=\"darkblue\"><font size=\"+1\" color=\"FFFFFF\"><b>Other Firebird/InterBase related Lists</a></td></tr>";
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Other Firebird-Related Lists</b></font></td></tr>";
   foreach ($filelist as $file) 
     EmitList($op."/data/".$file);
 }
@@ -110,7 +170,7 @@ if ($filelist) {
 $filelist = GetFileList($op."/data","R","^ng-.*\.dat") ;
 if ($filelist) {
   asort($filelist);
-  echo "<tr><td colspan=3 bgcolor=\"darkblue\"><font size=\"+1\" color=\"FFFFFF\"><b>Newsgroup Servers</a></td></tr>";
+  echo "<tr><td colspan=3 bgcolor=#9fe3bb><font size=\"+1\" color=\"000000\"><b>Newsgroup Servers</b></font></td></tr>";
   foreach ($filelist as $file) 
     EmitNewsgroups($op."/data/".$file);
 }
@@ -121,3 +181,5 @@ if ($filelist) {
 <tr><td colspan=3><a href="#top">BACK TO TOP OF PAGE</A></td><tr>
 
 <!-- END OF PAGE CONTENT -->
+</table>
+

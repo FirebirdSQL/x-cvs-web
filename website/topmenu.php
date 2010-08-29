@@ -25,10 +25,7 @@ if ($top_menu == "main")  // Firebird main page
     <table cellpadding=3  background=\"images/flashback.gif\" border=1>
       <tr>
         <td>
-<font color=red>
-<B>NEWSFLASH</B>
-</font>
-<br>
+
    ";
    include ("news_flash.php");
    echo "
@@ -43,7 +40,7 @@ if ($top_menu == "main")  // Firebird main page
 <table border=\"0\" width=\"100%\">
 <tr>
   <td align=\"left\">
-  <img src=\"images/new_header1.gif\" alt=\"Firebird master head\" >
+  <img src=\"images/2010_header1.gif\" alt=\"Firebird master head\" >
    ";
 
    }
@@ -133,8 +130,8 @@ elseif ($top_menu == "konferenz")  // Latest conference news
     <table cellpadding=3>
       <tr>
         <td class=\"centre\">
-
-<img src=\"images/conf-banner-2006.gif\" border=0><br>
+<img src=\"images/dispatches.jpg\" border=0>
+<img src=\"images/conf-banner-2007.jpg\" border=0><br>
 
 <b> ". $toptext . "</b>
         </td>
@@ -164,17 +161,14 @@ else
     <table border=\"0\" width=\"100%\">
       <tr>
         <td align=\"left\">
-  <img src=\"images/new_header2.gif\" alt=\"Firebird default head\" >
+  <img src=\"images/2007_header2.gif\" alt=\"Firebird default head\" >
 ";
   }
 # end of conditional part
 ?>
         </td>
         <td>
-<!--
-<script src="xaramenu.js"></script><script Webstyle4 src="images/fb_menu.js"></script>
-<script src="xaramenu.js"></script><script Webstyle4 src="../fb_menu.js"></script>
--->
+
       </td>
     </tr>
 
@@ -186,9 +180,7 @@ else
   echo "
 <tr><td valign=\"top\">
 
-<script src=\"xaramenu.js\"></script><script Webstyle4 src=\"fb_menu.js\"></script>
 <script src=\"xaramenu.js\"></script><script Webstyle4 src=\"images/fb_menu.js\"></script>
-<script src=\"xaramenu.js\"></script><script Webstyle4 src=\"../fb_menu.js\"></script>
   ";
 #
   }

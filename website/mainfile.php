@@ -64,14 +64,15 @@ function GetRabbitEMailLink ($rabbit, $echo = false) {
   else return $result ;
 }
 
-function GetRabbitSafeEMailLink ($rabbit, $caption = "", $echo = false) {
+function GetRabbitSafeEMailLink ($rabbit, $caption = "", $echo = false, $hint = "") {
   global $rootDir;
   $title = "" ; $login = "" ; $sfuid = "" ; $name = "" ; $email = "" ;
   $function = "" ; $subprojects = ""; $mainpage = "" ;
   if (!eregi ("\.dat$",$rabbit)) $rabbit .= ".dat" ;
   include ($rootDir."rabbits/".$rabbit);
   if ($caption != "") $name = $caption;
-  $result = "<A href=\"http://sourceforge.net/sendmessage.php?touser=$sfuid\">$name</A>" ;
+  $hint_attr = $hint ? "title=\"$hint\"" : "";
+  $result = "<A href=\"http://sourceforge.net/sendmessage.php?touser=$sfuid\" $hint_attr>$name</A>" ;
   if ($echo) { echo $result ; return true ; }
   else return $result ;
 }

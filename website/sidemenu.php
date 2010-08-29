@@ -6,6 +6,7 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
 ?>
 <!-- START SIDEMENU CHUNK -->
 <table border="0" width="100%" cellspacing="0"><tr><td valign="top">
+<img src="images/sf_award_2009.jpg" width=200 height=45 alt="Sourceforge CCA Awards 2009"><br>
 <?PHP
 
   # permanent sidebar
@@ -18,7 +19,6 @@ else
 if (IsSet($op)) {
 
   # Sidebar for web section
-
   if (file_exists($op."/sidemenu.php")) {
     include($op."/sidemenu.php") ;
   }
@@ -34,7 +34,7 @@ if (IsSet($op)) {
     You can create different sidekicks for any second-level pages as well, but
     that require addition of nested 'if' or 'switch' structure for \$id parameter.
     <br>";
-    sidebox($title,$content);
+    sidebox($title,$content,$isfirst);
   }
 
 }
@@ -43,18 +43,17 @@ else {
 # Sidebar for main page
   $title = "New visitors";
   $content = "
-<img src=\"images/clearpixel.gif\" width=\"15\">
-<a href=\"index.php?op=guide#facts\">
-<img src=\"images/fbg-facts.gif\" border=\"0\"></a>
-<br><br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?id=about-firebird&nosb=1\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">ABOUT FIREBIRD</A>
+  <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"index.php?op=guide\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Novice's Guide</A>
   <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">  
-  <A href=\"index.php?op=faq\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Frequently Asked Questions</a>
+  <A href=\"http://www.firebirdfaq.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Frequently Asked Questions</a>
   <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">  
-  <A HREF=\"/pdfmanual/Firebird-2.0-QuickStart.pdf\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Firebird 2.0 Quick Start Guide</a>
+  <A HREF=\"/pdfmanual/Firebird-2-QuickStart.pdf\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Firebird 2/2.1 Quick Start Guide</a>
   <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">  
   <A HREF=\"/pdfmanual/Firebird-1.5-QuickStart.pdf\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">Firebird 1.5 Quick Start Guide</a>
@@ -63,7 +62,7 @@ else {
   <A href=\"http://www.yahoogroups.com/groups/firebird-support\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   Firebird-support email list</a>
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content, 1);
 
   $title = "Users";
   $content = "
@@ -82,40 +81,37 @@ else {
   <A HREF=\"index.php?op=devel&id=bugdb\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   Report a Bug</a>
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content, 0);
 
   $title = "Downloads";
   $content = "
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"index.php?op=files\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   Firebird Released kits </a>
-  <br>
-  <img src=\"images/clearpixel.gif\" width=\"15\">
-  <A href=\"download/prerelease\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
-  Pre-release kits (testing)</a>
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content, 0);
   
   $title = "Developers";
   $content = "
-
+<!--
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"index.php?op=devjournal\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
 <img src=\"images/devjournal_logo.gif\" width=\"165\" border=\"0\">
 </a>
   <br>
+-->
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"index.php?op=devel\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   Developers' Corner</a>
   <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">
-  <A href=\"https://lists.sourceforge.net/lists/listinfo/firebird-devel\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
-  Firebird-devel email list</a>
+  <A href=\"http://tracker.firebirdsql.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird Tracker</a>
+
   <br><br>
   <img src=\"images/clearpixel.gif\" width=\"15\">
-  <A href=\"http://tracker.firebirdsql.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
-<img src=\"images/fbtracker.gif\" width=\"165\" border=\"0\">
-</a>
+  <A href=\"https://lists.sourceforge.net/lists/listinfo/firebird-devel\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Firebird-devel email list</a>
   <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"http://www.yahoogroups.com/groups/firebird-architect\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
@@ -127,7 +123,7 @@ else {
   <img src=\"images/clearpixel.gif\" width=\"15\">
   in these lists please!!</span>
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content, 0);
 
 
   $title = "Community";
@@ -139,6 +135,10 @@ else {
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"index.php?op=newsportal\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   News Portal</a>
+  <br>
+  <img src=\"images/clearpixel.gif\" width=\"15\">
+  <A href=\"index.php?op=events\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
+  Conferences, Events</a>
 <br>
   <img src=\"images/clearpixel.gif\" width=\"15\">
   <A href=\"http://www.yahoogroups.com/groups/firebird-job-board\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
@@ -156,7 +156,7 @@ else {
   <A href=\"http://www.ibphoenix.com\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
   IBPhoenix Resource Site</a>
   <br>";
-  sidebox($title,$content);
+  sidebox($title,$content, 0);
 
   $title = "Admin Tools";
   $content = "
@@ -165,28 +165,17 @@ else {
   Catalogue of Admin Tools</a>
   <br><center>. . . . . . . . . . . . . . . </center><br>
   <a href=\"http://www.flamerobin.org\">
-<img src=\"images/flamerobin3.gif\" alt=\"FlameRobin Project\" width=\"139\" height=\"30\" border=0></a>
+<img src=\"images/flamerobin4.gif\" alt=\"FlameRobin Project\" width=\"186\" height=\"30\" border=0></a>
 <a href=\"http://www.flamerobin.org\" style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">
 is a project to build a cross-platform, lightweight GUI admin tool for Firebird completely</a>
 <span style=\"text-decoration:none;color:#6a5acd;font-size:8pt;\">with open source components.
 Alpha builds for Linux, Mac OS X and FreeBSD are available.</span>
   <br>";
-  sidebox($title, $content);
+  sidebox($title, $content,2);
 
-  $alice = GetRabbitSafeEMailLink("firebirds","Contact us");
-  $title = "Feedback";
-  $content = "
-  <img src=\"images/clearpixel.gif\" width=\"15\">
-  <span style=\"color:#6a5acd;font-size:8pt;\">
-  Comments ? Suggestions ? 
-  <br><center>".$alice." !</center>
-  <p class=\"centre\">
-  <!-- a href=\"http://www.opensource.org/docs/definition.php\">
-  <img src=\"images/opensource.gif\" alt=\"Open Source Logo\" border=\"0\" width=\"75\" height=\"65\"></a -->
-  </p>
-  <br>";
-  sidebox($title,$content);
+
   
+
   
 }
 

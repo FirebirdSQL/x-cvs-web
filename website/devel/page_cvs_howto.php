@@ -13,8 +13,8 @@ with the following instruction set. The module you wish to check out must be
 specified as the <I>modulename</I>. When prompted for a password for 
 <I>anonymous</I>, simply press the Enter key.
 <P><PRE>
-cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/firebird login
-cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/firebird co <I>modulename</I>
+cvs -d:pserver:anonymous@firebird.cvs.sourceforge.net:/cvsroot/firebird login
+cvs -z3 -d:pserver:anonymous@firebird.cvs.sourceforge.net:/cvsroot/firebird co -P <I>modulename</I>
 </PRE>
 <P>Updates from within the module's directory do not need the -d parameter.
 

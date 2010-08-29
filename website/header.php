@@ -24,7 +24,7 @@ print $l['ENCODING'];
 <meta name="DESCRIPTION" content="Firebird is a relational database offering many ANSI SQL-92 features that runs on Linux, Windows, and a variety of Unix platforms. Firebird offers excellent concurrency, high performance, and powerful language support for stored procedures and triggers. It has been used in production systems, under a variety of names since 1981. Firebird is a commercially independent project of C and C++ programmers, technical advisors and supporters developing and enhancing a multi-platform relational database management system based on the source code released by Inprise Corp (now known as Borland Software Corp) under the InterBase Public License v.1.0 on 25 July, 2000.">
 <meta name="KEYWORDS" content="Firebird, InterBase, ISC, interbase, Database, database, Relational, relational, Relational Database, PostgreSQL, MYSQL, Borland, IBPhoenix, BORLAND, INPRISE, Inprise Corporation, Client/Server, client server products, client/server solutions, Development Tools, Delphi, JBuilder, Linux, Open Source, Web Database Development, C++Builder, database tools, database development tools, database engines, database programming, SQL, SQL programming, SQL links, SQL databases">
 <?php 
-// <title>Firebird - Relational Database for the New Millennium</title>
+// <title>Firebird - The RDBMS that's going where you're going</title>
 echo "
 <title>$htitle</title>
 ";

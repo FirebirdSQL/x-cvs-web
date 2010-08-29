@@ -5,47 +5,88 @@ if (eregi("main.php",$PHP_SELF)) {
 }
 ?>
 
-<H4>About Firebird&reg;</H4>
-Firebird is a relational database offering many <a href="index.php?op=devel&sub=engine&id=SQL_conformance&nosb=1">ANSI SQL standard features</a> that runs on Linux, Windows, and a variety of Unix platforms. Firebird offers excellent concurrency, high performance, and powerful language support for stored procedures and triggers. It has been used in production systems, under a variety of names since 1981.
-<p>
-Firebird is a commercially independent project of C and C++ programmers, technical advisors and supporters developing and enhancing a multi-platform relational database management system based on the source code released by Inprise Corp (now known as Borland Software Corp) on 25 July, 2000 under the InterBase Public License v.1.0.
-<table colspecs=2 cellpadding=2 cellspacing=2>
+
+<table background="images/top_banner6.gif" cellspacing=0 cellpadding=0 width="700">
   <tr>
-    <td width=285 valign="middle">
+    <td height="64" width="87"></td>
 
-<img src="images/ChristmasWishes.gif"width="261" height="233"></a>
+    <td height="64" width="215">
+<img src="images/clearpixel.gif" width=215 height=20><br>
+      <table style="background-color:transparent;">
+        <tr>
+          <td>
 
-    </td>
-    <td>
-Firebird is completely free of any registration, licensing or deployment fees.  It may be deployed freely for use with any third-party software, whether commercial or not. 
-<p>
-New code modules added to Firebird are licensed under the <a href="index.php?op=doc&id=idpl">Initial Developer's Public License</a>. (IDPL).  The original modules released by Inprise are licensed under the <a href="index.php?op=doc&id=ipl">InterBase Public License v.1.0</a>.  Both licences are modified versions of the <a href="http://www.opensource.org/licenses/mozilla1.1.php">Mozilla Public License v.1.1</a>.
-    </td>
+<a href="index.php?op=devel&sub=engine&id=fb213_release"
+ style="font-size:24pt;font-weight:bold;color:darkslategray;text-decoration:none;">
+v.2.1.3</a>
+
+          </td>
+        </tr>
+      </table>
+    </td>  
+<!-- img src="images/latest-v211.gif" width=140 height=61 border=0 -->
+
+    <td height="64" width="216">
+<img src="images/clearpixel.gif" width=216 height=24><br>
+      <table style="background-color:transparent;">
+        <tr>
+          <td class="right"  valign="bottom">
+<a href="index.php?op=events" 
+ style="font-size:8pt;font-weight:bold;color:darkslategray;text-decoration:none;">
+<!-- Firebird Day in Paris<br>1 October, France -->
+Firebird/InterBase Conf.<br>29 Sept., Moscow</a>
+
+          </td>
+        </tr>
+      </table>
+    </td>  
+
+    <td height="64">
+<img src="images/clearpixel.gif" width=182 height=28><br>
+      <table style="background-color:transparent;">
+        <tr>
+          <td class="right"  valign="bottom">
+<a href="index.php?op=devel&sub=engine&id=roadmap&nosb=1"
+ style="font-size:10pt;font-weight:bold;color:darkslategray;text-decoration:none;">
+from February 2010</a>
+          </td>
+        </tr>
+      </table>
+    </td> 
+
   </tr>
 </table>
-
-
-<hr size=1>
-<h4>Latest Release: Firebird v.2.0</h4>
-<table cellpadding=3>
+    
+<table cellpadding=4>
+  <tr><td colspan="2"><hr size=1></td></tr>
   <tr>
-    <td bgcolor=#2e8b57>
-<font color="white">
-<p>
-<b>The Firebird Project officially released the much-anticipated version 2.0 of its open source Firebird relational database software during the opening session of the fourth international 
-Firebird Conference in Prague, Czech Republic on Nov. 12.</b> </font>
-<p>
+    <td width=166 valign="top">
+<a href="http://tracker.firebirdsql.org">
+<img src="images/fbtracker.gif" width="166" height="45" border="0" alt="Firebird Tracker"></a>
     </td>
-  </tr>
-  <tr>
     <td>
-<a href="index.php?op=devel&sub=engine&id=fb20_release"  style="text-decoration:none;color:#006400;font-size:10pt;"><b>More details...</b></a>
+<p>Did you know that you can report bugs directly to the Project developers?<br>
+<small>There is a common-sense procedure to follow, so that your report is useful to us:  we do ask that you read the article <a href="index.php?op=devel&sub=qa&id=bugreport_howto" style="font-size:small;color:teal;text-decoration:none;font-weight:bold;">How to Report Bugs Effectively</a> (available in several languages) before you proceed.</a>  Then, post your bug report to the <a href="index.php?op=lists#fbsupport" style="font-size:small;color:teal;text-decoration:none;font-weight:bold;">firebird-support</a> or the <a href="index.php?op=lists#fb-devel" style="font-size:small;color:teal;text-decoration:none;font-weight:bold;">firebird-devel</a> list and ask if you need to post it to Tracker.</small></p>
+<p/>
     </td>
   </tr>
+  <tr>
+    <td  valign="top">
+<p><strong>Is there a feature you would like to request?</strong></p>
+    </td>
+    <td>
+<p><small>Maybe it is already in Firebird's development programme.  You can check up at the Tracker site using the <strong>Find Issues</strong> search tool.  You can even vote on it!  And if there is a feature YOU want that nobody else has registered yet, write up a good description and add it as a Feature Request.</small></p>
+    </td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Sign up!</td>
+      <td>
+<p><small>You will need to create an account in Tracker to report bugs, request features or vote. It is simple!  Just go there and follow the sign-up instructions.</small></p>
+    </td>
+  </tr>
+
 </table>
 
-
-<hr size=1>
 <?php
 
 //$action="news";

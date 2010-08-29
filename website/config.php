@@ -5,7 +5,8 @@ if (eregi("config.php",$PHP_SELF)) {
 }
 
 # Site specific configuration
-$bgcolor1 = "#F0F0F0";
+// $bgcolor1 = "#F0F0F0";
+$bgcolor1 = "#BBEAD7";
 //$bgcolor1 = "#CE383D";
 //$bgcolor1 = "#CCCCCC";
 $bgcolor2 = "999999";
@@ -14,5 +15,6 @@ $bgcolor4 = "CCCCCC";
 //$bgcolor4 = "FFFFFF";
 $textcolor1 = "#000000";
 $textcolor2 = "#FFFFFF";
-
+$sidetop = "<a href=\"index.php?op=contact\"><img src=\"images/sidemenu_top.gif\" border=0></a><br>";
+$sidebtm = "<img src=\"images/sidemenu_btm.gif\">";
 ?>

@@ -11,7 +11,17 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
   <hr size=1>";
   $filelist = GetFileList($op."/data","R","^sup-.*\.dat") ;
   if ($filelist) {
-    $content .= "<b>Support Lists:</b><p>";
+    $content .= "<b>Support Lists (English)</b><p>";
+    foreach ($filelist as $file) {
+      $list_name = "" ; $list_id = "" ;
+      include ($op."/data/".$file);
+      $content .= "<li><a href=\"#$list_id\">$list_name</a><br>" ;
+    }
+    $content .= "<p>";
+  }
+  $filelist = GetFileList($op."/data","R","^lng-.*\.dat") ;
+  if ($filelist) {
+    $content .= "<b>Support Lists (Non-English)</b><p>";
     foreach ($filelist as $file) {
       $list_name = "" ; $list_id = "" ;
       include ($op."/data/".$file);
@@ -29,9 +39,19 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
     }
     $content .= "<p>";
   }
+  $filelist = GetFileList($op."/data","R","^drv-.*\.dat") ;
+  if ($filelist) {
+    $content .= "<b>Firebird Driver Lists:</b><p>";
+    foreach ($filelist as $file) {
+      $list_name = "" ; $list_id = "" ;
+      include ($op."/data/".$file);
+      $content .= "<li><a href=\"#$list_id\">$list_name</a><br>" ;
+    }
+    $content .= "<p>";
+  }
   $filelist = GetFileList($op."/data","R","^gen-.*\.dat") ;
   if ($filelist) {
-    $content .= "<b>Other Firebird/InterBase related Lists:</b><p>";
+    $content .= "<b>Other Firebird-related Lists:</b><p>";
     foreach ($filelist as $file) {
       $list_name = "" ; $list_id = "" ;
       include ($op."/data/".$file);
@@ -50,11 +70,12 @@ if (eregi("sidemenu.php",$PHP_SELF)) {
     }
     $content .= "<p>";
   }
-  $content .="
-  <hr size=1>
+  sidebox($title,$content,1);
+  $title = "";
+  $content = "
   You are invited to ".GetRabbitSafeEMailLink("helebor","submit information")."
   about your list for inclusion here.<br>";
 
-  sidebox($title,$content);
+  sidebox($title,$content,2);
 
 ?>

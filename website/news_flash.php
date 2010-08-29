@@ -1,5 +1,5 @@
 <?php
-echo "<br>&nbsp;<br><b>Firebird team publishes its <a href=\"index.php?op=devel&sub=engine&id=roadmap_2007&nosb=1\">Roadmap for 2007</a></b>
-<br>&nbsp;
+echo "<a href=\"index.php?op=ffoundation&amp;id=contributions\">
+<img src=\"images/donate_button.gif\" width=184 height=132 border=0></a>
 ";
 ?>

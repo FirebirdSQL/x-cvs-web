@@ -10,11 +10,11 @@ $cvs_modules = "client-java" ;
 
 # leaders - List of leaders (sf login names) separated by colon
 
-$leaders = "d_jencks" ;
+$leaders = "rrokytskyy" ;
 
 # lists - List of mailing lists (.dat file in lists/data) separated by colon
 
-$lists = "fb-java" ;
+$lists = "drv-java" ;
 
 ?>
 
