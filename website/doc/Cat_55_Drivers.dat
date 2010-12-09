@@ -1,5 +1,5 @@
 # Category title (shown on web page):
-Past, Present and Future
+Documentation for Firebird Drivers
 
 # Every manual or paper gets its own section below, formatted like this:
 # - 1st line: Document title in English.
@@ -15,17 +15,14 @@ Past, Present and Future
 # Comment lines must have '#' as their first non-blank character. End-of-line
 # comments are not supported.
 
-Firebird Roadmap for 2010-onward
-en:/index.php?op=devel&sub=engine&id=roadmap&nosb=1
+Jaybird Type 4 JDBC Driver Manual
+en:devel/doc/jaybird/pdf/jaybird_manual.pdf{pdf}
 
-Firebird Roadmap for 2009
-en:/index.php?op=devel&sub=engine&id=roadmap_2009
+Jaybird Wiki
+en:http://jaybirdwiki.firebirdsql.org/jaybird/doku.php?id=info:start{html}
 
-Firebird Roadmap for 2008
-en:/index.php?op=devel&sub=engine&id=roadmap_2008
+Firebird Python Driver Docs (KInterbasDB 3.3.0)
+en:devel/python/docs/3.3.0{html}
 
-Firebird Roadmap for 2007
-en:/index.php?op=devel&sub=engine&id=roadmap_2007
-
-History of InterBase and Firebird
-en:/index.php?op=history
+IBPP C++ Wrappers for Firebird (Reference Doc)
+en:http://www.ibpp.org/reference{html}

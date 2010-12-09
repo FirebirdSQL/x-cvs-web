@@ -131,22 +131,41 @@ if (eregi("main.php",$PHP_SELF)) {
   </table>
 
   <table width='100%' border='0' cellpadding='3' cellspacing='2'>
+
     <tr valign='top'>
-      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Oct 2009</font></td>
-      <td>The <cite>Firebird Commandline Utilities</cite> book has been split into separate manuals.<br>
-          New: <cite>Gbak user manual</cite> (<a href="/manual/gbak.html">HTML</a>|<a href="/pdfmanual/Firebird-gbak.pdf">PDF</a>),
-          <cite>Fbmgr user manual</cite> (<a href="/manual/fbmgr.html">HTML</a>|<a href="/pdfmanual/Firebird-fbmgr.pdf">PDF</a>).</td>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Dec 2010</font></td>
+      <td><cite>Firebird 2.5 Language Reference Update</cite> expected later this month - watch this space.</td>
     </tr>
+
     <tr valign='top'>
-      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Sep 2009</font></td>
-      <td><cite>Firebird 2.1.3 Release Notes</cite>
-          (<a href="/rlsnotesh/rlsnotes210.html">HTML</a>|<a href="/rlsnotes/Firebird-2.1.3-ReleaseNotes.pdf">PDF</a>)</td>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Dec 2010</font></td>
+      <td><cite>Firebird 1.5, 2.0 and 2.1 <a href="#category_5">Language Reference Updates</a></cite> improved and updated.</td>
     </tr>
+
     <tr valign='top'>
-      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Aug 2009</font></td>
-      <td><cite>Firebird 2.5 Beta 2 Release Notes</cite>
-          (<a href="/rlsnotesh/rlsnotes25.html">HTML</a>)</td>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Oct 2010</font></td>
+      <td><cite>Firebird 2.5 Release Notes</cite>
+          (<a href="/rlsnotesh/rlsnotes25.html">HTML</a>|<a href="/rlsnotes/Firebird-2.5.0-ReleaseNotes.pdf">PDF</a>)
+          and
+          <cite>Firebird 2.5 Quick Start Guide</cite>
+          (<a href="/manual/qsg25.html">HTML</a>|<a href="/pdfmanual/Firebird-2.5-QuickStart.pdf">PDF</a>)
+      </td>
     </tr>
+
+    <tr valign='top'>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Aug 2010</font></td>
+      <td><cite>Firebird Internals - What goes on inside a Firebird database?</cite>
+          (<a href="/manual/fb-internals.html">HTML</a>|<a href="/pdfmanual/Firebird-Internals.pdf">PDF</a>)
+      </td>
+    </tr>
+
+    <tr valign='top'>
+      <td style='white-space: nowrap; font-style: italic'><font color='#E13601'>Aug 2010</font></td>
+      <td><cite>The Firebird Cache</cite>
+          (<a href="/manual/fbcache.html">HTML</a>|<a href="/pdfmanual/Firebird-cache.pdf">PDF</a>)
+      </td>
+    </tr>
+
   </table>
 
   <?php vspace( 10 ); ?>
